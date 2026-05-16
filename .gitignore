@@ -22,3 +22,6 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# 작업 지시 파일
+CLAUDE.md
