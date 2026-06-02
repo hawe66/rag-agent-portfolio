@@ -1,34 +1,43 @@
 """
 RAGAS evaluation utilities for RAG pipeline assessment.
 
-Tested with ragas==0.1.21. API may differ in other versions.
-See: https://docs.ragas.io/en/v0.1.21/getstarted/evaluation.html
+Updated for ragas>=0.4.0.
+See: https://docs.ragas.io/en/latest/
 
 Metrics used:
-- faithfulness: Is the response grounded in retrieved contexts?
-- answer_relevancy: Is the response relevant to the question?
-- context_precision: Are retrieved contexts relevant? (requires ground_truth)
-- context_recall: Can we retrieve all info needed? (requires ground_truth)
+- Faithfulness: Is the response grounded in retrieved contexts?
+- ResponseRelevancy: Is the response relevant to the question?
+- ContextPrecision: Are retrieved contexts relevant? (requires reference)
+- ContextRecall: Can we retrieve all info needed? (requires reference)
 """
 
 import json
+import sys
 from pathlib import Path
 from dataclasses import dataclass
+from unittest.mock import MagicMock
 
 from dotenv import load_dotenv
 load_dotenv()
+
+# Monkey patch: ragas 0.4.x tries to import deprecated langchain_community.chat_models.vertexai
+# This module was moved to langchain-google-vertexai in langchain-community 0.4.x
+# We create a fake module to prevent ImportError
+_fake_vertexai = MagicMock()
+_fake_vertexai.ChatVertexAI = MagicMock()
+sys.modules["langchain_community.chat_models.vertexai"] = _fake_vertexai
 
 from datasets import Dataset
 from langchain_openai import ChatOpenAI
 from langchain_core.documents import Document
 
-# RAGAS 0.1.x imports - lowercase metric instances
+# RAGAS 0.4.x imports - PascalCase metric classes
 from ragas import evaluate
 from ragas.metrics import (
-    faithfulness,
-    answer_relevancy,
-    context_precision,
-    context_recall,
+    Faithfulness,
+    ResponseRelevancy,
+    ContextPrecision,
+    ContextRecall,
 )
 
 
@@ -114,23 +123,23 @@ def evaluate_single(
     Returns:
         Dict with metric scores
     """
-    # Build HuggingFace Dataset format for RAGAS 0.1.x
+    # Build HuggingFace Dataset format for RAGAS 0.4.x
     data = {
-        "question": [question],
-        "contexts": [contexts],  # List of list of strings
-        "answer": [response],
+        "user_input": [question],
+        "retrieved_contexts": [contexts],  # List of list of strings
+        "response": [response],
     }
     if reference:
-        data["ground_truth"] = [reference]
+        data["reference"] = [reference]
 
     dataset = Dataset.from_dict(data)
 
-    # Select metrics based on available data
-    metrics = [faithfulness, answer_relevancy]
+    # Select metrics based on available data (instantiate metric classes)
+    metrics = [Faithfulness(), ResponseRelevancy()]
     if reference:
-        metrics.extend([context_precision, context_recall])
+        metrics.extend([ContextPrecision(), ContextRecall()])
 
-    result = evaluate(dataset, metrics=metrics)
+    result = evaluate(dataset=dataset, metrics=metrics)
 
     return result.to_pandas().iloc[0].to_dict()
 
@@ -185,15 +194,15 @@ def evaluate_retriever(
             **scores,
         })
 
-    # Aggregate
+    # Aggregate (ragas 0.4.x uses snake_case metric names in results)
     faithfulness_scores = [r.get("faithfulness", 0) for r in results if r.get("faithfulness") is not None]
-    relevancy_scores = [r.get("answer_relevancy", 0) for r in results if r.get("answer_relevancy") is not None]
+    relevancy_scores = [r.get("response_relevancy", 0) for r in results if r.get("response_relevancy") is not None]
     precision_scores = [r.get("context_precision", 0) for r in results if r.get("context_precision") is not None]
     recall_scores = [r.get("context_recall", 0) for r in results if r.get("context_recall") is not None]
 
     aggregated = {
         "faithfulness_mean": sum(faithfulness_scores) / len(faithfulness_scores) if faithfulness_scores else None,
-        "answer_relevancy_mean": sum(relevancy_scores) / len(relevancy_scores) if relevancy_scores else None,
+        "response_relevancy_mean": sum(relevancy_scores) / len(relevancy_scores) if relevancy_scores else None,
         "context_precision_mean": sum(precision_scores) / len(precision_scores) if precision_scores else None,
         "context_recall_mean": sum(recall_scores) / len(recall_scores) if recall_scores else None,
         "n_questions": len(questions),
@@ -268,4 +277,4 @@ if __name__ == "__main__":
     print("\n--- RAGAS Smoke Test (2 questions) ---")
     ragas_result = evaluate_retriever(questions[:2], retriever, verbose=True)
     print(f"Faithfulness: {ragas_result['aggregated']['faithfulness_mean']:.3f}")
-    print(f"Answer Relevancy: {ragas_result['aggregated']['answer_relevancy_mean']:.3f}")
+    print(f"Response Relevancy: {ragas_result['aggregated']['response_relevancy_mean']:.3f}")
