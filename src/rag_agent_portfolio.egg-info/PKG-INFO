@@ -1,0 +1,58 @@
+Metadata-Version: 2.4
+Name: rag-agent-portfolio
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: <3.12,>=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: langchain>=0.3.0
+Requires-Dist: langchain-openai>=0.2.0
+Requires-Dist: langchain-community>=0.3.0
+Requires-Dist: openai>=1.50.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: asyncio>=4.0.0
+Requires-Dist: pypdf>=6.11.0
+Requires-Dist: pdfplumber>=0.11.9
+Requires-Dist: fitz>=0.0.1.dev2
+Requires-Dist: pymupdf>=1.27.2.3
+Requires-Dist: dotenv>=0.9.9
+Requires-Dist: onnxruntime>=1.25.0
+Requires-Dist: langchain-chroma>=0.2.2
+Requires-Dist: chromadb==0.4.22
+Requires-Dist: protobuf<=3.20
+Requires-Dist: ragas>=0.4.3
+Requires-Dist: matplotlib>=3.10.9
+Requires-Dist: pymupdf4llm>=1.27.2.3
+Requires-Dist: pi-heif>=1.3.0
+Requires-Dist: docling>=2.93.0
+Requires-Dist: numpy<2.0.0,>=1.24.0
+Requires-Dist: opencv-python>=4.11.0.86
+
+# Advanced RAG & Multimodal AI Agent 포트폴리오 스터디
+
+## 스터디 소개
+현재 LLM 시장에서 요구하는 기술력을 기반으로 설계한
+14주 완성 포트폴리오 스터디입니다.
+
+## 최종 산출물
+- Advanced RAG 시스템 GitHub repo
+- Multimodal AI Agent GitHub repo
+- benchmark 결과표
+- 발표 슬라이드
+
+## 14주 커리큘럼
+| 단계 | 주차 | 주제 |
+|---|---|---|
+| 기초 정비 | 1~2주 | 협업 환경, LLM 앱 기본기 |
+| Advanced RAG | 3~8주 | Baseline RAG, 전처리, Retrieval 고도화, Agentic RAG, Evaluation |
+| Multimodal Agent | 9~12주 | Vision LLM, Multimodal RAG, Agent 구현 |
+| 프로덕션 | 13~14주 | 서빙·배포, 포트폴리오 패키징 |
+
+## 환경 세팅
+1. Python 3.11 설치
+2. 패키지 설치
+pip install -r requirements.txt
+3. .env.example을 .env로 복사 후 API 키 입력
+
+## ADR 작성법
+adr/ADR-000-template.md 참고
+기술 선택할 때마다 왜 이 기술을 선택했는지 기록

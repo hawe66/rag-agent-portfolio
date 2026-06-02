@@ -70,29 +70,38 @@ def chunk_document(
         # For each chunk, find its start position in clean_text
         # then find the corresponding position in original text
 
-        clean_pos = 0
+        original_search_pos = 0
         for chunk_text in chunk_texts:
-            # Find this chunk's position in clean text
-            chunk_start_clean = page.clean_text.find(chunk_text, clean_pos)
-            if chunk_start_clean == -1:
-                chunk_start_clean = clean_pos
-            chunk_end_clean = chunk_start_clean + len(chunk_text)
-            clean_pos = chunk_end_clean
+            # Find chunk's actual position in original text using text anchor search
+            # Use first 50 chars as anchor (clean text, so should exist in original)
+            anchor_len = min(50, len(chunk_text))
+            anchor = chunk_text[:anchor_len]
 
-            # Estimate position in original text (rough approximation)
-            # The original text is longer due to markdown artifacts
-            ratio = len(page.text) / max(len(page.clean_text), 1)
-            estimated_start = int(chunk_start_clean * ratio)
-            estimated_end = int(chunk_end_clean * ratio)
+            # Search for anchor in original text
+            anchor_pos = page.text.find(anchor, original_search_pos)
+            if anchor_pos == -1:
+                # Fallback: try shorter anchor
+                anchor = chunk_text[:20]
+                anchor_pos = page.text.find(anchor, original_search_pos)
+            if anchor_pos == -1:
+                # Last resort: use ratio estimation
+                ratio = len(page.text) / max(len(page.clean_text), 1)
+                clean_pos = page.clean_text.find(chunk_text)
+                anchor_pos = int(clean_pos * ratio) if clean_pos != -1 else original_search_pos
+
+            chunk_start_original = anchor_pos
+            # Estimate end position (chunk length + some buffer for markdown)
+            chunk_end_original = chunk_start_original + int(len(chunk_text) * 1.2)
+            original_search_pos = chunk_start_original + len(anchor)  # Move forward for next search
 
             # Find images in this region
             chunk_images = []
             for img in page.image_markers:
-                if estimated_start <= img["position"] <= estimated_end:
+                if chunk_start_original <= img["position"] <= chunk_end_original:
                     chunk_images.append(img)
 
             # Find section for this chunk position
-            section = find_current_section(page.text, estimated_start)
+            section = find_current_section(page.text, chunk_start_original)
             if section is None:
                 section = page.section  # Fall back to page-level section
 

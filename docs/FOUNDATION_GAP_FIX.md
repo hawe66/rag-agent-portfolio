@@ -504,6 +504,39 @@ for q in queries:
         print(f"    {status} [{cat}] {section}")
 ```
 
+### 7.6 청크 테스트
+
+```python
+source .venv/bin/activate && python3 << 'EOF'                                                                 
+   import sys                                                                                                    
+   sys.path.insert(0, '.')                                                                                       
+                                                                                                                 
+   from pathlib import Path                                                                                      
+   from collections import Counter                                                                               
+   from src.chunking import chunk_pdf                                                                            
+                                                                                                                 
+   PDF_PATH = Path('data/raw_pdfs/waterpurifier_complex.pdf')                                                    
+   chunks = chunk_pdf(PDF_PATH)                                                                                  
+                                                                                                                 
+   # 1. 청크에 실제로 할당된 섹션 분포                                                                           
+   print("=== 청크에 할당된 섹션 분포 ===")                                                                      
+   section_counts = Counter(c.section for c in chunks)                                                           
+   for section, count in section_counts.most_common(20):                                                         
+       print(f"  {count:3d}개: {section}")                                                                       
+                                                                                                                 
+   print(f"\n총 {len(section_counts)}개 고유 섹션")                                                              
+                                                                                                                 
+   # 2. 텍스트에 "필터 교체"가 포함된 청크                                                                       
+   print("\n=== 텍스트에 '필터 교체'가 포함된 청크 ===")                                                         
+   text_filter_chunks = [c for c in chunks if '필터 교체' in c.text or '필터교체' in c.text]                     
+   for c in text_filter_chunks:                                                                                  
+       print(f"\n[{c.chunk_id}] Section: {c.section}")                                                           
+       print(f"  Text: {c.text[:200]}...")                                                                       
+                                                                                                                 
+   print(f"\n총 {len(text_filter_chunks)}개 청크")                                                               
+   EOF                                                                                           
+```
+
 ---
 
 ## 8. 다음 단계 (Next Steps)

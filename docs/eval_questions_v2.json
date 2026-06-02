@@ -1,0 +1,238 @@
+{
+  "version": "2.0",
+  "description": "Expanded evaluation set for Week 5 retrieval ablation. Balanced across categories, question types, and retrieval biases. Includes 3 spatial/physical questions (Q21-Q23) that require images - these establish Phase 2 motivation.",
+  "created": "2024-06-02",
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "정수기 필터 교체 주기는 얼마인가요?",
+      "category": "waterpurifier",
+      "question_type": "factual",
+      "retrieval_bias": "dense",
+      "expected_section": "정수 필터 교체하기",
+      "notes": "4인 가정 기준 설명 있음"
+    },
+    {
+      "id": "Q02",
+      "question": "WD523A 모델의 제어창 사용법을 알려주세요",
+      "category": "waterpurifier",
+      "question_type": "procedural",
+      "retrieval_bias": "bm25",
+      "expected_section": "제어창 사용하기(WD523A, WD524A, WD507A, WD508A 모델)",
+      "notes": "Model number explicit - BM25 should excel"
+    },
+    {
+      "id": "Q03",
+      "question": "물맛이 이상할 때 어떻게 해야 하나요?",
+      "category": "waterpurifier",
+      "question_type": "troubleshooting",
+      "retrieval_bias": "dense",
+      "expected_section": "문제 해결하기",
+      "notes": "No keyword '필터' but should retrieve filter/troubleshooting"
+    },
+    {
+      "id": "Q04",
+      "question": "정수기 출수구 살균 기능은 어떻게 사용하나요?",
+      "category": "waterpurifier",
+      "question_type": "procedural",
+      "retrieval_bias": "neutral",
+      "expected_section": "출수구 살균 기능 사용하기",
+      "notes": "Specific feature name"
+    },
+    {
+      "id": "Q05",
+      "question": "온수 잠금 기능을 설정하는 방법",
+      "category": "waterpurifier",
+      "question_type": "procedural",
+      "retrieval_bias": "dense",
+      "expected_section": "온수 기능을 잠그고 풀기",
+      "notes": "Safety feature"
+    },
+    {
+      "id": "Q06",
+      "question": "AS281DAW 필터 수명은 얼마나 되나요?",
+      "category": "airpurifier",
+      "question_type": "factual",
+      "retrieval_bias": "bm25",
+      "expected_section": "필터 교체하기",
+      "notes": "Model number explicit - BM25 favorable"
+    },
+    {
+      "id": "Q07",
+      "question": "공기청정기 필터 청소는 어떻게 하나요?",
+      "category": "airpurifier",
+      "question_type": "procedural",
+      "retrieval_bias": "neutral",
+      "expected_section": "필터 청소하기",
+      "notes": "Common maintenance query"
+    },
+    {
+      "id": "Q08",
+      "question": "공기가 탁할 때 어떤 모드를 사용해야 하나요?",
+      "category": "airpurifier",
+      "question_type": "troubleshooting",
+      "retrieval_bias": "dense",
+      "expected_section": "사용하기",
+      "notes": "Semantic - no exact keywords"
+    },
+    {
+      "id": "Q09",
+      "question": "공기청정기 센서 청소 방법을 알려주세요",
+      "category": "airpurifier",
+      "question_type": "procedural",
+      "retrieval_bias": "neutral",
+      "expected_section": "센서 청소하기",
+      "notes": "Specific component maintenance"
+    },
+    {
+      "id": "Q10",
+      "question": "상태 표시등이 빨간색일 때 무슨 의미인가요?",
+      "category": "airpurifier",
+      "question_type": "troubleshooting",
+      "retrieval_bias": "dense",
+      "expected_section": "상태 표시부 알림",
+      "notes": "Indicator interpretation"
+    },
+    {
+      "id": "Q11",
+      "question": "청소기 배터리 충전 시간은 몇 시간인가요?",
+      "category": "vacuumcleaner",
+      "question_type": "factual",
+      "retrieval_bias": "bm25",
+      "expected_section": "제품 본체 충전하기",
+      "notes": "Specific number expected"
+    },
+    {
+      "id": "Q12",
+      "question": "배터리가 빨리 닳아요",
+      "category": "vacuumcleaner",
+      "question_type": "troubleshooting",
+      "retrieval_bias": "dense",
+      "expected_section": "문제 해결하기",
+      "notes": "Problem description without solution keywords"
+    },
+    {
+      "id": "Q13",
+      "question": "먼지 분리기 청소는 어떻게 하나요?",
+      "category": "vacuumcleaner",
+      "question_type": "procedural",
+      "retrieval_bias": "neutral",
+      "expected_section": "먼지 분리기 씻기",
+      "notes": "Component maintenance"
+    },
+    {
+      "id": "Q14",
+      "question": "흡입구에 뭔가 걸렸을 때 어떻게 하나요?",
+      "category": "vacuumcleaner",
+      "question_type": "troubleshooting",
+      "retrieval_bias": "dense",
+      "expected_section": "이물질 제거하기",
+      "notes": "Problem description, semantic match needed"
+    },
+    {
+      "id": "Q15",
+      "question": "보조 배터리 충전하는 방법",
+      "category": "vacuumcleaner",
+      "question_type": "procedural",
+      "retrieval_bias": "neutral",
+      "expected_section": "보조 배터리 충전하기",
+      "notes": "Specific accessory"
+    },
+    {
+      "id": "Q16",
+      "question": "LG ThinQ 앱 연결 방법을 알려주세요",
+      "category": "waterpurifier",
+      "question_type": "procedural",
+      "retrieval_bias": "bm25",
+      "expected_section": "LG ThinQ와 LG 가전 연결하기",
+      "notes": "Brand name - BM25 may help"
+    },
+    {
+      "id": "Q17",
+      "question": "와이파이 연결이 안 될 때",
+      "category": "waterpurifier",
+      "question_type": "troubleshooting",
+      "retrieval_bias": "neutral",
+      "expected_section": "와이파이",
+      "notes": "Connectivity issue"
+    },
+    {
+      "id": "Q18",
+      "question": "청소기 흡입력이 약해졌어요",
+      "category": "vacuumcleaner",
+      "question_type": "troubleshooting",
+      "retrieval_bias": "dense",
+      "expected_section": "문제 해결하기",
+      "notes": "Performance issue - semantic"
+    },
+    {
+      "id": "Q19",
+      "question": "필터 교체 후 해야 할 일이 있나요?",
+      "category": "waterpurifier",
+      "question_type": "procedural",
+      "retrieval_bias": "dense",
+      "expected_section": "정수 필터 교체하기",
+      "notes": "Post-procedure steps - from test 4.3"
+    },
+    {
+      "id": "Q20",
+      "question": "공기청정기 소음이 심해요",
+      "category": "airpurifier",
+      "question_type": "troubleshooting",
+      "retrieval_bias": "dense",
+      "expected_section": "문제 해결하기",
+      "notes": "Noise complaint - semantic"
+    },
+    {
+      "id": "Q21",
+      "question": "정수기 필터를 끼울 때 어느 방향으로 돌려야 하나요?",
+      "category": "waterpurifier",
+      "question_type": "procedural_spatial",
+      "retrieval_bias": "dense",
+      "expected_section": "정수 필터 교체하기",
+      "notes": "SPATIAL: Requires image to understand rotation direction. Text says '화살표 방향' but meaningless without diagram.",
+      "requires_image": true
+    },
+    {
+      "id": "Q22",
+      "question": "공기청정기 프리필터는 어디에 있나요?",
+      "category": "airpurifier",
+      "question_type": "part_location",
+      "retrieval_bias": "dense",
+      "expected_section": "필터 청소하기",
+      "notes": "SPATIAL: Requires image to identify physical location. Text descriptions insufficient for locating parts.",
+      "requires_image": true
+    },
+    {
+      "id": "Q23",
+      "question": "청소기 먼지통 분리 버튼이 어디에 있나요?",
+      "category": "vacuumcleaner",
+      "question_type": "part_location",
+      "retrieval_bias": "dense",
+      "expected_section": "먼지 분리기 씻기",
+      "notes": "SPATIAL: Requires image to locate button on device body. Text alone cannot convey physical position.",
+      "requires_image": true
+    }
+  ],
+  "summary": {
+    "total": 23,
+    "by_category": {
+      "waterpurifier": 9,
+      "airpurifier": 7,
+      "vacuumcleaner": 7
+    },
+    "by_question_type": {
+      "factual": 3,
+      "procedural": 9,
+      "troubleshooting": 8,
+      "procedural_spatial": 1,
+      "part_location": 2
+    },
+    "by_retrieval_bias": {
+      "bm25": 4,
+      "dense": 12,
+      "neutral": 7
+    },
+    "requires_image": 3
+  }
+}

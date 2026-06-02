@@ -36,6 +36,55 @@ class ParsedDocument:
 IMAGE_MARKER_PATTERN = re.compile(r'\*\*==> picture \[(\d+) x (\d+)\] intentionally omitted <==\*\*')
 SECTION_HEADER_PATTERN = re.compile(r'^##\s+\*?\*?(.+?)\*?\*?\s*$', re.MULTILINE)
 
+# Noise patterns to filter out from sections
+# These are ## headers that aren't meaningful sections
+SECTION_NOISE_PATTERNS = [
+    re.compile(r'^\d'),           # Starts with number: "5 필터가..."
+    re.compile(r'^-\s'),          # Starts with dash: "- 교체 주기..."
+    re.compile(r'^[a-zA-Z]\s'),   # Starts with single letter: "R 금지", "j 준수"
+    re.compile(r'^[*>]'),         # Starts with * or >
+    re.compile(r'모델명'),         # Model names
+    re.compile(r'^WD\d'),         # Model number patterns
+    re.compile(r'^AS\d'),         # Model number patterns
+    re.compile(r'^\|'),           # Table rows
+]
+
+# Generic headers that repeat many times - keep only first occurrence contextually
+GENERIC_SECTION_NAMES = {
+    "경고", "주의", "알아두기", "알아두면 좋은 정보",
+    "R 금지 사항", "j 준수 사항", "금지 사항", "준수 사항",
+}
+
+
+def is_valid_section(section_name: str) -> bool:
+    """
+    Check if a section name is a meaningful section header.
+
+    Filters out:
+    - Numbered steps (5 필터가...)
+    - Model names (모델명: WD523A...)
+    - Special character prefixes (R 금지, j 준수, - 교체...)
+    - Generic repeated headers (경고, 주의)
+    """
+    if not section_name:
+        return False
+
+    # Check against noise patterns
+    for pattern in SECTION_NOISE_PATTERNS:
+        if pattern.search(section_name):
+            return False
+
+    # Filter out generic names that appear multiple times
+    if section_name in GENERIC_SECTION_NAMES:
+        return False
+
+    # Must have at least 2 Korean characters to be meaningful
+    korean_chars = len(re.findall(r'[가-힣]', section_name))
+    if korean_chars < 2:
+        return False
+
+    return True
+
 
 def parse_filename(filename: str) -> dict:
     """
@@ -86,13 +135,15 @@ def extract_sections(text: str) -> list[str]:
     Looks for patterns like:
     - ## 안전을 위해 주의하기
     - ## **사용하기**
+
+    Filters out noise patterns (model names, numbered steps, etc.)
     """
     sections = []
     for match in SECTION_HEADER_PATTERN.finditer(text):
         section_name = match.group(1).strip()
         # Remove any remaining bold markers
         section_name = section_name.replace('**', '').strip()
-        if section_name and section_name not in sections:
+        if section_name and section_name not in sections and is_valid_section(section_name):
             sections.append(section_name)
     return sections
 
@@ -101,14 +152,16 @@ def find_current_section(text: str, position: int) -> str | None:
     """
     Find the section header that applies to a given position in text.
 
-    Searches backwards from position to find the most recent ## header.
+    Searches backwards from position to find the most recent VALID ## header.
+    Skips noise patterns (model names, numbered steps, etc.)
     """
     text_before = text[:position]
     matches = list(SECTION_HEADER_PATTERN.finditer(text_before))
-    if matches:
-        last_match = matches[-1]
-        section_name = last_match.group(1).strip().replace('**', '').strip()
-        return section_name
+    # Search backwards through matches to find most recent valid section
+    for match in reversed(matches):
+        section_name = match.group(1).strip().replace('**', '').strip()
+        if is_valid_section(section_name):
+            return section_name
     return None
 
 
