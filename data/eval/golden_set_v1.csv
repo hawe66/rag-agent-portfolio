@@ -1,0 +1,37 @@
+question,ground_truth,reference_context,q_type,modality_label,notes
+"정수기 필터 교체 주기는 얼마인가요?","4인 가정 기준 약 6개월~12개월 (사용량에 따라 다름)","waterpurifier_simple p.15 (정수 필터 교체하기)",factual,text-only,Q01 from v2
+"WD523A 모델의 제어창 사용법을 알려주세요","전원 버튼을 눌러 켜고 정수/냉수/온수 버튼으로 출수. 잠금 기능은 3초 이상 누름.","waterpurifier_complex p.8-9 (제어창 사용하기)",factual,text-only,Q02 from v2
+"물맛이 이상할 때 어떻게 해야 하나요?","필터 교체 시기 확인. 교체 후에도 이상하면 초기 정수 2-3회 버리고 사용.","waterpurifier_simple p.20 (문제 해결하기)",factual,text-only,Q03 from v2
+"정수기 출수구 살균 기능은 어떻게 사용하나요?","살균 버튼을 3초 이상 누르면 자동 살균 시작. 약 10분 소요.","waterpurifier_complex p.12 (출수구 살균 기능 사용하기)",factual,text-only,Q04 from v2
+"온수 잠금 기능을 설정하는 방법","온수 버튼을 3초 이상 누르면 잠금/해제. 어린이 안전을 위한 기능.","waterpurifier_complex p.10 (온수 기능을 잠그고 풀기)",factual,text-only,Q05 from v2
+"AS281DAW 필터 수명은 얼마나 되나요?","약 6~12개월 (사용 환경에 따라 다름). 필터 교체 알림 확인 권장.","airpurifier_complex p.18 (필터 교체하기)",factual,text-only,Q06 from v2
+"공기청정기 필터 청소는 어떻게 하나요?","프리필터는 물로 세척 후 완전 건조. HEPA 필터는 세척 불가 (교체만).","airpurifier_simple p.14 (필터 청소하기)",factual,text-only,Q07 from v2
+"공기가 탁할 때 어떤 모드를 사용해야 하나요?","터보 모드 또는 자동 모드 사용 권장. 자동 모드는 센서가 공기질 감지하여 자동 조절.","airpurifier_complex p.10 (사용하기)",factual,text-only,Q08 from v2
+"공기청정기 센서 청소 방법을 알려주세요","먼지 센서 커버를 열고 면봉으로 먼지 제거. 3개월마다 권장.","airpurifier_complex p.16 (센서 청소하기)",factual,text-only,Q09 from v2
+"상태 표시등이 빨간색일 때 무슨 의미인가요?","공기질이 나쁨 또는 필터 교체 필요. 필터 상태 확인 권장.","airpurifier_simple p.8 (상태 표시부 알림)",factual,text-only,Q10 from v2
+"청소기 배터리 충전 시간은 몇 시간인가요?","완충까지 약 3.5시간 소요 (배터리 잔량에 따라 다름).","vacuumcleaner_complex p.12 (제품 본체 충전하기)",factual,text-only,Q11 from v2
+"배터리가 빨리 닳아요","터보 모드 사용 시 소모 빠름. 일반 모드 사용 권장. 배터리 수명 확인.","vacuumcleaner_complex p.22 (문제 해결하기)",factual,text-only,Q12 from v2
+"먼지 분리기 청소는 어떻게 하나요?","분리 버튼 눌러 먼지통 분리 후 물로 세척. 완전 건조 후 장착.","vacuumcleaner_simple p.10 (먼지 분리기 씻기)",factual,text-only,Q13 from v2
+"흡입구에 뭔가 걸렸을 때 어떻게 하나요?","전원 끄고 걸린 이물질 제거. 분해 필요 시 매뉴얼 참조.","vacuumcleaner_complex p.18 (이물질 제거하기)",factual,text-only,Q14 from v2
+"보조 배터리 충전하는 방법","보조 배터리를 거치대에 장착. LED가 깜빡이면 충전 중.","vacuumcleaner_complex p.14 (보조 배터리 충전하기)",factual,text-only,Q15 from v2
+"LG ThinQ 앱 연결 방법을 알려주세요","앱 설치 후 제품 추가. Wi-Fi 연결 상태에서 제품 전원 켜고 앱 안내 따름.","waterpurifier_complex p.18 (LG ThinQ와 LG 가전 연결하기)",factual,text-only,Q16 from v2
+"와이파이 연결이 안 될 때","공유기 재시작 후 재시도. 5GHz 불가 시 2.4GHz로 변경.","waterpurifier_complex p.20 (와이파이)",factual,text-only,Q17 from v2 - category-agnostic
+"청소기 흡입력이 약해졌어요","먼지통 비우기. 필터 청소/교체 확인. 흡입구 막힘 확인.","vacuumcleaner_complex p.22 (문제 해결하기)",factual,text-only,Q18 from v2
+"필터 교체 후 해야 할 일이 있나요?","필터 리셋 버튼 5초 누름. 초기 정수 2-3회 버림.","waterpurifier_simple p.16 (정수 필터 교체하기)",multi_hop,text-only,Q19 from v2 - requires two steps
+"공기청정기 소음이 심해요","터보 모드는 소음 큼. 자동/수면 모드 사용. 필터 상태 확인.","airpurifier_complex p.24 (문제 해결하기)",factual,text-only,Q20 from v2
+"정수기 필터를 끼울 때 어느 방향으로 돌려야 하나요?","화살표 방향(시계 방향)으로 돌려서 장착. 딸깍 소리가 날 때까지.","waterpurifier_simple p.15 (정수 필터 교체하기)",factual,image-required,Q21 from v2 - requires diagram
+"공기청정기 프리필터는 어디에 있나요?","제품 후면 하단. 커버를 열면 프리필터 위치.","airpurifier_complex p.14 (필터 청소하기)",factual,image-required,Q22 from v2 - requires diagram
+"청소기 먼지통 분리 버튼이 어디에 있나요?","본체 상단 손잡이 부근. 버튼 누르면 먼지통 분리.","vacuumcleaner_complex p.16 (먼지 분리기 씻기)",factual,image-required,Q23 from v2 - requires diagram
+"WD325AS와 WD520AWB 정수기의 차이점은 무엇인가요?","WD325AS는 정수+냉수 기본형. WD520AWB는 정수+냉수+온수 지원 및 오브제컬렉션 디자인.","waterpurifier_simple p.2, waterpurifier_complex p.2",comparison,text-only,NEW - model comparison
+"AS181DAW와 AS281DAW 공기청정기의 차이점은?","AS181DAW는 표준 1단형. AS281DAW는 2단 분리형으로 부품이 더 많고 청정 면적이 넓음.","airpurifier_simple p.2, airpurifier_complex p.2",comparison,text-only,NEW - model comparison
+"정수 모드와 냉수 모드의 차이가 뭔가요?","정수는 상온수 출수. 냉수는 냉각된 물 출수 (약 5-10도).","waterpurifier_complex p.8 (제어창 사용하기)",comparison,text-only,NEW - feature comparison
+"유선 청소기와 무선 청소기의 장단점은?","유선은 지속 사용 가능하나 이동 제한. 무선은 이동 자유롭지만 배터리 충전 필요.","vacuumcleaner_simple p.2, vacuumcleaner_complex p.2",comparison,text-only,NEW - product type comparison
+"공기청정기 필터 교체 후 필요한 초기화 과정은?","1) 새 필터 장착 2) 전원 켬 3) 필터 리셋 버튼 5초 누름 4) 표시등 확인","airpurifier_complex p.18 (필터 교체하기), p.8 (제어부)",multi_hop,text-only,NEW - requires two sections
+"청소기 배터리 교체 후 최초 충전은 어떻게 하나요?","1) 배터리 장착 2) 거치대 연결 3) 완전 방전 후 완충 (3.5시간) 4) 2-3회 완충방전 사이클 권장","vacuumcleaner_complex p.12, p.22",multi_hop,text-only,NEW - requires multiple sections
+"정수기 설치 후 처음 사용할 때 무엇을 확인해야 하나요?","1) 수도 연결 확인 2) 전원 연결 3) 초기 정수 5-10회 버림 4) 필터 상태 확인","waterpurifier_simple p.6-8",multi_hop,text-only,NEW - installation + first use
+"이 제품 단종됐나요?","제공된 문서에서 확인할 수 없습니다. LG 고객센터(1544-7777)에 문의하세요.","N/A",out_of_scope,N/A,NEW - product lifecycle
+"WD520AWB 정수기 가격이 얼마인가요?","제공된 문서에서 확인할 수 없습니다. LG 공식 홈페이지나 판매점에서 확인하세요.","N/A",out_of_scope,N/A,NEW - pricing
+"삼성 공기청정기와 비교하면 어떤가요?","제공된 문서에서 확인할 수 없습니다. 타사 제품 정보는 포함되어 있지 않습니다.","N/A",out_of_scope,N/A,NEW - competitor comparison
+"AS281DAW 수리 비용은 얼마인가요?","제공된 문서에서 확인할 수 없습니다. LG 서비스센터(1544-7777)에 문의하세요.","N/A",out_of_scope,N/A,NEW - service cost
+"필터를 직접 분해해도 되나요?","서비스센터를 통해서만 분해/수리 권장. 임의 분해 시 감전 위험 및 보증 무효.","airpurifier_complex p.3 (안전주의)",safety,text-only,NEW - safety warning
+"물 묻은 손으로 전원 플러그를 만져도 되나요?","감전 위험이 있으므로 반드시 마른 손으로 조작하세요.","waterpurifier_simple p.3 (안전주의)",safety,text-only,NEW - electrical safety
