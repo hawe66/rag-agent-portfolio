@@ -117,18 +117,22 @@ out_of_scope는 분모에서 제외(출처 없어야 정답)
 
 | ID | 카테고리 | 질문 | 그림이 답하는 것(텍스트 부재) | reference (model · page · figure) | 검증 |
 |---|---|---|---|---|---|
-| IR-A1 | 공기청정기 | 조작부는 제품 앞면의 어느 위치에 있나요? | 위치(우측 상단), 텍스트는 기능만 | airpurifier_complex p.18 (각 부 명칭 도면) | ✅ 렌더 확인 |
-| IR-A2 | 공기청정기 | 상태 표시부는 제품의 어느 쪽에 있나요? | 위치, 텍스트는 기능만 | airpurifier_complex p.18 (각 부 명칭 도면) | ✅ |
-| IR-A3 | 공기청정기 | 프리필터(하부 흡입구 커버)는 앞/뒤 어디에 있나요? | 위치(후면 추정) | airpurifier_complex p.14 (필터 청소) | ⚠ 본문 위치서술 부재 최종확인 |
-| IR-W1 | 정수기 | 필터 두 개 중 왼쪽 자리(①)에는 어떤 필터를 끼우나요? | 콜아웃 ①② 좌/우 배치, 도면에만 | waterpurifier_complex p.29 (필터 장착) | ✅ |
-| IR-W2 | 정수기 | 필터 체결부 화살표는 필터의 어느 면에 맞춰야 하나요? | 화살표/돌출부 면(앞·위), inset에만 | waterpurifier_complex p.29 (▼ inset) | ✅ |
-| IR-V1 | 무선청소기 | 흡입구는 길이조절 파이프의 어느 끝에 끼우나요? | 콜아웃 ①③④ 조립 위치, 도면에만 | vacuumcleaner_complex p.15 (제품 조립) | ✅ |
-| IR-V2 | 무선청소기 | 흡입구 거치대 걸이는 어느 방향으로 돌리나요? | 곡선 화살표 방향, 텍스트는 방향 생략 | vacuumcleaner_complex p.15 (거치대 inset) | ✅ |
-| IR-V3 | 무선청소기 | 먼지통 분리 버튼은 본체의 어느 위치에 있나요? | 위치(상단 손잡이 부근 추정) | vacuumcleaner_complex p.16 (먼지 분리기) | ⚠ 본문 위치서술 부재 최종확인 |
+| ID | 카테고리 | 타입 | 질문 | 그림이 답하는 것(텍스트 부재) | reference |
+|---|---|---|---|---|---|
+| IR-A1 | 공기청정기 | 위치 | 조작부는 제품 앞면의 어느 위치에 있나요? | 위치(우측), 텍스트는 기능만 | airpurifier_complex p.18 fig:각부명칭 |
+| IR-A2 | 공기청정기 | 위치 | 상태 표시부는 제품의 어느 쪽에 있나요? | 위치, 텍스트는 기능만 | airpurifier_complex p.18 fig:각부명칭 |
+| IR-W1 | 정수기 | 배치/식별 | 필터 두 개 중 왼쪽 자리(①)에는 어떤 필터를 끼우나요? | 콜아웃 ①② 좌/우 배치, 도면에만 | waterpurifier_complex p.29 fig:필터장착 |
+| IR-V1 | 무선청소기 | 배치/조립 | 흡입구는 길이조절 파이프의 어느 끝에 끼우나요? | 콜아웃 ①③④ 조립 위치, 도면에만 | vacuumcleaner_complex p.15 fig:제품조립 |
+| IR-W2 | 정수기 | 방향 | 필터 체결부 화살표는 필터의 어느 면에 맞춰야 하나요? | 화살표/돌출부 면(앞·위), ▼ inset에만 | waterpurifier_complex p.29 fig:필터장착 |
+| IR-V2 | 무선청소기 | 방향 | 흡입구 거치대 걸이는 어느 방향으로 돌리나요? | 곡선 화살표 방향, 텍스트는 방향 생략 | vacuumcleaner_complex p.15 fig:거치대 |
+| IR-A3' | 공기청정기 | 아이콘식별 | 공기제균 기능이 켜지면 표시되는 아이콘은 어떤 모양인가요? | 아이콘 모양(분자형), 텍스트는 의미만 | airpurifier_complex p.22 fig:상태표시부아이콘 |
+| IR-V3' | 무선청소기 | 아이콘식별 | 상태 표시창에서 Wi-Fi '연결 끊김'은 어떤 아이콘인가요? | 아이콘 모양(빗금친 부채꼴), 텍스트는 의미만 | vacuumcleaner_complex p.19 fig:상태표시창아이콘 |
 
-- **⚠ 2건(IR-A3, IR-V3):** 최종 확정 시 해당 페이지 본문에 위치 서술이 정말 없는지 1회 대조 후 ground_truth를 **도면 기준으로** 작성. 있으면 image-helpful로 강등.
-- **기존 Q21(필터 회전방향):** image-required가 아니라 "방향이 도면에서 와야 하는데 텍스트로 위장된" 케이스 → IR-W2로 흡수/재도출. Q22/Q23도 IR-A3/IR-V3로 재도출(ground_truth를 도면 기준으로 다시 씀).
-- 각 image-required 질문의 `reference_context`는 **모델 + 페이지 + 도면 식별자**를 포함(예: `airpurifier_complex p.18 fig:각부명칭`).
+- **타입 균등(위치2/배치2/방향2/아이콘2).** 한쪽(위치)으로 쏠리지 않게 C2에서 재구성. cross-modal이 단일 능력만 측정하지 않도록 설계.
+- **C2 검증 완료(렌더 대조):** 8건 모두 해당 페이지 본문에 답(위치/방향/콜아웃/아이콘 모양)이 없음을 확인. 구 IR-A3(프리필터)는 전제 오류(AS281DAW 용어 부재·앞뒤 양면 커버)로 폐기 → IR-A3'(아이콘)로 교체. 구 IR-V3(먼지통 버튼 위치)는 위치형 쏠림 완화 위해 IR-V3'(아이콘)로 교체.
+- **기존 Q21~23 처리:** Q21(회전방향)은 IR-W2로 흡수, Q22/Q23은 폐기(전제·중복) 후 위 세트로 대체.
+- ground_truth는 모두 **도면 기준**으로 작성. 아이콘식별 2건은 모양 서술이라 채점은 LLM judge(관대) 적용.
+- **reference 규약(전 행 통일):** `reference_context = "model p.N (한글 섹션/도면명)"` (v1 33행과 동일, Citation Accuracy가 model+page 추출) / `figure_ref = "model p.N fig:figname"` (풀 경로, Phase 2 이미지 매핑용). 위 표의 reference 컬럼은 figure_ref 값이며, reference_context는 같은 model·page에 한글 도면명을 붙인다.
 
 ### 6.4 대조군 유지
 - text-only/​image-helpful 문항을 함께 두어 modality별 비교가 의미를 갖게 한다. v1의 35문항은 modality_label 재검수(특히 현 image-required 3건 재분류) 후 유지.

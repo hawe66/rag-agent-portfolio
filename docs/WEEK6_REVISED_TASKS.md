@@ -10,13 +10,15 @@
 
 이미 된 것:
 - `w6/week6_agentic_rag.ipynb` — LangGraph 4노드(retrieve → grade_documents → rewrite_query(Self-Query 통합) → generate, retry 2회 후 거절) 구현 및 실행 완료.
+- **모듈화 완료** — `src/agent.py`에 `GraphState`·`make_filterable_hybrid_retriever`·`build_agent_graph`·`run_agent` 존재, 노트북이 이를 import. (당초 "노트북에만 존재"로 봤으나 실제로는 이미 분리돼 있음.)
 - `data/week6_agentic_rag_results.json` — 실행 결과 존재.
 - 실측치(`week7_retrospective.md §1.1`): **Top-1 95.7%(22/23), 22q 기준 100%, latency 34.46s, retry 분포 retry0=19/retry1=1/retry2=3, 유일 실패 Q17.**
 
 안 된 것 (이번에 닫는다):
-1. `week6_retrospective.md` §2~4가 전부 **TBD** — Baseline vs Agentic 비교표, 운영 회고, Q20 해결 여부, regression, 불필요 retry 통계가 비어 있음.
-2. **LangGraph가 노트북에만 존재** — `src/`에 모듈 없음. 7주차 평가(Baseline vs Agentic 동시 측정)와 Phase 2 재사용 모두 불가.
+1. **메모리/런타임 비효율로 재실행이 머신을 다운시킴 (현재 진행 블로커).** 원인 §3. 회고를 재실측치로 채우려면 재실행이 안정적이어야 하므로 이게 선결.
+2. `week6_retrospective.md` §2~4가 전부 **TBD** — Baseline vs Agentic 비교표, 운영 회고, Q20 해결 여부, regression, 불필요 retry 통계가 비어 있음.
 3. **ADR-009 파일 부재** — `adr/`에 008·010만 있고 009 없음.
+4. **store 문서 수 불일치** — 노트북 실행 시 `lg_manuals_c3` = 258 docs인데 4주차 회고는 339(C3). 회고에 현행 수치로 정정 기록.
 
 ---
 
@@ -32,58 +34,76 @@
 
 | 우선순위 | 작업 | 산출물 | 비고 |
 |---|---|---|---|
-| **P0** | LangGraph를 `src/agent.py`로 모듈화 | `src/agent.py` | §3 |
-| **P0** | 모듈로 재실행 → regression 확인 (Top-1 95.7% 유지) | `data/week6_agentic_rag_results.json` 갱신 | §4 |
+| **P0** | 런타임/메모리 하드닝 (BM25 build-once + reranker 양자화 + thread cap) | `src/agent.py`·`src/retrieval.py` | §3 |
+| **P0** | 재실행 → regression 확인 (Top-1 95.7% 유지) + 메모리 측정 | `data/week6_agentic_rag_results.json` 갱신 | §4 |
 | **P0** | `week6_retrospective.md` §2~4 실측치로 채움 | retrospective | §5 |
 | **P0** | ADR-009 작성 + `PROJECT_CONTEXT.md` 등재 | `adr/ADR-009-agentic-rag.md` | §6 |
 | **P1** | 불필요 retry / Q20 / Q17 routing 심화 분석 | retrospective §4.x | §5.3 |
 
-> P0가 안 닫히면 7주차(Baseline vs Agentic 동시 평가)가 시작 불가다. `src/agent.py`가 7주차의 의존성.
+> §3 하드닝이 선결이다. 현재 재실행이 16GB 머신을 다운시켜 회고를 채울 수 없다. 7주차(Baseline vs Agentic 동시 평가)도 같은 retriever를 쓰므로 이 수정의 수혜를 받는다.
 
 ---
 
-## 3. `src/agent.py` 모듈화 (P0)
+## 3. 런타임/메모리 하드닝 (P0 — 재실행 선결)
 
-> 산출물: `src/agent.py`. 노트북 `w6/week6_agentic_rag.ipynb`의 로직을 함수/클래스로 추출.
+> 산출물: `src/agent.py`·`src/retrieval.py` 수정. **로직(검색 결과)은 동일해야 하고 메모리·속도만 개선.**
 
-### 3.1 노출할 공개 인터페이스
+원인 진단(코드 읽기로 확정):
+1. **BM25 인덱스를 매 검색마다 재생성.** `src/agent.py`의 `make_filterable_hybrid_retriever.retrieve()`가 호출마다 `BM25Retriever.from_documents(all_docs, ...)` 실행(line 96·98, 필터 유무 무관). 23문항×재시도 = 30~40회 전체 코퍼스(258 docs) 재토크나이즈 → retrieve 11~15s의 주범 + 메모리 출렁임.
+2. **reranker fp32 ~2.2GB 상주.** `dragonkue/bge-reranker-v2-m3-ko`(XLM-R large ~568M). python 4.73GB의 절반.
+3. **16GB 머신 포화.** Claude 앱+VM+VS Code C++ 툴링까지 14.79GB 사용 → 13분 평가가 swap 폭증 → 다운. (즉시 완화: VS Code/cpptools 종료, 커널 재시작 후 모델 로드 셀 1회만.)
+
+### 3.1 Fix A — BM25 build-once (가장 큰 효과)
+
+factory 진입 시 전체 코퍼스 BM25를 **1회** 만들어 클로저로 재사용. 카테고리 필터는 카테고리별 BM25를 1회씩 캐시.
 
 ```python
-# src/agent.py
-from typing_extensions import TypedDict
-from typing import Any, Optional
-
-class GraphState(TypedDict):
-    question: str
-    rewritten_question: str
-    metadata_filter: Optional[dict]
-    documents: list[Any]
-    answer: str
-    grade_result: str          # "relevant" | "not_relevant"
-    retry_count: int
-    route_history: list[str]
-    latency_breakdown: dict
-    # --- Phase 2 자리 (이번엔 미사용) ---
-    # image_context: Optional[list] = None  # cross-modal 도입 시 retrieve가 채움
-
-def build_agent_graph(retriever, llm, max_retries: int = 2):
-    """노트북의 4노드 그래프를 그대로 빌드해 compiled graph를 반환."""
-    ...
-
-def run_agent(graph, question: str) -> dict:
-    """단일 질문 실행 → {answer, documents, route_history, latency_breakdown, retry_count} 반환.
-    7주차 평가 하네스가 이 함수를 호출한다."""
-    ...
+def make_filterable_hybrid_retriever(vectorstore, all_docs, reranker, first_stage_k=20, top_k=5):
+    bm25_all = BM25Retriever.from_documents(all_docs, k=first_stage_k)   # ← 1회만
+    bm25_by_cat: dict[str, BM25Retriever] = {}                           # 필터용 캐시
+    def retrieve(query, metadata_filter=None):
+        ...
+        if metadata_filter:
+            cat = metadata_filter.get("category")
+            if cat not in bm25_by_cat:
+                docs_c = [d for d in all_docs if d.metadata.get("category") == cat]
+                bm25_by_cat[cat] = BM25Retriever.from_documents(docs_c, k=first_stage_k)
+            bm25 = bm25_by_cat[cat]
+        else:
+            bm25 = bm25_all
+        bm25_docs = bm25.invoke(query)
+        ...
 ```
+- 같은 문서·같은 k면 결과 동일 → **regression 없음.**
 
-- 노드 4개(retrieve / grade_documents / rewrite_query / generate)와 조건부 엣지는 `WEEK6_TASKS.md` §4~5의 설계 그대로. **로직 변경 금지.**
-- `retriever`는 5주차 최종 Hybrid+Rerank(`src/retrieval.py`)를 주입받는다. agent 모듈이 retriever를 직접 만들지 않는다(테스트·교체 용이).
-- 노트북은 `from src.agent import build_agent_graph, run_agent`로 갈아끼워 셀을 슬림화한다.
+### 3.2 Fix B — reranker int8 동적 양자화 + CPU 고정 + thread cap
 
-### 3.2 검증 기준
+`src/retrieval.py`의 `create_reranker`에서 CPU 로드 + Linear int8 동적 양자화 → RAM ~2.2GB→~0.8~1GB, CPU 추론도 가속.
 
-- `src/agent.py` import 후 골든셋(또는 기존 23문항)으로 재실행 → **Top-1 95.7%(22/23) 재현.** 어긋나면 모듈화 과정의 누락이므로 노트북과 diff 비교.
-- `run_agent` 반환 구조가 7주차 평가 하네스(§WEEK7_REVISED §3)가 기대하는 키를 포함하는지 확인.
+```python
+def create_reranker(model_name="dragonkue/bge-reranker-v2-m3-ko", quantize=True, num_threads=4):
+    import torch
+    from sentence_transformers import CrossEncoder
+    torch.set_num_threads(num_threads)
+    ce = CrossEncoder(model_name, device="cpu")
+    if quantize:
+        ce.model = torch.quantization.quantize_dynamic(
+            ce.model, {torch.nn.Linear}, dtype=torch.qint8)
+    return ce
+```
+- 양자화로 score가 미세하게 달라질 수 있음 → 재실행 Top-1 95.7% 유지 확인. 어긋나면 `quantize=False`로 폴백하고 Fix A+C만 적용.
+
+### 3.3 Fix C — 부차
+
+- `first_stage_k` 20→10 검토(rerank 쌍 절반; Top-5 유지 확인 후 적용).
+- 평가 루프에서 문항마다 `gc.collect()` 1회.
+- reranker 단일 인스턴스를 7주차 Baseline·Agentic에 **공유 주입**(두 번 로드 금지).
+
+### 3.4 검증 기준
+
+- 재실행 중 python RSS가 안정적으로 **~1.5GB 이하** 유지(`psutil` 또는 Activity Monitor로 before/after 측정, 회고 §3에 기록).
+- retrieve 평균 latency 유의미 하락(11~15s → 한 자리 초반 목표).
+- **Top-1 95.7%(22/23) 재현** — 하드닝이 정확도를 바꾸지 않았음을 확인.
 
 ---
 
@@ -148,9 +168,9 @@ def run_agent(graph, question: str) -> dict:
 
 ## 8. 작업 순서
 
-1. 진단 문서 읽기(§0 대상 파일들) + 노트북 현 상태 확인.
-2. §3 `src/agent.py` 추출 → 노트북을 모듈 호출로 교체.
-3. §4 재실행 + regression 확인(Top-1 95.7% 재현).
+1. 진단 문서 읽기(§0 대상 파일들) + 노트북 현 상태 확인. (즉시 완화: VS Code/cpptools 종료, 커널 재시작.)
+2. §3 런타임/메모리 하드닝(Fix A→B→C) 적용.
+3. §4 재실행 + regression 확인(Top-1 95.7% 재현) + RSS before/after 측정.
 4. §5 retrospective §2~4 채움.
 5. §6 ADR-009 작성 + PROJECT_CONTEXT 등재.
 6. (P1) §5.3 심화.
@@ -168,4 +188,5 @@ def run_agent(graph, question: str) -> dict:
 
 | 날짜 | 변경 내용 |
 |---|---|
-| 2026-06-14 | `WEEK6_TASKS.md` supersede. 1회 sprint 후 미완(회고 §2~4, 모듈화, ADR-009) 마감 + Phase 2 재사용 위한 `src/agent.py` 모듈화로 재정의. 실제 repo 경로(w6/, adr/ADR-xxx) 반영. |
+| 2026-06-14 | `WEEK6_TASKS.md` supersede. 1회 sprint 후 미완(회고 §2~4, ADR-009) 마감으로 재정의. 실제 repo 경로(w6/, adr/ADR-xxx) 반영. |
+| 2026-06-15 | 모듈화는 이미 완료(`src/agent.py` 존재) 확인 → "모듈화" 항목 제거. 재실행이 16GB 머신을 다운시키는 메모리 문제 진단(BM25 매 호출 재생성 + reranker fp32 2.2GB) → §3을 "런타임/메모리 하드닝(BM25 build-once + int8 양자화 + thread cap)"으로 교체, 재실행의 선결로 지정. store 258 docs 불일치 기록 추가. |

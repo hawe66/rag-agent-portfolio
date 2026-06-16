@@ -12,11 +12,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":15.1429252625,
+    "total_latency":13.5794482231,
     "latency_breakdown":{
-      "retrieve":11.795317173,
-      "grade":0.8460419178,
-      "generate":2.4842638969
+      "retrieve":10.9127218723,
+      "grade":0.690985918,
+      "generate":1.9736258984
     }
   },
   {
@@ -32,11 +32,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":17.0847089291,
+    "total_latency":17.0715279579,
     "latency_breakdown":{
-      "retrieve":10.390871048,
-      "grade":0.9190468788,
-      "generate":5.768009901
+      "retrieve":11.2199211121,
+      "grade":0.7533249855,
+      "generate":5.0873060226
     }
   },
   {
@@ -52,11 +52,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":20.7808048725,
+    "total_latency":22.7315490246,
     "latency_breakdown":{
-      "retrieve":15.842634201,
-      "grade":0.8850729465,
-      "generate":4.0412418842
+      "retrieve":18.1118340492,
+      "grade":0.5923030376,
+      "generate":4.0206580162
     }
   },
   {
@@ -72,11 +72,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":16.0474691391,
+    "total_latency":14.4460549355,
     "latency_breakdown":{
-      "retrieve":12.3026628494,
-      "grade":0.615074873,
-      "generate":3.1098480225
+      "retrieve":11.05093503,
+      "grade":0.7136440277,
+      "generate":2.6761679649
     }
   },
   {
@@ -92,11 +92,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":19.8892059326,
+    "total_latency":18.7259559631,
     "latency_breakdown":{
-      "retrieve":15.8464200497,
-      "grade":0.727339983,
-      "generate":3.3058679104
+      "retrieve":16.5245997906,
+      "grade":0.6194620132,
+      "generate":1.5735311508
     }
   },
   {
@@ -117,12 +117,12 @@
     "metadata_filter":{
       "category":"airpurifier"
     },
-    "total_latency":27.8547279835,
+    "total_latency":28.1243200302,
     "latency_breakdown":{
-      "retrieve":23.5856351852,
-      "grade":1.4881250858,
-      "rewrite":0.8406281471,
-      "generate":1.9245171547
+      "retrieve":23.5747871399,
+      "grade":1.4696948528,
+      "rewrite":1.5036280155,
+      "generate":1.556923151
     }
   },
   {
@@ -146,12 +146,12 @@
     "metadata_filter":{
       "category":"airpurifier"
     },
-    "total_latency":43.4365582466,
+    "total_latency":43.6476867199,
     "latency_breakdown":{
-      "retrieve":36.5685975552,
-      "grade":1.8584427834,
-      "rewrite":1.9369883537,
-      "generate":3.0373718739
+      "retrieve":36.8852498531,
+      "grade":1.980039835,
+      "rewrite":1.9509119987,
+      "generate":2.8162050247
     }
   },
   {
@@ -167,11 +167,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":20.1622149944,
+    "total_latency":18.3879079819,
     "latency_breakdown":{
-      "retrieve":17.1449038982,
-      "grade":0.5599012375,
-      "generate":2.4456551075
+      "retrieve":15.8605208397,
+      "grade":0.6186790466,
+      "generate":1.8982872963
     }
   },
   {
@@ -187,11 +187,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":21.3437128067,
+    "total_latency":20.1587257385,
     "latency_breakdown":{
-      "retrieve":18.2508192062,
-      "grade":1.1108081341,
-      "generate":1.9696810246
+      "retrieve":17.3859090805,
+      "grade":0.6707992554,
+      "generate":2.0955350399
     }
   },
   {
@@ -207,11 +207,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":26.7829258442,
+    "total_latency":22.1103458405,
     "latency_breakdown":{
-      "retrieve":24.0980041027,
-      "grade":0.6192646027,
-      "generate":2.0553839207
+      "retrieve":19.6889081001,
+      "grade":0.6232578754,
+      "generate":1.7872369289
     }
   },
   {
@@ -227,11 +227,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":29.2133381367,
+    "total_latency":23.3401150703,
     "latency_breakdown":{
-      "retrieve":27.2273128033,
-      "grade":0.6372110844,
-      "generate":1.3325328827
+      "retrieve":21.2407033443,
+      "grade":0.9290897846,
+      "generate":1.1653921604
     }
   },
   {
@@ -247,11 +247,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":33.0969121456,
+    "total_latency":27.9104042053,
     "latency_breakdown":{
-      "retrieve":30.0349638462,
-      "grade":0.6413948536,
-      "generate":2.3996012211
+      "retrieve":24.7132017612,
+      "grade":0.8157041073,
+      "generate":2.3752729893
     }
   },
   {
@@ -267,11 +267,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":33.2784907818,
+    "total_latency":27.8501529694,
     "latency_breakdown":{
-      "retrieve":28.0368330479,
-      "grade":0.9826309681,
-      "generate":4.2457680702
+      "retrieve":21.9266109467,
+      "grade":0.4805998802,
+      "generate":5.4397618771
     }
   },
   {
@@ -287,11 +287,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":34.9998311996,
+    "total_latency":21.1880812645,
     "latency_breakdown":{
-      "retrieve":32.3719770908,
-      "grade":0.5561947823,
-      "generate":2.0498230457
+      "retrieve":18.2622878551,
+      "grade":0.7680170536,
+      "generate":2.1428291798
     }
   },
   {
@@ -307,11 +307,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":37.3274419308,
+    "total_latency":29.3493413925,
     "latency_breakdown":{
-      "retrieve":32.4545710087,
-      "grade":0.9636809826,
-      "generate":3.8966529369
+      "retrieve":25.7980940342,
+      "grade":0.9277849197,
+      "generate":2.6175992489
     }
   },
   {
@@ -327,11 +327,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":26.1636033058,
+    "total_latency":18.9841301441,
     "latency_breakdown":{
-      "retrieve":19.3897809982,
-      "grade":0.5971620083,
-      "generate":6.1511585712
+      "retrieve":15.4162611961,
+      "grade":0.5214319229,
+      "generate":3.0418181419
     }
   },
   {
@@ -347,11 +347,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":36.4645240307,
+    "total_latency":26.8259630203,
     "latency_breakdown":{
-      "retrieve":28.5985310078,
-      "grade":0.8962569237,
-      "generate":6.9624512196
+      "retrieve":22.1197648048,
+      "grade":0.4358577728,
+      "generate":4.2645139694
     }
   },
   {
@@ -367,11 +367,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":41.0635061264,
+    "total_latency":28.6701231003,
     "latency_breakdown":{
-      "retrieve":35.7917451859,
-      "grade":0.6694850922,
-      "generate":4.5832502842
+      "retrieve":22.1097548008,
+      "grade":0.8925299644,
+      "generate":5.6569209099
     }
   },
   {
@@ -387,11 +387,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":38.6586642265,
+    "total_latency":24.5088088512,
     "latency_breakdown":{
-      "retrieve":33.3850910664,
-      "grade":1.0816771984,
-      "generate":4.17710495
+      "retrieve":18.9233551025,
+      "grade":0.723690033,
+      "generate":4.8580849171
     }
   },
   {
@@ -415,11 +415,11 @@
     "metadata_filter":{
       "category":"airpurifier"
     },
-    "total_latency":85.3085119724,
+    "total_latency":56.0681648254,
     "latency_breakdown":{
-      "retrieve":81.888931036,
-      "grade":1.9259059429,
-      "rewrite":1.4634430408
+      "retrieve":52.4192049503,
+      "grade":2.0464868546,
+      "rewrite":1.5925278664
     }
   },
   {
@@ -435,11 +435,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":27.1589250565,
+    "total_latency":24.9779620171,
     "latency_breakdown":{
-      "retrieve":25.183300972,
-      "grade":0.6204020977,
-      "generate":1.3349580765
+      "retrieve":23.0394370556,
+      "grade":0.6875038147,
+      "generate":1.2447397709
     }
   },
   {
@@ -455,7 +455,7 @@
       "self_query(category=airpurifier)",
       "retrieve(filter={'category': 'airpurifier'})",
       "grade(not_relevant)",
-      "rewrite('LG 공기청정기 프리필터는 어디에 위치해 있나요?...')",
+      "rewrite('LG 공기청정기의 프리필터는 어디에 위치해 있나요?...')",
       "retrieve(filter={'category': 'airpurifier'})",
       "grade(not_relevant)",
       "cannot_answer"
@@ -463,11 +463,11 @@
     "metadata_filter":{
       "category":"airpurifier"
     },
-    "total_latency":100.7634060383,
+    "total_latency":66.0480446815,
     "latency_breakdown":{
-      "retrieve":95.8739752769,
-      "grade":2.7363855839,
-      "rewrite":2.0816609859
+      "retrieve":62.0786650181,
+      "grade":2.3539087772,
+      "rewrite":1.6031701565
     }
   },
   {
@@ -483,11 +483,11 @@
       "generate"
     ],
     "metadata_filter":null,
-    "total_latency":40.4568440914,
+    "total_latency":26.461094141,
     "latency_breakdown":{
-      "retrieve":34.8497850895,
-      "grade":1.6394000053,
-      "generate":3.5511629581
+      "retrieve":23.789908886,
+      "grade":0.8570640087,
+      "generate":1.8073079586
     }
   }
 ]

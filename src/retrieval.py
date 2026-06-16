@@ -153,18 +153,32 @@ def evaluate_retriever_accuracy(
     }
 
 
-def create_reranker(model_name: str = "dragonkue/bge-reranker-v2-m3-ko"):
+def create_reranker(
+    model_name: str = "dragonkue/bge-reranker-v2-m3-ko",
+    device: str = "cpu",
+):
     """
     Create a cross-encoder reranker for 2-stage retrieval.
 
+    Device defaults to "cpu" to dodge a MPS allocator leak on Apple Silicon:
+    sentence-transformers auto-selects mps:0, and PyTorch's MPS allocator
+    pools Metal buffers without returning them to the OS. The pool grows by
+    ~50-100 MB per call (~3-5 GB per 20 questions), shows up as wired memory,
+    and saturates a 16 GB machine well before a 41-question eval completes.
+    CPU rerank is ~1.5-2x slower per call (~+0.5 s/question) but memory-safe.
+
+    Pass device="mps" or "cuda" explicitly if you know the host can absorb it
+    (e.g. M-series with 32 GB+, or any CUDA GPU).
+
     Args:
         model_name: HuggingFace model name for cross-encoder
+        device: Torch device string. Default "cpu" — see note above.
 
     Returns:
         CrossEncoder instance
     """
     from sentence_transformers import CrossEncoder
-    return CrossEncoder(model_name)
+    return CrossEncoder(model_name, device=device)
 
 
 def rerank_documents(
@@ -175,6 +189,11 @@ def rerank_documents(
 ) -> list[Document]:
     """
     Rerank documents using cross-encoder.
+
+    Wraps the .predict() call in `torch.inference_mode()` so PyTorch frees
+    forward activations / autograd metadata after each batch. Without this
+    guard the BGE-reranker (~2.2GB fp32) leaked tens of MB per call during
+    the W7 eval loop, blowing past 10GB on a 16GB machine.
 
     Args:
         reranker: CrossEncoder instance
@@ -188,11 +207,12 @@ def rerank_documents(
     if not documents:
         return []
 
-    # Score all query-document pairs
-    pairs = [(query, doc.page_content) for doc in documents]
-    scores = reranker.predict(pairs)
+    import torch
 
-    # Sort by score descending
+    pairs = [(query, doc.page_content) for doc in documents]
+    with torch.inference_mode():
+        scores = reranker.predict(pairs)
+
     scored_docs = list(zip(scores, documents))
     scored_docs.sort(key=lambda x: x[0], reverse=True)
 
