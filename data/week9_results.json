@@ -1,0 +1,1643 @@
+{
+  "configs": [
+    "C0",
+    "C1",
+    "C2a",
+    "C2b"
+  ],
+  "page_tolerance": 2,
+  "top_k": 5,
+  "questions": [
+    {
+      "id": "IR-A1",
+      "question": "조작부는 제품 앞면의 어느 위치에 있나요?",
+      "modality": "image-required",
+      "ground_truth": "제품 앞면 우측 상단 (각 부 명칭 도면 콜아웃 기준; 본문은 기능만 서술)",
+      "reference_context": "airpurifier_complex p.18 (각 부 명칭 및 기능)"
+    },
+    {
+      "id": "IR-A2",
+      "question": "상태 표시부는 제품의 어느 쪽에 있나요?",
+      "modality": "image-required",
+      "ground_truth": "제품 앞면 상단 (각 부 명칭 도면의 상태 표시부 콜아웃 기준; 본문은 기능만 서술)",
+      "reference_context": "airpurifier_complex p.18 (각 부 명칭 및 기능)"
+    },
+    {
+      "id": "IR-A3",
+      "question": "공기청정기 상태 표시부에서 공기제균 기능이 켜지면 표시되는 아이콘은 어떤 모양인가요?",
+      "modality": "image-required",
+      "ground_truth": "이온/제균을 상징하는 아이콘(원형 궤도에 작은 원들이 도는 분자 모양)으로 표시됩니다.",
+      "reference_context": "airpurifier_complex p.22 (상태 표시부 아이콘)"
+    },
+    {
+      "id": "IR-W1",
+      "question": "필터 두 개 중 왼쪽 자리(①)에는 어떤 필터를 끼우나요?",
+      "modality": "image-required",
+      "ground_truth": "왼쪽(①) 자리에는 필터 장착 도면의 첫 번째 콜아웃에 표시된 필터를 장착 (본문 텍스트는 좌/우 구분 없이 두 필터를 나열만 함)",
+      "reference_context": "waterpurifier_complex p.29 (필터 장착)"
+    },
+    {
+      "id": "IR-W2",
+      "question": "필터 체결부 화살표는 필터의 어느 면에 맞춰야 하나요?",
+      "modality": "image-required",
+      "ground_truth": "필터의 화살표 표시면(앞쪽·돌출부 위)을 본체 체결부 화살표에 맞춰 장착 (inset 도면 기준)",
+      "reference_context": "waterpurifier_complex p.29 (필터 장착 - inset)"
+    },
+    {
+      "id": "IR-V1",
+      "question": "흡입구는 길이조절 파이프의 어느 끝에 끼우나요?",
+      "modality": "image-required",
+      "ground_truth": "길이조절 파이프의 앞쪽 끝(콜아웃 ①③④ 위치)에 흡입구를 장착 (제품 조립 도면 기준)",
+      "reference_context": "vacuumcleaner_complex p.15 (제품 조립)"
+    },
+    {
+      "id": "IR-V2",
+      "question": "흡입구 거치대 걸이는 어느 방향으로 돌리나요?",
+      "modality": "image-required",
+      "ground_truth": "곡선 화살표 방향(시계방향)으로 돌려 거치 (거치대 inset 도면 기준; 본문은 방향 생략)",
+      "reference_context": "vacuumcleaner_complex p.15 (거치대 - inset)"
+    },
+    {
+      "id": "IR-V3",
+      "question": "무선청소기 상태 표시창에서 Wi-Fi '연결 끊김'은 어떤 아이콘으로 표시되나요?",
+      "modality": "image-required",
+      "ground_truth": "Wi-Fi 부채꼴에 사선(빗금)이 그어진 아이콘으로 표시됩니다(연결됨은 빗금 없는 부채꼴).",
+      "reference_context": "vacuumcleaner_complex p.19 (상태 표시창 살펴보기)"
+    },
+    {
+      "id": "Q01",
+      "question": "정수기 필터 교체 주기는 얼마인가요?",
+      "modality": "text-only",
+      "ground_truth": "4인 가정 기준 약 6개월~12개월 (사용량에 따라 다름)",
+      "reference_context": "waterpurifier_simple p.15 (정수 필터 교체하기)"
+    },
+    {
+      "id": "Q08",
+      "question": "공기가 탁할 때 어떤 모드를 사용해야 하나요?",
+      "modality": "text-only",
+      "ground_truth": "터보 모드 또는 자동 모드 사용 권장. 자동 모드는 센서가 공기질 감지하여 자동 조절.",
+      "reference_context": "airpurifier_complex p.10 (사용하기)"
+    },
+    {
+      "id": "Q15",
+      "question": "보조 배터리 충전하는 방법",
+      "modality": "image-helpful",
+      "ground_truth": "보조 배터리를 거치대에 장착. LED가 깜빡이면 충전 중.",
+      "reference_context": "vacuumcleaner_complex p.14 (보조 배터리 충전하기)"
+    }
+  ],
+  "results": {
+    "C0": {
+      "ir8": {
+        "n": 8,
+        "page_hit": 0.75,
+        "answer_correct": 0.25
+      },
+      "text_only": {
+        "n": 3,
+        "page_hit": 0.3333333333333333,
+        "answer_correct": 0.3333333333333333
+      },
+      "per_q": [
+        {
+          "id": "IR-A1",
+          "retrieved": [
+            [
+              "airpurifier",
+              "simple",
+              18
+            ],
+            [
+              "airpurifier",
+              "complex",
+              18
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              23
+            ],
+            [
+              "airpurifier",
+              "simple",
+              21
+            ],
+            [
+              "airpurifier",
+              "complex",
+              1
+            ]
+          ],
+          "page_hit": true,
+          "answer": "조작부는 제품의 앞면에 위치해 있습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 조작부의 구체적인 위치를 명시하지 않고 일반적인 설명만 제공함."
+        },
+        {
+          "id": "IR-A2",
+          "retrieved": [
+            [
+              "airpurifier",
+              "simple",
+              18
+            ],
+            [
+              "airpurifier",
+              "complex",
+              18
+            ],
+            [
+              "airpurifier",
+              "complex",
+              29
+            ],
+            [
+              "airpurifier",
+              "simple",
+              35
+            ],
+            [
+              "airpurifier",
+              "complex",
+              22
+            ]
+          ],
+          "page_hit": true,
+          "answer": "상태 표시부는 제품의 앞면에 위치해 있습니다.",
+          "judge": 1,
+          "judge_reason": "모델답변이 상태 표시부의 위치를 정확히 언급하고 있다."
+        },
+        {
+          "id": "IR-A3",
+          "retrieved": [
+            [
+              "airpurifier",
+              "simple",
+              22
+            ],
+            [
+              "airpurifier",
+              "complex",
+              22
+            ],
+            [
+              "airpurifier",
+              "complex",
+              30
+            ],
+            [
+              "airpurifier",
+              "simple",
+              30
+            ],
+            [
+              "airpurifier",
+              "simple",
+              18
+            ]
+          ],
+          "page_hit": true,
+          "answer": "공기청정기 상태 표시부에서 공기제균 기능이 켜지면 표시되는 아이콘은 제공된 문서에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 아이콘의 모양에 대한 정보를 제공하지 않고 있습니다."
+        },
+        {
+          "id": "IR-W1",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "complex",
+              31
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              29
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              28
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              32
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              29
+            ]
+          ],
+          "page_hit": true,
+          "answer": "제공된 문서에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 필터의 위치에 대한 정보를 제공하지 않음"
+        },
+        {
+          "id": "IR-W2",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "simple",
+              19
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              29
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              28
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              20
+            ],
+            [
+              "airpurifier",
+              "simple",
+              15
+            ]
+          ],
+          "page_hit": true,
+          "answer": "필터 체결부의 화살표 표시가 필터 상단의 돌출부와 맞춰져야 합니다.",
+          "judge": 1,
+          "judge_reason": "모델답변이 필터의 화살표 표시와 필터 상단의 돌출부를 맞춰야 한다는 핵심 정보를 포함하고 있다."
+        },
+        {
+          "id": "IR-V1",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "complex",
+              21
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              36
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              35
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              9
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              34
+            ]
+          ],
+          "page_hit": false,
+          "answer": "흡입구는 제품 본체나 길이 조절 파이프의 흡입부에 조립해야 합니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 흡입구의 정확한 위치(앞쪽 끝)를 명시하지 않고 일반적인 설명만 제공함."
+        },
+        {
+          "id": "IR-V2",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "simple",
+              16
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              15
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              34
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              35
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              28
+            ]
+          ],
+          "page_hit": false,
+          "answer": "제공된 문서에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 방향에 대한 정보를 제공하지 않고 있습니다."
+        },
+        {
+          "id": "IR-V3",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "complex",
+              19
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              20
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              21
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              12
+            ],
+            [
+              "airpurifier",
+              "simple",
+              22
+            ]
+          ],
+          "page_hit": true,
+          "answer": "무선청소기 상태 표시창에서 Wi-Fi '연결 끊김'은 'Y' 아이콘으로 표시됩니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 아이콘의 모양에 대한 정확한 설명이 없고 잘못된 정보를 제공하고 있다."
+        },
+        {
+          "id": "Q01",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "simple",
+              18
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              28
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              18
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              29
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              19
+            ]
+          ],
+          "page_hit": false,
+          "answer": "정수기 필터의 교체 주기는 다음과 같습니다:\n\n- 중금속9 흡착 필터: 6개월\n- 바이러스 클리어 필터: 12개월\n\n이 주기는 4인 가정에서 하루 10 L 사용을 기준으로 하며, 필터의 수명은 수질, 수압, 계절, 지역에 따라 차이가 있을 수 있습니다.",
+          "judge": 1,
+          "judge_reason": "모델답변이 4인 가정 기준으로 필터 교체 주기를 6개월~12개월로 제시하고 있어 핵심 정보가 포함되어 있다."
+        },
+        {
+          "id": "Q08",
+          "retrieved": [
+            [
+              "airpurifier",
+              "simple",
+              2
+            ],
+            [
+              "airpurifier",
+              "simple",
+              2
+            ],
+            [
+              "airpurifier",
+              "simple",
+              25
+            ],
+            [
+              "airpurifier",
+              "complex",
+              25
+            ],
+            [
+              "airpurifier",
+              "complex",
+              2
+            ]
+          ],
+          "page_hit": false,
+          "answer": "공기가 탁할 때는 클린부스터 모드를 사용해야 합니다. 클린부스터를 이용해 정화된 공기를 먼 거리까지 빠르게 보내 실내 공기를 순환시킬 수 있습니다. 운전 중 운전모드 버튼을 눌러 클린부스터를 선택하세요.",
+          "judge": 0,
+          "judge_reason": "모범답안의 핵심 정보인 터보 모드 또는 자동 모드 사용 권장이 포함되어 있지 않음."
+        },
+        {
+          "id": "Q15",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "complex",
+              17
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              16
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              16
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              20
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              24
+            ]
+          ],
+          "page_hit": true,
+          "answer": "보조 배터리를 충전하는 방법은 다음과 같습니다:\n\n1. 먼지 비움 충전대 상단의 조작부를 잡고 화살표 방향으로 열어주세요.\n2. 보조 배터리가 올바르게 장착되었는지 확인합니다. 보조 배터리 아이콘이 활성화되지 않는다면, 먼지 비움 충전대 상단의 조작부를 열고 보조 배터리를 다시 밀어넣으세요.\n3. 배터리 충전함의 모양에 맞춰 보조 배터리를 넣고, 손으로 끝까지 눌러 올바르게 장착합니다.\n\n보조 배터리가 올바르게 장착되면 청소기 LCD 화면에 보조 배터리 아이콘이 활성화됩니다. 청소기가 충전 중일 때는 청소기의 충전이 완료된 후 보조 배터리가 충전이 시작됩니다. \n\n충전이 완료되면 보조 배터리는 약 8시간이 소요됩니다.",
+          "judge": 0,
+          "judge_reason": "모범답안의 핵심 정보인 'LED가 깜빡이면 충전 중'이 포함되어 있지 않음."
+        }
+      ]
+    },
+    "C1": {
+      "ir8": {
+        "n": 8,
+        "page_hit": 0.625,
+        "answer_correct": 0.25
+      },
+      "text_only": {
+        "n": 3,
+        "page_hit": 0.3333333333333333,
+        "answer_correct": 0.3333333333333333
+      },
+      "per_q": [
+        {
+          "id": "IR-A1",
+          "retrieved": [
+            [
+              "airpurifier",
+              "simple",
+              18
+            ],
+            [
+              "airpurifier",
+              "simple",
+              18
+            ],
+            [
+              "airpurifier",
+              "complex",
+              34
+            ],
+            [
+              "airpurifier",
+              "simple",
+              15
+            ],
+            [
+              "airpurifier",
+              "simple",
+              19
+            ]
+          ],
+          "page_hit": false,
+          "answer": "조작부는 제품의 앞면에 위치해 있습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 조작부의 구체적인 위치를 명시하지 않고 일반적인 설명만 제공함."
+        },
+        {
+          "id": "IR-A2",
+          "retrieved": [
+            [
+              "airpurifier",
+              "simple",
+              18
+            ],
+            [
+              "airpurifier",
+              "complex",
+              29
+            ],
+            [
+              "airpurifier",
+              "simple",
+              35
+            ],
+            [
+              "airpurifier",
+              "complex",
+              35
+            ],
+            [
+              "airpurifier",
+              "simple",
+              29
+            ]
+          ],
+          "page_hit": false,
+          "answer": "상태 표시부는 제품의 앞면에 위치해 있습니다.",
+          "judge": 1,
+          "judge_reason": "모델답변이 상태 표시부의 위치를 정확히 언급하고 있다."
+        },
+        {
+          "id": "IR-A3",
+          "retrieved": [
+            [
+              "airpurifier",
+              "simple",
+              22
+            ],
+            [
+              "airpurifier",
+              "complex",
+              22
+            ],
+            [
+              "airpurifier",
+              "complex",
+              30
+            ],
+            [
+              "airpurifier",
+              "simple",
+              30
+            ],
+            [
+              "airpurifier",
+              "simple",
+              18
+            ]
+          ],
+          "page_hit": true,
+          "answer": "공기청정기 상태 표시부에서 공기제균 기능이 켜지면 표시되는 아이콘은 \"공기제균\" 아이콘입니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 아이콘의 구체적인 모양을 설명하지 않고 단순히 '공기제균' 아이콘이라고만 언급했다."
+        },
+        {
+          "id": "IR-W1",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "complex",
+              32
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              18
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              27
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              28
+            ],
+            [
+              "airpurifier",
+              "simple",
+              20
+            ]
+          ],
+          "page_hit": true,
+          "answer": "제공된 문서에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 필터의 위치에 대한 정보를 제공하지 않음"
+        },
+        {
+          "id": "IR-W2",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "simple",
+              19
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              29
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              19
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              28
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              29
+            ]
+          ],
+          "page_hit": true,
+          "answer": "필터 체결부의 화살표 표시가 필터 상단의 돌출부와 맞춰져야 합니다.",
+          "judge": 1,
+          "judge_reason": "모델답변이 필터의 화살표 표시와 필터 상단의 돌출부를 맞춰야 한다는 핵심 정보를 포함하고 있다."
+        },
+        {
+          "id": "IR-V1",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "complex",
+              13
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              21
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              15
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              36
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              35
+            ]
+          ],
+          "page_hit": true,
+          "answer": "흡입구는 제품 본체나 길이 조절 파이프의 흡입부에 조립해야 합니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 흡입구의 정확한 위치(앞쪽 끝)를 명시하지 않고 일반적인 설명만 제공함."
+        },
+        {
+          "id": "IR-V2",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "simple",
+              16
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              15
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              34
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              35
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              28
+            ]
+          ],
+          "page_hit": false,
+          "answer": "제공된 문서에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 방향에 대한 정보를 제공하지 않고 있습니다."
+        },
+        {
+          "id": "IR-V3",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "complex",
+              19
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              19
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              20
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              21
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              12
+            ]
+          ],
+          "page_hit": true,
+          "answer": "무선청소기 상태 표시창에서 Wi-Fi '연결 끊김'은 'Y' 아이콘으로 표시됩니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 아이콘의 모양에 대한 정보를 제공하지 않아 핵심 사실이 빠졌다."
+        },
+        {
+          "id": "Q01",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "simple",
+              18
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              28
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              18
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              29
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              19
+            ]
+          ],
+          "page_hit": false,
+          "answer": "정수기 필터의 교체 주기는 다음과 같습니다:\n\n- 중금속9 흡착 필터: 6개월\n- 바이러스 클리어 필터: 12개월\n\n이 주기는 4인 가정에서 하루 10 L 사용을 기준으로 하며, 필터의 수명은 수질, 수압, 계절, 지역에 따라 차이가 있을 수 있습니다.",
+          "judge": 1,
+          "judge_reason": "모델답변은 4인 가정 기준으로 필터 교체 주기를 6개월과 12개월로 명시하고 있어 모범답안의 핵심 정보를 포함하고 있다."
+        },
+        {
+          "id": "Q08",
+          "retrieved": [
+            [
+              "airpurifier",
+              "simple",
+              2
+            ],
+            [
+              "airpurifier",
+              "simple",
+              2
+            ],
+            [
+              "airpurifier",
+              "simple",
+              25
+            ],
+            [
+              "airpurifier",
+              "complex",
+              25
+            ],
+            [
+              "airpurifier",
+              "complex",
+              2
+            ]
+          ],
+          "page_hit": false,
+          "answer": "공기가 탁할 때는 클린부스터 모드를 사용해야 합니다. 클린부스터를 이용해 정화된 공기를 먼 거리까지 빠르게 보내 실내 공기를 순환시킬 수 있습니다. 운전 중 운전모드 버튼을 눌러 클린부스터를 선택하세요.",
+          "judge": 0,
+          "judge_reason": "모범답안의 핵심 정보인 터보 모드 또는 자동 모드 사용 권장이 포함되어 있지 않음."
+        },
+        {
+          "id": "Q15",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "complex",
+              17
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              16
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              16
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              20
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              24
+            ]
+          ],
+          "page_hit": true,
+          "answer": "보조 배터리를 충전하는 방법은 다음과 같습니다:\n\n1. 먼지 비움 충전대 상단의 조작부를 잡고 화살표 방향으로 열어주세요.\n2. 보조 배터리가 올바르게 장착되었는지 확인합니다. 보조 배터리 아이콘이 활성화되지 않는다면, 먼지 비움 충전대 상단의 조작부를 열고 보조 배터리를 다시 밀어넣으세요.\n3. 배터리 충전함의 모양에 맞춰 보조 배터리를 넣고, 손으로 끝까지 눌러 올바르게 장착합니다.\n\n청소기가 충전 중일 때는 청소기의 충전이 완료된 후 보조 배터리 충전이 시작됩니다. 보조 배터리가 완전히 충전되기까지는 약 8시간이 소요됩니다.",
+          "judge": 0,
+          "judge_reason": "모범답안의 핵심 정보인 'LED가 깜빡이면 충전 중'이 포함되어 있지 않음."
+        }
+      ]
+    },
+    "C2a": {
+      "ir8": {
+        "n": 8,
+        "page_hit": 0.125,
+        "answer_correct": 0.0
+      },
+      "text_only": {
+        "n": 3,
+        "page_hit": 0.0,
+        "answer_correct": 0.0
+      },
+      "per_q": [
+        {
+          "id": "IR-A1",
+          "retrieved": [
+            [
+              "airpurifier",
+              "complex",
+              39
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              13
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              12
+            ],
+            [
+              "airpurifier",
+              "complex",
+              26
+            ],
+            [
+              "airpurifier",
+              "simple",
+              25
+            ]
+          ],
+          "page_hit": false,
+          "answer": "(검색만 수행 — 읽기/추론 단계 없음)",
+          "judge": 0,
+          "judge_reason": "retrieval-only config has no reasoning step"
+        },
+        {
+          "id": "IR-A2",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "simple",
+              13
+            ],
+            [
+              "airpurifier",
+              "complex",
+              39
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              11
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              14
+            ],
+            [
+              "airpurifier",
+              "complex",
+              38
+            ]
+          ],
+          "page_hit": false,
+          "answer": "(검색만 수행 — 읽기/추론 단계 없음)",
+          "judge": 0,
+          "judge_reason": "retrieval-only config has no reasoning step"
+        },
+        {
+          "id": "IR-A3",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "simple",
+              13
+            ],
+            [
+              "airpurifier",
+              "complex",
+              19
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              23
+            ],
+            [
+              "airpurifier",
+              "complex",
+              39
+            ],
+            [
+              "airpurifier",
+              "complex",
+              22
+            ]
+          ],
+          "page_hit": true,
+          "answer": "(검색만 수행 — 읽기/추론 단계 없음)",
+          "judge": 0,
+          "judge_reason": "retrieval-only config has no reasoning step"
+        },
+        {
+          "id": "IR-W1",
+          "retrieved": [
+            [
+              "airpurifier",
+              "complex",
+              20
+            ],
+            [
+              "airpurifier",
+              "complex",
+              19
+            ],
+            [
+              "airpurifier",
+              "complex",
+              4
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              13
+            ],
+            [
+              "airpurifier",
+              "complex",
+              11
+            ]
+          ],
+          "page_hit": false,
+          "answer": "(검색만 수행 — 읽기/추론 단계 없음)",
+          "judge": 0,
+          "judge_reason": "retrieval-only config has no reasoning step"
+        },
+        {
+          "id": "IR-W2",
+          "retrieved": [
+            [
+              "airpurifier",
+              "complex",
+              20
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              51
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              49
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              31
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              50
+            ]
+          ],
+          "page_hit": false,
+          "answer": "(검색만 수행 — 읽기/추론 단계 없음)",
+          "judge": 0,
+          "judge_reason": "retrieval-only config has no reasoning step"
+        },
+        {
+          "id": "IR-V1",
+          "retrieved": [
+            [
+              "airpurifier",
+              "complex",
+              20
+            ],
+            [
+              "airpurifier",
+              "simple",
+              20
+            ],
+            [
+              "airpurifier",
+              "complex",
+              18
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              27
+            ],
+            [
+              "airpurifier",
+              "simple",
+              36
+            ]
+          ],
+          "page_hit": false,
+          "answer": "(검색만 수행 — 읽기/추론 단계 없음)",
+          "judge": 0,
+          "judge_reason": "retrieval-only config has no reasoning step"
+        },
+        {
+          "id": "IR-V2",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "complex",
+              51
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              50
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              49
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              31
+            ],
+            [
+              "airpurifier",
+              "complex",
+              4
+            ]
+          ],
+          "page_hit": false,
+          "answer": "(검색만 수행 — 읽기/추론 단계 없음)",
+          "judge": 0,
+          "judge_reason": "retrieval-only config has no reasoning step"
+        },
+        {
+          "id": "IR-V3",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "simple",
+              13
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              14
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              16
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              9
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              12
+            ]
+          ],
+          "page_hit": false,
+          "answer": "(검색만 수행 — 읽기/추론 단계 없음)",
+          "judge": 0,
+          "judge_reason": "retrieval-only config has no reasoning step"
+        },
+        {
+          "id": "Q01",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "complex",
+              27
+            ],
+            [
+              "airpurifier",
+              "simple",
+              28
+            ],
+            [
+              "airpurifier",
+              "complex",
+              18
+            ],
+            [
+              "airpurifier",
+              "simple",
+              18
+            ],
+            [
+              "airpurifier",
+              "simple",
+              19
+            ]
+          ],
+          "page_hit": false,
+          "answer": "(검색만 수행 — 읽기/추론 단계 없음)",
+          "judge": 0,
+          "judge_reason": "retrieval-only config has no reasoning step"
+        },
+        {
+          "id": "Q08",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "simple",
+              15
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              13
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              33
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              12
+            ],
+            [
+              "airpurifier",
+              "complex",
+              17
+            ]
+          ],
+          "page_hit": false,
+          "answer": "(검색만 수행 — 읽기/추론 단계 없음)",
+          "judge": 0,
+          "judge_reason": "retrieval-only config has no reasoning step"
+        },
+        {
+          "id": "Q15",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "complex",
+              27
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              13
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              11
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              13
+            ],
+            [
+              "airpurifier",
+              "complex",
+              36
+            ]
+          ],
+          "page_hit": false,
+          "answer": "(검색만 수행 — 읽기/추론 단계 없음)",
+          "judge": 0,
+          "judge_reason": "retrieval-only config has no reasoning step"
+        }
+      ]
+    },
+    "C2b": {
+      "ir8": {
+        "n": 8,
+        "page_hit": 0.125,
+        "answer_correct": 0.0
+      },
+      "text_only": {
+        "n": 3,
+        "page_hit": 0.0,
+        "answer_correct": 0.0
+      },
+      "per_q": [
+        {
+          "id": "IR-A1",
+          "retrieved": [
+            [
+              "airpurifier",
+              "complex",
+              39
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              13
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              12
+            ],
+            [
+              "airpurifier",
+              "complex",
+              26
+            ],
+            [
+              "airpurifier",
+              "simple",
+              25
+            ]
+          ],
+          "page_hit": false,
+          "answer": "이미지에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 조작부의 위치에 대한 정보를 제공하지 않음"
+        },
+        {
+          "id": "IR-A2",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "simple",
+              13
+            ],
+            [
+              "airpurifier",
+              "complex",
+              39
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              11
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              14
+            ],
+            [
+              "airpurifier",
+              "complex",
+              38
+            ]
+          ],
+          "page_hit": false,
+          "answer": "이미지에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 상태 표시부의 위치에 대한 정보를 제공하지 않음"
+        },
+        {
+          "id": "IR-A3",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "simple",
+              13
+            ],
+            [
+              "airpurifier",
+              "complex",
+              19
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              23
+            ],
+            [
+              "airpurifier",
+              "complex",
+              39
+            ],
+            [
+              "airpurifier",
+              "complex",
+              22
+            ]
+          ],
+          "page_hit": true,
+          "answer": "이미지에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 아이콘의 모양에 대한 정보를 제공하지 않음"
+        },
+        {
+          "id": "IR-W1",
+          "retrieved": [
+            [
+              "airpurifier",
+              "complex",
+              20
+            ],
+            [
+              "airpurifier",
+              "complex",
+              19
+            ],
+            [
+              "airpurifier",
+              "complex",
+              4
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              13
+            ],
+            [
+              "airpurifier",
+              "complex",
+              11
+            ]
+          ],
+          "page_hit": false,
+          "answer": "이미지에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 필터의 위치에 대한 정보를 제공하지 않음"
+        },
+        {
+          "id": "IR-W2",
+          "retrieved": [
+            [
+              "airpurifier",
+              "complex",
+              20
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              51
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              49
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              31
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              50
+            ]
+          ],
+          "page_hit": false,
+          "answer": "이미지에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 필터 화살표의 위치와 방향에 대한 정보를 제공하지 않음"
+        },
+        {
+          "id": "IR-V1",
+          "retrieved": [
+            [
+              "airpurifier",
+              "complex",
+              20
+            ],
+            [
+              "airpurifier",
+              "simple",
+              20
+            ],
+            [
+              "airpurifier",
+              "complex",
+              18
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              27
+            ],
+            [
+              "airpurifier",
+              "simple",
+              36
+            ]
+          ],
+          "page_hit": false,
+          "answer": "이미지에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 흡입구의 위치에 대한 정보를 제공하지 않음"
+        },
+        {
+          "id": "IR-V2",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "complex",
+              51
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              50
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              49
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              31
+            ],
+            [
+              "airpurifier",
+              "complex",
+              4
+            ]
+          ],
+          "page_hit": false,
+          "answer": "이미지에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 방향에 대한 정보를 제공하지 않고 있습니다."
+        },
+        {
+          "id": "IR-V3",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "simple",
+              13
+            ],
+            [
+              "waterpurifier",
+              "complex",
+              14
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              16
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              9
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              12
+            ]
+          ],
+          "page_hit": false,
+          "answer": "이미지에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 아이콘의 형태에 대한 정보를 제공하지 않음"
+        },
+        {
+          "id": "Q01",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "complex",
+              27
+            ],
+            [
+              "airpurifier",
+              "simple",
+              28
+            ],
+            [
+              "airpurifier",
+              "complex",
+              18
+            ],
+            [
+              "airpurifier",
+              "simple",
+              18
+            ],
+            [
+              "airpurifier",
+              "simple",
+              19
+            ]
+          ],
+          "page_hit": false,
+          "answer": "이미지에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 필터 교체 주기에 대한 정보를 제공하지 않음"
+        },
+        {
+          "id": "Q08",
+          "retrieved": [
+            [
+              "vacuumcleaner",
+              "simple",
+              15
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              13
+            ],
+            [
+              "vacuumcleaner",
+              "complex",
+              33
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              12
+            ],
+            [
+              "airpurifier",
+              "complex",
+              17
+            ]
+          ],
+          "page_hit": false,
+          "answer": "이미지에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 공기가 탁할 때 사용해야 할 모드에 대한 정보를 제공하지 않음."
+        },
+        {
+          "id": "Q15",
+          "retrieved": [
+            [
+              "waterpurifier",
+              "complex",
+              27
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              13
+            ],
+            [
+              "vacuumcleaner",
+              "simple",
+              11
+            ],
+            [
+              "waterpurifier",
+              "simple",
+              13
+            ],
+            [
+              "airpurifier",
+              "complex",
+              36
+            ]
+          ],
+          "page_hit": false,
+          "answer": "이미지에서 확인할 수 없습니다.",
+          "judge": 0,
+          "judge_reason": "모델답변은 충전 방법에 대한 핵심 정보를 제공하지 않음"
+        }
+      ]
+    }
+  }
+}

@@ -151,7 +151,7 @@ Phase 2 cross-modal 효과를 잴 **기준선.** text-only baseline이 image-req
 3. **LIM-002(도면 추출)**: 6개 매뉴얼 도면이 거의 전부 vector graphics(raster XObject 추출 불가). 추출 경로는 페이지/영역 rasterize → vision으로 확정.
 4. **safety 약함**: 가전 도메인 특성.
 5. **over-refusal**: 답 가능 질문 8/37(21.6%) 오거절.
-6. **Latency**: Agentic 34.46s/q (Baseline 6.73s/q 대비 ≈5.1×). Citation 재측정 런 30.03s/q는 MPS warmup 변동으로 헤드라인 제외.
+6. **Latency**: Agentic 27.01s/q (Baseline 6.73s/q 대비 ≈4.01×, `data/week6_agentic_rag_results.json` 평균; min 13.58/max 66.05로 런-변동 큼). Citation 재측정 런 30.03s/q는 별도 변동.
 
 ---
 
