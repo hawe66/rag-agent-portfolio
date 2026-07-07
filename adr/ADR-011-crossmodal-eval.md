@@ -38,3 +38,13 @@
 
 - **Phase 2:** LIM-002 해결(rasterize→vision), 이미지 임베딩 방식 결정(CLIP류 vs Vision LLM), `context_provider`를 cross-modal로 교체 → 본 ADR의 기준선(model 50%/page 25%) 대비 효과 측정.
 - retrieval page 정밀도(multi_hop multi-chunk, 분산 safety 텍스트)는 Citation 병목 해소 과제로 이월.
+
+## 실행 결과 (Week 9, 2026-07-07)
+
+본 ADR의 기준선(model 50%/page 25%)과 전방호환 훅을 실제로 실행. 상세: `docs/week9_evaluation.md`, `docs/WEEK9_RETROSPECTIVE.md`.
+
+- **앵커 재현:** C0의 citation 층이 model 50%/page 25%를 **정확히 재현** → 하네스가 본 ADR과 같은 언어로 말함(신뢰 토대 확립).
+- **이미지 임베딩 방식 결정:** CLIP(페이지 임베딩) **기각** — 캡션-only 검색 75% vs CLIP 12%(sanity 3종으로 버그 아님, 한국어·세밀도 도메인 부적합). **캡션→텍스트 RAG가 이 도메인의 cross-modal 검색 매체.**
+- **1차 결과 전량 폐기:** 텍스트+캡션을 단일 풀 top-k로 섞은 검색 결함으로 캡션이 컨텍스트에 못 들어옴(caption-hit 2/8). modality-aware 검색(`src/mm_retrieval.py`)으로 6/8 회복.
+- **첫 실증(IR-W1):** 도면 전용 정보(①=중금속9 흡착 필터)를 캡션이 운반 → C0 거절 / C1 정답. answer 수동채점 C1 2/8 vs C0 1/8(n=8, 방향 증거).
+- **잔여 병목:** 전체 페이지 캡션은 아이콘 모양·공간 위치·회전 방향을 못 담음(150dpi·gpt-4o로도). → **10주차 영역 crop 캡션**이 다음 결정 단계. **ADR-012는 crop 결과 후 판단(연기).**

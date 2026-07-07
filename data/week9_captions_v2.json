@@ -1,0 +1,1766 @@
+[
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 1,
+    "image_path": "data/sample_images_150/airpurifier_complex/p001.png",
+    "caption": "- 원형 로고: \"LG\" 텍스트와 함께 원 안에 위치.\n- 큰 원: \"사용설명서\"와 \"공기청정기\" 텍스트 포함.\n- 바코드: 하단에 위치.\n- QR 코드: 바코드 오른쪽에 위치."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 2,
+    "image_path": "data/sample_images_150/airpurifier_complex/p002.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 3,
+    "image_path": "data/sample_images_150/airpurifier_complex/p003.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 4,
+    "image_path": "data/sample_images_150/airpurifier_complex/p004.png",
+    "caption": "```plaintext\n1. 삼각형 안에 느낌표가 있는 아이콘이 세 개 있습니다. 각 아이콘은 \"경고\", \"주의\"라는 텍스트와 함께 있습니다.\n\n2. 네 개의 사각형 그림이 있습니다:\n   - 첫 번째 그림: 전원 플러그가 콘센트에 꽂혀 있는 모습.\n   - 두 번째 그림: 물방울이 떨어지는 모습과 함께 X 표시.\n   - 세 번째 그림: 기울어진 바닥에 제품이 놓여 있는 모습과 함께 X 표시.\n   - 네 번째 그림: 열기구가 있는 장소에 제품이 놓여 있는 모습과 함께 X 표시.\n```"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 5,
+    "image_path": "data/sample_images_150/airpurifier_complex/p005.png",
+    "caption": "- 왼쪽 상단 그림: X 표시가 있는 사각형 안에 가스통과 불꽃 아이콘, 그리고 \"GAS\"라는 텍스트가 있음.\n\n- 오른쪽 상단 그림: 손이 플러그를 잡고 있는 모습. 플러그 위에 \"AC 220V\"라는 텍스트가 있음.\n\n- 중간 그림: X 표시가 있는 사각형 안에 멀티 콘센트 그림.\n\n- 아래쪽 중간 그림: X 표시가 있는 사각형 안에 전원 플러그가 제품 뒷면에 가까이 있는 모습.\n\n- 오른쪽 하단 그림: 전원 플러그가 콘센트에 꽂혀 있고, 제품이 연결된 모습."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 6,
+    "image_path": "data/sample_images_150/airpurifier_complex/p006.png",
+    "caption": "1. 손이 전원 플러그를 만지는 그림. 플러그 옆에 X 표시.\n\n2. 천장에 매달린 전등과 플러그가 있는 그림.\n\n3. 플러그를 뽑고 있는 손 그림. 플러그 옆에 X 표시.\n\n4. 전원선을 무거운 물건이 누르고 있는 그림.\n\n5. 손이 플러그를 잡고 뽑는 그림.\n\n6. 전원선이 가위로 잘리는 그림. 옆에 X 표시.\n\n7. 플러그에서 물이 흐르는 그림.\n\n8. 멀티 콘센트에 여러 플러그가 꽂혀 있는 그림. 옆에 X 표시."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 7,
+    "image_path": "data/sample_images_150/airpurifier_complex/p007.png",
+    "caption": "1. **첫 번째 그림**\n   - 원통형 물체 위에 X 표시.\n   - 물체 위에 물방울 모양이 그려져 있음.\n\n2. **두 번째 그림**\n   - 가스통과 불꽃 아이콘.\n   - 가스통 위에 \"GAS\"라고 적혀 있음.\n   - X 표시.\n\n3. **세 번째 그림**\n   - 솔과 금속 재질의 물체.\n   - X 표시.\n\n4. **네 번째 그림**\n   - 전원 플러그와 콘센트.\n   - X 표시.\n\n5. **다섯 번째 그림**\n   - 스프레이와 가스통.\n   - 가스통 위에 \"GAS\"라고 적혀 있음.\n   - X 표시.\n\n6. **여섯 번째 그림**\n   - 전원 플러그와 콘센트.\n   - X 표시.\n\n7. **일곱 번째 그림**\n   - 서랍장과 전원 플러그.\n   - X 표시.\n\n8. **여덟 번째 그림**\n   - 고양이와 전원 플러그.\n   - X 표시."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 9,
+    "image_path": "data/sample_images_150/airpurifier_complex/p009.png",
+    "caption": "- 왼쪽 상단 그림: 전원이 연결된 상태에서 청소하지 말라는 경고. X 표시가 있는 사각형 안에 전기 플러그와 손이 그려져 있음.\n\n- 왼쪽 중간 그림: 인화물질을 제품 내부로 투입하지 말라는 경고. X 표시가 있는 사각형 안에 원통형 물체와 불꽃이 그려져 있음.\n\n- 왼쪽 하단 그림: 제품의 커버가 열린 상태에서 작동하지 말라는 경고. X 표시가 있는 사각형 안에 커버가 열린 상태의 기계가 그려져 있음.\n\n- 오른쪽 그림: 포장재를 어린이가 손대지 않도록 하라는 경고. X 표시가 있는 사각형 안에 어린이와 포장재가 그려져 있음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 8,
+    "image_path": "data/sample_images_150/airpurifier_complex/p008.png",
+    "caption": "1. 어린이가 제품에 올라타거나, 과도한 충격에 의해 제품이 넘어지지 않도록 주의하십시오.\n   - 그림: 어린이가 제품 위에 올라타 있는 모습. 제품 옆에 X 표시.\n\n2. 제품에 충격을 주지 마십시오.\n   - 그림: 손이 제품을 두드리는 모습. 제품 옆에 X 표시.\n\n3. 제품을 작동시킨 상태에서 이동하지 마십시오.\n   - 그림: 사람이 제품을 들고 이동하는 모습. 제품 옆에 X 표시.\n\n4. 제품의 부속품을 분리 후 다시 장착할 때에는 신체 일부가 제품에 끼지 않도록 주의하십시오.\n   - 그림: 손이 제품의 부속품을 만지는 모습. 제품 옆에 X 표시.\n\n5. 제품의 상단부에 커피, 화병 또는 각종 음료수를 올려 놓지 마십시오.\n   - 그림: 제품 위에 커피잔과 화병이 놓여 있는 모습. 제품 옆에 X 표시.\n\n6. 장시간 사용하지 않는 경우는 반드시 전원 플러그를 콘센트에서 분리하십시오.\n   - 그림: 제품이 전원 플러그에서 분리된 모습. 제품 옆에 Zzz 표시.\n\n7. 흡입구 및 배출구에 손이나 금속 물질을 넣지 마십시오.\n   - 그림: 손이 제품의 흡입구에 들어가는 모습. 제품 옆에 X 표시.\n\n8. 파손된 부속품을 장착하여 그대로 사용하지 마십시오.\n   - 그림: 파손된 부속품이 제품에 장착된 모습. 제품 옆에 X 표시."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 10,
+    "image_path": "data/sample_images_150/airpurifier_complex/p010.png",
+    "caption": "- 상단에 삼각형 안에 느낌표가 있는 아이콘이 있습니다.\n- 왼쪽 상단 그림: 기울어진 직사각형 물체가 있고, 물결선이 그려져 있으며, X 표시가 있습니다.\n- 왼쪽 중간 그림: 트럭과 배 그림이 있고, X 표시가 있습니다.\n- 왼쪽 하단 그림: TV와 직사각형 물체가 있으며, TV에서 직사각형 물체까지 화살표가 그려져 있습니다.\n- 오른쪽 상단 그림: 원형 물체와 직사각형 물체가 있으며, X 표시가 있습니다.\n- 오른쪽 중간 그림: 전원 플러그와 연결된 직사각형 물체가 있고, X 표시가 있습니다.\n- 오른쪽 하단 그림: 직사각형 물체 앞에 원형 물체가 있으며, X 표시가 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 11,
+    "image_path": "data/sample_images_150/airpurifier_complex/p011.png",
+    "caption": "1. **왼쪽 상단 그림**: \n   - 사람이 가전제품을 만지고 있는 모습.\n   - 라벨 없음.\n\n2. **오른쪽 상단 그림**: \n   - X 표시가 있는 손이 물체를 만지는 모습.\n   - 라벨 없음.\n\n3. **왼쪽 중간 그림**: \n   - X 표시가 있는 커튼 옆에 가전제품이 있는 모습.\n   - 라벨 없음.\n\n4. **오른쪽 중간 그림**: \n   - X 표시가 있는 가습기에서 나오는 수증기가 가전제품에 닿는 모습.\n   - 라벨 없음.\n\n5. **왼쪽 하단 그림**: \n   - X 표시가 있는 가전제품 위에 물건이 올려져 있는 모습.\n   - 라벨 없음.\n\n6. **오른쪽 하단 그림**: \n   - X 표시가 있는 가전제품이 테이블 위에 있는 모습.\n   - 라벨 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 12,
+    "image_path": "data/sample_images_150/airpurifier_complex/p012.png",
+    "caption": "- 왼쪽 상단: 사람이 필터를 들고 있는 그림. 필터 옆에 X 표시.\n- 왼쪽 중간: 원통형 물체에 X 표시. 위에 물방울 모양이 그려져 있음.\n- 왼쪽 하단: 손이 원통형 물체를 닦고 있는 그림. 물체 옆에 X 표시.\n- 중앙 상단: 손이 원형 물체를 만지고 있는 그림. 물체 위에 X 표시.\n- 중앙 하단: 원형 물체의 커버가 분리된 상태로 X 표시.\n- 오른쪽 상단: 원형 물체에 젓가락 모양의 물체가 들어가는 그림. 물체 위에 X 표시.\n- 오른쪽 하단: 원형 물체에 손가락이 들어가는 그림. 물체 위에 X 표시."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 15,
+    "image_path": "data/sample_images_150/airpurifier_complex/p015.png",
+    "caption": "- 원통형 기기 그림이 있습니다. \n- 기기 상단에 ①과 ② 콜아웃 번호가 있습니다.\n  - ① 라벨 없음\n  - ② 라벨 없음\n- 기기 측면에 점선으로 표시된 부분이 있습니다.\n- 기기 하단에 두 개의 화살표가 아래 방향으로 그려져 있습니다.\n- 주의 아이콘: 삼각형 안에 느낌표가 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 13,
+    "image_path": "data/sample_images_150/airpurifier_complex/p013.png",
+    "caption": "- 원통형 기기 그림: 상단에 원형 패턴이 있고, 중간에 띠가 있으며, 전원 코드가 연결되어 있음. 아래에 \"공기청정기\"라고 적혀 있음.\n- 작은 직사각형 기기 그림: 위에 여러 개의 원형 버튼이 있음. 아래에 \"리모컨/건전지(CR2025, 1개)\"라고 적혀 있음.\n- 직사각형 책자 그림: \"사용설명서\"라고 적혀 있음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 16,
+    "image_path": "data/sample_images_150/airpurifier_complex/p016.png",
+    "caption": "1. 그림:\n   - 리모컨의 건전지 트레이를 분리하는 그림.\n   - ①: 라벨 없음.\n   - ②: 라벨 없음.\n\n2. 그림:\n   - 건전지를 트레이에 넣는 그림.\n   - 건전지 위에 X 표시가 있음.\n\n3. 그림:\n   - 건전지 트레이를 리모컨에 장착하는 그림.\n   - 화살표가 트레이를 리모컨 쪽으로 끼우는 방향을 가리킴.\n\n아이콘:\n- 경고 아이콘: 삼각형 안에 느낌표.\n- 주의 아이콘: 삼각형 안에 느낌표."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 14,
+    "image_path": "data/sample_images_150/airpurifier_complex/p014.png",
+    "caption": "1. 그림: 원통형 제품에서 테이프를 제거하는 모습. 화살표가 위쪽으로 향함.\n\n2. 그림: 원통형 제품의 뒷면 커버를 잡아당기는 모습. 화살표가 왼쪽으로 향함.\n\n3. 그림: 제품에서 커버를 분리하는 모습. 화살표가 위쪽으로 향함.\n\n4. 그림: 상·하부 필터 입구에서 포장용 지지대를 분리하는 모습. 화살표가 오른쪽으로 향함.  \n   - 라벨: 포장용 지지대\n\n5. 그림: 필터에서 보호 비닐을 제거하는 모습. 쓰레기통 아이콘이 있음.\n\n6. 그림: 제품에 필터를 장착하는 모습. 화살표가 오른쪽으로 향함.  \n   - 라벨: 손잡이\n\n7. 그림: 커버 하단의 고정부를 제품에 끼우는 모습. 화살표가 아래쪽으로 향함."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 17,
+    "image_path": "data/sample_images_150/airpurifier_complex/p017.png",
+    "caption": "- 왼쪽 상단: 두 사람이 제품을 중앙에서 잡고 있는 그림.\n- 왼쪽 중간: 전원선을 바닥에 깔지 않도록 주의하는 그림. 전원선이 바닥에 깔린 모습.\n- 왼쪽 하단: 트럭에 제품을 싣고 있는 그림.\n- 오른쪽 상단: 바닥이 고르지 않은 상태에서 제품이 기울어진 그림. X 표시.\n- 오른쪽 중간: 제품과 벽 사이에 1m 간격을 유지하는 그림.\n- 오른쪽 하단: 공기 흡입구와 배출구가 막히지 않도록 주의하는 그림. X 표시.\n- 맨 아래: 물방울 모양 안에 % 기호가 있는 아이콘."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 19,
+    "image_path": "data/sample_images_150/airpurifier_complex/p019.png",
+    "caption": "그림 설명:\n\n- 원통형 기기의 내부 구조를 보여주는 도식이 있습니다.\n- 기기는 여러 층으로 나뉘어 있으며, 각 층은 분리된 상태로 표시되어 있습니다.\n- 각 층에 번호가 붙어 있습니다: ①, ②, ③, ④\n\n콜아웃 번호와 라벨:\n\n- ① 스마트 진단부\n- ② PM1.0(극초 미세 먼지) 센서\n- ③ 냄새(가스) 센서\n- ④ 필터"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 20,
+    "image_path": "data/sample_images_150/airpurifier_complex/p020.png",
+    "caption": "그림은 원통형 필터의 단면을 보여줍니다. 필터는 여러 층으로 구성되어 있으며, 각 층에 번호가 붙어 있습니다.\n\n1. ①: 토탈 유해가스 필터\n2. ②: 토탈 알러지 집진 필터\n3. ③: 극세 필터\n4. ④: 필터 손잡이\n\n그림의 오른쪽에는 주의 아이콘이 있습니다. 아이콘은 검은색 삼각형 안에 흰색 느낌표가 있는 모양입니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 18,
+    "image_path": "data/sample_images_150/airpurifier_complex/p018.png",
+    "caption": "- 원통형 기기 그림이 있습니다.\n- 콜아웃 번호:\n  - ① 상부 공기 배출구/클린부스터\n  - ② 청정 표시등\n  - ③ 상부 공기 흡입구 (상부 커버)\n  - ④ 하부 공기 배출구\n  - ⑤ 하부 공기 흡입구 (하부 커버)\n  - ⑥ 상태 표시부\n  - ⑦ 조작부\n  - ⑧ 리모컨 수신부\n  - ⑨ 공기제균 장치\n- 기기는 \"클린부스터\", \"상부 공기청정기\", \"하부 공기청정기\"로 구분되어 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 21,
+    "image_path": "data/sample_images_150/airpurifier_complex/p021.png",
+    "caption": "1. **아이콘 ①**: 원형 안에 수직선이 있는 전원 버튼 모양.\n\n2. **아이콘 ②**: 원형 안에 물방울 모양과 아래쪽에 작은 선이 있는 아이콘.\n\n3. **아이콘 ③**: 원형 안에 선풍기 모양.\n\n4. **아이콘 ④**: 원형 안에 나선형 팬 모양.\n\n5. **아이콘 ⑤**: 원형 안에 양쪽으로 화살표가 있는 모양.\n\n6. **아이콘 ⑥**: 원형 안에 점들이 있는 모양.\n\n7. **아이콘 ⑦**: 원형 안에 달 모양과 별 모양이 있는 아이콘.\n\n- **콜아웃 번호 및 라벨**:\n  - ① 운전/정지 버튼\n  - ② 운전모드 버튼\n  - ③ 청정세기 버튼\n  - ④ 순환팬세기 버튼\n  - ⑤ 순환팬회전 버튼\n  - ⑥ 먼지상태 버튼\n  - ⑦ 취침예약 버튼"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 22,
+    "image_path": "data/sample_images_150/airpurifier_complex/p022.png",
+    "caption": "- **상태 표시부**\n  - 큰 사각형 안에 여러 요소가 있음.\n  - 왼쪽 상단에 작은 원들이 여러 개 모여 있는 모양.\n  - 번개 모양의 기호.\n  - \"㎍/㎥\"라는 텍스트와 함께 큰 숫자 표시.\n  - 오른쪽에 물결 모양의 기호.\n\n- **콜아웃 번호**\n  - ❶ 종합청정도 (색상) 표시\n  - ❷ 먼지 입자 크기 및 먼지 농도 (색상) 표시\n  - ❸ 먼지 농도 표시 또는 취침예약 시간 표시\n  - ❹ 냄새 농도 (색상) 표시\n\n- **운전모드 표시**\n  - \"오토모드 클린부스터 듀얼청정 싱글청정\"이라는 텍스트.\n\n- **풍량 표시**\n  - 선형 막대 그래프와 \"자동\"이라는 텍스트.\n  - 선풍기 모양의 아이콘.\n  - 원형에 화살표가 있는 아이콘.\n\n- **취침예약 표시**\n  - 시계 모양의 아이콘과 \"취침\"이라는 텍스트.\n\n- **아이콘 표시**\n  - 와이파이 모양의 아이콘.\n  - 자물쇠 모양의 아이콘.\n  - 시계 모양의 아이콘."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 24,
+    "image_path": "data/sample_images_150/airpurifier_complex/p024.png",
+    "caption": "- 원통형 기기 그림이 있습니다. 기기 상단에 원형 버튼이 있으며, 버튼 안에 작은 원이 그려져 있습니다.\n- 리모컨 그림이 있으며, 리모컨에도 원형 버튼이 있습니다. 버튼 안에 작은 원이 그려져 있습니다.\n- ❶: 운전모드\n- ❷: 운전모드\n- 두 번째 기기 그림이 있으며, 기기 상단에 원형 버튼이 있습니다. 버튼 안에 작은 원이 그려져 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 23,
+    "image_path": "data/sample_images_150/airpurifier_complex/p023.png",
+    "caption": "그림 설명:\n\n- 리모컨 그림이 중앙에 있습니다.\n- 리모컨에는 여러 개의 버튼이 있으며, 각 버튼에 번호가 붙어 있습니다.\n- 번호와 라벨:\n  1. ① 운전/정지 버튼\n  2. ② 청정세기 버튼\n  3. ③ 취침예약 버튼\n  4. ④ 순환세기 버튼\n  5. ⑤ 청정표시등 버튼\n  6. ⑥ 운전모드 버튼\n  7. ⑦ 순환팬회전 버튼\n\n- 리모컨 상단에 원형 버튼이 있습니다.\n- 리모컨의 각 버튼 옆에 작은 아이콘이 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 25,
+    "image_path": "data/sample_images_150/airpurifier_complex/p025.png",
+    "caption": "그림 설명:\n\n1. 왼쪽 상단:\n   - 원통형 기기 그림.\n   - 기기 위에 ❶ \"운전모드\" 라벨.\n   - 기기 옆에 ❷ \"운전모드\" 라벨.\n\n2. 중앙 상단:\n   - 원통형 기기 그림.\n   - 기기 위에 ❸ \"운전모드\" 라벨.\n   - 기기 옆에 ❹ \"운전모드\" 라벨.\n\n3. 오른쪽 하단:\n   - 원통형 기기 그림.\n   - 기기 위에 ❺ \"운전모드\" 라벨."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 27,
+    "image_path": "data/sample_images_150/airpurifier_complex/p027.png",
+    "caption": "그림 설명:\n\n1. 원통형 기기 그림이 있습니다. 기기의 상단에는 팬이 있으며, 팬 위에 작은 원이 그려져 있습니다.\n2. 팬 위의 작은 원 안에는 양쪽으로 화살표가 그려져 있습니다.\n3. 팬 아래쪽에 버튼이 있으며, 버튼 위에 작은 원이 그려져 있습니다.\n4. 버튼 위의 작은 원 안에는 양쪽으로 화살표가 그려져 있습니다.\n5. 두 개의 작은 원 옆에 각각 \"순환팬회전\"이라는 라벨이 붙어 있습니다.\n6. 주의 아이콘: 삼각형 안에 느낌표가 있는 아이콘이 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 26,
+    "image_path": "data/sample_images_150/airpurifier_complex/p026.png",
+    "caption": "그림 설명:\n\n1. 왼쪽 상단:\n   - 원통형 기기 위에 두 개의 원형 아이콘이 있습니다.\n   - 첫 번째 아이콘: 원 안에 선풍기 모양.\n   - 두 번째 아이콘: 원 안에 물결 모양.\n\n2. 오른쪽 상단:\n   - 원통형 기기 위에 두 개의 원형 아이콘이 있습니다.\n   - 첫 번째 아이콘: 원 안에 선풍기 모양.\n   - 두 번째 아이콘: 원 안에 물결 모양.\n\n3. 하단:\n   - 두 개의 막대 그래프가 있습니다.\n   - 첫 번째 그래프: \"청정세기 '중' 표시 예\" 아래에 막대가 5개.\n   - 두 번째 그래프: \"순환팬세기 '중' 표시 예\" 아래에 막대가 5개."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 30,
+    "image_path": "data/sample_images_150/airpurifier_complex/p030.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 31,
+    "image_path": "data/sample_images_150/airpurifier_complex/p031.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 29,
+    "image_path": "data/sample_images_150/airpurifier_complex/p029.png",
+    "caption": "그림·도식·아이콘 설명:\n\n1. **도식**: \n   - \"종합청정도 표시\"라는 라벨이 있는 도식이 있습니다. 도식에는 여러 개의 작은 사각형이 나열되어 있습니다.\n\n2. **도식**: \n   - \"먼지 입자 크기 및 농도 색상 표시\"라는 라벨이 있는 도식이 있습니다. 도식에는 여러 개의 작은 사각형이 나열되어 있습니다.\n\n3. **도식**: \n   - \"냄새 농도 색상 표시\"라는 라벨이 있는 도식이 있습니다. 도식에는 여러 개의 작은 사각형이 나열되어 있습니다.\n\n4. **아이콘**: \n   - 원 안에 \"먼지센서\"라는 텍스트가 있는 아이콘이 있습니다. 원 안에는 작은 점들이 있습니다.\n\n5. **도식**: \n   - 원통형 기기의 이미지가 있습니다. 기기 상단에 작은 구멍들이 보입니다.\n\n콜아웃 번호:\n- ❶, ❷, ❸: 라벨 없음\n\n아이콘/기호:\n- 원형 안에 작은 점들이 있는 아이콘\n\n화살표:\n- 없음\n\n표:\n- 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 28,
+    "image_path": "data/sample_images_150/airpurifier_complex/p028.png",
+    "caption": "그림 설명:\n\n1. **표**: \n   - 열 제목: 색상, 종합청정도 상태, 먼지 농도 (μg/m³), 냄새(가스) 농도, 상태, 단계\n   - 행 내용:\n     - 빨강, 매우 나쁨, 151 이상, 76 이상, 76 이상, 매우 강함, 4\n     - 주황, 나쁨, 81 - 150, 36 - 75, 36 - 75, 강함, 3\n     - 초록, 보통, 31 - 80, 16 - 35, 16 - 35, 보통, 2\n     - 파랑, 좋음, 30 이하, 15 이하, 15 이하, 약함, 1\n\n2. **아이콘**:\n   - 원형 안에 점이 있는 모양\n   - 원형 안에 사선이 있는 모양\n\n3. **그림**:\n   - 원통형 기기 그림 두 개: \"상단 청정표시등\", \"하단 청정표시등\" 라벨 있음.\n   - 원통형 기기와 리모컨 그림: \"운전모드 버튼\", \"청정표시등\" 라벨 있음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 33,
+    "image_path": "data/sample_images_150/airpurifier_complex/p033.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 32,
+    "image_path": "data/sample_images_150/airpurifier_complex/p032.png",
+    "caption": "그림 1: \n\n- ①: 라벨 없음\n- 그림: 원 안에 두 개의 화살표가 있음. 하나는 위쪽을 가리키고, 다른 하나는 아래쪽을 가리킴.\n\n그림 2:\n\n- ②: 라벨 없음\n- 그림: 원 안에 손가락 모양이 있고, 오른쪽에 원 안에 화살표가 위쪽을 가리키고 있는 아이콘이 있음.\n\n그림 3:\n\n- ③: \"가정에서 사용중인 Wi-Fi를 스마트폰에 연결해주세요.\"\n- 그림: 원 안에 손가락 모양이 있고, 오른쪽에 원 안에 물결 모양의 아이콘이 있음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 34,
+    "image_path": "data/sample_images_150/airpurifier_complex/p034.png",
+    "caption": "그림 설명:\n\n1. 원통형 기기의 상단 부분을 보여주는 그림이 있습니다. 상단에는 원형 버튼이 있으며, 버튼 중앙에 작은 원이 있고 그 주위로 점들이 원형으로 배열되어 있습니다. 버튼 옆에는 \"먼지센서\"라는 라벨이 있습니다.\n\n2. 기기의 전체적인 외형을 보여주는 그림이 있습니다. 원통형이며, 상단에 버튼이 있는 모습입니다. 기기 옆에 \"2\"라는 번호가 있습니다. 라벨 없음.\n\n3. 기기와 전화기를 들고 있는 사람의 손을 보여주는 그림이 있습니다. 전화기를 기기 가까이에 대고 있는 모습입니다. 기기 옆에 \"3\"이라는 번호가 있습니다. 라벨 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 35,
+    "image_path": "data/sample_images_150/airpurifier_complex/p035.png",
+    "caption": "- 원형 그림: 필터 모양, 내부에 격자무늬.\n- 표:\n  - 열 제목: 종류, 청소 주기, 교체 주기\n  - 행 1: 필터, 오염된 경우 진공 청소기나 부드러운 솔로 청소하세요, 1년\n  - 행 2: PM1.0(초미세먼지) 센서, 2개월, -\n- 아이콘:\n  - 첫 번째 아이콘: 사각형 안에 위쪽에 작은 사각형이 있는 모양.\n  - 두 번째 아이콘: 사각형 안에 아래쪽에 작은 사각형이 있는 모양."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 36,
+    "image_path": "data/sample_images_150/airpurifier_complex/p036.png",
+    "caption": "- 삼각형 안에 느낌표가 있는 아이콘이 두 개 있습니다.\n- 원통형 기기가 여러 각도에서 그려져 있습니다.\n- 첫 번째 그림은 기기의 상단 부분이 분리된 모습입니다.\n- 두 번째 그림은 기기의 측면을 부드러운 천으로 닦는 모습입니다.\n- 세 번째 그림은 진공 청소기 호스를 이용해 기기의 외부를 청소하는 모습입니다.\n- ❶: 라벨 없음\n- ❷: 라벨 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 37,
+    "image_path": "data/sample_images_150/airpurifier_complex/p037.png",
+    "caption": "그림 1: 원통형 기기의 측면에 호스가 연결되어 있는 그림. 기기 위쪽에 손잡이가 보임.\n\n그림 2: 원통형 필터의 그림. 필터의 상단에 작은 원이 있고, 필터 표면에 세로선이 있음.\n\n아이콘 1: 원 안에 작은 원이 있고, 그 주위에 여러 개의 점이 배치되어 있음. \"청정세기\"라는 텍스트가 있음.\n\n아이콘 2: 원 안에 작은 원이 있고, 그 주위에 여러 개의 점이 배치되어 있음. \"먼지상태\"라는 텍스트가 있음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 39,
+    "image_path": "data/sample_images_150/airpurifier_complex/p039.png",
+    "caption": "```plaintext\n1. 원통형 기기의 측면에 작은 사각형 모양의 센서 커버가 있는 그림. 커버를 닫는 손이 그려져 있음.\n\n2. 전원 플러그를 콘센트에서 분리하는 그림. 플러그는 두 개의 원형 핀을 가진 형태로, 콘센트에 꽂혀 있는 모습.\n\n3. 원통형 기기가 포장된 상태로 그려져 있음. 기기 표면에 물방울 모양의 선이 그려져 있음.\n\n4. 삼각형 안에 느낌표가 있는 주의 아이콘.\n```"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 40,
+    "image_path": "data/sample_images_150/airpurifier_complex/p040.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 38,
+    "image_path": "data/sample_images_150/airpurifier_complex/p038.png",
+    "caption": "- 원통형 기기의 그림이 있습니다. 기기 상단에 두 개의 버튼이 보입니다.\n- 버튼 위에 각각 \"먼지상태\"와 \"취침예약\"이라는 라벨이 있습니다.\n- 기기 옆면에 원형의 센서 커버가 보입니다.\n- 1번: \"제품의 뒷면 커버를 분리하세요.\"라는 라벨이 있습니다.\n- 2번: \"센서 커버를 여세요.\"라는 라벨이 있습니다.\n- 3번: \"면봉에 약간의 물을 묻혀 렌즈를 닦은 후 마른 면봉으로 수분을 닦으세요.\"라는 라벨이 있습니다.\n- 각 단계에 해당하는 그림이 있으며, 기기의 특정 부분을 확대하여 보여줍니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 44,
+    "image_path": "data/sample_images_150/airpurifier_complex/p044.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 43,
+    "image_path": "data/sample_images_150/airpurifier_complex/p043.png",
+    "caption": "표가 있습니다.\n\n- 첫 번째 열: \"증상\"\n- 두 번째 열: \"원인\"\n- 세 번째 열: \"해결책\"\n\n첫 번째 행:\n- 증상: \"LG SmartThinQ 애플리케이션에서 제품이 등록되지 않습니다.\"\n- 원인: \"제품과 무선 공유기의 거리가 멀지 않습니까?\"\n- 해결책: \"무선 공유기를 제품 근처로 이동하세요.\"\n\n두 번째 행:\n- 원인: \"무선 공유기가 정상적으로 작동합니까?\"\n- 해결책: \"통신 사업자로 해당 가입자만 서비스하는 공유기가 있습니다. 구형 공유기일 경우 통신 사업자에게 연락하여 신형 공유기로 교체하세요.\"\n\n세 번째 행:\n- 증상: \"제품과 LG SmartThinQ 애플리케이션에서 표시되는 먼지 농도 수치가 다릅니다.\"\n- 원인: \"확인하려는 먼지 입자가 동일합니까?\"\n- 해결책: \n  - \"LG SmartThinQ 애플리케이션과 제품 간의 최초/마지막 먼지 표기가 일치하는지 확인하세요.\"\n  - \"LG SmartThinQ 애플리케이션과 제품 간의 업데이트 시간 차이로 실시간 표시되는 수치가 다를 수 있습니다.\""
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 42,
+    "image_path": "data/sample_images_150/airpurifier_complex/p042.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 45,
+    "image_path": "data/sample_images_150/airpurifier_complex/p045.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 41,
+    "image_path": "data/sample_images_150/airpurifier_complex/p041.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 48,
+    "image_path": "data/sample_images_150/airpurifier_complex/p048.png",
+    "caption": "- 원통형 물체 두 개가 위아래로 쌓여 있는 그림이 있습니다.\n- 위쪽 원통의 윗면에는 작은 원들이 여러 개 그려져 있습니다.\n- 물체의 오른쪽에는 \"높이\"라고 적힌 화살표가 위쪽을 가리키고 있습니다.\n- 물체의 아래쪽에는 \"폭\"과 \"깊이\"라고 적힌 화살표가 각각 가로와 세로 방향을 가리키고 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 47,
+    "image_path": "data/sample_images_150/airpurifier_complex/p047.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 51,
+    "image_path": "data/sample_images_150/airpurifier_complex/p051.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 50,
+    "image_path": "data/sample_images_150/airpurifier_complex/p050.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 53,
+    "image_path": "data/sample_images_150/airpurifier_complex/p053.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 49,
+    "image_path": "data/sample_images_150/airpurifier_complex/p049.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 52,
+    "image_path": "data/sample_images_150/airpurifier_complex/p052.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 55,
+    "image_path": "data/sample_images_150/airpurifier_complex/p055.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 46,
+    "image_path": "data/sample_images_150/airpurifier_complex/p046.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 1,
+    "image_path": "data/sample_images_150/airpurifier_simple/p001.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 56,
+    "image_path": "data/sample_images_150/airpurifier_complex/p056.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 3,
+    "image_path": "data/sample_images_150/airpurifier_simple/p003.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 4,
+    "image_path": "data/sample_images_150/airpurifier_simple/p004.png",
+    "caption": "그림 설명:\n\n1. 세모 안에 느낌표가 있는 아이콘이 세 개 있습니다. 각 아이콘 옆에 \"경고\"와 \"주의\"라는 텍스트가 있습니다.\n\n2. 네 개의 사각형 그림이 있습니다:\n   - 첫 번째 그림: 전원 플러그가 콘센트에 꽂혀 있는 모습.\n   - 두 번째 그림: 물방울이 떨어지는 모습과 함께 X 표시.\n   - 세 번째 그림: 기울어진 기기가 있는 모습.\n   - 네 번째 그림: 햇빛이 비치는 모습과 함께 X 표시."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 5,
+    "image_path": "data/sample_images_150/airpurifier_simple/p005.png",
+    "caption": "1. 왼쪽 상단 그림:\n   - 사각형 안에 가전제품이 있고, 그 위에 \"GAS\"라고 적힌 기호가 있습니다.\n   - 기호 위에 X 표시가 있습니다.\n\n2. 오른쪽 상단 그림:\n   - 손이 전원 플러그를 잡고 있는 모습입니다.\n   - 플러그 위에 \"AC 220V\"라고 적혀 있습니다.\n\n3. 중간 그림:\n   - 멀티 콘센트 모양의 기호가 있습니다.\n   - 기호 위에 X 표시가 있습니다.\n\n4. 아래쪽 그림:\n   - 전원 플러그가 벽에 꽂혀 있는 모습입니다.\n   - 플러그 위에 X 표시가 있습니다.\n\n5. 맨 아래 그림:\n   - 가전제품이 전원에 연결된 모습입니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 2,
+    "image_path": "data/sample_images_150/airpurifier_simple/p002.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 6,
+    "image_path": "data/sample_images_150/airpurifier_simple/p006.png",
+    "caption": "1. 손이 전원 플러그에 가까이 가는 그림. 플러그 위에 X 표시.\n\n2. 전원 플러그가 콘센트에 꽂혀 있고, 물방울이 떨어지는 그림.\n\n3. 전원 플러그를 손으로 잡고 있는 그림. 플러그 위에 X 표시.\n\n4. 전원선이 가전제품에 연결된 그림. 전원선 위에 무거운 물체가 놓여 있는 그림.\n\n5. 전원 플러그를 손으로 잡고 빼는 그림.\n\n6. 전원선이 길게 늘어져 있는 그림. 전원선 위에 X 표시.\n\n7. 전원 플러그가 콘센트에 꽂혀 있는 그림. 플러그 위에 X 표시.\n\n8. 멀티 콘센트에 여러 개의 플러그가 꽂혀 있는 그림. 콘센트 위에 X 표시."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 7,
+    "image_path": "data/sample_images_150/airpurifier_simple/p007.png",
+    "caption": "1. 손에서 물방울이 떨어지는 그림과 X 표시가 있는 사각형.\n2. 드라이버와 병이 있는 그림, 병 위에 X 표시.\n3. 가스통과 불꽃 그림, X 표시가 있는 사각형.\n4. 스펀지와 금속 재질의 솔 그림, X 표시가 있는 사각형.\n5. 전원 플러그와 손 그림, X 표시가 있는 사각형.\n6. 전원선 위에 무거운 물체가 놓인 그림, X 표시가 있는 사각형.\n7. 전원 플러그와 연기 그림, X 표시가 있는 사각형.\n8. 전원선을 물고 있는 고양이 그림, X 표시가 있는 사각형."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 11,
+    "image_path": "data/sample_images_150/airpurifier_simple/p011.png",
+    "caption": "1. 왼쪽 상단 그림: 어린이와 어른이 제품 옆에 서 있는 모습. 제품 위에 X 표시.\n\n2. 오른쪽 상단 그림: 젖은 손이 제품을 만지는 모습. 제품 위에 X 표시.\n\n3. 왼쪽 중간 그림: 커튼이 제품에 닿아 있는 모습. 제품 위에 X 표시.\n\n4. 오른쪽 중간 그림: 가습기에서 나오는 수분이 제품에 닿는 모습. 제품 위에 X 표시.\n\n5. 왼쪽 하단 그림: 제품 위에 물건이 올려져 있는 모습. 제품 위에 X 표시.\n\n6. 오른쪽 하단 그림: 제품이 열에 약한 물체 옆에 있는 모습. 제품 위에 X 표시."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 8,
+    "image_path": "data/sample_images_150/airpurifier_simple/p008.png",
+    "caption": "1. 왼쪽 상단: \n   - 사각형 안에 X 표시.\n   - 사람이 제품 위에 올라타는 그림.\n\n2. 오른쪽 상단:\n   - 사각형 안에 X 표시.\n   - 손이 제품을 밀치는 그림.\n\n3. 왼쪽 중간:\n   - 사각형 안에 X 표시.\n   - 사람이 제품을 이동하는 그림.\n\n4. 오른쪽 중간:\n   - 사각형 안에 X 표시.\n   - 손이 제품의 부속품을 분리하는 그림.\n\n5. 왼쪽 하단:\n   - 사각형 안에 X 표시.\n   - 컵과 음료수가 제품 위에 있는 그림.\n\n6. 오른쪽 하단:\n   - 사각형 안에 X 표시.\n   - 손이 제품의 입구에 손을 넣는 그림.\n\n7. 왼쪽 하단:\n   - 사각형 안에 X 표시.\n   - 손이 제품의 상단을 만지는 그림.\n\n8. 오른쪽 하단:\n   - 사각형 안에 X 표시.\n   - 제품의 부속품이 장착된 그림."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 13,
+    "image_path": "data/sample_images_150/airpurifier_simple/p013.png",
+    "caption": "- 원통형 기기 그림: 전원 코드가 연결된 공기청정기.\n- 직사각형 기기 그림: 여러 개의 원형 버튼이 있는 리모컨.\n- 작은 원형 그림: 건전지.\n- 직사각형 책자 그림: \"사용설명서\"라고 적힌 책자."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 15,
+    "image_path": "data/sample_images_150/airpurifier_simple/p015.png",
+    "caption": "그림 설명:\n\n1. 원통형 기기 그림이 있습니다. 기기의 상단 부분은 구멍이 뚫린 형태로 보입니다.\n2. 기기 측면에 두 개의 콜아웃 번호가 있습니다.\n   - ① 라벨 없음\n   - ② 라벨 없음\n3. 기기 하단에 화살표가 있으며, 기기의 하단 부분을 시계 방향으로 회전하는 것을 나타냅니다.\n\n아이콘 설명:\n\n- 삼각형 안에 느낌표가 있는 주의 아이콘이 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 10,
+    "image_path": "data/sample_images_150/airpurifier_simple/p010.png",
+    "caption": "- 상단 중앙에 삼각형 안에 느낌표가 있는 아이콘이 있습니다.\n\n- 왼쪽 상단: 기울어진 직사각형 모양의 물체가 물결 위에 있고, 왼쪽 위에 X 표시가 있습니다.\n  - 라벨 없음\n\n- 왼쪽 중간: 비행기, 트럭, 배가 나란히 그려져 있고, 왼쪽 위에 X 표시가 있습니다.\n  - 라벨 없음\n\n- 왼쪽 하단: TV와 오디오 기기 옆에 직사각형 모양의 물체가 있고, 왼쪽 위에 X 표시가 있습니다.\n  - 라벨 없음\n\n- 오른쪽 상단: 원형 물체에서 기체가 나오는 모습이 그려져 있고, 왼쪽 위에 X 표시가 있습니다.\n  - 라벨 없음\n\n- 오른쪽 중간: 찻잔과 주전자가 있는 테이블 옆에 직사각형 모양의 물체가 있고, 왼쪽 위에 X 표시가 있습니다.\n  - 라벨 없음\n\n- 오른쪽 하단: 전원 코드가 연결된 직사각형 모양의 물체가 있고, 왼쪽 위에 X 표시가 있습니다.\n  - 라벨 없음\n\n- 왼쪽 하단: 강한 빛이 직사각형 모양의 물체 위로 비추고 있고, 왼쪽 위에 X 표시가 있습니다.\n  - 라벨 없음\n\n- 오른쪽 하단: 직사각형 모양의 물체 앞에 장애물이 놓여 있고, 왼쪽 위에 X 표시가 있습니다.\n  - 라벨 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 17,
+    "image_path": "data/sample_images_150/airpurifier_simple/p017.png",
+    "caption": "1. 상단 왼쪽: 손으로 제품을 잡고 있는 그림. 제품이 기울어져 있음.\n\n2. 왼쪽 중간: 바닥에 전원 플러그가 끌리는 그림. 제품이 바닥에 놓여 있음.\n\n3. 왼쪽 하단: 트럭에 제품이 실려 있는 그림. 제품이 세워져 있음.\n\n4. 오른쪽 상단: 제품이 기울어져 있는 그림. 제품 아래에 X 표시가 있음.\n\n5. 오른쪽 중간: 제품과 벽 사이에 1m 간격이 있는 그림. \n\n6. 오른쪽 하단: 제품이 전원 콘센트에 연결된 그림.\n\n7. 하단: 온도계와 물방울 아이콘이 있는 그림. 제품이 세워져 있음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 12,
+    "image_path": "data/sample_images_150/airpurifier_simple/p012.png",
+    "caption": "1. 사람과 원통형 물체 그림, 왼쪽 위에 X 표시.\n2. 손이 원통형 물체를 잡고 있는 그림, 왼쪽 위에 X 표시.\n3. 원통형 물체에 물방울 모양이 있는 그림, 왼쪽 위에 X 표시.\n4. 원통형 물체 위에 금속 물체가 있는 그림, 왼쪽 위에 X 표시.\n5. 원통형 물체와 분리된 커버 그림, 왼쪽 위에 X 표시.\n6. 원통형 물체와 손가락 그림, 왼쪽 위에 X 표시.\n7. 원통형 물체와 세제 병 그림, 왼쪽 위에 X 표시.\n8. 원통형 물체와 손가락 그림, 왼쪽 위에 X 표시."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 14,
+    "image_path": "data/sample_images_150/airpurifier_simple/p014.png",
+    "caption": "1. 그림: 원통형 제품에 테이프가 붙어 있고, 손이 테이프를 잡고 있는 모습.\n   - 라벨 없음\n\n2. 그림: 원통형 제품의 상단을 손으로 잡고 있는 모습.\n   - 라벨 없음\n\n3. 그림: 원통형 제품에서 커버를 분리하는 모습.\n   - 라벨 없음\n\n4. 그림: 원통형 제품의 내부에서 포장용 지지대를 분리하는 모습.\n   - 라벨: 포장용 지지대\n\n5. 그림: 원통형 제품에서 필터를 분리하고, 쓰레기통 아이콘이 있는 모습.\n   - 라벨 없음\n\n6. 그림: 원통형 제품에 필터를 장착하는 모습. 손잡이가 강조되어 있음.\n   - 라벨: 손잡이"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 16,
+    "image_path": "data/sample_images_150/airpurifier_simple/p016.png",
+    "caption": "1. 그림: 리모컨의 건전지 트레이를 분리하는 그림. 두 개의 화살표가 있으며, 하나는 트레이를 밖으로 빼는 방향을 가리킴.\n   - ① 라벨 없음\n   - ② 라벨 없음\n\n2. 그림: 건전지를 트레이에 넣는 그림. 원형의 건전지가 있으며, 위쪽에 \"+\" 기호가 있음. 트레이 위에 건전지를 넣는 방향을 가리키는 화살표가 있음.\n   - X 표시가 있는 트레이 그림\n\n3. 그림: 건전지 트레이를 리모컨에 장착하는 그림. 트레이를 리모컨에 넣는 방향을 가리키는 화살표가 있음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 18,
+    "image_path": "data/sample_images_150/airpurifier_simple/p018.png",
+    "caption": "그림에는 원통형 기기의 이미지가 있습니다. 기기 위쪽에는 여러 개의 콜아웃 번호가 있습니다.\n\n- ①: 공기 배출구/클린부스터\n- ②: 청정 표시등\n- ③: 공기 흡입구 (제품 앞뒷면 커버)\n- ④: 상태 표시부\n- ⑤: 조작부\n- ⑥: 리모컨 수신부\n- ⑦: 공기제균 장치"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 20,
+    "image_path": "data/sample_images_150/airpurifier_simple/p020.png",
+    "caption": "- 원통형 필터 그림이 있습니다.\n- 그림에 콜아웃 번호가 있습니다: \n  - ① 토탈 유해가스 필터\n  - ② 토탈 알러지 집진 필터\n  - ③ 극세 필터\n  - ④ 필터 손잡이\n- 주의 아이콘: 삼각형 안에 느낌표가 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 21,
+    "image_path": "data/sample_images_150/airpurifier_simple/p021.png",
+    "caption": "- **아이콘 ②**: 원 안에 물방울 모양, 아래에 \"운전모드\"와 작은 글씨로 \"3초\".\n- **아이콘 ③**: 원 안에 선풍기 모양, 아래에 \"청정세기\"와 작은 글씨로 \"3초\".\n- **아이콘 ④**: 원 안에 나선형 모양, 아래에 \"순환팬세기\"와 작은 글씨로 \"3초\".\n- **아이콘 ⑤**: 원 안에 양쪽 화살표, 아래에 \"순환팬회전\".\n- **아이콘 ⑥**: 원 안에 점들이 있는 모양, 아래에 \"먼지상태\".\n- **아이콘 ⑦**: 원 안에 달과 별 모양, 아래에 \"취침예약\"과 작은 글씨로 \"3초\".\n- **아이콘 ①**: 큰 원 안에 전원 버튼 모양."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 19,
+    "image_path": "data/sample_images_150/airpurifier_simple/p019.png",
+    "caption": "그림에는 원통형 기기의 내부 구조가 보입니다. 기기의 측면이 일부 열려 있어 내부가 드러나 있습니다.\n\n- ①: 스마트 진단부\n- ②: PM1.0(극초 미세 먼지) 센서\n- ③: 냄새(가스) 센서\n- ④: 필터"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 23,
+    "image_path": "data/sample_images_150/airpurifier_simple/p023.png",
+    "caption": "그림 설명:\n\n- 리모컨 그림이 있습니다.\n- 리모컨에는 여러 개의 버튼이 있으며, 각 버튼에 번호가 매겨져 있습니다.\n  - ①: 운전/정지 버튼\n  - ②: 청정세기 버튼\n  - ③: 취침예약 버튼\n  - ④: 순환팬세기 버튼\n  - ⑤: 청정표시등 버튼\n  - ⑥: 운전모드 버튼\n  - ⑦: 순환팬회전 버튼\n\n- 주의 아이콘: 삼각형 안에 느낌표가 있는 모양입니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 25,
+    "image_path": "data/sample_images_150/airpurifier_simple/p025.png",
+    "caption": "- 원통형 기기 두 개가 각각 왼쪽과 오른쪽에 배치되어 있습니다.\n- 각 기기 위에는 원 안에 선풍기 모양의 아이콘이 있으며, 그 아래에 \"운전모드\"라는 라벨이 있습니다.\n- 기기 앞에는 버튼이 있는 작은 원형 패널이 있습니다.\n- 패널 위에는 두 개의 원 안에 선풍기 모양의 아이콘이 있으며, 그 아래에 \"운전모드\"라는 라벨이 있습니다.\n- 주의 아이콘: 삼각형 안에 느낌표가 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 24,
+    "image_path": "data/sample_images_150/airpurifier_simple/p024.png",
+    "caption": "그림 1: 원통형 기기 위에 원형 버튼이 있으며, 버튼 안에는 전원 기호가 있습니다.\n\n그림 2: 리모컨에 원형 버튼이 있으며, 버튼 안에는 전원 기호가 있습니다.\n\n그림 3: 원통형 기기 위에 원형 버튼이 있으며, 버튼 안에는 전원 기호가 있습니다. 버튼 옆에 \"운전모드\"라는 라벨이 있습니다.\n\n그림 4: 리모컨에 원형 버튼이 있으며, 버튼 안에는 전원 기호가 있습니다. 버튼 옆에 \"운전모드\"라는 라벨이 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 27,
+    "image_path": "data/sample_images_150/airpurifier_simple/p027.png",
+    "caption": "그림 설명:\n\n1. 원통형 기기 그림이 있습니다. 기기의 상단 부분이 약간 기울어져 있습니다.\n2. 기기 위에 두 개의 콜아웃이 있습니다.\n   - 첫 번째 콜아웃: 원 안에 양쪽으로 화살표가 있는 아이콘이 있으며, \"순환팬회전\"이라는 라벨이 있습니다.\n   - 두 번째 콜아웃: 원 안에 \"순환팬회전\"이라는 라벨이 있습니다.\n3. 기기 아래쪽에 삼각형 안에 느낌표가 있는 주의 아이콘이 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 29,
+    "image_path": "data/sample_images_150/airpurifier_simple/p029.png",
+    "caption": "그림·도식·아이콘 설명:\n\n1. **종합정도 표시 아이콘**: \n   - 원 안에 세 개의 작은 원이 포함되어 있으며, 그 위에 세 개의 선이 방사형으로 뻗어 있음.\n\n2. **먼지 입자 크기 및 농도 색상 표시 아이콘**:\n   - 사각형 안에 세 개의 원이 있으며, 각 원 안에 점이 있음. \n   - 사각형 아래에 작은 사각형들이 나란히 배열되어 있음.\n\n3. **냄새 농도 색상 표시 아이콘**:\n   - 사각형 안에 물결 모양의 선이 있음.\n   - 사각형 아래에 작은 사각형들이 나란히 배열되어 있음.\n\n4. **먼지 농도 예시 도식**:\n   - 원통형 기기 위에 \"먼지센서\"라고 적힌 부분이 있음.\n   - 원통형 기기 옆에 화살표가 위쪽을 가리키고 있음.\n\n콜아웃 번호:\n- ❶ 먼지센서\n\n라벨 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 28,
+    "image_path": "data/sample_images_150/airpurifier_simple/p028.png",
+    "caption": "그림·도식·아이콘·표 설명:\n\n1. **표**:\n   - 열 제목: 색상, 종합청정도 상태, 먼지 농도 (μg/m³), 냄새(가스) 농도\n   - 행 내용:\n     - 빨강: 매우 나쁨, 151 이상, 76 이상, 76 이상, 매우 강함, 4\n     - 주황: 나쁨, 81 - 150, 36 - 75, 36 - 75, 강함, 3\n     - 초록: 보통, 31 - 80, 16 - 35, 16 - 35, 보통, 2\n     - 파랑: 좋음, 30 이하, 15 이하, 15 이하, 약함, 1\n\n2. **아이콘**:\n   - 원형 안에 점선으로 된 화살표가 있는 아이콘\n   - 원형 안에 \"운전모드 3초\"라는 텍스트와 함께 있는 아이콘\n\n3. **그림**:\n   - 원통형 기기 그림 위에 \"청정표시등\"이라는 라벨\n   - 원통형 기기 그림 위에 \"운전모드 3초\"라는 라벨과 함께 있는 그림\n\n4. **화살표**:\n   - 원통형 기기 위에 점선으로 된 화살표가 원을 그리며 회전하는 모양\n\n라벨 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 30,
+    "image_path": "data/sample_images_150/airpurifier_simple/p030.png",
+    "caption": "그림 1: 원통형 기기 그림이 있습니다. 기기 상단에 원형 버튼이 있으며, 버튼 위에 작은 원이 그려져 있습니다.\n\n콜아웃 ❶: \"순환팬세기 버튼 3초\" \n\n아이콘: 원 안에 작은 원이 있고, 그 옆에 \"공기제균\"이라는 텍스트가 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 33,
+    "image_path": "data/sample_images_150/airpurifier_simple/p033.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 32,
+    "image_path": "data/sample_images_150/airpurifier_simple/p032.png",
+    "caption": "그림 1: \n- 위쪽 화살표와 아래쪽 화살표가 서로 마주 보고 있는 아이콘.\n\n그림 2:\n- 왼쪽에 손바닥 모양이 있고, 그 위에 위쪽을 가리키는 화살표가 있는 아이콘.\n- 오른쪽에 원 안에 물결 모양이 있는 아이콘."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 35,
+    "image_path": "data/sample_images_150/airpurifier_simple/p035.png",
+    "caption": "그림 1: 원통형 필터 그림. 필터의 표면에 작은 구멍들이 있는 것으로 보임.\n\n그림 2: 원형 아이콘. 내부에 격자무늬가 있고, 중앙에 작은 원이 있음.\n\n표:\n- 열 제목: 종류, 청소 주기, 교체 주기\n- 행 1: 필터, 국세 필터, 오염될 경우 진공 청소기나 부드러운 솔로 청소하세요., 1년\n- 행 2: PM1.0(초극소 메쉬 먼지) 센서, -, 2개월\n\n아이콘:\n- 사각형 안에 느낌표가 있는 아이콘."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 36,
+    "image_path": "data/sample_images_150/airpurifier_simple/p036.png",
+    "caption": "- 삼각형 안에 느낌표가 있는 주의 아이콘이 두 개 있습니다.\n- ①: 라벨 없음\n- ②: 라벨 없음\n- 첫 번째 그림: 원통형 기기의 상단 커버가 분리된 모습. 커버와 본체 사이에 점선으로 연결된 화살표가 있으며, 커버가 위로 분리되는 것을 나타냅니다.\n- 두 번째 그림: 원통형 기기의 측면을 진공 청소기 노즐로 청소하는 모습.\n- 세 번째 그림: 원통형 기기의 측면을 부드러운 천으로 닦는 모습."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 31,
+    "image_path": "data/sample_images_150/airpurifier_simple/p031.png",
+    "caption": "그림 1: 원통형 기기의 상단에 두 개의 콜아웃이 연결되어 있습니다.\n- ❶ 취침예약 & 3초\n- ❷ 취침예약\n\n그림 2: 원통형 기기의 상단에 두 개의 콜아웃이 연결되어 있습니다.\n- ❶ 취침예약 & 3초\n- ❷ 취침예약\n\n아이콘: 자물쇠 모양이 있으며, 자물쇠 내부에 X 표시가 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 37,
+    "image_path": "data/sample_images_150/airpurifier_simple/p037.png",
+    "caption": "- 원통형 기기 그림: 기기 상단에 원형 패턴이 있고, 측면에 호스가 연결되어 있음.\n- 삼각형 주의 아이콘: 굵은 테두리의 삼각형 안에 느낌표가 있음.\n- 원형 아이콘 두 개: \n  - 첫 번째 아이콘: 원 안에 작은 원 두 개와 점이 있음.\n  - 두 번째 아이콘: 원 안에 점이 여러 개 있음.\n- 기기 상단 그림: 두 개의 원형 버튼이 있으며, 각각 \"청정세기\"와 \"먼지상태\"라고 적혀 있음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 39,
+    "image_path": "data/sample_images_150/airpurifier_simple/p039.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 41,
+    "image_path": "data/sample_images_150/airpurifier_simple/p041.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 38,
+    "image_path": "data/sample_images_150/airpurifier_simple/p038.png",
+    "caption": "1. 원통형 기기의 뒷면 커버를 분리하는 그림. 작은 원 안에 손이 커버를 잡고 있는 모습이 확대되어 있음.\n\n2. 원통형 기기의 센서 커버를 여는 그림. 작은 원 안에 손이 커버를 여는 모습이 확대되어 있음.\n\n3. 면봉에 액체를 묻혀 렌즈를 닦는 그림. 작은 원 안에 면봉이 렌즈를 닦는 모습이 확대되어 있음.\n\n4. 원통형 기기의 센서 커버를 닫는 그림. 작은 원 안에 손이 커버를 닫는 모습이 확대되어 있음.\n\n주의 아이콘: 삼각형 안에 느낌표가 있음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 34,
+    "image_path": "data/sample_images_150/airpurifier_simple/p034.png",
+    "caption": "그림 설명:\n\n1. 원통형 기기의 그림이 있습니다. 기기 상단에 작은 원이 있고, 그 안에 점들이 배열되어 있습니다. 기기 옆면에는 세로로 긴 줄무늬가 있습니다.\n   - ❶ 먼지센서\n\n2. 기기 위에 전화기를 올려놓은 그림이 있습니다. 전화기 화면에 '@' 모양의 아이콘이 표시되어 있습니다.\n   - ❷ 라벨 없음\n\n3. 기기 옆에 사람이 서서 기기를 바라보는 그림이 있습니다.\n   - ❸ 라벨 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 40,
+    "image_path": "data/sample_images_150/airpurifier_simple/p040.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 42,
+    "image_path": "data/sample_images_150/airpurifier_simple/p042.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 43,
+    "image_path": "data/sample_images_150/airpurifier_simple/p043.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 44,
+    "image_path": "data/sample_images_150/airpurifier_simple/p044.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 46,
+    "image_path": "data/sample_images_150/airpurifier_simple/p046.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 45,
+    "image_path": "data/sample_images_150/airpurifier_simple/p045.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 2,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p002.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 3,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p003.png",
+    "caption": "- 삼각형 안에 느낌표가 있는 아이콘이 두 개 있습니다.\n- 삼각형 안에 느낌표가 있는 아이콘 위에 \"경고\"라는 라벨이 있습니다.\n- 삼각형 안에 느낌표가 있는 아이콘 위에 \"주의\"라는 라벨이 있습니다.\n- 원 안에 대각선이 그어진 아이콘이 두 개 있습니다.\n- 원 안에 대각선이 그어진 아이콘 위에 \"금지 사항\"이라는 라벨이 있습니다.\n- 원 안에 대각선이 그어진 아이콘 위에 \"준수 사항\"이라는 라벨이 있습니다."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 4,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p004.png",
+    "caption": "- 왼쪽 상단: 어린이가 포장재를 만지는 그림. 포장재는 상자 모양이며, 어린이가 손을 뻗고 있음.\n- 오른쪽 상단: 어린이가 포장재를 바라보는 그림. 느낌표가 있는 원이 어린이 위에 있음.\n- 중앙: 전원 플러그를 손으로 만지는 그림. 손이 플러그를 잡고 있으며, 플러그는 콘센트에 꽂혀 있음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 5,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p005.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 1,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p001.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 6,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p006.png",
+    "caption": "그림 설명:\n\n1. 왼쪽 그림: \n   - 한 사람이 진공청소기를 사용하고 있습니다. \n   - 진공청소기의 손잡이를 잡고 바닥을 청소하는 모습입니다.\n\n2. 오른쪽 그림:\n   - 두 사람이 서로 마주 보고 있습니다.\n   - 한 사람은 어린아이로 보이며, 다른 사람은 성인입니다.\n   - 성인이 어린아이의 손을 잡고 있는 모습입니다."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 7,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p007.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 8,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p008.png",
+    "caption": "- 전구 모양의 아이콘: 내부에 구름 모양이 있음.\n- 삼각형 안에 느낌표가 있는 아이콘."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 9,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p009.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 10,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p010.png",
+    "caption": "그림 1: 스마트폰 화면에 QR 코드가 표시되어 있고, 아래에 \"LG ThinQ\"라는 텍스트가 있습니다.\n\n그림 2: 가전제품의 측면 그림이 있으며, QR 코드가 부착된 위치를 나타내고 있습니다.\n\n아이콘: \n- 원 안에 \"+\" 기호가 있는 아이콘이 있습니다.\n- 사각형 안에 점이 있는 아이콘이 있습니다.\n- 하트 모양의 아이콘이 있습니다.\n\n화살표: 없음\n\n표: 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 12,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p012.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 11,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p011.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 13,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p013.png",
+    "caption": "1. 제품 본체\n2. 길이 조절 파이프\n3. 흡입구\n4. 배터리 (소모품)\n5. 배기 필터 (소모품)\n6. 간편 비움 시스템 레버\n7. 프리 필터 (소모품)\n8. 큰 먼지 분리 장치\n9. 먼지통"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 48,
+    "image_path": "data/sample_images_150/airpurifier_simple/p048.png",
+    "caption": "- 원 안에 \"L\"과 \"G\"가 결합된 로고가 있습니다.\n- 로고 아래에 \"LG\"와 \"Life's Good\"라는 텍스트가 있습니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 47,
+    "image_path": "data/sample_images_150/airpurifier_simple/p047.png",
+    "caption": "그림 설명:\n\n- 원통형 물체의 3D 도식이 있습니다.\n- 물체의 상단에는 원형 패턴이 있으며, 그 안에 작은 원들이 배열되어 있습니다.\n- 물체의 측면에는 세로로 선이 그려져 있습니다.\n- 물체의 높이, 폭, 깊이를 나타내는 화살표가 있습니다. \n  - \"높이\"는 위쪽 방향을 가리킵니다.\n  - \"폭\"과 \"깊이\"는 바닥면에서 서로 직각으로 교차하며 가리킵니다."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 14,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p014.png",
+    "caption": "그림 설명:\n\n1. **기본 구성품**\n   - ① 본체\n   - ② 길이 조절 파이프\n   - ③ 배터리(소모품)\n   - ④ 마루 흡입구\n   - ⑤ 2 in 1 흡입구\n   - ⑥ 틈새 흡입구\n\n2. **추가 구성품**\n   - ① 카펫 흡입구\n   - ② 침구 흡입구\n   - ③ 펫 흡입구\n   - ④ 굳은 먼지 흡입구\n   - ⑤ 매트리스 흡입구\n   - ⑥ 상부 청소 흡입구\n   - ⑦ 구부러지는 틈새 흡입구\n   - ⑧ 연장 호스\n   - ⑨ 부속품 가방\n   - ⑩ 추가 배터리(소모품)\n   - ⑪ 예비용 프리 필터(소모품)\n   - ⑫ 추가 배기 필터(소모품)\n\n3. **물걸레 용품**\n   - ① 안심 스팀 물걸레 흡입구\n   - ② 배터리 팩*1\n   - ③ 물걸레 4장(소모품)"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 15,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p015.png",
+    "caption": "1. 첫 번째 그림:\n   - 진공청소기와 관련된 이미지.\n   - ①, ②, ③, ④ 번호가 있음.\n   - ①: 라벨 없음.\n   - ②: 라벨 없음.\n   - ③: 라벨 없음.\n   - ④: 라벨 없음.\n   - 화살표가 길이 조절 파이프를 분리하는 방향을 가리킴.\n\n2. 두 번째 그림:\n   - 세로로 긴 기기 옆에 손이 위치한 그림.\n   - ① 번호가 있음.\n   - ①: 라벨 없음.\n   - 화살표가 손잡이를 당기는 방향을 가리킴.\n\n3. 세 번째 그림:\n   - 충전대에 제품이 거치된 모습.\n   - 원형 안에 \"충전 중 63%\"라는 텍스트가 있음.\n\n4. 네 번째 그림:\n   - 기기의 왼쪽 문을 여는 손의 그림.\n   - ① 번호가 있음.\n   - ①: 라벨 없음.\n   - 화살표가 문을 여는 방향을 가리킴.\n\n5. QR 코드:\n   - \"QR 코드를 스캔하여 영상으로 확인하세요.\"라는 텍스트가 있음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 16,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p016.png",
+    "caption": "1. **위쪽 그림**: \n   - 세로로 긴 직사각형 형태의 기기 내부를 보여주는 그림.\n   - 기기 내부에 여러 구성 요소가 보임.\n   - 콜아웃 번호: ①, ②, ③\n   - 라벨: ① 없음, ② 없음, ③ 없음\n\n2. **아래쪽 그림**:\n   - 두 개의 세로로 긴 기기가 나란히 서 있는 모습.\n   - 왼쪽 기기에는 \"63%\"라는 숫자와 \"청소기 충전 중\"이라는 텍스트가 있음.\n   - 오른쪽 기기에는 아무런 텍스트가 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 18,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p018.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 17,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p017.png",
+    "caption": "1. 먼지 비움 충전대 상단의 조작부를 잡고 화살표 방향으로 여세요.\n   - 그림: 상단이 열리는 기기, 위쪽으로 향하는 화살표.\n\n2. 배터리 충전함의 모양에 맞춰 배터리를 넣으세요.\n   - 그림: 배터리를 끼우는 모습, 아래쪽으로 향하는 화살표.\n\n3. 보조 배터리를 손으로 끝까지 눌러 올바르게 넣으세요.\n   - 그림: 손으로 배터리를 누르는 모습, 아래쪽으로 향하는 화살표.\n\n- 보조 배터리 아이콘이 활성화 되지 않는다면 먼지 비움 충전대 상단의 조작부를 열고 보조 배터리를 다시 밀어 넣으세요.\n   - 그림: 기기 옆면, 위쪽으로 향하는 화살표.\n   - 아이콘: 사각형 안에 두 개의 원, 하나는 \"충전 완료\", 다른 하나는 \"보조배터리 충전 중\"이라는 텍스트."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 19,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p019.png",
+    "caption": "1. **상태 표시창 그림**\n   - 사각형 안에 \"표준 14분\"이라는 텍스트가 있음.\n   - 오른쪽 상단에 작은 원형 아이콘들이 나열되어 있음.\n\n2. **콜아웃 번호**\n   - ❶: 라벨 없음\n   - ❷: 라벨 없음\n   - ❸: 라벨 없음\n   - ❹: 라벨 없음\n\n3. **제품 연결 아이콘**\n   - 표 안에 세 개의 행이 있음.\n   - 첫 번째 행: 와이파이 모양 아이콘\n   - 두 번째 행: 와이파이 모양 아이콘에 X 표시\n   - 세 번째 행: 와이파이 모양 아이콘에 X 표시\n\n4. **표**\n   - 열 제목: 아이콘, 연결 상태, 설명\n   - 첫 번째 행: 와이파이 모양 아이콘, 연결 됨, 설정 모드의 Wi-Fi 항목이 켜기로 설정되어 있고 LG ThinQ 앱과 연결이 완료됨\n   - 두 번째 행: 와이파이 모양 아이콘에 X 표시, 연결 끊김, 연결 될 상태에서 네트워크 연결이 끊어짐\n   - 세 번째 행: 와이파이 모양 아이콘에 X 표시, 연결 안됨, Wi-Fi 항목이 끄기로 설정되어 있음 / Wi-Fi 항목이 켜기로 설정되어 있으나 LG ThinQ 앱과 연결되어 있지 않음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 20,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p020.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 22,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p022.png",
+    "caption": "- **그림 1**: \n  - 원통형 물체가 두 개의 화살표로 분리되는 모습. 위쪽 화살표는 위로, 아래쪽 화살표는 아래로 향함.\n  \n- **그림 2**: \n  - 원통형 물체가 두 개의 화살표로 분리되는 모습. 위쪽 화살표는 위로, 아래쪽 화살표는 아래로 향함.\n\n- **그림 3**: \n  - 원통형 물체가 두 개의 화살표로 분리되는 모습. 위쪽 화살표는 위로, 아래쪽 화살표는 아래로 향함.\n\n- **그림 4**: \n  - 사각형 모양의 물체가 있으며, 그 위에 원통형 물체가 결합된 모습.\n\n- **그림 5**: \n  - 원통형 물체가 두 개의 화살표로 분리되는 모습. 위쪽 화살표는 위로, 아래쪽 화살표는 아래로 향함.\n\n- **QR 코드**: \n  - \"QR 코드를 스캔하여 영상으로 확인하세요.\"라는 텍스트가 있음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 21,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p021.png",
+    "caption": "그림·도식·아이콘·표 설명:\n\n1. **아이콘**: 원 안에 느낌표가 있는 모양.\n2. **그림 1**: \n   - 제품 손잡이 아래 공간에 배터리를 넣는 모습.\n   - 배터리 옆에 팔각형 모양의 아이콘.\n   - 배터리 위에 숫자 ❶.\n3. **그림 2**: \n   - 제품 본체와 흡입구를 조립하는 모습.\n   - 흡입구 분리 버튼에 숫자 ❷.\n   - 흡입구에 숫자 ❸.\n4. **그림 3**: \n   - 길이 조절 버튼을 밀어 내리는 모습.\n   - 길이 조절 파이프에 숫자 ❹.\n5. **그림 4**: \n   - 전원 버튼을 누르는 모습.\n   - 전원 버튼에 숫자 ❺."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 23,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p023.png",
+    "caption": "1. **PUSH 버튼**: 원형 버튼에 \"PUSH\"라는 텍스트가 있음.\n\n2. **물 주입구 마개**: 물 주입구 마개를 열고 물을 채우는 그림. 마개가 열린 상태를 보여줌.\n\n3. **물 주입구 마개 닫기**: 마개를 닫는 그림. 마개가 닫힌 상태를 보여줌.\n\n4. **물통 조립**: 물통을 조립하는 그림. 물통 아래의 후크와 고정 홈을 맞추는 모습.\n\n5. **주의 아이콘**: 삼각형 안에 느낌표가 있는 아이콘. \n\n6. **물통 부착하기**: 물통을 부착하는 그림. 물통을 기기에 끼우는 모습."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 24,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p024.png",
+    "caption": "1. 두 개의 원형 그림이 나란히 있습니다. 왼쪽 그림은 중심에 작은 원이 있고, 그 주위에 여러 개의 선이 방사형으로 그려져 있습니다. 오른쪽 그림은 중심에 작은 원이 있으며, 그 주위에 두 개의 원이 더 그려져 있습니다.\n\n2. 두 개의 손이 물건을 잡고 있는 그림이 있습니다. 왼쪽 손은 물건을 위로 들어 올리고 있고, 오른쪽 손은 물건을 아래로 누르고 있습니다.\n\n3. 배터리 팩을 끼우는 그림이 있습니다. 배터리 팩이 화살표 방향으로 끼워지고 있습니다. \n\n4. ❶: 라벨 없음\n\n5. ❷: 라벨 없음\n\n6. ❸: 라벨 없음\n\n7. 삼각형 안에 느낌표가 있는 아이콘이 있습니다. \n\n8. 삼각형 안에 손이 있는 아이콘이 있습니다."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 25,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p025.png",
+    "caption": "```plaintext\n1. 배터리 팩을 분리하는 그림: 손이 배터리 팩을 아래로 밀고 있으며, \"PUSH\" 버튼이 있는 부분을 누르는 모습.\n2. 배터리 팩을 충전대에 끼우는 그림: 배터리 팩이 충전대에 끼워지는 과정.\n3. 흡입구 분리 버튼을 누르는 그림: 손이 흡입구 분리 버튼을 누르고 있는 모습.\n4. 흡입구를 분리하는 그림: 흡입구가 본체에서 분리되는 과정.\n5. 충전대에 흡입구를 보관하는 그림: 충전대 옆에 흡입구가 보관되어 있는 모습.\n6. 경고 아이콘: 삼각형 안에 느낌표가 있는 모양.\n7. 알아두기 아이콘: 원 안에 느낌표가 있는 모양.\n```"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 27,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p027.png",
+    "caption": "1. 상단 오른쪽: 진공청소기 본체와 연결된 흡입구가 바닥을 청소하는 그림. 흡입구는 바닥에 평평하게 놓여 있으며, 본체는 뒤쪽에 위치.\n\n2. 중간 오른쪽: 진공청소기 본체와 연결된 흡입구가 매트리스 위를 청소하는 그림. 흡입구는 매트리스에 평평하게 놓여 있으며, 본체는 뒤쪽에 위치.\n\n3. 하단 왼쪽: 진공청소기 본체와 연결된 흡입구가 바닥을 청소하는 그림. 흡입구는 바닥에 평평하게 놓여 있으며, 본체는 뒤쪽에 위치.\n\n4. 하단 오른쪽: 진공청소기 본체와 연결된 흡입구가 가구의 표면을 청소하는 그림. 흡입구는 가구에 평평하게 놓여 있으며, 본체는 뒤쪽에 위치."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 26,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p026.png",
+    "caption": "1. 물통의 마개를 열고 물을 비우는 그림: 물통에서 물방울이 떨어지는 모습.\n\n2. 물통의 마개를 열고 통풍이 잘되는 그늘에서 건조하는 그림: 물통이 열려 있고 물방울이 떨어지는 모습.\n\n3. 물걸레를 건조하는 그림: 물걸레가 펼쳐져 있고, 오른쪽에 원형의 물걸레가 있음. 두 그림 사이에 오른쪽 방향 화살표가 있음.\n\n4. 경고 아이콘: 삼각형 안에 느낌표.\n\n5. 주의 아이콘: 삼각형 안에 느낌표.\n\n6. 흡입구의 급수 홀에 물을 넣는 그림: 손이 물을 붓고 있는 모습.\n\n7. 흡입구의 급수 홀 고무를 잡지 말라는 그림: 손이 고무를 잡고 있는 모습."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 28,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p028.png",
+    "caption": "- **그림 1**: 손이 버튼을 누르고 있는 모습. 버튼 옆에 \"1\" 라벨 있음.\n- **그림 2**: 길이 조절 가능한 막대기 형태의 부품. \"2\" 라벨 있음.\n- **그림 3**: 브러시가 달린 흡입구 그림.\n- **그림 4**: 손이 버튼을 누르고 있는 모습. 버튼 옆에 \"3\" 라벨 있음.\n- **그림 5**: 길이 조절 가능한 막대기 형태의 부품. \"4\" 라벨 있음.\n- **그림 6**: 브러시가 달린 흡입구 그림.\n- **그림 7**: 길이 조절 가능한 호스 그림.\n- **그림 8**: 손이 버튼을 누르고 있는 모습. 버튼 옆에 \"1\" 라벨 있음.\n- **그림 9**: 손이 버튼을 누르고 있는 모습. 버튼 옆에 \"2\" 라벨 있음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 31,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p031.png",
+    "caption": "1. 손이 제품을 잡고 있는 그림. 화살표가 오른쪽으로 회전하는 방향을 가리킴.\n2. 손이 배기 필터 덮개를 잡고 있는 그림. 화살표가 왼쪽으로 회전하는 방향을 가리킴.\n3. 손이 열린 덮개를 들어 올리는 그림.\n4. 배기 필터를 제품 본체에서 꺼내는 그림. 원형 필터 위에 ① 라벨.\n5. 2 in 1 흡입구를 사용하는 그림. ② 라벨.\n6. 큰 먼지 분리 장치에 틈새 흡입구를 끼운 그림. 화살표가 왼쪽으로 회전하는 방향을 가리킴. ③, ④ 라벨.\n7. 큰 먼지 분리 장치를 잡고 프리 필터를 오른쪽으로 돌리는 그림. ⑤ 라벨."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 29,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p029.png",
+    "caption": "1. **그림 1**: \n   - 진공청소기 본체의 측면 그림.\n   - 콜아웃 번호 ❶: 라벨 없음.\n   - 콜아웃 번호 ❷: \"레버\".\n\n2. **그림 2**: \n   - 먼지통의 뚜껑이 열리는 모습.\n   - 콜아웃 번호 ❸: 라벨 없음.\n\n3. **그림 3**: \n   - 먼지통과 필터가 분리되는 과정.\n   - 콜아웃 번호 ❹: \"흡입구\".\n   - 콜아웃 번호 ❺: \"프리 필터\".\n\n4. **아이콘**:\n   - 삼각형 안에 느낌표가 있는 경고 아이콘.\n   - 원 안에 손 모양이 있는 주의 아이콘."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 32,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p032.png",
+    "caption": "1. 그림 1: 원통형 부품이 분리된 상태로, 위쪽에 작은 원형 부품이 있고 아래쪽에 큰 원통형 부품이 있습니다. \n   - 콜아웃 번호: ⑤, ⑥\n   - 라벨: ⑤ 프리 필터, ⑥ 큰 먼지 분리 장치\n\n2. 그림 2: 수도꼭지에서 물이 흐르고 있으며, 원통형 부품이 물에 씻기는 모습입니다.\n\n3. 그림 3: 원통형 부품이 조립되는 과정으로, 화살표가 왼쪽 방향으로 회전하는 것을 나타냅니다.\n   - 콜아웃 번호: ③, ④\n   - 라벨: ③ 큰 먼지 분리 장치, ④ 배기 필터\n\n4. 그림 4: 원통형 부품이 조립된 상태로, 위쪽에 작은 원형 부품이 있습니다.\n   - 콜아웃 번호: ⑦\n   - 라벨: ⑦ 통세\n\n5. 그림 5: 손이 원통형 부품을 잡고 오른쪽으로 돌리는 모습입니다.\n\n6. 주의 아이콘: 삼각형 안에 느낌표가 있는 아이콘."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 30,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p030.png",
+    "caption": "1. **그림 1**: 두 개의 원통형 부품이 나란히 배치되어 있으며, 왼쪽 부품 위에 ⑤, 오른쪽 부품 위에 ③ 라벨이 있음.\n\n2. **그림 2**: 손이 원통형 부품을 잡고 왼쪽으로 돌리는 모습. 화살표가 왼쪽 방향을 가리킴.\n\n3. **그림 3**: 여러 개의 원통형 부품이 물이 담긴 용기 안에 담겨 있는 모습.\n\n4. **그림 4**: 손이 원통형 부품을 잡고 있는 모습. 화살표가 부품을 분리하는 방향을 가리킴.\n\n5. **그림 5**: 손이 원통형 부품을 잡고 있는 모습. 화살표가 부품을 분리하는 방향을 가리킴.\n\n6. **그림 6**: 손이 원통형 부품을 잡고 있는 모습. 화살표가 부품을 분리하는 방향을 가리킴.\n\n7. **그림 7**: 손이 원통형 부품을 잡고 있는 모습. 화살표가 부품을 분리하는 방향을 가리킴.\n\n8. **그림 8**: 손이 원통형 부품을 잡고 있는 모습. 화살표가 부품을 분리하는 방향을 가리킴.\n\n9. **그림 9**: 손이 원통형 부품을 잡고 있는 모습. 화살표가 부품을 분리하는 방향을 가리킴.\n\n10. **경고 아이콘**: 삼각형 안에 느낌표가 있음.\n\n11. **주의 아이콘**: 삼각형 안에 느낌표가 있음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 35,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p035.png",
+    "caption": "```plaintext\n1. 그림: 손이 흡입구를 잡고 있는 모습. 흡입구 끝에 회전솔이 보임.\n2. 그림: 손이 흡입구 끝의 회전솔을 잡고 있는 모습.\n3. 그림: 흡입구 끝에 회전솔을 맞춰 넣는 모습.\n4. 그림: 손이 회전솔을 시계 방향으로 돌리는 모습.\n5. 그림: 손이 흡입구 분리 버튼을 누르고 있는 모습.\n6. 그림: 손이 PUSH 버튼을 누르고 있는 모습.\n7. 그림: 흡입구가 분리된 모습.\n8. 그림: 손이 흡입구를 연결하고 있는 모습.\n9. 그림: 손이 회전솔과 흡입구 아래의 이물질을 제거하는 모습.\n10. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n11. 그림: 손이 흡입구를 연결하고 있는 모습.\n12. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n13. 그림: 손이 흡입구를 세척하고 있는 모습.\n14. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n15. 그림: 손이 흡입구를 연결하고 있는 모습.\n16. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n17. 그림: 손이 흡입구를 세척하고 있는 모습.\n18. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n19. 그림: 손이 흡입구를 연결하고 있는 모습.\n20. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n21. 그림: 손이 흡입구를 세척하고 있는 모습.\n22. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n23. 그림: 손이 흡입구를 연결하고 있는 모습.\n24. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n25. 그림: 손이 흡입구를 세척하고 있는 모습.\n26. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n27. 그림: 손이 흡입구를 연결하고 있는 모습.\n28. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n29. 그림: 손이 흡입구를 세척하고 있는 모습.\n30. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n31. 그림: 손이 흡입구를 연결하고 있는 모습.\n32. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n33. 그림: 손이 흡입구를 세척하고 있는 모습.\n34. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n35. 그림: 손이 흡입구를 연결하고 있는 모습.\n36. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n37. 그림: 손이 흡입구를 세척하고 있는 모습.\n38. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n39. 그림: 손이 흡입구를 연결하고 있는 모습.\n40. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n41. 그림: 손이 흡입구를 세척하고 있는 모습.\n42. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n43. 그림: 손이 흡입구를 연결하고 있는 모습.\n44. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n45. 그림: 손이 흡입구를 세척하고 있는 모습.\n46. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n47. 그림: 손이 흡입구를 연결하고 있는 모습.\n48. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n49. 그림: 손이 흡입구를 세척하고 있는 모습.\n50. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n51. 그림: 손이 흡입구를 연결하고 있는 모습.\n52. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n53. 그림: 손이 흡입구를 세척하고 있는 모습.\n54. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n55. 그림: 손이 흡입구를 연결하고 있는 모습.\n56. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n57. 그림: 손이 흡입구를 세척하고 있는 모습.\n58. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n59. 그림: 손이 흡입구를 연결하고 있는 모습.\n60. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n61. 그림: 손이 흡입구를 세척하고 있는 모습.\n62. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n63. 그림: 손이 흡입구를 연결하고 있는 모습.\n64. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n65. 그림: 손이 흡입구를 세척하고 있는 모습.\n66. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n67. 그림: 손이 흡입구를 연결하고 있는 모습.\n68. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n69. 그림: 손이 흡입구를 세척하고 있는 모습.\n70. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n71. 그림: 손이 흡입구를 연결하고 있는 모습.\n72. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n73. 그림: 손이 흡입구를 세척하고 있는 모습.\n74. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n75. 그림: 손이 흡입구를 연결하고 있는 모습.\n76. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n77. 그림: 손이 흡입구를 세척하고 있는 모습.\n78. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n79. 그림: 손이 흡입구를 연결하고 있는 모습.\n80. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n81. 그림: 손이 흡입구를 세척하고 있는 모습.\n82. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n83. 그림: 손이 흡입구를 연결하고 있는 모습.\n84. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n85. 그림: 손이 흡입구를 세척하고 있는 모습.\n86. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n87. 그림: 손이 흡입구를 연결하고 있는 모습.\n88. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n89. 그림: 손이 흡입구를 세척하고 있는 모습.\n90. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n91. 그림: 손이 흡입구를 연결하고 있는 모습.\n92. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n93. 그림: 손이 흡입구를 세척하고 있는 모습.\n94. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n95. 그림: 손이 흡입구를 연결하고 있는 모습.\n96. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n97. 그림: 손이 흡입구를 세척하고 있는 모습.\n98. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n99. 그림: 손이 흡입구를 연결하고 있는 모습.\n100. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n101. 그림: 손이 흡입구를 세척하고 있는 모습.\n102. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n103. 그림: 손이 흡입구를 연결하고 있는 모습.\n104. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n105. 그림: 손이 흡입구를 세척하고 있는 모습.\n106. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n107. 그림: 손이 흡입구를 연결하고 있는 모습.\n108. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n109. 그림: 손이 흡입구를 세척하고 있는 모습.\n110. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n111. 그림: 손이 흡입구를 연결하고 있는 모습.\n112. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n113. 그림: 손이 흡입구를 세척하고 있는 모습.\n114. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n115. 그림: 손이 흡입구를 연결하고 있는 모습.\n116. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n117. 그림: 손이 흡입구를 세척하고 있는 모습.\n118. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n119. 그림: 손이 흡입구를 연결하고 있는 모습.\n120. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n121. 그림: 손이 흡입구를 세척하고 있는 모습.\n122. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n123. 그림: 손이 흡입구를 연결하고 있는 모습.\n124. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n125. 그림: 손이 흡입구를 세척하고 있는 모습.\n126. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n127. 그림: 손이 흡입구를 연결하고 있는 모습.\n128. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n129. 그림: 손이 흡입구를 세척하고 있는 모습.\n130. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n131. 그림: 손이 흡입구를 연결하고 있는 모습.\n132. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n133. 그림: 손이 흡입구를 세척하고 있는 모습.\n134. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n135. 그림: 손이 흡입구를 연결하고 있는 모습.\n136. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n137. 그림: 손이 흡입구를 세척하고 있는 모습.\n138. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n139. 그림: 손이 흡입구를 연결하고 있는 모습.\n140. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n141. 그림: 손이 흡입구를 세척하고 있는 모습.\n142. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n143. 그림: 손이 흡입구를 연결하고 있는 모습.\n144. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n145. 그림: 손이 흡입구를 세척하고 있는 모습.\n146. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n147. 그림: 손이 흡입구를 연결하고 있는 모습.\n148. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n149. 그림: 손이 흡입구를 세척하고 있는 모습.\n150. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n151. 그림: 손이 흡입구를 연결하고 있는 모습.\n152. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n153. 그림: 손이 흡입구를 세척하고 있는 모습.\n154. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n155. 그림: 손이 흡입구를 연결하고 있는 모습.\n156. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n157. 그림: 손이 흡입구를 세척하고 있는 모습.\n158. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n159. 그림: 손이 흡입구를 연결하고 있는 모습.\n160. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n161. 그림: 손이 흡입구를 세척하고 있는 모습.\n162. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n163. 그림: 손이 흡입구를 연결하고 있는 모습.\n164. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n165. 그림: 손이 흡입구를 세척하고 있는 모습.\n166. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n167. 그림: 손이 흡입구를 연결하고 있는 모습.\n168. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n169. 그림: 손이 흡입구를 세척하고 있는 모습.\n170. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n171. 그림: 손이 흡입구를 연결하고 있는 모습.\n172. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n173. 그림: 손이 흡입구를 세척하고 있는 모습.\n174. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n175. 그림: 손이 흡입구를 연결하고 있는 모습.\n176. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n177. 그림: 손이 흡입구를 세척하고 있는 모습.\n178. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n179. 그림: 손이 흡입구를 연결하고 있는 모습.\n180. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n181. 그림: 손이 흡입구를 세척하고 있는 모습.\n182. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n183. 그림: 손이 흡입구를 연결하고 있는 모습.\n184. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n185. 그림: 손이 흡입구를 세척하고 있는 모습.\n186. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n187. 그림: 손이 흡입구를 연결하고 있는 모습.\n188. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n189. 그림: 손이 흡입구를 세척하고 있는 모습.\n190. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n191. 그림: 손이 흡입구를 연결하고 있는 모습.\n192. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n193. 그림: 손이 흡입구를 세척하고 있는 모습.\n194. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n195. 그림: 손이 흡입구를 연결하고 있는 모습.\n196. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n197. 그림: 손이 흡입구를 세척하고 있는 모습.\n198. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n199. 그림: 손이 흡입구를 연결하고 있는 모습.\n200. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n201. 그림: 손이 흡입구를 세척하고 있는 모습.\n202. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n203. 그림: 손이 흡입구를 연결하고 있는 모습.\n204. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n205. 그림: 손이 흡입구를 세척하고 있는 모습.\n206. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n207. 그림: 손이 흡입구를 연결하고 있는 모습.\n208. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n209. 그림: 손이 흡입구를 세척하고 있는 모습.\n210. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n211. 그림: 손이 흡입구를 연결하고 있는 모습.\n212. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n213. 그림: 손이 흡입구를 세척하고 있는 모습.\n214. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n215. 그림: 손이 흡입구를 연결하고 있는 모습.\n216. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n217. 그림: 손이 흡입구를 세척하고 있는 모습.\n218. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n219. 그림: 손이 흡입구를 연결하고 있는 모습.\n220. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n221. 그림: 손이 흡입구를 세척하고 있는 모습.\n222. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n223. 그림: 손이 흡입구를 연결하고 있는 모습.\n224. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n225. 그림: 손이 흡입구를 세척하고 있는 모습.\n226. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n227. 그림: 손이 흡입구를 연결하고 있는 모습.\n228. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n229. 그림: 손이 흡입구를 세척하고 있는 모습.\n230. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n231. 그림: 손이 흡입구를 연결하고 있는 모습.\n232. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n233. 그림: 손이 흡입구를 세척하고 있는 모습.\n234. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n235. 그림: 손이 흡입구를 연결하고 있는 모습.\n236. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n237. 그림: 손이 흡입구를 세척하고 있는 모습.\n238. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n239. 그림: 손이 흡입구를 연결하고 있는 모습.\n240. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n241. 그림: 손이 흡입구를 세척하고 있는 모습.\n242. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n243. 그림: 손이 흡입구를 연결하고 있는 모습.\n244. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n245. 그림: 손이 흡입구를 세척하고 있는 모습.\n246. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n247. 그림: 손이 흡입구를 연결하고 있는 모습.\n248. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n249. 그림: 손이 흡입구를 세척하고 있는 모습.\n250. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n251. 그림: 손이 흡입구를 연결하고 있는 모습.\n252. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n253. 그림: 손이 흡입구를 세척하고 있는 모습.\n254. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n255. 그림: 손이 흡입구를 연결하고 있는 모습.\n256. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n257. 그림: 손이 흡입구를 세척하고 있는 모습.\n258. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n259. 그림: 손이 흡입구를 연결하고 있는 모습.\n260. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n261. 그림: 손이 흡입구를 세척하고 있는 모습.\n262. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n263. 그림: 손이 흡입구를 연결하고 있는 모습.\n264. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n265. 그림: 손이 흡입구를 세척하고 있는 모습.\n266. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n267. 그림: 손이 흡입구를 연결하고 있는 모습.\n268. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n269. 그림: 손이 흡입구를 세척하고 있는 모습.\n270. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n271. 그림: 손이 흡입구를 연결하고 있는 모습.\n272. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n273. 그림: 손이 흡입구를 세척하고 있는 모습.\n274. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n275. 그림: 손이 흡입구를 연결하고 있는 모습.\n276. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n277. 그림: 손이 흡입구를 세척하고 있는 모습.\n278. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n279. 그림: 손이 흡입구를 연결하고 있는 모습.\n280. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n281. 그림: 손이 흡입구를 세척하고 있는 모습.\n282. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n283. 그림: 손이 흡입구를 연결하고 있는 모습.\n284. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n285. 그림: 손이 흡입구를 세척하고 있는 모습.\n286. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n287. 그림: 손이 흡입구를 연결하고 있는 모습.\n288. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n289. 그림: 손이 흡입구를 세척하고 있는 모습.\n290. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n291. 그림: 손이 흡입구를 연결하고 있는 모습.\n292. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n293. 그림: 손이 흡입구를 세척하고 있는 모습.\n294. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n295. 그림: 손이 흡입구를 연결하고 있는 모습.\n296. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n297. 그림: 손이 흡입구를 세척하고 있는 모습.\n298. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n299. 그림: 손이 흡입구를 연결하고 있는 모습.\n300. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n301. 그림: 손이 흡입구를 세척하고 있는 모습.\n302. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n303. 그림: 손이 흡입구를 연결하고 있는 모습.\n304. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n305. 그림: 손이 흡입구를 세척하고 있는 모습.\n306. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n307. 그림: 손이 흡입구를 연결하고 있는 모습.\n308. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n309. 그림: 손이 흡입구를 세척하고 있는 모습.\n310. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n311. 그림: 손이 흡입구를 연결하고 있는 모습.\n312. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n313. 그림: 손이 흡입구를 세척하고 있는 모습.\n314. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n315. 그림: 손이 흡입구를 연결하고 있는 모습.\n316. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n317. 그림: 손이 흡입구를 세척하고 있는 모습.\n318. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n319. 그림: 손이 흡입구를 연결하고 있는 모습.\n320. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n321. 그림: 손이 흡입구를 세척하고 있는 모습.\n322. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n323. 그림: 손이 흡입구를 연결하고 있는 모습.\n324. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n325. 그림: 손이 흡입구를 세척하고 있는 모습.\n326. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n327. 그림: 손이 흡입구를 연결하고 있는 모습.\n328. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n329. 그림: 손이 흡입구를 세척하고 있는 모습.\n330. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n331. 그림: 손이 흡입구를 연결하고 있는 모습.\n332. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n333. 그림: 손이 흡입구를 세척하고 있는 모습.\n334. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n335. 그림: 손이 흡입구를 연결하고 있는 모습.\n336. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n337. 그림: 손이 흡입구를 세척하고 있는 모습.\n338. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n339. 그림: 손이 흡입구를 연결하고 있는 모습.\n340. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n341. 그림: 손이 흡입구를 세척하고 있는 모습.\n342. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n343. 그림: 손이 흡입구를 연결하고 있는 모습.\n344. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n345. 그림: 손이 흡입구를 세척하고 있는 모습.\n346. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n347. 그림: 손이 흡입구를 연결하고 있는 모습.\n348. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n349. 그림: 손이 흡입구를 세척하고 있는 모습.\n350. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n351. 그림: 손이 흡입구를 연결하고 있는 모습.\n352. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n353. 그림: 손이 흡입구를 세척하고 있는 모습.\n354. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n355. 그림: 손이 흡입구를 연결하고 있는 모습.\n356. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n357. 그림: 손이 흡입구를 세척하고 있는 모습.\n358. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n359. 그림: 손이 흡입구를 연결하고 있는 모습.\n360. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n361. 그림: 손이 흡입구를 세척하고 있는 모습.\n362. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n363. 그림: 손이 흡입구를 연결하고 있는 모습.\n364. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n365. 그림: 손이 흡입구를 세척하고 있는 모습.\n366. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n367. 그림: 손이 흡입구를 연결하고 있는 모습.\n368. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n369. 그림: 손이 흡입구를 세척하고 있는 모습.\n370. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n371. 그림: 손이 흡입구를 연결하고 있는 모습.\n372. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n373. 그림: 손이 흡입구를 세척하고 있는 모습.\n374. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n375. 그림: 손이 흡입구를 연결하고 있는 모습.\n376. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n377. 그림: 손이 흡입구를 세척하고 있는 모습.\n378. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n379. 그림: 손이 흡입구를 연결하고 있는 모습.\n380. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n381. 그림: 손이 흡입구를 세척하고 있는 모습.\n382. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n383. 그림: 손이 흡입구를 연결하고 있는 모습.\n384. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n385. 그림: 손이 흡입구를 세척하고 있는 모습.\n386. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n387. 그림: 손이 흡입구를 연결하고 있는 모습.\n388. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n389. 그림: 손이 흡입구를 세척하고 있는 모습.\n390. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n391. 그림: 손이 흡입구를 연결하고 있는 모습.\n392. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n393. 그림: 손이 흡입구를 세척하고 있는 모습.\n394. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n395. 그림: 손이 흡입구를 연결하고 있는 모습.\n396. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n397. 그림: 손이 흡입구를 세척하고 있는 모습.\n398. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n399. 그림: 손이 흡입구를 연결하고 있는 모습.\n400. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n401. 그림: 손이 흡입구를 세척하고 있는 모습.\n402. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n403. 그림: 손이 흡입구를 연결하고 있는 모습.\n404. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n405. 그림: 손이 흡입구를 세척하고 있는 모습.\n406. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n407. 그림: 손이 흡입구를 연결하고 있는 모습.\n408. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n409. 그림: 손이 흡입구를 세척하고 있는 모습.\n410. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n411. 그림: 손이 흡입구를 연결하고 있는 모습.\n412. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n413. 그림: 손이 흡입구를 세척하고 있는 모습.\n414. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n415. 그림: 손이 흡입구를 연결하고 있는 모습.\n416. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n417. 그림: 손이 흡입구를 세척하고 있는 모습.\n418. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n419. 그림: 손이 흡입구를 연결하고 있는 모습.\n420. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n421. 그림: 손이 흡입구를 세척하고 있는 모습.\n422. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n423. 그림: 손이 흡입구를 연결하고 있는 모습.\n424. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n425. 그림: 손이 흡입구를 세척하고 있는 모습.\n426. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n427. 그림: 손이 흡입구를 연결하고 있는 모습.\n428. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n429. 그림: 손이 흡입구를 세척하고 있는 모습.\n430. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n431. 그림: 손이 흡입구를 연결하고 있는 모습.\n432. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n433. 그림: 손이 흡입구를 세척하고 있는 모습.\n434. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n435. 그림: 손이 흡입구를 연결하고 있는 모습.\n436. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n437. 그림: 손이 흡입구를 세척하고 있는 모습.\n438. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n439. 그림: 손이 흡입구를 연결하고 있는 모습.\n440. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n441. 그림: 손이 흡입구를 세척하고 있는 모습.\n442. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n443. 그림: 손이 흡입구를 연결하고 있는 모습.\n444. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n445. 그림: 손이 흡입구를 세척하고 있는 모습.\n446. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n447. 그림: 손이 흡입구를 연결하고 있는 모습.\n448. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n449. 그림: 손이 흡입구를 세척하고 있는 모습.\n450. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n451. 그림: 손이 흡입구를 연결하고 있는 모습.\n452. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n453. 그림: 손이 흡입구를 세척하고 있는 모습.\n454. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n455. 그림: 손이 흡입구를 연결하고 있는 모습.\n456. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n457. 그림: 손이 흡입구를 세척하고 있는 모습.\n458. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n459. 그림: 손이 흡입구를 연결하고 있는 모습.\n460. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n461. 그림: 손이 흡입구를 세척하고 있는 모습.\n462. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n463. 그림: 손이 흡입구를 연결하고 있는 모습.\n464. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n465. 그림: 손이 흡입구를 세척하고 있는 모습.\n466. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n467. 그림: 손이 흡입구를 연결하고 있는 모습.\n468. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n469. 그림: 손이 흡입구를 세척하고 있는 모습.\n470. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n471. 그림: 손이 흡입구를 연결하고 있는 모습.\n472. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n473. 그림: 손이 흡입구를 세척하고 있는 모습.\n474. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n475. 그림: 손이 흡입구를 연결하고 있는 모습.\n476. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n477. 그림: 손이 흡입구를 세척하고 있는 모습.\n478. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n479. 그림: 손이 흡입구를 연결하고 있는 모습.\n480. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n481. 그림: 손이 흡입구를 세척하고 있는 모습.\n482. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n483. 그림: 손이 흡입구를 연결하고 있는 모습.\n484. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n485. 그림: 손이 흡입구를 세척하고 있는 모습.\n486. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n487. 그림: 손이 흡입구를 연결하고 있는 모습.\n488. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n489. 그림: 손이 흡입구를 세척하고 있는 모습.\n490. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n491. 그림: 손이 흡입구를 연결하고 있는 모습.\n492. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n493. 그림: 손이 흡입구를 세척하고 있는 모습.\n494. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n495. 그림: 손이 흡입구를 연결하고 있는 모습.\n496. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n497. 그림: 손이 흡입구를 세척하고 있는 모습.\n498. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n499. 그림: 손이 흡입구를 연결하고 있는 모습.\n500. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n501. 그림: 손이 흡입구를 세척하고 있는 모습.\n502. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n503. 그림: 손이 흡입구를 연결하고 있는 모습.\n504. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n505. 그림: 손이 흡입구를 세척하고 있는 모습.\n506. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n507. 그림: 손이 흡입구를 연결하고 있는 모습.\n508. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n509. 그림: 손이 흡입구를 세척하고 있는 모습.\n510. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n511. 그림: 손이 흡입구를 연결하고 있는 모습.\n512. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n513. 그림: 손이 흡입구를 세척하고 있는 모습.\n514. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n515. 그림: 손이 흡입구를 연결하고 있는 모습.\n516. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n517. 그림: 손이 흡입구를 세척하고 있는 모습.\n518. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n519. 그림: 손이 흡입구를 연결하고 있는 모습.\n520. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n521. 그림: 손이 흡입구를 세척하고 있는 모습.\n522. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n523. 그림: 손이 흡입구를 연결하고 있는 모습.\n524. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n525. 그림: 손이 흡입구를 세척하고 있는 모습.\n526. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n527. 그림: 손이 흡입구를 연결하고 있는 모습.\n528. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n529. 그림: 손이 흡입구를 세척하고 있는 모습.\n530. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n531. 그림: 손이 흡입구를 연결하고 있는 모습.\n532. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n533. 그림: 손이 흡입구를 세척하고 있는 모습.\n534. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n535. 그림: 손이 흡입구를 연결하고 있는 모습.\n536. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n537. 그림: 손이 흡입구를 세척하고 있는 모습.\n538. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n539. 그림: 손이 흡입구를 연결하고 있는 모습.\n540. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n541. 그림: 손이 흡입구를 세척하고 있는 모습.\n542. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n543. 그림: 손이 흡입구를 연결하고 있는 모습.\n544. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n545. 그림: 손이 흡입구를 세척하고 있는 모습.\n546. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n547. 그림: 손이 흡입구를 연결하고 있는 모습.\n548. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n549. 그림: 손이 흡입구를 세척하고 있는 모습.\n550. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n551. 그림: 손이 흡입구를 연결하고 있는 모습.\n552. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n553. 그림: 손이 흡입구를 세척하고 있는 모습.\n554. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n555. 그림: 손이 흡입구를 연결하고 있는 모습.\n556. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n557. 그림: 손이 흡입구를 세척하고 있는 모습.\n558. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n559. 그림: 손이 흡입구를 연결하고 있는 모습.\n560. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n561. 그림: 손이 흡입구를 세척하고 있는 모습.\n562. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n563. 그림: 손이 흡입구를 연결하고 있는 모습.\n564. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n565. 그림: 손이 흡입구를 세척하고 있는 모습.\n566. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n567. 그림: 손이 흡입구를 연결하고 있는 모습.\n568. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n569. 그림: 손이 흡입구를 세척하고 있는 모습.\n570. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n571. 그림: 손이 흡입구를 연결하고 있는 모습.\n572. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n573. 그림: 손이 흡입구를 세척하고 있는 모습.\n574. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n575. 그림: 손이 흡입구를 연결하고 있는 모습.\n576. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n577. 그림: 손이 흡입구를 세척하고 있는 모습.\n578. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n579. 그림: 손이 흡입구를 연결하고 있는 모습.\n580. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n581. 그림: 손이 흡입구를 세척하고 있는 모습.\n582. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n583. 그림: 손이 흡입구를 연결하고 있는 모습.\n584. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n585. 그림: 손이 흡입구를 세척하고 있는 모습.\n586. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n587. 그림: 손이 흡입구를 연결하고 있는 모습.\n588. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n589. 그림: 손이 흡입구를 세척하고 있는 모습.\n590. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n591. 그림: 손이 흡입구를 연결하고 있는 모습.\n592. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n593. 그림: 손이 흡입구를 세척하고 있는 모습.\n594. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n595. 그림: 손이 흡입구를 연결하고 있는 모습.\n596. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n597. 그림: 손이 흡입구를 세척하고 있는 모습.\n598. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n599. 그림: 손이 흡입구를 연결하고 있는 모습.\n600. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n601. 그림: 손이 흡입구를 세척하고 있는 모습.\n602. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n603. 그림: 손이 흡입구를 연결하고 있는 모습.\n604. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n605. 그림: 손이 흡입구를 세척하고 있는 모습.\n606. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n607. 그림: 손이 흡입구를 연결하고 있는 모습.\n608. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n609. 그림: 손이 흡입구를 세척하고 있는 모습.\n610. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n611. 그림: 손이 흡입구를 연결하고 있는 모습.\n612. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n613. 그림: 손이 흡입구를 세척하고 있는 모습.\n614. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n615. 그림: 손이 흡입구를 연결하고 있는 모습.\n616. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n617. 그림: 손이 흡입구를 세척하고 있는 모습.\n618. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n619. 그림: 손이 흡입구를 연결하고 있는 모습.\n620. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n621. 그림: 손이 흡입구를 세척하고 있는 모습.\n622. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n623. 그림: 손이 흡입구를 연결하고 있는 모습.\n624. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n625. 그림: 손이 흡입구를 세척하고 있는 모습.\n626. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n627. 그림: 손이 흡입구를 연결하고 있는 모습.\n628. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n629. 그림: 손이 흡입구를 세척하고 있는 모습.\n630. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n631. 그림: 손이 흡입구를 연결하고 있는 모습.\n632. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n633. 그림: 손이 흡입구를 세척하고 있는 모습.\n634. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n635. 그림: 손이 흡입구를 연결하고 있는 모습.\n636. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n637. 그림: 손이 흡입구를 세척하고 있는 모습.\n638. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n639. 그림: 손이 흡입구를 연결하고 있는 모습.\n640. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n641. 그림: 손이 흡입구를 세척하고 있는 모습.\n642. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n643. 그림: 손이 흡입구를 연결하고 있는 모습.\n644. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n645. 그림: 손이 흡입구를 세척하고 있는 모습.\n646. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n647. 그림: 손이 흡입구를 연결하고 있는 모습.\n648. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n649. 그림: 손이 흡입구를 세척하고 있는 모습.\n650. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n651. 그림: 손이 흡입구를 연결하고 있는 모습.\n652. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n653. 그림: 손이 흡입구를 세척하고 있는 모습.\n654. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n655. 그림: 손이 흡입구를 연결하고 있는 모습.\n656. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n657. 그림: 손이 흡입구를 세척하고 있는 모습.\n658. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n659. 그림: 손이 흡입구를 연결하고 있는 모습.\n660. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n661. 그림: 손이 흡입구를 세척하고 있는 모습.\n662. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n663. 그림: 손이 흡입구를 연결하고 있는 모습.\n664. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n665. 그림: 손이 흡입구를 세척하고 있는 모습.\n666. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n667. 그림: 손이 흡입구를 연결하고 있는 모습.\n668. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n669. 그림: 손이 흡입구를 세척하고 있는 모습.\n670. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n671. 그림: 손이 흡입구를 연결하고 있는 모습.\n672. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n673. 그림: 손이 흡입구를 세척하고 있는 모습.\n674. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n675. 그림: 손이 흡입구를 연결하고 있는 모습.\n676. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n677. 그림: 손이 흡입구를 세척하고 있는 모습.\n678. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n679. 그림: 손이 흡입구를 연결하고 있는 모습.\n680. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n681. 그림: 손이 흡입구를 세척하고 있는 모습.\n682. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n683. 그림: 손이 흡입구를 연결하고 있는 모습.\n684. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n685. 그림: 손이 흡입구를 세척하고 있는 모습.\n686. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n687. 그림: 손이 흡입구를 연결하고 있는 모습.\n688. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n689. 그림: 손이 흡입구를 세척하고 있는 모습.\n690. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n691. 그림: 손이 흡입구를 연결하고 있는 모습.\n692. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n693. 그림: 손이 흡입구를 세척하고 있는 모습.\n694. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n695. 그림: 손이 흡입구를 연결하고 있는 모습.\n696. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n697. 그림: 손이 흡입구를 세척하고 있는 모습.\n698. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n699. 그림: 손이 흡입구를 연결하고 있는 모습.\n700. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n701. 그림: 손이 흡입구를 세척하고 있는 모습.\n702. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n703. 그림: 손이 흡입구를 연결하고 있는 모습.\n704. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n705. 그림: 손이 흡입구를 세척하고 있는 모습.\n706. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n707. 그림: 손이 흡입구를 연결하고 있는 모습.\n708. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n709. 그림: 손이 흡입구를 세척하고 있는 모습.\n710. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n711. 그림: 손이 흡입구를 연결하고 있는 모습.\n712. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n713. 그림: 손이 흡입구를 세척하고 있는 모습.\n714. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n715. 그림: 손이 흡입구를 연결하고 있는 모습.\n716. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n717. 그림: 손이 흡입구를 세척하고 있는 모습.\n718. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n719. 그림: 손이 흡입구를 연결하고 있는 모습.\n720. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n721. 그림: 손이 흡입구를 세척하고 있는 모습.\n722. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n723. 그림: 손이 흡입구를 연결하고 있는 모습.\n724. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n725. 그림: 손이 흡입구를 세척하고 있는 모습.\n726. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n727. 그림: 손이 흡입구를 연결하고 있는 모습.\n728. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n729. 그림: 손이 흡입구를 세척하고 있는 모습.\n730. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n731. 그림: 손이 흡입구를 연결하고 있는 모습.\n732. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n733. 그림: 손이 흡입구를 세척하고 있는 모습.\n734. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n735. 그림: 손이 흡입구를 연결하고 있는 모습.\n736. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n737. 그림: 손이 흡입구를 세척하고 있는 모습.\n738. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n739. 그림: 손이 흡입구를 연결하고 있는 모습.\n740. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n741. 그림: 손이 흡입구를 세척하고 있는 모습.\n742. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n743. 그림: 손이 흡입구를 연결하고 있는 모습.\n744. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n745. 그림: 손이 흡입구를 세척하고 있는 모습.\n746. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n747. 그림: 손이 흡입구를 연결하고 있는 모습.\n748. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n749. 그림: 손이 흡입구를 세척하고 있는 모습.\n750. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n751. 그림: 손이 흡입구를 연결하고 있는 모습.\n752. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n753. 그림: 손이 흡입구를 세척하고 있는 모습.\n754. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n755. 그림: 손이 흡입구를 연결하고 있는 모습.\n756. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n757. 그림: 손이 흡입구를 세척하고 있는 모습.\n758. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n759. 그림: 손이 흡입구를 연결하고 있는 모습.\n760. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n761. 그림: 손이 흡입구를 세척하고 있는 모습.\n762. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n763. 그림: 손이 흡입구를 연결하고 있는 모습.\n764. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n765. 그림: 손이 흡입구를 세척하고 있는 모습.\n766. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n767. 그림: 손이 흡입구를 연결하고 있는 모습.\n768. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n769. 그림: 손이 흡입구를 세척하고 있는 모습.\n770. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n771. 그림: 손이 흡입구를 연결하고 있는 모습.\n772. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n773. 그림: 손이 흡입구를 세척하고 있는 모습.\n774. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n775. 그림: 손이 흡입구를 연결하고 있는 모습.\n776. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n777. 그림: 손이 흡입구를 세척하고 있는 모습.\n778. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n779. 그림: 손이 흡입구를 연결하고 있는 모습.\n780. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n781. 그림: 손이 흡입구를 세척하고 있는 모습.\n782. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n783. 그림: 손이 흡입구를 연결하고 있는 모습.\n784. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n785. 그림: 손이 흡입구를 세척하고 있는 모습.\n786. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n787. 그림: 손이 흡입구를 연결하고 있는 모습.\n788. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n789. 그림: 손이 흡입구를 세척하고 있는 모습.\n790. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n791. 그림: 손이 흡입구를 연결하고 있는 모습.\n792. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n793. 그림: 손이 흡입구를 세척하고 있는 모습.\n794. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n795. 그림: 손이 흡입구를 연결하고 있는 모습.\n796. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n797. 그림: 손이 흡입구를 세척하고 있는 모습.\n798. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n799. 그림: 손이 흡입구를 연결하고 있는 모습.\n800. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n801. 그림: 손이 흡입구를 세척하고 있는 모습.\n802. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n803. 그림: 손이 흡입구를 연결하고 있는 모습.\n804. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n805. 그림: 손이 흡입구를 세척하고 있는 모습.\n806. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n807. 그림: 손이 흡입구를 연결하고 있는 모습.\n808. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n809. 그림: 손이 흡입구를 세척하고 있는 모습.\n810. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n811. 그림: 손이 흡입구를 연결하고 있는 모습.\n812. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n813. 그림: 손이 흡입구를 세척하고 있는 모습.\n814. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n815. 그림: 손이 흡입구를 연결하고 있는 모습.\n816. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n817. 그림: 손이 흡입구를 세척하고 있는 모습.\n818. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n819. 그림: 손이 흡입구를 연결하고 있는 모습.\n820. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n821. 그림: 손이 흡입구를 세척하고 있는 모습.\n822. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n823. 그림: 손이 흡입구를 연결하고 있는 모습.\n824. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n825. 그림: 손이 흡입구를 세척하고 있는 모습.\n826. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n827. 그림: 손이 흡입구를 연결하고 있는 모습.\n828. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n829. 그림: 손이 흡입구를 세척하고 있는 모습.\n830. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n831. 그림: 손이 흡입구를 연결하고 있는 모습.\n832. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n833. 그림: 손이 흡입구를 세척하고 있는 모습.\n834. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n835. 그림: 손이 흡입구를 연결하고 있는 모습.\n836. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n837. 그림: 손이 흡입구를 세척하고 있는 모습.\n838. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n839. 그림: 손이 흡입구를 연결하고 있는 모습.\n840. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n841. 그림: 손이 흡입구를 세척하고 있는 모습.\n842. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n843. 그림: 손이 흡입구를 연결하고 있는 모습.\n844. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n845. 그림: 손이 흡입구를 세척하고 있는 모습.\n846. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n847. 그림: 손이 흡입구를 연결하고 있는 모습.\n848. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n849. 그림: 손이 흡입구를 세척하고 있는 모습.\n850. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n851. 그림: 손이 흡입구를 연결하고 있는 모습.\n852. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n853. 그림: 손이 흡입구를 세척하고 있는 모습.\n854. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n855. 그림: 손이 흡입구를 연결하고 있는 모습.\n856. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n857. 그림: 손이 흡입구를 세척하고 있는 모습.\n858. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n859. 그림: 손이 흡입구를 연결하고 있는 모습.\n860. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n861. 그림: 손이 흡입구를 세척하고 있는 모습.\n862. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n863. 그림: 손이 흡입구를 연결하고 있는 모습.\n864. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n865. 그림: 손이 흡입구를 세척하고 있는 모습.\n866. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n867. 그림: 손이 흡입구를 연결하고 있는 모습.\n868. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n869. 그림: 손이 흡입구를 세척하고 있는 모습.\n870. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n871. 그림: 손이 흡입구를 연결하고 있는 모습.\n872. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n873. 그림: 손이 흡입구를 세척하고 있는 모습.\n874. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n875. 그림: 손이 흡입구를 연결하고 있는 모습.\n876. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n877. 그림: 손이 흡입구를 세척하고 있는 모습.\n878. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n879. 그림: 손이 흡입구를 연결하고 있는 모습.\n880. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n881. 그림: 손이 흡입구를 세척하고 있는 모습.\n882. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n883. 그림: 손이 흡입구를 연결하고 있는 모습.\n884. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n885. 그림: 손이 흡입구를 세척하고 있는 모습.\n886. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n887. 그림: 손이 흡입구를 연결하고 있는 모습.\n888. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n889. 그림: 손이 흡입구를 세척하고 있는 모습.\n890. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n891. 그림: 손이 흡입구를 연결하고 있는 모습.\n892. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n893. 그림: 손이 흡입구를 세척하고 있는 모습.\n894. 그림: 손이 흡입구를 분리하여 뒤집고 있는 모습.\n895. 그림: 손이 흡입구를 연결하고 있는 모습.\n896. 그림: 손이 흡입구 아래의 이물질을 제거하는 모습.\n897. 그림: 손이 흡입구를 세척하고 있는 모습."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 37,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p037.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 34,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p034.png",
+    "caption": "1. 그림: 원통형 물체에 손이 버튼을 누르고 있음.\n   - 라벨: ❶\n\n2. 그림: 원형 물체에 화살표가 반시계 방향으로 회전하는 모습.\n   - 라벨: ❷\n\n3. 그림: 원통형 물체를 앞쪽으로 당긴 후 오른쪽으로 밀어 분리하는 모습.\n   - 라벨: ❸\n\n4. 그림: 물체에 물이 뿌려지는 모습.\n   - 라벨: ❹\n\n5. 그림: 물체에 물이 뿌려지는 모습.\n   - 라벨: ❺\n\n7. 그림: 작은 물체가 조립된 모습.\n\n8. 그림: 손이 양쪽 끝을 잡고 회전축을 분리하는 모습.\n\n9. 그림: 손이 회전축을 조립하는 모습.\n\n10. 그림: 회전축을 밀어 고정하는 모습."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 38,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p038.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 40,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p040.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 39,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p039.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 33,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p033.png",
+    "caption": "1. 그림: 진공 청소기 흡입구와 분리 버튼이 있는 모습.  \n   - ① 라벨 없음\n\n2. 그림: 손이 PUSH 버튼을 누르고 있는 모습과 회전솔이 분리되는 과정.  \n   - 원형 버튼에 \"PUSH\" 텍스트\n\n3. 그림: 제품 본체에 투명한 흡입구가 연결된 모습.  \n   - 흡입구 아래에 이물질이 있는 모습\n\n4. 그림: 회전솔과 흡입구 아래에 남아 있는 먼지를 제거하는 모습.  \n   - 손이 천을 사용하여 먼지를 닦아내는 모습\n\n5. 그림: 핀셋을 사용하여 흡입구 바닥의 클러에 낀 이물질을 제거하는 모습.  \n   - 핀셋이 클러에 낀 이물질을 잡고 있는 모습\n\n6. 그림: 작은 롤러를 일자 드라이버를 사용하여 분리하는 모습.  \n   - 롤러 안을 청소할 수 있는 모습"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 42,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p042.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 44,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p044.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 41,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p041.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 45,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p045.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 43,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p043.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 36,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p036.png",
+    "caption": "그림 설명:\n\n- 두 개의 원형 물체가 나란히 배치되어 있으며, 각각의 원형 물체에는 작은 원이 두 개씩 그려져 있습니다.\n- 두 원형 물체 사이에는 빗금이 그려진 부채꼴 모양이 있습니다.\n- 왼쪽 아래에는 확대된 원형 그림이 있으며, 내부에 작은 사각형과 선이 그려져 있습니다.\n- 확대된 원형 그림에서 화살표가 오른쪽으로 회전하는 방향을 가리키고 있습니다."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 47,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p047.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 49,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p049.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 50,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p050.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 46,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p046.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 48,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p048.png",
+    "caption": "- 플러그와 콘센트 그림: 플러그가 콘센트에 꽂혀 있는 모습. 콘센트 주변에 먼지가 있는 모습이 묘사됨.\n- 원 안에 \"K\"와 \"C\"가 겹쳐진 아이콘.\n- 전화기 그림: 수화기를 든 사람의 모습. 아래에 \"1588-7500\" 번호가 있음.\n- QR 코드: 우측 하단에 위치."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 51,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p051.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 52,
+    "image_path": "data/sample_images_150/vacuumcleaner_complex/p052.png",
+    "caption": "- **로고**: 원 안에 'L'과 'G'가 결합된 모양.\n- **QR 코드**: 오른쪽 하단에 위치.\n- **박스**: 두 개의 회색 박스가 나란히 배치되어 있음. \n- **텍스트**: 박스 안에 다양한 정보가 포함되어 있음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 2,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p002.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 1,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p001.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 4,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p004.png",
+    "caption": "- 원 안에 대각선으로 X 표시가 있는 아이콘이 있습니다.\n- 손이 전원 플러그를 잡고 있는 그림이 있습니다. 손에는 물방울이 그려져 있습니다."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 6,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p006.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 5,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p005.png",
+    "caption": "그림 1: \n\n- 왼쪽: 어린이가 막대기 같은 것을 들고 있는 모습. 막대기 끝에서 선이 여러 방향으로 뻗어 나가고 있음.\n- 오른쪽: 어른이 어린이와 마주 보고 서 있는 모습. 어른은 어린이에게 손을 내밀고 있음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 8,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p008.png",
+    "caption": "그림·도식·아이콘·표 설명:\n\n1. 표:\n   - 열 제목: 흡입구, K83*GY / K85*GY, K83*G / K85*G\n   - 행 내용:\n     - 코너팍팍 흡입구: 이미지 있음, ●, ●\n     - 솔형 흡입구: 이미지 있음, ●, ●\n     - 칼형 흡입구: 이미지 있음, ●, ●\n     - 침구 흡입구: 이미지 있음, ●, X\n\n2. 아이콘:\n   - ●: 검은색 원\n   - X: X 표시\n\n3. 그림:\n   - 코너팍팍 흡입구: 흡입구 이미지\n   - 솔형 흡입구: 솔이 달린 흡입구 이미지\n   - 칼형 흡입구: 칼 모양의 흡입구 이미지\n   - 침구 흡입구: 침구용 흡입구 이미지"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 9,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p009.png",
+    "caption": "1. 그림: 손이 파이프를 잡고 있으며, 파이프에 있는 버튼을 누르는 모습. 화살표가 아래 방향을 가리킴.\n   - 라벨: ①\n\n2. 그림: 손이 호스를 잡고 있으며, 호스에 있는 버튼을 누르는 모습. 화살표가 아래 방향을 가리킴.\n   - 라벨: ②\n\n3. 그림: 본체와 호스가 연결된 모습. 손이 호스를 본체에 밀어 넣는 모습.\n   - 라벨: ③\n\n4. 그림: 청소기가 벽 모서리에 위치한 모습."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 3,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p003.png",
+    "caption": "그림 설명:\n\n1. 세 개의 삼각형 아이콘이 있습니다.\n   - 첫 번째 삼각형: 내부에 느낌표가 있고, 삼각형의 바깥쪽에 굵은 테두리가 있습니다.\n   - 두 번째 삼각형: 내부에 느낌표가 있고, 삼각형의 바깥쪽에 굵은 테두리가 있습니다.\n   - 세 번째 삼각형: 내부에 느낌표가 있고, 삼각형의 바깥쪽에 얇은 테두리가 있습니다.\n\n2. 하단에 그림이 있습니다.\n   - 왼쪽에 어린이가 서 있고, 오른쪽에 어른이 서 있습니다.\n   - 어린이와 어른 사이에 상자가 있으며, 상자 안에는 포장재가 있습니다.\n   - 포장재 위에 물방울 모양의 아이콘이 있으며, 내부에 느낌표가 있습니다."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 10,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p010.png",
+    "caption": "그림 설명:\n\n1. **가구보호 흡입구 그림**: 바닥에 놓인 흡입구가 가구에 부딪히지 않도록 설계된 모습. 흡입구는 부드러운 재질로 덮여 있음.\n\n2. **소파 청소 흡입구 그림**: 소파 위에 놓인 흡입구가 소파를 청소하는 모습.\n\n3. **칼형 흡입구 그림**: 벽 모서리 부분을 청소하는 긴 흡입구의 모습.\n\n4. **이불, 침대 등 침구류 청소하기 그림**: 침구류 위에 놓인 흡입구가 침구를 청소하는 모습.\n\n5. **흡입력 조절 스위치 그림**: 원형 안에 여러 단계가 표시된 스위치.\n\n6. **알아두기 아이콘**: 원 안에 느낌표가 있는 아이콘.\n\n콜아웃 번호:\n\n1. 침구 흡입구를 호스 손잡이 또는 길이 조절 파이프에 연결하세요.\n\n2. 흡입력 조절스위치를 강으로 놓은 후 사용하세요."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 7,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p007.png",
+    "caption": "1. **① 온/오프 손잡이**: 손잡이 부분에 위치한 버튼을 보여주는 그림.\n2. **② 전원선 감기 버튼**: 본체에 있는 버튼을 보여주는 그림.\n3. **③ 전원선**: 본체에서 나오는 전원선을 보여주는 그림.\n4. **④ 호스 분리 버튼**: 호스와 본체 연결 부분의 버튼을 보여주는 그림.\n5. **⑤ 손잡이**: 손잡이 부분을 확대하여 보여주는 그림.\n6. **⑥ 길이 조절 손잡이**: 손잡이의 길이를 조절하는 부분을 보여주는 그림.\n7. **⑦ 길이 조절 파이프**: 파이프의 길이를 조절하는 부분을 보여주는 그림.\n8. **⑧ 흡입력 조절 스위치**: 손잡이에 있는 스위치를 보여주는 그림.\n9. **⑨ 코너박흡입구**: 바닥 청소용 흡입구를 보여주는 그림.\n\n각 그림은 해당 부품의 위치와 기능을 설명하기 위해 확대되어 있습니다."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 11,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p011.png",
+    "caption": "1. 진공청소기 그림: 본체와 손잡이가 보이며, 손잡이 부분에 ① 라벨이 있음. \n\n2. 진공청소기 측면 그림: 흡입구가 바닥에 닿아 있고, 흡입구의 돌기를 본체 바닥에 있는 홈에 끼우는 모습. 화살표가 아래 방향을 가리킴.\n\n3. 진공청소기 보관 그림: 본체 옆에 흡입구의 돌기를 끼우는 모습. 화살표가 위 방향을 가리킴."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 12,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p012.png",
+    "caption": "그림 설명:\n\n1. 원형 그림: 진공청소기 본체의 먼지통 부분을 확대하여 보여줌. 먼지통에 Max 선이 표시되어 있음. 콜아웃 번호 ❶이 있음. 라벨 없음.\n\n2. 원형 그림: 먼지통 분리 버튼을 누르는 손을 보여줌. 콜아웃 번호 ❷가 있음. 라벨 없음.\n\n3. 원형 그림: 먼지통을 본체에서 분리하는 모습을 보여줌. 콜아웃 번호 ❶이 있음. 라벨 없음.\n\n4. 원형 그림: 먼지통 뚜껑을 열고 먼지를 버리는 모습을 보여줌. 콜아웃 번호 ❸이 있음. 라벨 없음.\n\n5. 원형 그림: 먼지통과 뚜껑을 흐르는 물에 씻는 모습을 보여줌. 콜아웃 번호 없음. \n\n화살표:\n- 먼지통을 본체에서 분리하는 방향을 가리킴.\n- 먼지통 뚜껑을 여는 방향을 가리킴."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 14,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p014.png",
+    "caption": "1. 그림: 상단 왼쪽에 여러 개의 필터와 관련된 그림들이 나열되어 있습니다. 필터를 물에 씻는 모습과 건조하는 모습이 포함되어 있습니다.\n\n2. 그림: 먼지 분리기 덮개를 닫는 과정이 묘사되어 있습니다. 원형의 그림 안에 덮개를 닫는 손의 모습이 보입니다.\n\n3. 그림: 먼지 분리기 핸들을 잡고 아래로 내리는 모습이 있습니다. 화살표가 아래 방향을 가리키고 있습니다.\n\n4. 그림: 청소기 덮개를 닫는 모습이 있습니다. 손이 덮개를 닫고 있는 모습이 보입니다.\n\n5. 그림: 모터 보호 필터를 넣는 과정이 묘사되어 있습니다. 두 개의 콜아웃 번호(①, ②)가 있으며, ①은 \"모터 보호 필터\"를 가리키고, ②는 \"필터\"를 가리킵니다.\n\n6. 그림: 필터 덮개를 닫는 과정이 묘사되어 있습니다. 원형의 그림 안에 덮개를 닫는 손의 모습이 보입니다.\n\n7. 그림: 배기 필터 덮개를 여는 과정이 묘사되어 있습니다. 버튼을 누르는 손의 모습이 보입니다. 콜아웃 번호 ❶이 있으며, \"버튼\"을 가리킵니다."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 13,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p013.png",
+    "caption": "1. 그림: 청소기 본체의 뚜껑을 여는 모습. 화살표가 위로 향해 있음.\n2. 그림: 먼지 분리기 핸들을 잡고 위로 당기는 모습. 화살표가 위로 향해 있음. 콜아웃 번호 ①, 라벨 없음.\n3. 그림: PULL 레버를 당겨 필터 덮개를 여는 모습. 콜아웃 번호 ②, 라벨 없음.\n4. 그림: 먼지 분리기 덮개를 열고 먼지를 제거하는 모습. 화살표가 아래로 향해 있음. 콜아웃 번호 ③, 라벨 없음.\n5. 그림: 에어 필터와 모터 보호 필터를 꺼내는 모습. 화살표가 위로 향해 있음. 콜아웃 번호 ④, 라벨 없음. 콜아웃 번호 ⑤, 라벨 없음.\n6. 그림: 흐르는 물에 필터를 씻는 모습. 물줄기가 필터에 닿고 있음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 17,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p017.png",
+    "caption": "1. 세 개의 그림이 나란히 배치되어 있습니다. 각 그림은 손잡이와 연결된 파이프를 보여주며, 파이프의 길이를 조절하는 모습을 나타냅니다.\n\n2. 번호 ❶: 라벨 없음. 그림에는 손잡이와 파이프가 연결된 모습이 있으며, 화살표가 파이프와 연결 부위를 가리키고 있습니다. 두 개의 원 안에 눈 모양 아이콘이 있습니다.\n\n3. 번호 ❷: 라벨 없음. 손이 막대기를 사용하여 이물질을 제거하는 모습입니다. 막대기 끝에 이물질이 걸려 있는 모습이 보입니다.\n\n4. 번호 ❸: 라벨 없음. 손잡이와 파이프가 연결된 부분을 손으로 막고 있는 그림입니다. 원 안에 \"흡입력 조절\"과 \"최강\"이라는 텍스트가 있는 원형 조절기가 보입니다."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 18,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p018.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 15,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p015.png",
+    "caption": "1. 그림: 진공청소기의 흡입구 부분을 보여주는 그림. 흡입구에서 칼 모양의 도구를 사용하여 이물질을 제거하는 모습.\n   - 콜아웃 번호: ❶\n   - 라벨: \"위\" - 칼형 흡입구를 이용하여 흡입구 외부에 있는 이물질을 제거하세요.\n\n2. 그림: 진공청소기의 배기 필터를 분리하는 과정. 손으로 필터를 잡고 있는 모습.\n   - 콜아웃 번호: ❷\n   - 라벨 없음\n\n3. 그림: 배기 필터에서 먼지를 제거하는 모습. 필터를 쓰레기통 위에서 털고 있는 모습.\n\n4. 그림: 배기 필터를 다시 장착하는 과정. 필터를 끼우고 버튼을 밀어 올리는 모습.\n   - 콜아웃 번호: ❸\n   - 라벨 없음\n\n5. 그림: 진공청소기의 바닥 부분을 보여주는 그림. 칼 모양의 도구를 사용하여 바닥의 이물질을 제거하는 모습.\n   - 라벨: \"바닥\" - 칼형 흡입구를 이용하거나 손으로 흡입구 바닥에 있는 이물질을 제거하세요."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 19,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p019.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 20,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p020.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 16,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p016.png",
+    "caption": "1. 진공 청소기의 흡입구를 시계 방향으로 돌려 분리하는 그림. 손이 흡입구를 잡고 있음.\n\n2. 먼지통의 먼지를 버리는 그림. 먼지통이 열려 있음.\n\n3. 흡입구의 입구에 걸린 이물질을 손으로 제거하는 그림. 확대된 원 안에 손가락이 이물질을 제거하는 모습.\n\n4. 분리된 바닥판을 물로 씻는 그림. 수도꼭지에서 물이 흐르고 있음.\n\n5. 바닥의 진동판을 가지런히 놓는 그림. 손이 진동판을 잡고 있음.\n\n6. 바닥판 결합 돌기를 홈에 끼워 넣고 바닥판을 눌러 결합하는 그림. 화살표가 바닥판을 누르는 방향을 가리킴."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 21,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p021.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 23,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p023.png",
+    "caption": "1. **첫 번째 박스:**\n   - 왼쪽에 원 안에 \"K\"와 \"C\"가 겹쳐진 모양의 아이콘이 있습니다.\n\n2. **두 번째 박스:**\n   - 왼쪽에 전기 콘센트와 플러그 그림이 있습니다. 플러그는 콘센트에 꽂혀 있는 모습입니다.\n\n3. **세 번째 박스:**\n   - 왼쪽에 전화기를 들고 있는 사람의 그림이 있습니다. 전화기 아래에 \"1588-7500\" 숫자가 있습니다.\n\n4. **표:**\n   - 열 제목: 없음\n   - 첫 번째 행: \"주방용 가전제품 편\"과 유튜브 링크\n   - 두 번째 행: \"생활용 가전제품 편\"과 유튜브 링크\n   - 세 번째 행: \"계절용 가전제품 편\"과 유튜브 링크, 오른쪽에 QR 코드와 \"QR을 통해 KESCO를 만나보세요.\" 텍스트\n\n아이콘과 그림은 위와 같이 설명됩니다."
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 24,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p024.png",
+    "caption": "- 원형 안에 'L'과 'G'가 있는 로고\n- \"LG Life's Good\" 텍스트\n- QR 코드: 사각형 안에 작은 사각형들이 모여 있는 패턴\n- 하단에 \"Copyright © 2015-2022 LG Electronics Inc. All Rights Reserved.\" 텍스트"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 1,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p001.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 2,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p002.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 3,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p003.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 22,
+    "image_path": "data/sample_images_150/vacuumcleaner_simple/p022.png",
+    "caption": "1. 진공청소기 그림:\n   - 진공청소기의 측면 그림이 있습니다.\n   - \"높이\", \"폭\", \"길이\"라는 라벨이 각각의 방향을 가리키고 있습니다.\n\n2. 표:\n   - 열 제목: 모델명, 전원, 정격 소비전력, 코드 길이, 제품 크기 (폭 X 길이 X 높이)\n   - 행 내용:\n     - K83*GY / K85*GY / K83*G / K85*G\n     - 220 V~, 60 Hz\n     - 1100 W\n     - 6 m\n     - 285 mm × 445 mm × 305 mm\n\n3. 멀티탭 그림:\n   - 사각형 모양의 멀티탭이 그려져 있습니다.\n   - 멀티탭에 플러그가 꽂혀 있는 모습입니다.\n   - 플러그와 멀티탭 주변에 먼지가 있는 모습이 묘사되어 있습니다."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 4,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p004.png",
+    "caption": "1. 왼쪽 상단 그림: 어린이가 상자에 손을 넣으려 하고, 옆에 어른이 손을 들고 경고하는 모습. 상자 위에 느낌표가 있는 말풍선이 있음.\n\n2. 오른쪽 중간 그림: 손이 전원 플러그를 잡고 있는 모습. 플러그에서 물방울이 떨어지는 그림.\n\n3. 하단 그림: 두 개의 전원 플러그 그림이 나란히 있음. 왼쪽 플러그는 번개 모양의 기호가 두 개 있고, 오른쪽 플러그는 번개 모양의 기호가 하나 있음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 8,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p008.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 7,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p007.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 5,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p005.png",
+    "caption": "그림이 있습니다.\n\n1. 왼쪽 그림: \n   - 아이가 가전제품 위에 올라가 있는 모습.\n   - 가전제품은 네모난 형태로, 위에 평평한 면이 있습니다.\n   - 아이는 손을 앞으로 뻗고 있습니다.\n\n2. 오른쪽 그림:\n   - 원 안에 대각선으로 X 표시가 그려져 있습니다.\n   - 원 안에는 가전제품 위에 올라가 있는 사람의 모습이 있습니다.\n   - 사람은 손을 앞으로 뻗고 있으며, 가전제품은 네모난 형태입니다."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 10,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p010.png",
+    "caption": "- **아이콘**: 원 안에 느낌표가 있는 아이콘이 두 번 등장합니다.\n- **그림**: 손가락이 버튼을 누르는 그림이 있습니다. 손가락은 버튼을 가리키고 있으며, 버튼 위에는 작은 원이 그려져 있습니다.\n- **콜아웃 번호**: \n  - ❶ 라벨 없음\n  - ❷ 라벨 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 12,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p012.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 9,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p009.png",
+    "caption": "- QR 코드: 스마트폰 카메라 또는 QR 리더 앱을 사용하여 제품에 부착된 QR 코드를 스캔하는 그림. QR 코드 옆에 스마트폰 아이콘이 있음.\n\n- 그림 1: 직사각형 모양의 가전제품 그림. 제품의 측면에 작은 사각형이 그려져 있음.\n\n- 그림 2: 안테나가 있는 무선 공유기 그림. 공유기 본체에서 두 개의 안테나가 위로 뻗어 있음.\n\n- 표:\n  - 열 제목: 무선 통신 방식, 사용 주파수, 최대 출력\n  - 행 1: 와이파이, 2400 MHz ~ 2483.5 MHz, < 12 mW/MHz\n  - 행 2: 블루투스*1, < 3.6 mW\n\n- 콜아웃 번호:\n  - ❶ 라벨 없음\n  - ❷ 라벨 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 13,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p013.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 14,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p014.png",
+    "caption": "- **그림**: 정수기의 입체적인 도식이 있습니다. 정수기의 앞면과 측면이 보이며, 세 개의 콜아웃 번호가 있습니다.\n  - ① 제어창\n  - ② 출수버튼\n  - ③ 출수부\n\n- **아이콘**: KC 마크가 있는 작은 사각형 아이콘이 있습니다. 내부에 \"KC\"와 숫자가 포함되어 있습니다.\n\n- **구성품 그림**: 두 개의 원통형 필터가 나란히 그려져 있습니다.\n  - ❶ 필터"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 11,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p011.png",
+    "caption": "```plaintext\n① \"Hi LG (하이 엘지)\"\n② \"띵\"\n③ \"정수 한잔 줘\"\n④ \"정수 120 ml가 추출됩니다\"\n```"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 16,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p016.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 18,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p018.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 15,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p015.png",
+    "caption": "- **그림/도식/아이콘 설명:**\n  - 중앙에 사각형 제어판이 있습니다.\n  - 제어판 상단에 디지털 숫자 표시창이 있으며, \"ml\" 단위가 표시되어 있습니다.\n  - 제어판 왼쪽에 여러 개의 아이콘이 있습니다:\n    - ①: 라벨 없음\n    - ②: 물결 모양 위에 두 개의 세로선이 있는 아이콘\n    - ③: 원 안에 와이파이 기호가 있는 아이콘\n    - ④: 물방울 모양 아이콘\n    - ⑤: 별 모양 아이콘\n    - ⑥: 물방울 모양 아이콘\n    - ⑦: 물방울 모양 아이콘\n    - ⑧: 큰 물방울 모양 아이콘\n  - 제어판 오른쪽에 두 개의 화살표가 위아래로 배치되어 있습니다.\n\n- **콜아웃 번호:**\n  - ❶ 용량 표시부\n  - ❷ 온수\n  - ❸ 정수\n  - ❹ 냉수\n  - ❺ 맞춤\n  - ❻ 출수구살균\n  - ❼ 용량\n  - ❽ 출수\n  - ❾ 용량 조절\n\n- **표:**\n  - 표 1:\n    - 열 제목: 아이콘, 상세 설명\n    - 행 1: 40 75 85, 선택한 온수의 온도를 표시합니다. 기본 설정은 85°C입니다.\n    - 행 2: 물방울 모양 아이콘, 필터 교체 시기가 되면 오렌지색의 불이 들어옵니다. 새 필터로 교체하세요.\n\n  - 표 2:\n    - 열 제목: 아이콘, 상세 설명\n    - 행 1: 마이크 모양 아이콘, 음성 인식 기능이 활성화되면 아이콘에 불이 들어옵니다. (음성 인식 기능이 있는 모델에만 해당됨.)\n    - 행 2: 와이파이 기호 아이콘, 집에 있는 무선공유기와 연결되면 아이콘에 불이 들어옵니다.\n    - 행 3: 업그레이드 화살표 아이콘, 새로운 업그레이드가 제공될 경우 불이 들어옵니다. LG ThinQ 앱에서 제품을 업그레이드 하세요."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 17,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p017.png",
+    "caption": "- **그림/도식/아이콘:**\n  - 중앙에 직사각형 제어창 그림이 있습니다.\n  - 제어창 상단에 \"280 ml\"라고 표시된 디지털 숫자 디스플레이가 있습니다.\n  - 디스플레이 왼쪽에 작은 원 안에 \"Wi-Fi\" 아이콘이 있습니다.\n  - 제어창 내부에 여러 개의 아이콘이 있습니다:\n    - 물방울 모양 아이콘\n    - 눈꽃 모양 아이콘\n    - 별 모양 아이콘\n    - 물방울과 화살표가 결합된 모양의 아이콘\n    - 물방울 모양 아이콘 아래에 작은 물방울이 있는 아이콘\n  - 제어창 오른쪽에 위쪽과 아래쪽을 가리키는 두 개의 화살표가 있습니다.\n\n- **콜아웃 번호:**\n  - ❶ 용량 표시부\n  - ❷ 정수\n  - ❸ 냉수\n  - ❹ 맞춤\n  - ❺ 출수구살균\n  - ❻ 용량\n  - ❼ 출수\n  - ❽ 용량 조절\n\n- **표:**\n  - 열 제목: 아이콘, 상세 설명\n  - 행 1: 와이파이 모양 아이콘, \"집에 있는 무선 공유기와 연결되면 아이콘에 불이 들어옵니다.\"\n  - 행 2: 느낌표 모양 아이콘, \"새로운 업데이트가 제공될 경우 불이 들어옵니다. LG ThinQ 앱에서 제품을 업데이트 하세요.\"\n  - 행 3: 필터 모양 아이콘, \"필터 교체 시기가 되면 오렌지색의 불이 들어옵니다. 새 필터로 교체하세요.\""
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 20,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p020.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 22,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p022.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 23,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p023.png",
+    "caption": "그림 설명:\n\n1. **디스플레이 패널**: 중앙에 \"280 ml\"라는 숫자가 표시된 디지털 화면이 있습니다.\n2. **아이콘 ①**: 물방울 모양, \"정수\"와 \"Wi-Fi\"라는 텍스트가 있습니다.\n3. **아이콘 ②**: 눈송이 모양, \"냉수\"라는 텍스트가 있습니다.\n4. **아이콘 ③**: 컵 모양, \"용량\"이라는 텍스트가 있습니다.\n5. **아이콘 ④**: 물방울 모양, \"출수\"라는 텍스트가 있습니다.\n6. **아이콘 ⑤**: 물방울 모양, 내부에 작은 물방울이 포함되어 있습니다. \"정수기 누름\"이라는 텍스트가 있습니다.\n\n아이콘 설명 표:\n\n- **아이콘**: 와이파이 모양\n- **상세 설명**: 집에 있는 무선공유기와 연결되면 아이콘에 불이 들어옵니다."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 21,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p021.png",
+    "caption": "- **그림/도식/아이콘 설명:**\n  - 중앙에 사각형 패널이 있으며, 상단에 \"280 ml\"라는 숫자가 표시된 디지털 화면이 있습니다.\n  - 화면 왼쪽 위에 와이파이 기호가 있습니다.\n  - 패널에 여러 아이콘이 있습니다:\n    - ❶: \"용량 표시부\"\n    - ❷: 물결 모양 위에 \"온수 (℃) 정수/냉수\"라는 텍스트\n    - ❸: 물방울 모양 위에 \"정수 *Wi-Fi\"라는 텍스트\n    - ❹: 눈송이 모양 위에 \"냉수\"라는 텍스트\n    - ❺: 물방울 모양 위에 \"용량\"이라는 텍스트\n    - ❻: 물방울 모양 아래에 \"정수기 누출\"이라는 텍스트\n\n- **표 설명:**\n  - 표는 두 열로 구성되어 있습니다.\n    - 첫 번째 열: \"아이콘\"\n    - 두 번째 열: \"상세 설명\"\n  - 표의 행:\n    - 첫 번째 행: 와이파이 기호와 관련된 설명\n    - 두 번째 행: 업그레이드 관련 설명\n    - 세 번째 행: \"40 75 85\"라는 숫자와 관련된 설명\n    - 네 번째 행: 필터 교체 시기 관련 설명\n\n- **화살표:**\n  - 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 6,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p006.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 19,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p019.png",
+    "caption": "1. **그림 및 도식 설명:**\n\n   - **① 용량 표시부**: 사각형 안에 \"250 ml\"라는 숫자가 표시되어 있습니다.\n   - **② 온수**: 물결 모양의 선이 세 개 그려져 있습니다.\n   - **③ 정수**: 원 안에 \"Wi-Fi\"라는 글자가 있습니다.\n   - **④ 냉수**: 눈송이 모양의 아이콘이 있습니다.\n   - **⑤ 용량**: 물방울 모양의 아이콘이 있습니다.\n   - **⑥ 출수**: 물방울 모양의 아이콘이 있습니다.\n\n2. **아이콘 설명:**\n\n   - **와이파이 아이콘**: 원 안에 점이 있고, 그 위로 부채꼴 모양의 선이 세 개 그려져 있습니다.\n   - **온도 아이콘**: \"40 75 85\"라는 숫자가 적혀 있습니다.\n   - **필터 아이콘**: 원 안에 점이 있고, 그 위로 부채꼴 모양의 선이 세 개 그려져 있습니다. \n\n3. **콜아웃 번호 및 라벨:**\n\n   - ① 용량 표시부\n   - ② 온수\n   - ③ 정수\n   - ④ 냉수\n   - ⑤ 용량\n   - ⑥ 출수"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 26,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p026.png",
+    "caption": "- **그림 1**: 사각형 안에 \"UVnano\"와 \"안심살균\"이라는 텍스트가 있으며, 아래에 ①이라는 콜아웃 번호가 있습니다. 라벨 없음.\n\n- **그림 2**: 출수구의 측면을 보여주는 그림으로, 출수구가 아래로 움직이는 모습을 화살표로 나타내고 있습니다. \n\n- **아이콘**: 삼각형 안에 느낌표가 있는 주의 아이콘."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 24,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p024.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 27,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p027.png",
+    "caption": "```plaintext\n① 라벨 없음\n\n- 그림: 출수구를 청소하는 모습을 보여주는 그림. 손이 출수구를 닦고 있는 모습.\n\n- 아이콘: 원 안에 느낌표가 있는 아이콘.\n\n- 그림: 주전자 두 개가 나란히 놓여 있는 그림. 왼쪽 주전자는 \"미네랄\"과 \"이산화탄소\"가 표시되어 있고, 오른쪽 주전자는 \"가열\"과 \"탄산칼슘\"이 표시되어 있음. 화살표가 왼쪽에서 오른쪽으로 향하고 있음.\n```"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 25,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p025.png",
+    "caption": "그림 1: \n- 물방울 모양의 아이콘 위에 \"출수구살균\"이라는 텍스트가 있음.\n\n그림 2:\n- 사각형 안에 물방울 모양의 아이콘이 있고, 그 아래에 \"용량\"이라는 텍스트가 있음.\n\n그림 3:\n- 디지털 숫자 \"20:00\"이 표시된 사각형 디스플레이가 있음.\n- 왼쪽에 \"3\"이라는 숫자와 \"일 표시\"라는 텍스트가 있음.\n- 오른쪽에 \"4\"라는 숫자와 \"시간 표시\"라는 텍스트가 있음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 28,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p028.png",
+    "caption": "1. **알아두기** 섹션:\n   - 두 개의 그림이 있습니다. 왼쪽 그림은 작은 입자들이 모여 있는 모습이고, 오른쪽 그림은 입자들이 결합하여 큰 덩어리를 형성한 모습입니다. 각 그림에는 \"탄산칼슘\"과 \"해동\"이라는 라벨이 붙어 있습니다.\n\n2. **정수 필터 교체하기** 섹션:\n   - 첫 번째 그림: 필터 커버의 아래 부분을 잡고 앞으로 당기는 모습을 보여줍니다. 화살표가 아래에서 위로 향하고 있습니다.\n   - 두 번째 그림: 필터 끝부분을 들어올린 후 반시계 방향으로 돌려 분리하는 모습을 보여줍니다. 화살표가 시계 반대 방향으로 회전하고 있습니다.\n   - 세 번째 그림: 손잡이를 이용하여 필터 체결부를 청소하는 모습을 보여줍니다. 손이 필터 체결부를 잡고 있습니다.\n   - 네 번째 그림: 새 필터의 라벨이 정면으로 향하도록 시계 방향으로 돌리는 모습을 보여줍니다. 화살표가 시계 방향으로 회전하고 있습니다. 그림 안에 두 개의 콜아웃 번호가 있습니다.\n     - ❶: 중금속9 총차 필터 6개월\n     - ❷: 바이러스 클리어 필터"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 29,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p029.png",
+    "caption": "1. 손이 필터를 잡고 있는 그림.  \n2. 필터의 돌출부와 화살표가 있는 그림.  \n3. 두 손이 필터 커버를 잡고 있는 그림. 화살표가 아래 방향으로 그려져 있음.  \n4. 물방울 모양의 아이콘 두 개. 왼쪽은 \"출수구수관\", 오른쪽은 \"용량\"이라고 라벨이 있음.  \n5. 물방울 모양의 아이콘 두 개. 왼쪽은 \"정수\", 오른쪽은 \"냉수\"라고 라벨이 있음.  \n6. 물방울 모양의 아이콘 두 개. 왼쪽은 \"정수\", 오른쪽은 \"냉수\"라고 라벨이 있음.  \n\n라벨 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 31,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p031.png",
+    "caption": "그림 설명:\n\n1. **아이콘**: 원 안에 체크 표시가 있는 아이콘이 있습니다.\n\n2. **그림**: 스마트폰과 가전제품의 측면을 보여주는 그림이 있습니다. \n   - 스마트폰이 가전제품의 측면에 가까이 위치해 있습니다.\n   - 가전제품의 측면에는 원형 모양이 그려져 있습니다.\n\n3. **번호**:\n   - 1: \"제어창의 정수와 맞춤 버튼을 길게 누르면 신호음이 발생합니다.\"\n   - 2: \"스마트폰의 마이크 부분을 아래 그림과 같은 위치에 가져다 대주세요. (출수구 우측하단) 대부분의 스마트폰은 아래쪽에 마이크가 있습니다. 데이터 전송 중에는 스마트폰을 계속 대고 있으세요.\"\n   - 3: \"데이터 전송이 완료된 후 스마트 진단 결과가 LG ThinQ 앱에 나타납니다.\""
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 30,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p030.png",
+    "caption": "- **그림**: \n  - 오른쪽 상단에 튜브와 연결된 파이프 그림이 있습니다. 파이프는 수평으로 배치되어 있으며, \"적정 수압\"이라는 라벨이 붙어 있습니다.\n  - 파이프의 끝부분에는 물방울 모양의 기호가 있습니다.\n\n- **아이콘**:\n  - 하단에 전기 플러그와 연결된 콘센트 그림이 있습니다. 콘센트 위에는 \"접지 단자\"라는 라벨이 붙어 있습니다.\n  - 콘센트 옆에는 \"AC 220V\"라는 텍스트가 있습니다."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 32,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p032.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 34,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p034.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 37,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p037.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 38,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p038.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 33,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p033.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 36,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p036.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 35,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p035.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 39,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p039.png",
+    "caption": "1. 그림: 플러그가 콘센트에 꽂혀 있는 모습. 플러그 주변에 번개 모양의 선이 그려져 있음.\n\n2. 아이콘: 원 안에 \"K\"와 \"C\"가 겹쳐져 있는 모양.\n\n3. 그림: 분전함 앞에 사람이 서 있는 모습. 분전함 문이 열려 있고, 내부에 여러 개의 선이 보임.\n\n4. 그림: 전화기를 들고 있는 사람의 모습. 전화기 아래에 \"1588-7500\" 숫자가 있음.\n\n5. QR 코드: 사각형 안에 작은 사각형과 점들이 배열되어 있는 모양."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 40,
+    "image_path": "data/sample_images_150/waterpurifier_complex/p040.png",
+    "caption": "- 원 안에 작은 원과 L 모양이 있는 아이콘\n- QR 코드\n- \"LG\" 로고"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 4,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p004.png",
+    "caption": "1. 상단 그림: \n   - 왼쪽에 어린이가 있고, 오른쪽에 어른이 있는 그림.\n   - 중앙에 상자가 있으며, 상자 안에 물결 모양의 선이 있음.\n   - 상자 위에 느낌표가 있는 원 모양의 아이콘이 있음.\n\n2. 중간 그림:\n   - 원 안에 손이 전원 플러그를 잡고 있는 그림.\n\n3. 하단 그림:\n   - 전원 플러그가 콘센트에 꽂혀 있는 그림.\n   - 플러그와 콘센트 사이에 번개 모양의 기호가 있음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 2,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p002.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 3,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p003.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 1,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p001.png",
+    "caption": "- 원 안에 \"LG\" 글자가 있는 로고\n- QR 코드 두 개\n- QR 코드 옆에 \"QR코드를 스캔하세요. 디지털 매뉴얼\" 텍스트\n- 하단 QR 코드 옆에 \"자세한 사용 방법은 LG전자 홈페이지를 참조하세요. 스마트 기기로 QR코드를 인식하면 자세한 내용을 빠르게 찾을 수 있습니다\" 텍스트"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 8,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p008.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 6,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p006.png",
+    "caption": "- 검은 원 안에 흰색 체크 표시가 있는 아이콘이 여러 개 있습니다.\n- 삼각형 안에 느낌표가 있는 경고 아이콘이 있습니다."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 5,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p005.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 9,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p009.png",
+    "caption": "그림 1: 스마트폰과 QR 코드 리더 앱을 사용하는 모습을 보여주는 그림. 스마트폰 화면에 QR 코드가 표시되어 있고, 그 옆에 \"LG ThinQ\" 로고가 있습니다.\n\n그림 2: QR 코드가 있는 제품의 그림. 제품 위에 QR 코드가 부착되어 있습니다.\n\n그림 3: 안테나가 두 개 있는 무선 공유기의 그림."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 7,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p007.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 10,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p010.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 12,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p012.png",
+    "caption": "1. **KC 마크**: 사각형 안에 \"KC\"라는 글자가 있고, 아래에 작은 글씨가 있습니다.\n\n2. **정수기 그림**: \n   - ① 제어창: 정수기 상단에 위치.\n   - ② 출수버튼: 정수기 앞면에 위치.\n   - ③ 출수부: 정수기 앞쪽에 위치.\n   - ④ 물받이: 정수기 하단에 위치.\n\n3. **구성품 그림**:\n   - ① 물받이: 사각형 모양.\n   - ② 필터: 원통형 두 개."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 11,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p011.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 14,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p014.png",
+    "caption": "그림 설명:\n\n1. **그림 1**: \n   - 두 개의 원형 아이콘이 있습니다.\n   - 왼쪽 아이콘: \"출수구살균\" 라벨이 붙어 있습니다.\n   - 오른쪽 아이콘: \"직수관살균\" 라벨이 붙어 있습니다.\n   - 두 아이콘 사이에 점선으로 연결된 선이 있습니다.\n   - 아래쪽에 \"3초간 눌러\"라는 텍스트가 있습니다.\n\n2. **그림 2**:\n   - 물이 담긴 용기 그림이 있습니다.\n   - 용기 위에 물방울 모양의 아이콘이 있습니다.\n   - 용기 아래쪽에 \"300 ml 이상\"이라는 텍스트가 있습니다."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 13,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p013.png",
+    "caption": "그림 설명:\n\n1. 두 개의 타원형 제어판이 나란히 배치되어 있습니다. 왼쪽은 \"WD525A**\", 오른쪽은 \"WD325A**\"로 표시되어 있습니다.\n2. 각 제어판 상단에 와이파이 모양의 아이콘이 있습니다.\n3. 왼쪽 제어판:\n   - ①: 온수/정수/냉수 아이콘과 온도(85, 75, 40°C) 및 용량(1000, 500, 250, 120 ml) 표시.\n   - ②: 정수/Wi-Fi 아이콘.\n   - ③: UVnano 냉수/안심살균 아이콘.\n   - ④: 용량(1000, 500, 250, 120 ml) 표시.\n   - ⑤: 연속 아이콘.\n   - ⑥: UVnano 냉수/안심살균 아이콘.\n   - ⑦: 물방울 모양의 아이콘.\n4. 오른쪽 제어판:\n   - 온수/정수/냉수 아이콘과 용량(1000, 500, 250, 120 ml) 표시.\n   - UVnano 냉수/안심살균 아이콘.\n5. 제어판 오른쪽에 물을 따르는 기기의 그림이 있습니다.\n\n아이콘 설명 표:\n- 와이파이 모양 아이콘: 무선 공유기 연결 시 불이 들어옴.\n- 온도 아이콘: 85, 75, 40°C 선택 가능.\n- 냉수 온도 아이콘: 냉수 온도 표시.\n- 물방울 모양 아이콘: 출수구 자동 움직임 기능.\n- 용량 아이콘: 1000, 500, 250, 120 ml 선택 가능.\n- 필터 교체 시기 아이콘: 오렌지색 불이 들어옴."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 15,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p015.png",
+    "caption": "그림 1: \n- 두 개의 기기가 나란히 배치되어 있습니다. \n- 왼쪽 기기: 위쪽에 둥근 버튼이 있고, 아래쪽에 물이 흐르는 관이 있습니다.\n- 오른쪽 기기: 컵이 놓여 있으며, 물이 컵으로 떨어지는 모습입니다.\n\n그림 2:\n- 기기의 측면을 보여주는 그림입니다.\n- 기기 위쪽에 둥근 버튼이 있고, 아래쪽에 물이 흐르는 관이 있습니다.\n- 관이 아래로 향해 있으며, 물이 떨어지는 모습입니다.\n\n그림 3:\n- 기기의 상단을 보여주는 그림입니다.\n- 둥근 버튼이 있으며, 버튼 주위에 화살표가 그려져 있습니다.\n- 화살표는 기기의 상단을 중심으로 회전하는 방향을 나타냅니다."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 16,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p016.png",
+    "caption": "- 삼각형 안에 느낌표가 있는 아이콘\n- 원 안에 흰색 선이 있는 아이콘\n- 기기의 그림: 컵이 놓여 있고, 기기에서 물이 나오는 모습. 컵 양쪽에 손잡이가 있으며, 기기 아래쪽에 물받이 트레이가 있음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 18,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p018.png",
+    "caption": "그림 1: 물받이를 아래위로 당기는 그림. 물받이 모양의 선이 있고, 양쪽에 화살표가 위아래로 그려져 있음.\n\n그림 2: 주전자 모양의 그림 두 개. 왼쪽은 \"미네랄\"이라고 적혀 있고, 오른쪽은 \"탄산칼슘\"이라고 적혀 있음. 두 그림 사이에 화살표가 오른쪽으로 그려져 있음.\n\n그림 3: 탄산칼슘 결정체의 확대 그림 두 개. 왼쪽은 \"가열\"이라고 적혀 있고, 오른쪽은 \"해동\"이라고 적혀 있음. 두 그림 사이에 화살표가 오른쪽으로 그려져 있음.\n\n표:\n- 필터 종류: 중금속9 흡착 필터, 바이러스 클리어 필터\n- 원산지: 한국\n- 제조자: 엘지전자(주)\n- 필터 소재: 블록활성탄, 블록활성탄, 셀룰로오스\n- 유효 정수량: 1,500L\n- 교환 시기: 6개월, 12개월\n- 역할: 일부 중금속, 유해 화합물 제거 / 일부 박테리아, 미세 입자성 물질, 노로바이러스 제거\n\n그림 4: 물받이를 정수기 정면 방향으로 놓는 그림. 물받이 모양의 선이 있고, 손가락이 물받이를 잡고 있는 모습."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 20,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p020.png",
+    "caption": "- 그림 1: 손이 기기를 잡고 있는 모습. 기기의 측면을 잡고 있는 손이 보임.\n- 그림 2: 손이 기기의 덮개를 열고 있는 모습. 덮개가 위로 열리고 있으며, 손이 덮개를 잡고 있음.\n- 그림 3: 손가락이 버튼을 누르고 있는 모습. 버튼 위에 \"냄새\"와 \"UVnano\"라는 텍스트가 있음. 버튼 주위에 원형으로 \"냄새\", \"안심살균\", \"+3\"이라는 텍스트가 있음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 19,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p019.png",
+    "caption": "1. 출수구를 옆으로 돌리고 필터 커버의 아래 부분을 잡고 앞으로 당기는 그림. 화살표가 앞으로 당기는 방향을 가리킴.\n\n2. 필터 끝부분을 들어올린 후 반시계 방향으로 돌려 분리하는 그림. 화살표가 반시계 방향을 가리킴.\n\n3. 두 개의 필터가 있는 내부 구조 그림. \n   - ❶: 중금속9 흡착 필터 (6개월 주기)\n   - ❷: 바이러스 클리어 필터 (12개월 주기)\n\n4. 솔을 이용하여 필터 체결부를 청소하는 그림.\n\n5. 새 필터의 라벨이 정면으로 향하도록 시계 방향(오른쪽)으로 돌리는 그림. 화살표가 시계 방향을 가리킴.\n\n6. 필터가 완전히 장착되었는지 확인하는 그림. 필터 체결부의 화살표 표시와 필터 상단의 돌출부가 맞춰져 있는지 확인.\n\n7. 두 손으로 필터 커버를 닫고 좌우가 잘 닫혔는지 확인하는 그림."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 22,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p022.png",
+    "caption": "그림 설명:\n\n1. 원 안에 체크 표시가 있는 아이콘이 있습니다.\n2. 번호 1: 라벨 없음\n3. 번호 2: 라벨 없음\n4. 스마트폰 그림이 있습니다. 스마트폰의 하단 부분이 강조되어 있으며, 스마트폰의 마이크 부분을 나타내는 듯한 그림입니다."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 21,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p021.png",
+    "caption": "- 그림 1: 파이프와 연결된 호스의 단면도. 파이프에 나사선이 있으며, 호스가 파이프에 연결되어 있다. 호스 끝에는 X 표시가 있다.\n- 콜아웃 번호 ❶: \"적정 수압\"\n- 그림 2: 전기 플러그와 콘센트 그림. 플러그는 AC 220V 표시가 있으며, 콘센트에는 접지 단자가 있다. 접지 단자에 화살표가 연결되어 있다."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 17,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p017.png",
+    "caption": "1. 물받이의 앞쪽 아래 양 끝의 홈에 한가운데 손가락을 넣고 엄지와 검지로 물받이를 잡고 앞으로 당기세요.\n   - 그림: 손이 물받이를 잡고 앞으로 당기는 모습. 화살표가 물받이를 앞으로 당기는 방향을 가리킴.\n\n2. 물받이 커버를 위로 당겨 분리하세요.\n   - 그림: 손이 물받이 커버를 위로 당기는 모습. 화살표가 위쪽을 가리킴.\n\n3. 물로 깨끗하게 청소하세요.\n   - 그림: 물받이를 물로 청소하는 모습.\n\n4. 부드러운 천으로 물받이 표면을 닦으세요.\n   - 그림: 부드러운 천으로 물받이를 닦는 모습.\n\n5. 물받이 커버를 물받이에 얹고 제품 전면에 밀착시킨 후 살짝 밀어 장착하세요.\n   - 그림: 물받이 커버를 물받이에 얹고 밀어 넣는 모습. 화살표가 밀어 넣는 방향을 가리킴.\n\n- 출수구 청소하기 섹션의 그림: 출수구 부분을 확대하여 보여주는 그림. 출수구에서 물이 나오는 모습이 포함됨."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 25,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p025.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 26,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p026.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 23,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p023.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 24,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p024.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 27,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p027.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 31,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p031.png",
+    "caption": "그림 없음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 32,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p032.png",
+    "caption": "- **로고**: 원 안에 'L'과 'G'가 결합된 모양.\n- **QR 코드**: 오른쪽 하단에 위치.\n- **텍스트 박스**: 두 개의 회색 박스가 나란히 배치되어 있음. \n- **텍스트**: \"LG전자 서비스 센터 대표 전화번호\", \"편리한 제품 사용을 위한 안내\" 등의 제목이 있음."
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 29,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p029.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 28,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p028.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 30,
+    "image_path": "data/sample_images_150/waterpurifier_simple/p030.png",
+    "caption": "1. 플러그와 콘센트 그림: 플러그가 콘센트에 꽂혀 있는 모습. 플러그 주변에 먼지가 쌓여 있는 모습이 묘사됨.\n\n2. 멀티탭 그림: 멀티탭에 여러 개의 플러그가 꽂혀 있는 모습.\n\n3. 인증마크 그림: 원 안에 \"K\" 글자가 있는 마크.\n\n4. 분전함 그림: 분전함 앞에 사람이 서 있는 모습. 분전함 문이 열려 있고, 사람이 손을 대고 있는 모습.\n\n5. 전화기 그림: 전화기 모양과 함께 \"1588-7500\" 번호가 표시됨.\n\n6. QR 코드: 우측 하단에 QR 코드가 있음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 54,
+    "image_path": "data/sample_images_150/airpurifier_complex/p054.png",
+    "caption": "그림 없음"
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 9,
+    "image_path": "data/sample_images_150/airpurifier_simple/p009.png",
+    "caption": "- 첫 번째 그림: 전원이 연결된 상태에서 청소하는 사람의 모습. 사람 옆에 X 표시가 있음.\n- 두 번째 그림: 인화물질을 제품 내부로 투입하는 모습. 원통형 물체 위에 액체를 붓는 모습. X 표시가 있음.\n- 세 번째 그림: 제품의 커버가 열린 상태에서 작동하는 모습. 커버가 열린 제품에서 빛이 나오는 모습. X 표시가 있음.\n- 네 번째 그림: 어린이가 포장재를 만지는 모습. X 표시가 있음."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 22,
+    "image_path": "data/sample_images_150/airpurifier_simple/p022.png",
+    "caption": "1. **공기 상태 표시**\n   - ① 종합청정도 (색상) 표시\n   - ② 먼지 입자 크기 및 먼지 농도 (색상) 표시\n   - ③ 먼지 농도 표시 또는 취침예약 시간 표시\n   - ④ 냄새 농도 (색상) 표시\n\n2. **운전모드 표시**\n   - 오토모드, 클린부스터, 싱글청정\n\n3. **풍량 표시**\n   - 청정세기: 공기청정기 풍량 표시\n   - 순환팬세기: 클린부스터 풍량 표시\n\n4. **취침예약 표시**\n\n5. **아이콘 표시**\n   - 필터의 교체 시기가 되면 표시됩니다.\n   - Wi-Fi 기능이 활성화되면 표시됩니다.\n   - 공기제균 기능을 사용하면 표시됩니다.\n   - LG SmartThinQ 애플리케이션에서 '켜짐/꺼짐 예약'이 설정되었을 때 표시됩니다.\n   - 조작부의 버튼이 잠기면 표시됩니다."
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 26,
+    "image_path": "data/sample_images_150/airpurifier_simple/p026.png",
+    "caption": "그림 설명:\n\n1. 왼쪽 상단:\n   - 원형 내부에 선풍기 모양의 아이콘이 있고, 아래에 \"청정세기\"라는 라벨이 있습니다.\n   - 원형 아이콘 옆에 원통형 기기의 이미지가 있습니다.\n\n2. 오른쪽 상단:\n   - 원형 내부에 선풍기 모양의 아이콘이 있고, 아래에 \"순환팬세기\"라는 라벨이 있습니다.\n   - 원형 아이콘 옆에 원통형 기기의 이미지가 있습니다.\n\n3. 하단:\n   - 두 개의 막대 그래프가 있습니다.\n   - 첫 번째 막대 그래프는 \"청정세기 '중' 표시 예\"라는 라벨이 있습니다.\n   - 두 번째 막대 그래프는 \"순환팬세기 '중' 표시 예\"라는 라벨이 있습니다."
+  }
+]

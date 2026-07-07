@@ -65,4 +65,18 @@
 
 ## D. 1차 구현 산출물 (재사용 가능, 버리지 말 것)
 - `src/rasterize.py`(252p PNG @95dpi, IR8 검증됨) · `src/multimodal.py`(캡션 캐시 `data/week9_captions.json` 252건, `data/chroma_db_mm` 590docs) · `src/clip_index.py`(`data/clip_index`) · `src/week9_eval.py`(하네스 — D1·D2·D7 수정 대상) · `w9/week9_multimodal_rag.ipynb`(실행됨) · `data/week9_results.json`.
-- 캡션은 비싼 one-time(고해상 ~26k tok/장, 200k TPM에서 ~7/분). **캐시 키는 (category,complexity,page)** — 재캡션 금지.
+- 캡션은 비싼 one-time(고해상 ~26k tok/장, 200k TPM에서 ~7/분). **캐시 키는 (category,complexity,page)** — 재캡션 금지(단 §E8 예외).
+
+## E. 전략 세션 리뷰 보강 (2026-06-30)
+
+> 대화 리뷰에서 나온 보정. A~D를 다음과 같이 수정/승격한다.
+
+- **E1 (D1 재프레이밍):** `week9_eval.page_hit`는 **retrieval 층**(top-k가 정답 page 포함?)이고, ADR-011의 25%/50%는 **citation 층**(답변이 인용한 page)이다. 서로 다른 층이라 75%≠25%는 모순이 아니다. → **`src/evaluation.py`의 Citation 정의를 C0 답변에 그대로 돌려 ~25%/50% 재현**되는지(회귀 앵커) 확인. retrieval page_hit은 별도 층 지표로 라벨. "C0를 25%로 맞추려" 하지 말 것.
+- **E2 (D5 실제 원인):** `TEXT_ONLY_CONTRAST_IDS`의 **Q22는 v2에서 삭제된 id → 조용히 drop되어 n=3**. Q15=image-helpful, Q08=실패. 유효 순수 text-only는 **Q01 하나뿐**. → 순수 text-only id로 재구성(≥5~6), **모든 id 존재 assert** 추가, image-helpful은 별도 버킷.
+- **E3 (헤드라인은 artifact가 아니라 "미증명"):** C2a의 `judge=0`은 **하드코딩**(읽기 단계 없음)이라 "추론 필요시 VLM"의 근거가 될 수 없다. 유일 유효 arm(C2b vs C1)은 CLIP 고장+`max_images=1`로 교란. **현재 가설을 지지하는 유효 데이터는 0.**
+- **E4 (judge self-preference):** judge 모델 = 답변 모델(gpt-4o-mini). D4 관대함과 겹침. → 다른 judge 또는 **엄격 루브릭(핵심 디테일 완전일치, 부분일치=0)** + **IR8 8건 수동 채점**(n 작음).
+- **E5 (캡션 품질은 1차 결함 — D2가 과소평가):** IR8 캡션 실측 — air_C p18 콜아웃 오매핑+**조작부/상태표시부 누락**; air_C p22 공기제균 아이콘을 "사각형 안에 선"으로 **오묘사**(실제 분자 모양); vacuum_C p15 없는 **제어판/표 환각**; vacuum_C p19 **Wi-Fi 끊김 빗금 누락**; water_C p29 **좌/우 필터 미표기**. 원인: (a) fill-every-slot 템플릿→환각, (b) 페이지 통짜 입력→희석, (c) 95dpi+4o-mini→미세 아이콘 약함. → 프롬프트를 **"보이는 것만·콜아웃 옆 부품명·추론 금지"**로 축소(슬롯 강제 제거), **DPI 95→~150+**, 캡션은 **gpt-4o 검토**(one-time), IR8 8건 캡션 수동 대조.
+- **E6 (검색 구조 — C1이 실제로 시험되지 않은 이유):** mm 스토어는 텍스트+캡션이 **한 컬렉션**(modality 필드로만 구분). 단일 top-k라 캡션이 묻혀 **"텍스트1+캡션1 조합"이 미보장**(실측: top-5 캡션 대개 0개). → **modality-aware retrieval** 도입: (a) 모달별 top-k 병합(텍스트 top-3+캡션 top-2) 또는 (b) **page/figure_ref co-retrieval**(정답 페이지 텍스트 + 그 페이지 캡션 동반 회수). 이게 있어야 C1이 처음 제대로 시험된다. E5(캡션 품질)와 **둘 다** 고쳐야 함.
+- **E7 (단위 불일치):** sub-page 텍스트 청크 vs 페이지당 캡션 1개. 단기=**페이지 롤업**으로 층 맞춤, 도면 crop은 W10.
+- **E8 (재캡션 예외):** §D "재캡션 금지"는 동일 캡션 재생성 낭비 방지용. **E5로 프롬프트/DPI/모델을 바꾸면 재캡션 필요** → 그때만 캐시 무효화(`force=True` 또는 새 캐시 파일). 그 외 재실행엔 금지 유지.
+- **E9 (우선순위 — 신뢰 토대 티어 확장):** (0) **IR8 라벨 audit**(원본 대조, ~30분) + E1 Citation 재현 + D6 Q08 회귀 → **E6 modality-aware retrieval + E5 캡션 품질 동시** → D3 CLIP sanity → E2 대조군 재구성 → D7 C2b(CLIP 고친 뒤). **ADR 금지.** 위가 끝난 뒤 `week9_evaluation.md` 재작성.

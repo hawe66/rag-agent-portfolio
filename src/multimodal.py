@@ -36,21 +36,22 @@ CAPTION_MODEL = "gpt-4o-mini"
 EMBEDDING_MODEL = "text-embedding-3-small"  # matches C3 store
 MM_COLLECTION = "lg_manuals_mm"
 
-# Structured caption prompt (WEEK9_TASKS §4.1). "보이는 것만" keeps the caption
-# consistent with the project's refusal-over-hallucination principle.
+# Caption prompt v2 (Week 9 rework, WEEK9_DEFECTS E5). The v1 prompt forced a
+# fixed slot list (parts/arrows/icons/table), which made the model invent
+# panels and tables on pages that had none and confabulate callout mappings.
+# v2: describe only what exists, transcribe callout labels verbatim from the
+# printed list, and describe icon shapes (explicitly checking for slashes).
 CAPTION_PROMPT = """이 이미지는 LG 가전제품 한국어 사용설명서의 한 페이지입니다.
-당신의 임무는 이 페이지에 **그려진 그림·도식·아이콘·표를 빠짐없이 시각적으로 묘사**하는 것입니다.
-(본문 단락 텍스트는 그대로 옮기지 말고, 그림 옆 라벨/콜아웃/아이콘 설명에 집중하세요.)
-
-페이지를 위에서 아래로 훑으며, 보이는 그래픽 요소마다 다음을 기술하세요:
-- 제품/부품 그림: 어떤 부품이 그려졌고 화면상 **어디에**(상/하/좌/우/앞/뒤) 있는지, 콜아웃 번호(①②③…)가 무엇을 가리키는지.
-- 화살표/동작 표시: 화살표가 **어느 방향**을 가리키는지(끼움/회전/분리 등 동작 방향).
-- 제어판·표시창의 **아이콘/기호**: 각 아이콘이 **어떤 모양인지** 형태 그대로 묘사(선·곡선·도형·빗금 유무 등). 모양을 직접 보고 묘사할 것.
-- 표: 행/열 항목과 값.
+TODO: BBOX랑 주변 텍스트를 우선 인식하라고 하고 그거에 맞게 json 만들어달라.
+이 페이지의 그림·도식·아이콘·표를 시각적으로 설명하세요. 본문 단락 텍스트는 옮기지 마세요.
 
 규칙:
-- 이미지에서 **실제로 보이는 것만** 기술하고 추측하지 마세요. 특정 세부가 흐려 판별 불가하면 그 항목만 "판별 불가"로 적으세요.
-- 그래픽 요소를 빠뜨리지 마세요. "그림이 없다"고 단정하기 전에 작은 아이콘·콜아웃·선 그림까지 살피세요."""
+- 페이지에 **실제로 있는 요소만** 설명하세요. 없는 요소(제어판, 표, 화살표 등)는 언급 자체를 하지 마세요. 그림이 전혀 없는 페이지면 "그림 없음"이라고만 답하세요.
+- 콜아웃 번호(①②③… 또는 ❶❷❸…)가 있으면, 페이지에 **인쇄된 라벨/설명 텍스트를 찾아 그대로** 옮겨 적으세요. 라벨을 찾을 수 없으면 "라벨 없음"이라 쓰고, 번호가 무엇을 가리키는지 추측하지 마세요.
+- 아이콘/기호는 명칭을 추측하지 말고 **보이는 모양**을 묘사하세요: 기본 도형(원/사각형/부채꼴/물방울 등), 내부 요소(점/선/숫자/기호), 그리고 **빗금·사선·X 표시가 있는지 반드시 확인**해서 적으세요.
+- 화살표는 무엇을 어느 방향으로 움직이는지(끼움/회전/분리) 적으세요.
+- 표가 있으면 열 제목과 각 행의 내용을 그대로 옮기고, 표 안에 아이콘이 있으면 그 모양도 묘사하세요.
+- 확실하지 않은 세부는 "판별 불가"로 적으세요. 없는 것을 만들어내지 마세요."""
 
 
 @dataclass
@@ -84,22 +85,27 @@ _pace_lock = Lock()
 _last_start = [0.0]
 
 
-def _pace() -> None:
-    """Block until at least MIN_INTERVAL has elapsed since the last start."""
+def _pace(interval: float = MIN_INTERVAL) -> None:
+    """Block until at least ``interval`` has elapsed since the last start."""
     with _pace_lock:
-        wait = MIN_INTERVAL - (time.monotonic() - _last_start[0])
+        wait = interval - (time.monotonic() - _last_start[0])
         if wait > 0:
             time.sleep(wait)
         _last_start[0] = time.monotonic()
 
 
-def caption_page(image_path: Path, client: OpenAI | None = None) -> str:
-    """Generate a structured Korean caption for one page image (gpt-4o-mini)."""
+# gpt-4o bills page images at ~1.1k tokens (vs gpt-4o-mini's ~37k for the
+# same image), so it needs far less pacing between call starts.
+PACE_BY_MODEL = {"gpt-4o-mini": MIN_INTERVAL, "gpt-4o": 1.5}
+
+
+def caption_page(image_path: Path, client: OpenAI | None = None, model: str = CAPTION_MODEL) -> str:
+    """Generate a structured Korean caption for one page image."""
     client = client or _make_client()
-    _pace()
+    _pace(PACE_BY_MODEL.get(model, MIN_INTERVAL))
     b64 = _encode_image(image_path)
     response = client.chat.completions.create(
-        model=CAPTION_MODEL,
+        model=model,
         temperature=0,
         messages=[{
             "role": "user",
@@ -123,6 +129,7 @@ def caption_pages(
     client: OpenAI | None = None,
     force: bool = False,
     max_workers: int = 4,
+    model: str = CAPTION_MODEL,
 ) -> list[PageCaption]:
     """Caption every page, caching results to ``cache_path`` (JSON).
 
@@ -163,7 +170,7 @@ def caption_pages(
 
     def _work(page: RasterizedPage) -> PageCaption | None:
         try:
-            caption = caption_page(page.path, client)
+            caption = caption_page(page.path, client, model=model)
         except Exception as exc:  # keep the batch alive; retry next window
             print(f"  FAILED {page.category}_{page.complexity} p{page.page}: {exc}")
             return None

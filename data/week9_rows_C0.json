@@ -1,0 +1,646 @@
+[
+  {
+    "id": "IR-A1",
+    "retrieved": [
+      [
+        "airpurifier",
+        "simple",
+        18,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        18,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        23,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        21,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        1,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": true,
+    "retrieval_page_hit_strict": true,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "제공된 문서에서 확인할 수 없습니다. (출처: 제품_복잡도 p.페이지)",
+    "citation": {
+      "model": false,
+      "page": false
+    },
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실을 포함하지 않고, 답변을 회피했음."
+  },
+  {
+    "id": "IR-A2",
+    "retrieved": [
+      [
+        "airpurifier",
+        "simple",
+        18,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        18,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        29,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        35,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        22,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": true,
+    "retrieval_page_hit_strict": true,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "상태 표시부는 제품의 앞면에 위치해 있습니다. (출처: airpurifier_simple p.18)",
+    "citation": {
+      "model": true,
+      "page": true
+    },
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안보다 덜 구체적이며 '상단'이라는 수식어가 빠져 있음"
+  },
+  {
+    "id": "IR-A3",
+    "retrieved": [
+      [
+        "airpurifier",
+        "simple",
+        22,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        22,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        30,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        30,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        18,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": true,
+    "retrieval_page_hit_strict": true,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "제공된 문서에서 확인할 수 없습니다. (출처: 제품_복잡도 p.페이지)",
+    "citation": {
+      "model": false,
+      "page": false
+    },
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실을 포함하지 않고, 답변을 회피했기 때문에 0점입니다."
+  },
+  {
+    "id": "IR-W1",
+    "retrieved": [
+      [
+        "waterpurifier",
+        "simple",
+        18,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        28,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        31,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        32,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        19,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": true,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "제공된 문서에서 확인할 수 없습니다. (출처: 제품_복잡도 p.페이지)",
+    "citation": {
+      "model": false,
+      "page": false
+    },
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실을 포함하지 않고, 답변을 회피했음."
+  },
+  {
+    "id": "IR-W2",
+    "retrieved": [
+      [
+        "waterpurifier",
+        "simple",
+        19,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        29,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        28,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        20,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        15,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": true,
+    "retrieval_page_hit_strict": true,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "필터 체결부의 화살표 표시가 필터 상단의 돌출부와 맞춰져 있어야 합니다. (출처: waterpurifier_simple p.19)",
+    "citation": {
+      "model": true,
+      "page": false
+    },
+    "judge": 0,
+    "judge_reason": "모델답변은 필터의 화살표를 본체 체결부 화살표에 맞추라는 모범답안의 핵심 사실을 포함하지 않음."
+  },
+  {
+    "id": "IR-V1",
+    "retrieved": [
+      [
+        "vacuumcleaner",
+        "complex",
+        21,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        36,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        35,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "simple",
+        9,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        34,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "흡입구는 길이 조절 파이프의 한쪽 끝에 끼워야 합니다. 흡입구를 길이 조절 파이프에 밀어 넣어 조립하세요. (출처: vacuumcleaner_simple p.9)",
+    "citation": {
+      "model": true,
+      "page": false
+    },
+    "judge": 0,
+    "judge_reason": "모델답변은 '길이조절 파이프의 앞쪽 끝'이라는 구체적인 위치를 명시하지 않았습니다."
+  },
+  {
+    "id": "IR-V2",
+    "retrieved": [
+      [
+        "vacuumcleaner",
+        "simple",
+        16,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "simple",
+        15,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        34,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        35,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        28,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "제공된 문서에서 확인할 수 없습니다. (출처: 제품_복잡도 p.페이지)",
+    "citation": {
+      "model": false,
+      "page": false
+    },
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실을 포함하지 않음"
+  },
+  {
+    "id": "IR-V3",
+    "retrieved": [
+      [
+        "vacuumcleaner",
+        "complex",
+        19,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        20,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        21,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        12,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        22,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": true,
+    "retrieval_page_hit_strict": true,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "무선청소기 상태 표시창에서 Wi-Fi '연결 끊김'은 'Y' 아이콘으로 표시됩니다. 이 상태는 연결 됨 상태에서 네트워크 연결이 끊어진 것을 의미합니다. (출처: vacuumcleaner_complex p.21)",
+    "citation": {
+      "model": true,
+      "page": true
+    },
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실인 'Wi-Fi 부채꼴에 사선(빗금)이 그어진 아이콘'을 포함하지 않음."
+  },
+  {
+    "id": "Q01",
+    "retrieved": [
+      [
+        "waterpurifier",
+        "simple",
+        18,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        28,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        18,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        29,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        19,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "정수기 필터 교체 주기는 중금속9 흡착 필터는 6개월, 바이러스 클리어 필터는 12개월입니다. 이 주기는 4인 가정에서 하루 10 L 사용을 기준으로 하며, 필터의 수명은 수질, 수압, 계절, 지역에 따라 차이가 있을 수 있습니다. (출처: waterpurifier_simple p.18)",
+    "citation": {
+      "model": true,
+      "page": false
+    },
+    "judge": 0,
+    "judge_reason": "모델답변은 모범답안의 '4인 가정 기준 약 6개월~12개월'을 정확히 포함하지 않음"
+  },
+  {
+    "id": "Q06",
+    "retrieved": [
+      [
+        "waterpurifier",
+        "simple",
+        18,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        29,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        18,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        48,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        28,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "제공된 문서에서 확인할 수 없습니다. (출처: 제품_복잡도 p.페이지)",
+    "citation": {
+      "model": false,
+      "page": false
+    },
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실을 포함하지 않음"
+  },
+  {
+    "id": "Q08",
+    "retrieved": [
+      [
+        "airpurifier",
+        "simple",
+        2,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        2,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        25,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        25,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        2,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": true,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "제공된 문서에서 확인할 수 없습니다. (출처: 제품_복잡도 p.페이지)",
+    "citation": {
+      "model": false,
+      "page": false
+    },
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실을 포함하지 않고 답변을 회피했음."
+  },
+  {
+    "id": "Q11",
+    "retrieved": [
+      [
+        "vacuumcleaner",
+        "complex",
+        16,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        16,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        17,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        20,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        20,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "청소기 배터리 완충 시간은 약 4시간이며, 보조 배터리까지 완전히 충전할 경우 충전 시간은 약 8시간입니다. (출처: vacuumcleaner_complex p.16)",
+    "citation": {
+      "model": true,
+      "page": false
+    },
+    "judge": 0,
+    "judge_reason": "모델답변의 충전 시간은 약 4시간으로 모범답안의 3.5시간과 일치하지 않음."
+  },
+  {
+    "id": "Q18",
+    "retrieved": [
+      [
+        "vacuumcleaner",
+        "simple",
+        13,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "simple",
+        12,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        29,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        18,
+        "text"
+      ],
+      [
+        "vacuumcleaner",
+        "simple",
+        9,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "청소기 흡입력이 약해졌다면, 먼저 먼지통을 비우고 먼지 분리기를 세척해 보세요. 먼지통이 Max 선까지 차거나 먼지 분리기가 더러워지면 흡입력이 약해질 수 있습니다. 먼지통을 비운 후에도 흡입력이 약하다면 먼지 분리기를 세척해야 합니다. 또한, 먼지통이 완전히 조립되지 않으면 흡입력이 약해질 수 있으니 조립 상태도 확인하세요. (출처: vacuumcleaner_simple p.12)",
+    "citation": {
+      "model": true,
+      "page": false
+    },
+    "judge": 0,
+    "judge_reason": "모델답변에 필터 청소/교체 확인과 흡입구 막힘 확인이 포함되지 않음"
+  },
+  {
+    "id": "Q19",
+    "retrieved": [
+      [
+        "waterpurifier",
+        "simple",
+        20,
+        "text"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        29,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        37,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        3,
+        "text"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        37,
+        "text"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "필터 교체 후에는 냉수 버튼을 3초 이상 눌러 필터 사용량을 초기화해야 합니다. 또한, 필터 교체 후에는 냉수 120 ml, 정수 120 ml, 온수 120 ml를 순서대로 출수하여 버린 후 사용해야 합니다. (출처: waterpurifier_simple p.20)",
+    "citation": {
+      "model": true,
+      "page": false
+    },
+    "judge": 0,
+    "judge_reason": "모델답변은 필터 리셋 버튼을 5초 누르는 것과 초기 정수를 2-3회 버리는 것을 포함하지 않음."
+  }
+]

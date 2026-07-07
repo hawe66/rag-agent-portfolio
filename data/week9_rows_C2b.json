@@ -1,0 +1,604 @@
+[
+  {
+    "id": "IR-A1",
+    "retrieved": [
+      [
+        "airpurifier",
+        "complex",
+        39,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        13,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        12,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        26,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        25,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실인 위치와 방향을 포함하지 않음"
+  },
+  {
+    "id": "IR-A2",
+    "retrieved": [
+      [
+        "waterpurifier",
+        "simple",
+        13,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        39,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "simple",
+        11,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        14,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        38,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 위치 정보를 포함하지 않음"
+  },
+  {
+    "id": "IR-A3",
+    "retrieved": [
+      [
+        "waterpurifier",
+        "simple",
+        13,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        19,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        23,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        39,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        22,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": true,
+    "retrieval_page_hit_strict": true,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실을 포함하지 않음"
+  },
+  {
+    "id": "IR-W1",
+    "retrieved": [
+      [
+        "airpurifier",
+        "complex",
+        19,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        20,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        4,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        11,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        13,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실을 포함하지 않았습니다."
+  },
+  {
+    "id": "IR-W2",
+    "retrieved": [
+      [
+        "airpurifier",
+        "complex",
+        20,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        51,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        49,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        31,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        50,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실을 포함하지 않고, 답변을 회피했음."
+  },
+  {
+    "id": "IR-V1",
+    "retrieved": [
+      [
+        "airpurifier",
+        "complex",
+        20,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        20,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        18,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        27,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        36,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안보다 덜 구체적이며, 핵심 사실을 포함하지 않음"
+  },
+  {
+    "id": "IR-V2",
+    "retrieved": [
+      [
+        "vacuumcleaner",
+        "complex",
+        51,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        50,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        49,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        31,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        4,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실인 '곡선 화살표 방향(시계방향)'을 포함하지 않음"
+  },
+  {
+    "id": "IR-V3",
+    "retrieved": [
+      [
+        "waterpurifier",
+        "simple",
+        13,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        14,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        16,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        9,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        12,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실을 포함하지 않고 답변을 회피했음."
+  },
+  {
+    "id": "Q01",
+    "retrieved": [
+      [
+        "waterpurifier",
+        "complex",
+        27,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        28,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        18,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        18,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        19,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 질문에 대한 정보를 제공하지 않고 회피했기 때문에 0점입니다."
+  },
+  {
+    "id": "Q06",
+    "retrieved": [
+      [
+        "waterpurifier",
+        "complex",
+        20,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        8,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        47,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        28,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        28,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 질문에 대한 정보를 제공하지 않고 회피했음."
+  },
+  {
+    "id": "Q08",
+    "retrieved": [
+      [
+        "vacuumcleaner",
+        "simple",
+        15,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "simple",
+        13,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        33,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "simple",
+        12,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        17,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 질문에 대한 답변을 회피했음."
+  },
+  {
+    "id": "Q11",
+    "retrieved": [
+      [
+        "waterpurifier",
+        "complex",
+        27,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        14,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "simple",
+        38,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "simple",
+        13,
+        "page-image"
+      ],
+      [
+        "airpurifier",
+        "complex",
+        36,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실을 포함하지 않음"
+  },
+  {
+    "id": "Q18",
+    "retrieved": [
+      [
+        "vacuumcleaner",
+        "complex",
+        47,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        8,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        20,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "simple",
+        16,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        12,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 질문에 대한 해결책을 제공하지 않고 회피했음."
+  },
+  {
+    "id": "Q19",
+    "retrieved": [
+      [
+        "waterpurifier",
+        "complex",
+        12,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "complex",
+        20,
+        "page-image"
+      ],
+      [
+        "waterpurifier",
+        "simple",
+        8,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        47,
+        "page-image"
+      ],
+      [
+        "vacuumcleaner",
+        "complex",
+        51,
+        "page-image"
+      ]
+    ],
+    "retrieval_page_hit": false,
+    "retrieval_page_hit_strict": false,
+    "caption_hit": null,
+    "caption_hit_strict": null,
+    "answer": "이미지에서 확인할 수 없습니다.",
+    "citation": null,
+    "judge": 0,
+    "judge_reason": "모델답변이 모범답안의 핵심 사실을 전혀 포함하지 않고 회피 답변을 했음."
+  }
+]

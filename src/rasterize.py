@@ -59,6 +59,7 @@ def rasterize_pdf(
         for index in range(len(doc)):
             page_num = index + 1
             pixmap = doc[index].get_pixmap(dpi=dpi)
+            # TODO: 한 페이지를 여러 개의 region으로 나누고 싶으면 여기서 bbox를 지정해서 crop
             out_path = out_dir / f"p{page_num:03d}.png"
             pixmap.save(str(out_path))
             rendered.append(RasterizedPage(
