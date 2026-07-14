@@ -1,0 +1,42 @@
+question,ground_truth,reference_context,q_type,modality_label,notes,figure_ref
+정수기 필터 교체 주기는 얼마인가요?,"중금속9 흡착 필터는 6개월, 바이러스 클리어 필터는 12개월 (4인 가정 하루 10 L 사용 기준, 수질·사용량에 따라 변동)",waterpurifier_simple p.18 (정수 필터 교체하기),factual,text-only,"Q01 from v1 | v3: GT를 필터별 주기로 구체화(기존 '6~12개월'은 모델답변보다 덜 정확했음), ref p.15→p.18 원본 대조",
+WD523A 모델의 제어창 사용법을 알려주세요,전원 버튼을 눌러 켜고 정수/냉수/온수 버튼으로 출수. 잠금 기능은 3초 이상 누름.,waterpurifier_complex p.8-9 (제어창 사용하기),factual,text-only,Q02 from v1,
+물맛이 이상할 때 어떻게 해야 하나요?,필터 교체 시기 확인. 교체 후에도 이상하면 초기 정수 2-3회 버리고 사용.,waterpurifier_simple p.20 (문제 해결하기),factual,text-only,Q03 from v1,
+정수기 출수구 살균 기능은 어떻게 사용하나요?,살균 버튼을 3초 이상 누르면 자동 살균 시작. 약 10분 소요.,waterpurifier_complex p.12 (출수구 살균 기능 사용하기),factual,text-only,Q04 from v1,
+온수 잠금 기능을 설정하는 방법,온수 버튼을 3초 이상 누르면 잠금/해제. 어린이 안전을 위한 기능.,waterpurifier_complex p.10 (온수 기능을 잠그고 풀기),factual,text-only,Q05 from v1,
+AS281DAW 필터 수명은 얼마나 되나요?,"교체용 필터의 교체 주기는 약 1년 (필터 교체 알림 표시 기준, 사용 환경·가동 시간에 따라 변동). 극세 필터는 오염 시 청소, PM1.0 센서는 2개월 주기 청소.",airpurifier_complex p.35 (청소 및 필터 교체 주기),factual,text-only,"Q06 from v1 | v3: 기존 GT '6~12개월'은 이 매뉴얼에 근거 없음 → p.35 표(1년)로 수정, ref p.18(각 부 명칭)→p.35 (D6 의심 확정)",
+공기청정기 필터 청소는 어떻게 하나요?,프리필터는 물로 세척 후 완전 건조. HEPA 필터는 세척 불가 (교체만).,airpurifier_simple p.14 (필터 청소하기),factual,image-helpful,Q07 from v1 - 필터 위치 도면이 이해 보조,
+공기가 탁할 때 어떤 모드를 사용해야 하나요?,터보 모드 또는 자동 모드 사용 권장. 자동 모드는 센서가 공기질 감지하여 자동 조절.,airpurifier_complex p.24 (오토모드 사용하기),factual,text-only,"Q08 from v1 | audit 2026-07-06: ref p.10(주의 페이지, 오답)→p.24 수정. run-1의 C0 검색(p2/p25)은 사실상 정답이었음(D6은 골든셋 결함)",
+공기청정기 센서 청소 방법을 알려주세요,먼지 센서 커버를 열고 면봉으로 먼지 제거. 3개월마다 권장.,airpurifier_complex p.16 (센서 청소하기),factual,image-helpful,Q09 from v1 - 센서 위치 도면 보조,
+상태 표시등이 빨간색일 때 무슨 의미인가요?,공기질이 나쁨 또는 필터 교체 필요. 필터 상태 확인 권장.,airpurifier_simple p.8 (상태 표시부 알림),factual,text-only,Q10 from v1,
+청소기 배터리 충전 시간은 몇 시간인가요?,한 개의 배터리 완충 시간은 약 4시간 (보조 배터리까지 완전히 충전할 경우 약 8시간),vacuumcleaner_complex p.16 (충전하기),factual,text-only,"Q11 from v1 | v3: 3.5시간→4시간(매뉴얼 원문과 모순 해소), ref p.12→p.16 원본 대조",
+배터리가 빨리 닳아요,터보 모드 사용 시 소모 빠름. 일반 모드 사용 권장. 배터리 수명 확인.,vacuumcleaner_complex p.22 (문제 해결하기),factual,text-only,Q12 from v1,
+먼지 분리기 청소는 어떻게 하나요?,분리 버튼 눌러 먼지통 분리 후 물로 세척. 완전 건조 후 장착.,vacuumcleaner_simple p.10 (먼지 분리기 씻기),factual,image-helpful,Q13 from v1 - 분리 위치 도면 보조,
+흡입구에 뭔가 걸렸을 때 어떻게 하나요?,전원 끄고 걸린 이물질 제거. 분해 필요 시 매뉴얼 참조.,vacuumcleaner_complex p.18 (이물질 제거하기),factual,image-helpful,Q14 from v1 - 분해 절차 도면 보조,
+보조 배터리 충전하는 방법,보조 배터리를 거치대에 장착. LED가 깜빡이면 충전 중.,vacuumcleaner_complex p.14 (보조 배터리 충전하기),factual,image-helpful,Q15 from v1 - 거치대 도면 보조,
+LG ThinQ 앱 연결 방법을 알려주세요,앱 설치 후 제품 추가. Wi-Fi 연결 상태에서 제품 전원 켜고 앱 안내 따름.,waterpurifier_complex p.18 (LG ThinQ와 LG 가전 연결하기),factual,text-only,Q16 from v1,
+와이파이 연결이 안 될 때,공유기 재시작 후 재시도. 5GHz 불가 시 2.4GHz로 변경.,waterpurifier_complex p.20 (와이파이),factual,text-only,Q17 from v1 - category-agnostic,
+청소기 흡입력이 약해졌어요,먼지통 비우기. 필터 청소/교체 확인. 흡입구 막힘 확인.,vacuumcleaner_complex p.22 (문제 해결하기),factual,text-only,Q18 from v1,
+WD325AS 정수기에서 필터 교체 후 해야 할 일이 있나요?,"필터 체결부의 화살표가 필터 상단 돌출부와 맞춰졌는지 확인하고 필터 커버를 닫으면, 자동으로 약 7분간 필터 세척이 진행됩니다 (물 흐르는 소리가 남).",waterpurifier_simple p.19 (정수 필터 교체하기),multi_hop,text-only,"Q19 from v1 - requires two steps | v3: 모델 명시(simple/complex 정답 분기 제거), 기존 GT('리셋 버튼 5초/초기 정수 2-3회')는 매뉴얼에 없는 절차라 원문 절차로 교체, ref p.16→p.19",
+공기청정기 소음이 심해요,터보 모드는 소음 큼. 자동/수면 모드 사용. 필터 상태 확인.,airpurifier_complex p.24 (문제 해결하기),factual,text-only,Q20 from v1,
+WD325AS와 WD520AWB 정수기의 차이점은 무엇인가요?,WD325AS는 정수+냉수 기본형. WD520AWB는 정수+냉수+온수 지원 및 오브제컬렉션 디자인.,"waterpurifier_simple p.2, waterpurifier_complex p.2",comparison,text-only,Q24 from v1 - model comparison,
+AS181DAW와 AS281DAW 공기청정기의 차이점은?,AS181DAW는 표준 1단형. AS281DAW는 2단 분리형으로 부품이 더 많고 청정 면적이 넓음.,"airpurifier_simple p.2, airpurifier_complex p.2",comparison,text-only,Q25 from v1 - model comparison,
+정수 모드와 냉수 모드의 차이가 뭔가요?,정수는 상온수 출수. 냉수는 냉각된 물 출수 (약 5-10도).,waterpurifier_complex p.8 (제어창 사용하기),comparison,text-only,Q26 from v1 - feature comparison,
+유선 청소기와 무선 청소기의 장단점은?,유선은 지속 사용 가능하나 이동 제한. 무선은 이동 자유롭지만 배터리 충전 필요.,"vacuumcleaner_simple p.2, vacuumcleaner_complex p.2",comparison,text-only,Q27 from v1 - product type comparison,
+공기청정기 필터 교체 후 필요한 초기화 과정은?,1) 새 필터 장착 2) 전원 켬 3) 필터 리셋 버튼 5초 누름 4) 표시등 확인,"airpurifier_complex p.18 (필터 교체하기), p.8 (제어부)",multi_hop,image-helpful,Q28 from v1 - 필터/제어부 도면 보조,
+청소기 배터리 교체 후 최초 충전은 어떻게 하나요?,1) 배터리 장착 2) 거치대 연결 3) 완전 방전 후 완충 (3.5시간) 4) 2-3회 완충방전 사이클 권장,"vacuumcleaner_complex p.12, p.22",multi_hop,text-only,Q29 from v1 - requires multiple sections,
+정수기 설치 후 처음 사용할 때 무엇을 확인해야 하나요?,1) 수도 연결 확인 2) 전원 연결 3) 초기 정수 5-10회 버림 4) 필터 상태 확인,waterpurifier_simple p.6-8,multi_hop,text-only,Q30 from v1 - installation + first use,
+이 제품 단종됐나요?,제공된 문서에서 확인할 수 없습니다. LG 고객센터(1544-7777)에 문의하세요.,N/A,out_of_scope,text-only,Q31 from v1 - product lifecycle,
+WD520AWB 정수기 가격이 얼마인가요?,제공된 문서에서 확인할 수 없습니다. LG 공식 홈페이지나 판매점에서 확인하세요.,N/A,out_of_scope,text-only,Q32 from v1 - pricing,
+삼성 공기청정기와 비교하면 어떤가요?,제공된 문서에서 확인할 수 없습니다. 타사 제품 정보는 포함되어 있지 않습니다.,N/A,out_of_scope,text-only,Q33 from v1 - competitor comparison,
+AS281DAW 수리 비용은 얼마인가요?,제공된 문서에서 확인할 수 없습니다. LG 서비스센터(1544-7777)에 문의하세요.,N/A,out_of_scope,text-only,Q34 from v1 - service cost,
+필터를 직접 분해해도 되나요?,서비스센터를 통해서만 분해/수리 권장. 임의 분해 시 감전 위험 및 보증 무효.,airpurifier_complex p.3 (안전주의),safety,text-only,Q35 from v1 - safety warning,
+물 묻은 손으로 전원 플러그를 만져도 되나요?,감전 위험이 있으므로 반드시 마른 손으로 조작하세요.,waterpurifier_simple p.3 (안전주의),safety,text-only,Q36 from v1 - electrical safety,
+조작부는 제품 앞면의 어느 위치에 있나요?,제품 앞면 우측 상단 (각 부 명칭 도면 콜아웃 기준; 본문은 기능만 서술),airpurifier_complex p.18 (각 부 명칭 및 기능),factual,image-required,IR-A1 NEW v2 - 위치 정보는 도면에만 존재,airpurifier_complex p.18 fig:각부명칭
+상태 표시부는 제품의 어느 쪽에 있나요?,제품 앞면 상단 (각 부 명칭 도면의 상태 표시부 콜아웃 기준; 본문은 기능만 서술),airpurifier_complex p.18 (각 부 명칭 및 기능),factual,image-required,IR-A2 NEW v2 - 위치 정보는 도면에만 존재,airpurifier_complex p.18 fig:각부명칭
+공기청정기 상태 표시부에서 공기제균 기능이 켜지면 표시되는 아이콘은 어떤 모양인가요?,이온/제균을 상징하는 아이콘(원형 궤도에 작은 원들이 도는 분자 모양)으로 표시됩니다.,airpurifier_complex p.22 (상태 표시부 아이콘),factual,image-required,"IR-A3 — C2 교체(구 프리필터 전제오류 폐기). 아이콘식별 타입. 텍스트는 의미만, 모양은 도면에만.",airpurifier_complex p.22 fig:상태표시부아이콘
+정수기 필터 두 개 중 왼쪽 자리(①)에는 어떤 필터를 끼우나요?,왼쪽(①) 자리에는 중금속9 흡착 필터를 장착합니다. (도면 콜아웃 a: 중금속9 흡착 필터 / b: 바이러스 클리어 필터 — 좌/우 배치는 도면에만 표시됨),waterpurifier_complex p.29 (필터 장착),factual,image-required,"IR-W1 NEW v2 - 좌/우 콜아웃은 도면에만 | audit 2026-07-06: GT 구체화(기존 GT는 '첫 번째 콜아웃의 필터'라는 순환 정의), 질문에 '정수기' 명시(카테고리 무표기로 교차검색 실패 유발)",waterpurifier_complex p.29 fig:필터장착
+필터 체결부 화살표는 필터의 어느 면에 맞춰야 하나요?,필터의 화살표 표시면(앞쪽·돌출부 위)을 본체 체결부 화살표에 맞춰 장착 (inset 도면 기준),waterpurifier_complex p.29 (필터 장착 - inset),factual,image-helpful,IR-W2 NEW v2 - 기존 Q21 흡수/재도출 | audit 2026-07-06: 답 원문이 p29 본문에 존재('화살표 표시가 필터 상단의 돌출부와 맞춰져') → image-required에서 강등,waterpurifier_complex p.29 fig:필터장착-inset
+흡입구는 길이조절 파이프의 어느 끝에 끼우나요?,길이조절 파이프의 앞쪽 끝(콜아웃 ①③④ 위치)에 흡입구를 장착 (제품 조립 도면 기준),vacuumcleaner_complex p.15 (제품 조립),factual,image-required,IR-V1 NEW v2 - 콜아웃 조립 위치는 도면에만,vacuumcleaner_complex p.15 fig:제품조립
+흡입구 거치대 걸이는 어느 방향으로 돌리나요?,곡선 화살표 방향(시계방향)으로 돌려 거치 (거치대 inset 도면 기준; 본문은 방향 생략),vacuumcleaner_complex p.15 (거치대 - inset),factual,image-required,IR-V2 NEW v2 - 방향은 도면 화살표에만,vacuumcleaner_complex p.15 fig:거치대-inset
+무선청소기 상태 표시창에서 Wi-Fi '연결 끊김'은 어떤 아이콘으로 표시되나요?,Wi-Fi 부채꼴에 사선(빗금)이 그어진 아이콘으로 표시됩니다(연결됨은 빗금 없는 부채꼴).,vacuumcleaner_complex p.19 (상태 표시창 살펴보기),factual,image-required,"IR-V3 — C2 교체(구 먼지통버튼위치 위치형 → 아이콘식별로 타입 다양화). 텍스트는 의미만, 모양은 도면에만.",vacuumcleaner_complex p.19 fig:상태표시창아이콘

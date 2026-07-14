@@ -1,0 +1,326 @@
+[
+  {
+    "id": "S1",
+    "name": "happy path: 이미지 페이지 → OCR → 검색 → 답변",
+    "input_type": "image",
+    "image_path": "data/sample_images_150/waterpurifier_complex/p029.png",
+    "question": "정수기 필터의 교체 주기는 얼마나 되나요?",
+    "expected_flow": [
+      "ocr",
+      "rag",
+      "grade",
+      "generate"
+    ],
+    "actual_flow": [
+      "ocr",
+      "rag",
+      "grade",
+      "generate"
+    ],
+    "flow_match": true,
+    "route_history": [
+      "ocr(ok=True, conf=0.89, chars=718)",
+      "rag(ok=True, k=5, caption_hit=True)",
+      "grade(relevant)",
+      "generate(ok=True, grounded=True)"
+    ],
+    "fallback_history": [],
+    "expected_fallbacks": 0,
+    "caption_hit": true,
+    "scores": [
+      0.9997,
+      0.9995,
+      0.9991,
+      0.9973,
+      0.9995
+    ],
+    "retrieved": [
+      {
+        "tag": "[waterpurifier_simple p.18]",
+        "modality": "text",
+        "score": 0.9997,
+        "content_head": "- 각 필터의 교체 주기는 중금속9 흡착 필터는 6개월, 바이러스 클리어 필터는 12개월입니다. \n\n- 필터 교체 주기는 4인 가정 하루 10 L 사용을 기준으로 하며, 필터의 수명은 수질, 수압, 계절, 지역에 따"
+      },
+      {
+        "tag": "[waterpurifier_complex p.14]",
+        "modality": "text",
+        "score": 0.9995,
+        "content_head": "> 14 사용하기 \n\n## 규격 취득 현황 \n\n본 제품은 아래와 같은 규격을 취득한 제품이므로 안심하고 사용하셔도 됩니다. \n\nKC 마크 는 정수기의 기준 및 규격에 합격한 정수기에만 부여하는 정부의 유일한 인증마크"
+      },
+      {
+        "tag": "[waterpurifier_simple p.12]",
+        "modality": "text",
+        "score": 0.9991,
+        "content_head": "> 12 사용하기 \n\n## 규격 취득 현황 \n\n## b 필터 \n\n본 제품은 아래와 같은 규격을 취득한 제품이므로 안심하고 사용하셔도 됩니다. \n\nKC 마크 는 정수기의 기준 및 규격에 합격한 정수기에만 부여하는 정부"
+      },
+      {
+        "tag": "[waterpurifier_simple p.18]",
+        "modality": "image-derived",
+        "score": 0.9973,
+        "content_head": "그림 1: 물받이를 아래위로 당기는 그림. 물받이 모양의 선이 있고, 양쪽에 화살표가 위아래로 그려져 있음.\n\n그림 2: 주전자 모양의 그림 두 개. 왼쪽은 \"미네랄\"이라고 적혀 있고, 오른쪽은 \"탄산칼슘\"이라고 적"
+      },
+      {
+        "tag": "[waterpurifier_complex p.14]",
+        "modality": "image-derived",
+        "score": 0.9995,
+        "content_head": "- **그림**: 정수기의 입체적인 도식이 있습니다. 정수기의 앞면과 측면이 보이며, 세 개의 콜아웃 번호가 있습니다.\n  - ① 제어창\n  - ② 출수버튼\n  - ③ 출수부\n\n- **아이콘**: KC 마크가 있는 "
+      }
+    ],
+    "ocr_text_head": "관 리 하기 29 5 필 터 가 완전히 장 착 되었는지 확 인 하세요. - 교체 주 기 :12 개 월 (10 L/S 사 용 기 준 ) xo A 주의 + 필터 세 척 을 임의로 중 단 할 경 있으니 필터 세 척 을 끝 @ 알 아 두기 필터 교 체 를 하지 않은 는 필터 세 척 을 취 소 할 수 있습니다. 필터 체 결 부의 화살표 표 시 가 필터 상 단 의 돌",
+    "image_summary": "",
+    "grade_result": "relevant",
+    "is_grounded": true,
+    "refused": false,
+    "answer": "정수기 필터의 교체 주기는 중금속9 흡착 필터는 6개월, 바이러스 클리어 필터는 12개월입니다. 필터 교체 주기는 4인 가정 하루 10 L 사용을 기준으로 하며, 필터의 수명은 수질, 수압, 계절, 지역에 따라 차이가 있을 수 있습니다. (출처: waterpurifier_simple p.18)",
+    "latency_s": 35.49
+  },
+  {
+    "id": "S2",
+    "name": "core: 텍스트 질문(IR-A1) → 캡션 RAG 근거 부족 → Vision 에스컬레이션",
+    "input_type": "text",
+    "image_path": null,
+    "question": "AS281DAW 공기청정기의 조작부는 제품 앞면의 어느 위치에 있나요?",
+    "expected_flow": [
+      "rag",
+      "grade",
+      "vision_escalate",
+      "generate"
+    ],
+    "actual_flow": [
+      "rag",
+      "grade",
+      "generate",
+      "vision_escalate",
+      "generate",
+      "refuse"
+    ],
+    "flow_match": true,
+    "route_history": [
+      "rag(ok=True, k=5, caption_hit=True)",
+      "grade(relevant)",
+      "generate(ok=True, grounded=False)",
+      "vision_escalate([airpurifier_simple p.18], ok=True, conf=1.00)",
+      "generate(ok=True, grounded=False)",
+      "refuse"
+    ],
+    "fallback_history": [
+      "F2: generate(ungrounded) (caption_hit=True) → vision_escalate([airpurifier_simple p.18])",
+      "F3: ungrounded / insufficient evidence (escalation exhausted) → refusal"
+    ],
+    "expected_fallbacks": 1,
+    "caption_hit": true,
+    "scores": [
+      0.0237,
+      0.0043,
+      0.0001,
+      0.0005,
+      0.0
+    ],
+    "retrieved": [
+      {
+        "tag": "[airpurifier_simple p.18]",
+        "modality": "text",
+        "score": 0.0237,
+        "content_head": "## 사용하기 \n\n## 각 부 명칭 및 기능 \n\n## 앞면 \n\n## 공기 배출구/클린부스터 \n\n- 필터에서 정화된 공기가 배출됩니다. \n\n- 먼 거리까지 바람을 보내도록 배출 방향을 조절할 수 있습니다. \n\n## 청"
+      },
+      {
+        "tag": "[airpurifier_complex p.18]",
+        "modality": "text",
+        "score": 0.0043,
+        "content_head": "## 사용하기 \n\n## 각 부 명칭 및 기능 \n\n## 앞면 \n\n----- Start of picture text ----- \n클린부스터 상부 공기청정기 하부 공기청정기 ----- End of picture text "
+      },
+      {
+        "tag": "[airpurifier_simple p.2]",
+        "modality": "text",
+        "score": 0.0001,
+        "content_head": "........26 순환팬 회전하기 ...................................................................................................."
+      },
+      {
+        "tag": "[airpurifier_simple p.18]",
+        "modality": "image-derived",
+        "score": 0.0005,
+        "content_head": "그림에는 원통형 기기의 이미지가 있습니다. 기기 위쪽에는 여러 개의 콜아웃 번호가 있습니다.\n\n- ①: 공기 배출구/클린부스터\n- ②: 청정 표시등\n- ③: 공기 흡입구 (제품 앞뒷면 커버)\n- ④: 상태 표시부\n-"
+      },
+      {
+        "tag": "[airpurifier_complex p.18]",
+        "modality": "image-derived",
+        "score": 0.0,
+        "content_head": "- 원통형 기기 그림이 있습니다.\n- 콜아웃 번호:\n  - ① 상부 공기 배출구/클린부스터\n  - ② 청정 표시등\n  - ③ 상부 공기 흡입구 (상부 커버)\n  - ④ 하부 공기 배출구\n  - ⑤ 하부 공기 흡입구 "
+      }
+    ],
+    "ocr_text_head": "",
+    "image_summary": "조작부는 제품의 상단에 위치해 있습니다.",
+    "grade_result": "relevant",
+    "is_grounded": false,
+    "refused": true,
+    "answer": "죄송합니다. 제공된 매뉴얼에서 해당 질문에 대한 정보를 찾을 수 없습니다.",
+    "latency_s": 30.6
+  },
+  {
+    "id": "S3",
+    "name": "edge: OCR-dead 도면 페이지 + 매뉴얼 밖 질문 → F1 우회 → 근거 부족 → 거절",
+    "input_type": "image",
+    "image_path": "data/sample_images_150/waterpurifier_simple/p008.png",
+    "question": "이 제품의 와이파이 초기 비밀번호는 무엇인가요?",
+    "expected_flow": [
+      "ocr",
+      "vision_input",
+      "rag",
+      "grade"
+    ],
+    "actual_flow": [
+      "ocr",
+      "vision_input",
+      "rag",
+      "grade",
+      "vision_escalate",
+      "generate",
+      "refuse"
+    ],
+    "flow_match": true,
+    "route_history": [
+      "ocr(ok=True, conf=0.00, chars=0)",
+      "vision_input(ok=True, conf=0.90)",
+      "rag(ok=True, k=5, caption_hit=True)",
+      "grade(not_relevant)",
+      "vision_escalate([vacuumcleaner_complex p.40], ok=True, conf=0.90)",
+      "generate(ok=True, grounded=False)",
+      "refuse"
+    ],
+    "fallback_history": [
+      "F1: ocr unusable (conf=0.00, chars=0) → vision_input",
+      "F2: grade(not_relevant) (caption_hit=True) → vision_escalate([vacuumcleaner_complex p.40])",
+      "F3: ungrounded / insufficient evidence (escalation exhausted) → refusal"
+    ],
+    "expected_fallbacks": 2,
+    "caption_hit": true,
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0007,
+      0.0007
+    ],
+    "retrieved": [
+      {
+        "tag": "[vacuumcleaner_complex p.40]",
+        "modality": "text",
+        "score": 0.0,
+        "content_head": "## 와이파이 \n\n|증상|원인 및 해결책|\n---|\n|가전제품과 스마트폰을 Wi-Fi로 연결할 수 없어요.|스마트폰에 연결된 Wi-Fi 비밀번호가 맞지 않나요? • 스마트폰 Wi-Fi 설정 메뉴에서 사용 중인 Wi-"
+      },
+      {
+        "tag": "[waterpurifier_complex p.34]",
+        "modality": "text",
+        "score": 0.0,
+        "content_head": "> 34 고장 신고 전 확인하기 \n\n|증상|원인 및 해결책|\n---|\n|가전제품과 스마트폰을 Wi-Fi로 연결할 수 없어요.|구형 무선 공유기를 사용 중인가요? • 구형 무선 공유기1의 이름이나 비밀번호에 한글 또는"
+      },
+      {
+        "tag": "[waterpurifier_complex p.9]",
+        "modality": "text",
+        "score": 0.0,
+        "content_head": "- 무선 공유기의 인증 및 암호화 유형은 WPA2를 권장합니다. \n\n- 무선 네트워크 연결 품질은 주변의 무선 환경에 영향을 받을 수 있습니다. 장애가 발생하면 인터넷 서비스 제공 업체에 문의하시기 바랍니다. \n\n-"
+      },
+      {
+        "tag": "[vacuumcleaner_complex p.40]",
+        "modality": "image-derived",
+        "score": 0.0007,
+        "content_head": "그림 없음."
+      },
+      {
+        "tag": "[waterpurifier_complex p.34]",
+        "modality": "image-derived",
+        "score": 0.0007,
+        "content_head": "그림 없음"
+      }
+    ],
+    "ocr_text_head": "",
+    "image_summary": "확인 불가\n확인 불가",
+    "grade_result": "not_relevant",
+    "is_grounded": false,
+    "refused": true,
+    "answer": "죄송합니다. 제공된 매뉴얼에서 해당 질문에 대한 정보를 찾을 수 없습니다.",
+    "latency_s": 27.1
+  },
+  {
+    "id": "S4",
+    "name": "bonus: IR-A3 아이콘 모양 — 두 번째 F2 케이스 (캡션 상한 vs 질의측 vision)",
+    "input_type": "text",
+    "image_path": null,
+    "question": "AS281DAW 공기청정기 상태 표시부에서 공기제균 기능이 켜지면 표시되는 아이콘은 어떤 모양인가요?",
+    "expected_flow": [
+      "rag",
+      "grade",
+      "vision_escalate",
+      "generate"
+    ],
+    "actual_flow": [
+      "rag",
+      "grade",
+      "generate",
+      "vision_escalate",
+      "generate",
+      "refuse"
+    ],
+    "flow_match": true,
+    "route_history": [
+      "rag(ok=True, k=5, caption_hit=True)",
+      "grade(relevant)",
+      "generate(ok=True, grounded=False)",
+      "vision_escalate([airpurifier_simple p.22], ok=True, conf=1.00)",
+      "generate(ok=True, grounded=False)",
+      "refuse"
+    ],
+    "fallback_history": [
+      "F2: generate(ungrounded) (caption_hit=True) → vision_escalate([airpurifier_simple p.22])",
+      "F3: ungrounded / insufficient evidence (escalation exhausted) → refusal"
+    ],
+    "expected_fallbacks": 1,
+    "caption_hit": true,
+    "scores": [
+      0.5923,
+      0.3871,
+      0.0066,
+      0.0306,
+      0.0007
+    ],
+    "retrieved": [
+      {
+        "tag": "[airpurifier_simple p.22]",
+        "modality": "text",
+        "score": 0.5923,
+        "content_head": "## 상태 표시부 \n\n## 공기 상태 표시 \n\n종합청정도 (색상) 표시 \n\n- 먼지 입자 크기 및 먼지 농도 (색상) 표시 \n\n- 먼지 농도 표시 또는 취침예약 시간 표시 \n\n냄새 농도 (색상) 표시 \n\n## 운전모"
+      },
+      {
+        "tag": "[airpurifier_complex p.22]",
+        "modality": "text",
+        "score": 0.3871,
+        "content_head": "## 상태 표시부 \n\n## 공기 상태 표시 \n\n- 종합청정도 (색상) 표시 \n\n- 먼지 입자 크기 및 먼지 농도 (색상) 표시 \n\n- 먼지 농도 표시 또는 취침예약 시간 표시 \n\n냄새 농도 (색상) 표시 \n\n## 운"
+      },
+      {
+        "tag": "[airpurifier_complex p.30]",
+        "modality": "text",
+        "score": 0.0066,
+        "content_head": "- 상태 표시부에 (공기제균)이 표시됩니다. \n\n- 종합청정도는 먼지 농도와 냄새를 종합적으로 판단하여 표시합니다. \n\n- 같은 공간이라도 공기 순환 때문에 먼지 농도가 다른 제품과 다르게 표시될 수 있습니다. \n\n"
+      },
+      {
+        "tag": "[airpurifier_simple p.22]",
+        "modality": "image-derived",
+        "score": 0.0306,
+        "content_head": "1. **공기 상태 표시**\n   - ① 종합청정도 (색상) 표시\n   - ② 먼지 입자 크기 및 먼지 농도 (색상) 표시\n   - ③ 먼지 농도 표시 또는 취침예약 시간 표시\n   - ④ 냄새 농도 (색상) 표시\n"
+      },
+      {
+        "tag": "[airpurifier_complex p.22]",
+        "modality": "image-derived",
+        "score": 0.0007,
+        "content_head": "- **상태 표시부**\n  - 큰 사각형 안에 여러 요소가 있음.\n  - 왼쪽 상단에 작은 원들이 여러 개 모여 있는 모양.\n  - 번개 모양의 기호.\n  - \"㎍/㎥\"라는 텍스트와 함께 큰 숫자 표시.\n  - 오른"
+      }
+    ],
+    "ocr_text_head": "",
+    "image_summary": "공기제균 기능이 켜지면 표시되는 아이콘은 세 번째 아이콘으로, 공기제균 기능을 사용할 때 표시됩니다.",
+    "grade_result": "relevant",
+    "is_grounded": false,
+    "refused": true,
+    "answer": "죄송합니다. 제공된 매뉴얼에서 해당 질문에 대한 정보를 찾을 수 없습니다.",
+    "latency_s": 30.05
+  }
+]

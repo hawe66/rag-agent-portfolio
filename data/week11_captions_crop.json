@@ -1,0 +1,506 @@
+[
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 18,
+    "region_idx": 0,
+    "bbox_pdf": [
+      120.0,
+      128.0,
+      304.0,
+      332.0
+    ],
+    "position": "페이지 중단 중앙",
+    "image_path": "data/region_crops/airpurifier_complex/p018_r0.png",
+    "context_text": "각 부 명칭 및 기능 / 앞면 / 상부 공기청정기 / 클린부스터 / 하부 공기청정기 / 상부 공기 배출구/클린부스터 / •• 상부 필터에서 정화된 공기가 \n배출됩니다. / 하부 공기 흡입구 (하부 커버) / •• 하부 공기청정기로 공기가 흡입됩니다.",
+    "caption": {
+      "summary": "공기청정기의 각 부 명칭과 기능을 설명하는 그림",
+      "elements": [
+        {
+          "label": "상부 공기 배출구",
+          "shape": "원형, 내부에 작은 원형 구멍들",
+          "position_in_figure": "상단 중앙",
+          "direction": null
+        },
+        {
+          "label": "클린부스터",
+          "shape": "원형, 내부에 작은 원형 구멍들",
+          "position_in_figure": "상단 중앙",
+          "direction": null
+        },
+        {
+          "label": "상부 공기청정기",
+          "shape": "원통형, 점선 패턴",
+          "position_in_figure": "중앙 상단",
+          "direction": null
+        },
+        {
+          "label": "클린부스터",
+          "shape": "원형, 내부에 작은 원형 구멍들",
+          "position_in_figure": "중앙",
+          "direction": null
+        },
+        {
+          "label": "하부 공기청정기",
+          "shape": "원통형, 점선 패턴",
+          "position_in_figure": "중앙 하단",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 22,
+    "region_idx": 0,
+    "bbox_pdf": [
+      112.0,
+      104.0,
+      400.0,
+      296.0
+    ],
+    "position": "페이지 상단 중앙",
+    "image_path": "data/region_crops/airpurifier_complex/p022_r0.png",
+    "context_text": "공기 상태 표시 / 종합청정도 (색상) 표시 / 상태 표시부 / 아이콘 표시",
+    "caption": {
+      "summary": "공기 상태와 관련된 정보와 아이콘을 표시하는 영역",
+      "elements": [
+        {
+          "label": "극초미세먼지",
+          "shape": "사각형 내부에 나무 모양과 점들",
+          "position_in_figure": "상단 중앙",
+          "direction": null
+        },
+        {
+          "label": "꺼짐",
+          "shape": "숫자 형태의 디지털 표시",
+          "position_in_figure": "중앙",
+          "direction": null
+        },
+        {
+          "label": "냄새",
+          "shape": "물결 모양의 기호",
+          "position_in_figure": "우측",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 22,
+    "region_idx": 1,
+    "bbox_pdf": [
+      248.0,
+      296.0,
+      428.0,
+      508.0
+    ],
+    "position": "페이지 중단 우측",
+    "image_path": "data/region_crops/airpurifier_complex/p022_r1.png",
+    "context_text": "먼지 입자 크기 및 먼지 농도 (색상) / 먼지 농도 표시 또는 취침예약 시간 / 청정세기: 공기청정기 풍량 표시 / 순환팬세기: 클린부스터 풍량 표시 / 아이콘 표시 / 아이콘\n설명 / 상부 필터의 교체 시기가 되면 \n표시됩니다. / 하부 필터의 교체 시기가 되면 \n표시됩니다. / Wi-Fi 기능이 활성화되면 표시됩니다. / 공기제균 기능을 사용하면 표시됩니다. / LG SmartThinQ 애플리케이션에서 \n'켜짐/꺼짐 예약'이 설정되면 \n표시됩니다. / 조작부의 버튼이 잠기면 표시됩니다.",
+    "caption": {
+      "summary": "아이콘과 설명이 나열된 표",
+      "elements": [
+        {
+          "label": "상부 필터의 교체 시기가 되면 표시됩니다.",
+          "shape": "사각형, 내부에 세로 막대",
+          "position_in_figure": "좌측 상단",
+          "direction": null
+        },
+        {
+          "label": "하부 필터의 교체 시기가 되면 표시됩니다.",
+          "shape": "사각형, 내부에 세로 막대",
+          "position_in_figure": "좌측 중단",
+          "direction": null
+        },
+        {
+          "label": "Wi-Fi 기능이 활성화되면 표시됩니다.",
+          "shape": "부채꼴, 내부에 3개의 곡선",
+          "position_in_figure": "좌측 중단",
+          "direction": null
+        },
+        {
+          "label": "공기제균 기능을 사용하면 표시됩니다.",
+          "shape": "원, 내부에 +와 - 기호",
+          "position_in_figure": "좌측 중단",
+          "direction": null
+        },
+        {
+          "label": "LG SmartThinQ 애플리케이션에서 '켜짐/꺼짐 예약'이 설정되면 표시됩니다.",
+          "shape": "원, 내부에 시계 모양",
+          "position_in_figure": "좌측 하단",
+          "direction": null
+        },
+        {
+          "label": "조작부의 버튼이 잠기면 표시됩니다.",
+          "shape": "사각형, 내부에 자물쇠 모양",
+          "position_in_figure": "좌측 하단",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 29,
+    "region_idx": 0,
+    "bbox_pdf": [
+      24.0,
+      0.0,
+      492.0,
+      488.0
+    ],
+    "position": "페이지 중단 중앙",
+    "image_path": "data/region_crops/waterpurifier_complex/p029_r0.png",
+    "context_text": "29\n관리하기 / - 교체 주기: 12개월 (10 L/일 사용기준) / 5\n필터가 완전히 장착되었는지 확인하세요. / • 필터 체결부의 화살표 표시가 필터 상단의 돌출부와 \n맞춰져 있는지 확인하세요. / 6\n두 손으로 필터 커버를 닫고 좌우가 잘 닫혔는지 / 확인하세요. / • 필터 커버를 닫을 때는 왼쪽 상단부터 조립하세요. / • 필터 커버를 닫으면 자동으로 필터 세척이 약 7분간 \n진행됩니다. / • 필터 세척이 시작되면 제품에서 물 흐르는 소리가 \n들립니다. / 주의 / • 필터 세척을 임의로 중단할 경우 물맛에 영향을 줄 수 \n있으니 필터 세척을 끝내고 사용하세요. / 알아두기 / • 필터 교체를 하지 않은 경우에는 출수 버튼을 3초간 눌러 \n필터 세척을 취소할 수 있습니다. / 7\n필터 세척이 완료되면 냉수 버튼을 3초 이상 눌러 필터 / 사용량을 초기화하세요. / 알아두기 / • 필터 사용량 초기화는 필터의 수명을 0 L로 초기화하여 \n수명을 새롭게 카운트하는 기능입니다. 필터 사용량을 \n초과하여 사용할 경우 정수 효과가 떨어집니다. / 8\n필터 사용량을 초기화시킨 후에 냉수 120 ml, 정수 120 / ml, 온수 120 ml를 순서대로 출수",
+    "caption": {
+      "summary": "필터 장착 및 교체 방법을 설명하는 그림",
+      "elements": [
+        {
+          "label": "필터가 완전히 장착되었는지 확인하세요.",
+          "shape": "사각형, 내부에 두 개의 원통형 필터와 손, 화살표",
+          "position_in_figure": "중앙",
+          "direction": "화살표가 필터를 끼우는 방향을 가리킴"
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 29,
+    "region_idx": 1,
+    "bbox_pdf": [
+      256.0,
+      152.0,
+      492.0,
+      380.0
+    ],
+    "position": "페이지 중단 우측",
+    "image_path": "data/region_crops/waterpurifier_complex/p029_r1.png",
+    "context_text": "• 필터 체결부의 화살표 표시가 필터 상단의 돌출부와 \n맞춰져 있는지 확인하세요. / 알아두기 / • 필터 교체를 하지 않은 경우에는 출수 버튼을 3초간 눌러 \n필터 세척을 취소할 수 있습니다. / 7\n필터 세척이 완료되면 냉수 버튼을 3초 이상 눌러 필터 / 사용량을 초기화하세요. / 알아두기 / • 필터 사용량 초기화는 필터의 수명을 0 L로 초기화하여 \n수명을 새롭게 카운트하는 기능입니다. 필터 사용량을 \n초과하여 사용할 경우 정수 효과가 떨어집니다.",
+    "caption": {
+      "summary": "필터 세척 후 냉수 버튼을 3초 이상 눌러 초기화하는 방법을 설명하는 그림",
+      "elements": [
+        {
+          "label": "정수",
+          "shape": "물방울 모양",
+          "position_in_figure": "좌측 상단",
+          "direction": null
+        },
+        {
+          "label": "냉수",
+          "shape": "별표 모양",
+          "position_in_figure": "우측 상단",
+          "direction": null
+        },
+        {
+          "label": "*출수구살균",
+          "shape": "사각형 안에 십자 모양",
+          "position_in_figure": "좌측 중앙",
+          "direction": null
+        },
+        {
+          "label": "용량",
+          "shape": "물방울 모양 안에 U자형",
+          "position_in_figure": "우측 중앙",
+          "direction": null
+        },
+        {
+          "label": null,
+          "shape": "손가락 모양",
+          "position_in_figure": "우측 중앙",
+          "direction": "냉수 버튼을 누르는 동작"
+        },
+        {
+          "label": null,
+          "shape": "물방울 모양",
+          "position_in_figure": "좌측 하단",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 29,
+    "region_idx": 2,
+    "bbox_pdf": [
+      44.0,
+      504.0,
+      236.0,
+      652.0
+    ],
+    "position": "페이지 하단 좌측",
+    "image_path": "data/region_crops/waterpurifier_complex/p029_r2.png",
+    "context_text": "• 필터 커버를 닫으면 자동으로 필터 세척이 약 7분간 \n진행됩니다. / • 필터 세척이 시작되면 제품에서 물 흐르는 소리가 \n들립니다. / • 새로운 필터로 교체한 경우에는 필터 세척을 \n취소하지 마세요.",
+    "caption": {
+      "summary": "필터 커버를 위로 들어올리는 방법을 보여줍니다.",
+      "elements": [
+        {
+          "label": null,
+          "shape": "사각형 모양의 필터 커버, 화살표, 손 두 개",
+          "position_in_figure": "중앙",
+          "direction": "필터 커버를 위로 들어올림"
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 15,
+    "region_idx": 0,
+    "bbox_pdf": [
+      24.0,
+      0.0,
+      492.0,
+      364.0
+    ],
+    "position": "페이지 상단 중앙",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p015_r0.png",
+    "context_text": "15\n알아보기 / 보관하기 / 제품 조립 및 보관하기 / 1\n제품 본체a에 길이 조절 파이프c, 흡입구d을 / 조립하세요. / • 길이 조절 파이프을 분리하려면, 길이 조절 파이프 \n분리 버튼b을 누르면서 아래로 당기세요. / 2\n제품 본체를 충전대에 끼우세요. / • 제품이 충전대에 올바르게 거치되면 알림음이 \n울립니다. 알림음이 울리지 않으면 제품을 다시 \n장착하세요. / • 흡입구 거치대는 오른쪽을 눌러야 돌아갑니다. \n손가락이 끼이지 않도록 주의하세요. / 2\n제품 양 옆에 있는 거치대에 흡입구를 보관하세요. / 내부에 보관하기 / 1\n제품의 왼쪽 구성품 보관함 문을 열어 침구 또는 펫 / QR 코드를 스캔하여 영상으로 \n확인하세요.",
+    "caption": {
+      "summary": "제품 조립 및 보관 방법을 설명하는 그림",
+      "elements": [
+        {
+          "label": "1",
+          "shape": "원",
+          "position_in_figure": "좌측",
+          "direction": null
+        },
+        {
+          "label": "2",
+          "shape": "원",
+          "position_in_figure": "중앙",
+          "direction": null
+        },
+        {
+          "label": "3",
+          "shape": "원",
+          "position_in_figure": "중앙",
+          "direction": null
+        },
+        {
+          "label": "4",
+          "shape": "원",
+          "position_in_figure": "우측",
+          "direction": null
+        },
+        {
+          "label": null,
+          "shape": "화살표",
+          "position_in_figure": "중앙",
+          "direction": "끼움"
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 15,
+    "region_idx": 1,
+    "bbox_pdf": [
+      32.0,
+      160.0,
+      236.0,
+      344.0
+    ],
+    "position": "페이지 중단 좌측",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p015_r1.png",
+    "context_text": "조립하세요. / • 길이 조절 파이프을 분리하려면, 길이 조절 파이프 \n분리 버튼b을 누르면서 아래로 당기세요. / 2\n제품 본체를 충전대에 끼우세요. / QR 코드를 스캔하여 영상으로 \n확인하세요.",
+    "caption": {
+      "summary": "청소기 조립 방법을 보여주는 그림",
+      "elements": [
+        {
+          "label": "1",
+          "shape": "원, 숫자 1",
+          "position_in_figure": "좌측 상단",
+          "direction": null
+        },
+        {
+          "label": "2",
+          "shape": "원, 숫자 2",
+          "position_in_figure": "중앙 좌측",
+          "direction": null
+        },
+        {
+          "label": "3",
+          "shape": "원, 숫자 3",
+          "position_in_figure": "중앙 우측",
+          "direction": null
+        },
+        {
+          "label": "4",
+          "shape": "원, 숫자 4",
+          "position_in_figure": "우측 하단",
+          "direction": null
+        },
+        {
+          "label": null,
+          "shape": "화살표, 두 개",
+          "position_in_figure": "중앙",
+          "direction": "끼움, 좌측에서 우측으로"
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 15,
+    "region_idx": 2,
+    "bbox_pdf": [
+      48.0,
+      412.0,
+      236.0,
+      548.0
+    ],
+    "position": "페이지 중단 좌측",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p015_r2.png",
+    "context_text": "• 제품이 충전대에 올바르게 거치되면 알림음이 \n울립니다. 알림음이 울리지 않으면 제품을 다시 \n장착하세요. / 구성품 보관하기",
+    "caption": {
+      "summary": "청소기를 충전대에 거치하는 방법",
+      "elements": [
+        {
+          "label": null,
+          "shape": "사각형 모양의 충전대와 청소기, 손 모양",
+          "position_in_figure": "좌측 상단",
+          "direction": "청소기를 아래로 끼움"
+        },
+        {
+          "label": "충전 중 63%",
+          "shape": "원형, 내부에 텍스트와 부분 원",
+          "position_in_figure": "우측 중앙",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 15,
+    "region_idx": 3,
+    "bbox_pdf": [
+      280.0,
+      420.0,
+      468.0,
+      580.0
+    ],
+    "position": "페이지 하단 우측",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p015_r3.png",
+    "context_text": "1\n제품의 왼쪽 구성품 보관함 문을 열어 침구 또는 펫 / 흡입구a를 꽂아 보관하세요.",
+    "caption": {
+      "summary": "제품의 왼쪽 구성품 보관함 문을 여는 방법을 보여줍니다.",
+      "elements": [
+        {
+          "label": "1",
+          "shape": "원, 내부에 숫자 1",
+          "position_in_figure": "좌측 중앙",
+          "direction": null
+        },
+        {
+          "label": null,
+          "shape": "화살표, 곡선 형태",
+          "position_in_figure": "좌측 중앙",
+          "direction": "문을 왼쪽으로 회전"
+        },
+        {
+          "label": null,
+          "shape": "화살표, 직선 형태",
+          "position_in_figure": "하단 중앙",
+          "direction": "내부로 끼움"
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 19,
+    "region_idx": 0,
+    "bbox_pdf": [
+      164.0,
+      88.0,
+      352.0,
+      284.0
+    ],
+    "position": "페이지 상단 중앙",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p019_r0.png",
+    "context_text": "• 상세 내용은 아래의 상태 표시창 살펴보기를 참조하세요.",
+    "caption": {
+      "summary": "디스플레이와 버튼이 있는 가전 제품의 조작부",
+      "elements": [
+        {
+          "label": "표준 14분",
+          "shape": "사각형, 내부에 텍스트와 아이콘",
+          "position_in_figure": "상단 중앙",
+          "direction": null
+        },
+        {
+          "label": null,
+          "shape": "원형, 톱니바퀴 모양",
+          "position_in_figure": "중앙 상단",
+          "direction": null
+        },
+        {
+          "label": null,
+          "shape": "원형, 전원 버튼 모양",
+          "position_in_figure": "중앙",
+          "direction": null
+        },
+        {
+          "label": null,
+          "shape": "부채꼴, 화살표 두 개",
+          "position_in_figure": "하단 중앙",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 19,
+    "region_idx": 1,
+    "bbox_pdf": [
+      24.0,
+      560.0,
+      492.0,
+      696.0
+    ],
+    "position": "페이지 하단 중앙",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p019_r1.png",
+    "context_text": "a 제품 연결 아이콘 / • 제품의 Wi-Fi 연결 상태를 표시합니다. / 아이콘\n연결 상태\n설명 / f\n연결 됨\n설정 모드의 Wi-Fi 항목이 켜기로 설정되어 있고 LG ThinQ 앱과 \n연결이 완료됨 / Y\n연결 끊김\n연결 됨 상태에서 네트워크 연결이 끊어짐 / 표시 안됨\n연결 안됨\n• Wi-Fi 항목이 끄기로 설정되어 있음 / • Wi-Fi 항목이 켜기로 설정되어 있으나 LG ThinQ 앱과 연결되어 있지 \n않음",
+    "caption": {
+      "summary": "Wi-Fi 연결 상태를 나타내는 아이콘과 설명",
+      "elements": [
+        {
+          "label": "연결 됨",
+          "shape": "원형, 내부에 점과 곡선",
+          "position_in_figure": "좌상",
+          "direction": null
+        },
+        {
+          "label": "연결 끊김",
+          "shape": "원형, 내부에 점과 곡선, 사선",
+          "position_in_figure": "좌중",
+          "direction": null
+        },
+        {
+          "label": "표시 안됨",
+          "shape": "텍스트만",
+          "position_in_figure": "좌하",
+          "direction": null
+        }
+      ]
+    }
+  }
+]
