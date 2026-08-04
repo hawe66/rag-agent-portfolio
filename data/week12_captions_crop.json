@@ -1,0 +1,1498 @@
+[
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 14,
+    "region_idx": 0,
+    "bbox_pdf": [
+      268.0,
+      120.0,
+      404.0,
+      404.0
+    ],
+    "position": "페이지 중단 중앙",
+    "image_path": "data/region_crops/airpurifier_complex/p014_r0.png",
+    "context_text": "14 / 필터 보호 비닐과 고정 테이프 \n제거하기 / 제품과 필터에 부착된 고정 테이프와 보호 비닐을 \n제거하고 사용하세요. / 1 제품을 박스에서 꺼낸 후 제품에 부착된 / 고정 테이프를 제거하세요. / 2 제품 뒷면에 있는 커버의 상단 끝 부분을 / 잡고 살짝 당기세요. / •• 제품 뒷면 커버에는 'PM1.0&GAS \nSENSOR SYSTEM'이 표시되어 \n있습니다. / 3 제품에서 커버를 분리하세요. / 4 상 · 하부 필터 입구에 있는 포장용 지지대를 / 분리하세요. / 포장용 / 지지대 / 5 필터를 분리한 후 보호 비닐을 제거하세요. / 6  제품에 필터를 장착하세요. / •• 손잡이가 달린 면이 위를 향하도록 장착\n하세요. / 손잡이 / 7 커버 하단의 고정부를 제품의 커버 조립부 / 하단에 있는 고정홈에 끼운 후 커버를 \n닫으세요.",
+    "caption": {
+      "summary": "제품에서 포장용 지지대와 필터를 분리하고 장착하는 과정",
+      "elements": [
+        {
+          "label": "포장용 지지대",
+          "shape": "사각형, 화살표",
+          "position_in_figure": "제품 하단 앞면",
+          "direction": "지지대를 왼쪽으로 분리"
+        },
+        {
+          "label": null,
+          "shape": "원형, 화살표, 휴지통 기호",
+          "position_in_figure": "제품 하단 앞면",
+          "direction": "필터를 위로 분리"
+        }
+      ]
+    }
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 14,
+    "region_idx": 1,
+    "bbox_pdf": [
+      96.0,
+      260.0,
+      188.0,
+      544.0
+    ],
+    "position": "페이지 중단 좌측",
+    "image_path": "data/region_crops/airpurifier_complex/p014_r1.png",
+    "context_text": "14 / 필터 보호 비닐과 고정 테이프 \n제거하기 / 제품과 필터에 부착된 고정 테이프와 보호 비닐을 \n제거하고 사용하세요. / 1 제품을 박스에서 꺼낸 후 제품에 부착된 / 고정 테이프를 제거하세요. / 2 제품 뒷면에 있는 커버의 상단 끝 부분을 / 잡고 살짝 당기세요. / •• 제품 뒷면 커버에는 'PM1.0&GAS \nSENSOR SYSTEM'이 표시되어 \n있습니다. / 3 제품에서 커버를 분리하세요. / 4 상 · 하부 필터 입구에 있는 포장용 지지대를 / 분리하세요. / 포장용 / 지지대 / 5 필터를 분리한 후 보호 비닐을 제거하세요. / 6  제품에 필터를 장착하세요. / •• 손잡이가 달린 면이 위를 향하도록 장착\n하세요. / 손잡이 / 7 커버 하단의 고정부를 제품의 커버 조립부 / 하단에 있는 고정홈에 끼운 후 커버를 \n닫으세요.",
+    "caption": {
+      "summary": "제품에서 커버를 분리하는 방법을 보여줌",
+      "elements": [
+        {
+          "label": "제품에서 커버를 분리하세요.",
+          "shape": "사람 손이 커버를 잡고 있는 사각형, 점선 원",
+          "position_in_figure": "제품 윗면",
+          "direction": "커버를 위로 분리"
+        }
+      ]
+    }
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 18,
+    "region_idx": 0,
+    "bbox_pdf": [
+      120.0,
+      128.0,
+      304.0,
+      332.0
+    ],
+    "position": "페이지 중단 중앙",
+    "image_path": "data/region_crops/airpurifier_complex/p018_r0.png",
+    "context_text": "18 / •• 제품의 외관 또는 구성품은 모델에 따라 다를 수 있습니다. / 각 부 명칭 및 기능 / 앞면 / 상부 공기청정기 / 클린부스터 / 하부 공기청정기 / 상부 공기 배출구/클린부스터 / •• 상부 필터에서 정화된 공기가 \n배출됩니다. / •• 먼 거리까지 바람을 보내도록 배출 \n방향을 조절할 수 있습니다. / 청정 표시등 / 현재 공기 상태를 색상으로 표시합니다. / 상부 공기 흡입구 (상부 커버) / •• 상부 공기청정기로 공기가 흡입됩니다. / •• 앞뒷면 커버를 각각 분리할 수 \n있습니다. / 하부 공기 배출구 / 하부 필터에서 정화된 공기가 배출됩니다. / 사용하기 / 하부 공기 흡입구 (하부 커버) / •• 하부 공기청정기로 공기가 흡입됩니다. / •• 앞뒷면 커버를 각각 분리할 수 있습니다. / 상태 표시부 / 제품의 설정 상태와 공기 상태를 확인할 수 \n있습니다. / 조작부 / 제품의 기능을 설정할 수 있습니다. / 리모컨 수신부 / 공기제균 장치 / •• 이온을 발생시켜 실내 공기 중의 세균을 \n제거합니다. / •• 하부 공기 청정기 내부에 장착되어 있습니다.",
+    "caption": {
+      "summary": "공기청정기의 각 부 명칭과 기능을 설명하는 그림",
+      "elements": [
+        {
+          "label": "상부 공기 배출구/클린부스터",
+          "shape": "원형, 내부에 작은 원 여러 개",
+          "position_in_figure": "제품 윗면 중앙",
+          "direction": null
+        },
+        {
+          "label": "청정 표시등",
+          "shape": "원형, 내부에 작은 원 여러 개",
+          "position_in_figure": "제품 윗면 중앙",
+          "direction": null
+        },
+        {
+          "label": "상부 공기 흡입구 (상부 커버)",
+          "shape": "원통형, 점선",
+          "position_in_figure": "제품 상단 측면",
+          "direction": null
+        },
+        {
+          "label": "상부 공기 배출구/클린부스터",
+          "shape": "원형, 내부에 작은 원 여러 개",
+          "position_in_figure": "제품 중단 측면",
+          "direction": null
+        },
+        {
+          "label": "하부 공기 흡입구 (하부 커버)",
+          "shape": "원통형, 점선",
+          "position_in_figure": "제품 하단 측면",
+          "direction": null
+        },
+        {
+          "label": "상부 공기 배출구/클린부스터",
+          "shape": "원형, 내부에 작은 원 여러 개",
+          "position_in_figure": "제품 윗면 중앙",
+          "direction": null
+        },
+        {
+          "label": "상부 공기 배출구/클린부스터",
+          "shape": "원형, 내부에 작은 원 여러 개",
+          "position_in_figure": "제품 윗면 중앙",
+          "direction": null
+        },
+        {
+          "label": "상부 공기 흡입구 (상부 커버)",
+          "shape": "원통형, 점선",
+          "position_in_figure": "제품 상단 측면",
+          "direction": null
+        },
+        {
+          "label": "하부 공기 흡입구 (하부 커버)",
+          "shape": "원통형, 점선",
+          "position_in_figure": "제품 하단 측면",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 22,
+    "region_idx": 0,
+    "bbox_pdf": [
+      112.0,
+      104.0,
+      400.0,
+      296.0
+    ],
+    "position": "페이지 상단 중앙",
+    "image_path": "data/region_crops/airpurifier_complex/p022_r0.png",
+    "context_text": "22 / 공기 상태 표시 / 종합청정도 (색상) 표시 / 먼지 입자 크기 및 먼지 농도 (색상) / 표시 / 먼지 농도 표시 또는 취침예약 시간 / 표시 / 냄새 농도 (색상) 표시 / 운전모드 표시 / 풍량 표시 / 청정세기: 공기청정기 풍량 표시 / 순환팬세기: 클린부스터 풍량 표시 / 취침예약 표시 / 상태 표시부 / 아이콘 표시 / 아이콘\n설명 / 상부 필터의 교체 시기가 되면 \n표시됩니다. / 하부 필터의 교체 시기가 되면 \n표시됩니다. / Wi-Fi 기능이 활성화되면 표시됩니다. / 공기제균 기능을 사용하면 표시됩니다. / LG SmartThinQ 애플리케이션에서 \n'켜짐/꺼짐 예약'이 설정되면 \n표시됩니다. / 조작부의 버튼이 잠기면 표시됩니다.",
+    "caption": {
+      "summary": "공기청정기의 상태 및 모드 표시 패널",
+      "elements": [
+        {
+          "label": "극초미세먼지",
+          "shape": "사각형 내부에 점들이 나무 모양을 둘러싸고 있음",
+          "position_in_figure": "상단 중앙",
+          "direction": null
+        },
+        {
+          "label": "꺼짐",
+          "shape": "디지털 숫자 '888'과 'μg/m³' 텍스트",
+          "position_in_figure": "중앙",
+          "direction": null
+        },
+        {
+          "label": "냄새",
+          "shape": "곡선형 선 두 개",
+          "position_in_figure": "우측 중앙",
+          "direction": null
+        },
+        {
+          "label": "오토모드",
+          "shape": "사각형",
+          "position_in_figure": "하단 좌측",
+          "direction": null
+        },
+        {
+          "label": "Wi-Fi",
+          "shape": "와이파이 기호",
+          "position_in_figure": "하단 좌측",
+          "direction": null
+        },
+        {
+          "label": "취침",
+          "shape": "사각형 내부에 취침 기호",
+          "position_in_figure": "하단 중앙",
+          "direction": null
+        },
+        {
+          "label": "잠금",
+          "shape": "자물쇠 기호",
+          "position_in_figure": "하단 우측",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "complex",
+    "page": 22,
+    "region_idx": 1,
+    "bbox_pdf": [
+      248.0,
+      296.0,
+      428.0,
+      508.0
+    ],
+    "position": "페이지 중단 우측",
+    "image_path": "data/region_crops/airpurifier_complex/p022_r1.png",
+    "context_text": "22 / 공기 상태 표시 / 종합청정도 (색상) 표시 / 먼지 입자 크기 및 먼지 농도 (색상) / 표시 / 먼지 농도 표시 또는 취침예약 시간 / 표시 / 냄새 농도 (색상) 표시 / 운전모드 표시 / 풍량 표시 / 청정세기: 공기청정기 풍량 표시 / 순환팬세기: 클린부스터 풍량 표시 / 취침예약 표시 / 상태 표시부 / 아이콘 표시 / 아이콘\n설명 / 상부 필터의 교체 시기가 되면 \n표시됩니다. / 하부 필터의 교체 시기가 되면 \n표시됩니다. / Wi-Fi 기능이 활성화되면 표시됩니다. / 공기제균 기능을 사용하면 표시됩니다. / LG SmartThinQ 애플리케이션에서 \n'켜짐/꺼짐 예약'이 설정되면 \n표시됩니다. / 조작부의 버튼이 잠기면 표시됩니다.",
+    "caption": {
+      "summary": "아이콘과 그 설명을 보여주는 표",
+      "elements": [
+        {
+          "label": "상부 필터의 교체 시기가 되면 표시됩니다.",
+          "shape": "사각형, 내부에 세로 막대",
+          "position_in_figure": "좌측 상단",
+          "direction": null
+        },
+        {
+          "label": "하부 필터의 교체 시기가 되면 표시됩니다.",
+          "shape": "사각형, 내부에 세로 막대",
+          "position_in_figure": "좌측 중단",
+          "direction": null
+        },
+        {
+          "label": "Wi-Fi 기능이 활성화되면 표시됩니다.",
+          "shape": "원형, 내부에 와이파이 기호",
+          "position_in_figure": "좌측 중단",
+          "direction": null
+        },
+        {
+          "label": "공기제균 기능을 사용하면 표시됩니다.",
+          "shape": "원형, 내부에 플러스와 마이너스 기호",
+          "position_in_figure": "좌측 중단",
+          "direction": null
+        },
+        {
+          "label": "LG SmartThinQ 애플리케이션에서 '켜짐/꺼짐 예약'이 설정되면 표시됩니다.",
+          "shape": "원형, 내부에 시계 기호",
+          "position_in_figure": "좌측 하단",
+          "direction": null
+        },
+        {
+          "label": "조작부의 버튼이 잠기면 표시됩니다.",
+          "shape": "사각형, 내부에 자물쇠 기호",
+          "position_in_figure": "좌측 하단",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 18,
+    "region_idx": 0,
+    "bbox_pdf": [
+      160.0,
+      116.0,
+      320.0,
+      256.0
+    ],
+    "position": "페이지 상단 중앙",
+    "image_path": "data/region_crops/airpurifier_simple/p018_r0.png",
+    "context_text": "18 / 사용하기 / 각 부 명칭 및 기능 / 앞면 / •• 제품의 외관 또는 구성품은 모델에 따라 다를 수 있습니다. / 공기 배출구/클린부스터 / •• 필터에서 정화된 공기가 배출됩니다. / •• 먼 거리까지 바람을 보내도록 배출 \n방향을 조절할 수 있습니다. / 청정 표시등 / 현재 공기 상태를 색상으로 표시합니다. / 공기 흡입구 (제품 앞뒷면 커버) / •• 공기청정기로 공기가 흡입됩니다. / •• 앞뒷면 커버를 각각 분리할 수 \n있습니다. / 상태 표시부 / 제품의 설정 상태와 공기 상태를 확인할 \n수 있습니다. / 조작부 / 제품의 기능을 설정할 수 있습니다. / 리모컨 수신부 / 공기제균 장치 / •• 이온을 발생시켜 실내 공기 중의 세균을 \n제거합니다. / •• 공기 청정기 내부에 장착되어 있습니다.",
+    "caption": {
+      "summary": "공기청정기의 각 부 명칭 및 기능을 설명하는 그림",
+      "elements": [
+        {
+          "label": "공기 배출구",
+          "shape": "원형, 내부에 선",
+          "position_in_figure": "제품 상단",
+          "direction": null
+        },
+        {
+          "label": "클린부스터",
+          "shape": "원형, 내부에 기호",
+          "position_in_figure": "제품 상단 중앙",
+          "direction": null
+        },
+        {
+          "label": "공기 흡입구",
+          "shape": "원통형, 점선",
+          "position_in_figure": "제품 측면",
+          "direction": null
+        },
+        {
+          "label": "청정 표시등",
+          "shape": "원형, 내부에 기호",
+          "position_in_figure": "제품 상단",
+          "direction": null
+        },
+        {
+          "label": "상태 표시부",
+          "shape": "원형, 내부에 기호",
+          "position_in_figure": "제품 상단",
+          "direction": null
+        },
+        {
+          "label": "조작부",
+          "shape": "원형, 내부에 기호",
+          "position_in_figure": "제품 상단",
+          "direction": null
+        },
+        {
+          "label": "리모컨 수신부",
+          "shape": "원형, 내부에 기호",
+          "position_in_figure": "제품 상단",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 22,
+    "region_idx": 0,
+    "bbox_pdf": [
+      96.0,
+      88.0,
+      384.0,
+      284.0
+    ],
+    "position": "페이지 상단 중앙",
+    "image_path": "data/region_crops/airpurifier_simple/p022_r0.png",
+    "context_text": "22 / 상태 표시부 / 공기 상태 표시 / 종합청정도 (색상) 표시 / 먼지 입자 크기 및 먼지 농도 (색상) \n표시 / 먼지 농도 표시 또는 취침예약 시간 \n표시 / 냄새 농도 (색상) 표시 / 운전모드 표시 / 풍량 표시 / 청정세기: 공기청정기 풍량 표시 / 순환팬세기: 클린부스터 풍량 표시 / 취침예약 표시 / 아이콘 표시 / 아이콘\n설명 / 필터의 교체 시기가 되면 표시됩니다. / Wi-Fi 기능이 활성화되면 표시됩니다. / 공기제균 기능을 사용하면 표시됩니다. / LG SmartThinQ 애플리케이션에서 \n'켜짐/꺼짐 예약'이 설정되었을 때 \n표시됩니다. / 조작부의 버튼이 잠기면 표시됩니다.",
+    "caption": {
+      "summary": "공기청정기의 상태 및 모드 표시",
+      "elements": [
+        {
+          "label": "극초미세먼지",
+          "shape": "원형 점들이 나무 모양을 둘러싸고 있음",
+          "position_in_figure": "상단 중앙",
+          "direction": null
+        },
+        {
+          "label": "null",
+          "shape": "디지털 숫자 표시",
+          "position_in_figure": "중앙",
+          "direction": null
+        },
+        {
+          "label": "null",
+          "shape": "나뭇잎 모양",
+          "position_in_figure": "중앙 오른쪽",
+          "direction": null
+        },
+        {
+          "label": "오토모드",
+          "shape": "사각형 안에 텍스트",
+          "position_in_figure": "하단 왼쪽",
+          "direction": null
+        },
+        {
+          "label": "취침",
+          "shape": "사각형 안에 텍스트",
+          "position_in_figure": "하단 중앙",
+          "direction": null
+        },
+        {
+          "label": "null",
+          "shape": "와이파이 기호",
+          "position_in_figure": "하단 중앙 오른쪽",
+          "direction": null
+        },
+        {
+          "label": "null",
+          "shape": "자물쇠 모양",
+          "position_in_figure": "하단 오른쪽",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "airpurifier",
+    "complexity": "simple",
+    "page": 22,
+    "region_idx": 1,
+    "bbox_pdf": [
+      236.0,
+      296.0,
+      416.0,
+      484.0
+    ],
+    "position": "페이지 중단 우측",
+    "image_path": "data/region_crops/airpurifier_simple/p022_r1.png",
+    "context_text": "22 / 상태 표시부 / 공기 상태 표시 / 종합청정도 (색상) 표시 / 먼지 입자 크기 및 먼지 농도 (색상) \n표시 / 먼지 농도 표시 또는 취침예약 시간 \n표시 / 냄새 농도 (색상) 표시 / 운전모드 표시 / 풍량 표시 / 청정세기: 공기청정기 풍량 표시 / 순환팬세기: 클린부스터 풍량 표시 / 취침예약 표시 / 아이콘 표시 / 아이콘\n설명 / 필터의 교체 시기가 되면 표시됩니다. / Wi-Fi 기능이 활성화되면 표시됩니다. / 공기제균 기능을 사용하면 표시됩니다. / LG SmartThinQ 애플리케이션에서 \n'켜짐/꺼짐 예약'이 설정되었을 때 \n표시됩니다. / 조작부의 버튼이 잠기면 표시됩니다.",
+    "caption": {
+      "summary": "아이콘 표시와 설명을 보여주는 표",
+      "elements": [
+        {
+          "label": "필터의 교체 시기가 되면 표시됩니다.",
+          "shape": "사각형 안에 체크 표시가 있는 격자 모양",
+          "position_in_figure": "좌측",
+          "direction": null
+        },
+        {
+          "label": "Wi-Fi 기능이 활성화되면 표시됩니다.",
+          "shape": "사각형 안에 와이파이 기호",
+          "position_in_figure": "좌측",
+          "direction": null
+        },
+        {
+          "label": "공기제균 기능을 사용하면 표시됩니다.",
+          "shape": "사각형 안에 원과 플러스 기호",
+          "position_in_figure": "좌측",
+          "direction": null
+        },
+        {
+          "label": "LG SmartThinQ 애플리케이션에서 '켜짐/꺼짐 예약'이 설정되었을 때 표시됩니다.",
+          "shape": "사각형 안에 시계 모양",
+          "position_in_figure": "좌측",
+          "direction": null
+        },
+        {
+          "label": "조작부의 버튼이 잠기면 표시됩니다.",
+          "shape": "사각형 안에 자물쇠 모양",
+          "position_in_figure": "좌측",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 13,
+    "region_idx": 0,
+    "bbox_pdf": [
+      76.0,
+      144.0,
+      440.0,
+      372.0
+    ],
+    "position": "페이지 중단 중앙",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p013_r0.png",
+    "context_text": "13\n알아보기 / 알아보기 / 제품의 모습 살펴보기 / 제품 구성 / 제품이나 구성품의 모양이나 구성은 구매하신 모델에 따라 \n다를 수 있습니다. / a 제품 본체 / b 길이 조절 파이프 / c 흡입구 / d 배터리 (소모품) / e 배기 필터 (소모품) / f 간편 비움 시스템 레버 / g 프리 필터 (소모품) / h 큰 먼지 분리 장치 / i 먼지통",
+    "caption": {
+      "summary": "제품의 구성 요소와 조립 방법을 보여주는 그림",
+      "elements": [
+        {
+          "label": "a 제품 본체",
+          "shape": "원형, 내부에 점",
+          "position_in_figure": "제품 본체 상단",
+          "direction": "끼움, 아래 방향"
+        },
+        {
+          "label": "b 길이 조절 파이프",
+          "shape": "원형, 내부에 점",
+          "position_in_figure": "파이프 중앙",
+          "direction": "끼움, 아래 방향"
+        },
+        {
+          "label": "c 흡입구",
+          "shape": "원형, 내부에 점",
+          "position_in_figure": "흡입구 상단",
+          "direction": "끼움, 아래 방향"
+        },
+        {
+          "label": "d 배터리 (소모품)",
+          "shape": "사각형, 내부에 점",
+          "position_in_figure": "제품 본체 왼쪽",
+          "direction": "끼움, 오른쪽 방향"
+        },
+        {
+          "label": "e 배기 필터 (소모품)",
+          "shape": "원형, 내부에 점",
+          "position_in_figure": "제품 본체 오른쪽 상단",
+          "direction": "null"
+        },
+        {
+          "label": "f 간편 비움 시스템 레버",
+          "shape": "원형, 내부에 점",
+          "position_in_figure": "제품 본체 오른쪽 중앙",
+          "direction": "null"
+        },
+        {
+          "label": "g 프리 필터 (소모품)",
+          "shape": "원형, 내부에 점",
+          "position_in_figure": "제품 본체 오른쪽 하단",
+          "direction": "null"
+        },
+        {
+          "label": "h 큰 먼지 분리 장치",
+          "shape": "원형, 내부에 점",
+          "position_in_figure": "제품 본체 하단",
+          "direction": "null"
+        },
+        {
+          "label": "i 먼지통",
+          "shape": "원형, 내부에 점",
+          "position_in_figure": "제품 본체 하단",
+          "direction": "null"
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 15,
+    "region_idx": 0,
+    "bbox_pdf": [
+      24.0,
+      0.0,
+      492.0,
+      364.0
+    ],
+    "position": "페이지 상단 중앙",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p015_r0.png",
+    "context_text": "15\n알아보기 / 보관하기 / 제품 조립 및 보관하기 / 1\n제품 본체a에 길이 조절 파이프c, 흡입구d을 / 조립하세요. / • 길이 조절 파이프을 분리하려면, 길이 조절 파이프 \n분리 버튼b을 누르면서 아래로 당기세요. / 2\n제품 본체를 충전대에 끼우세요. / • 제품이 충전대에 올바르게 거치되면 알림음이 \n울립니다. 알림음이 울리지 않으면 제품을 다시 \n장착하세요. / 구성품 보관하기 / 청소기와 함께 제공된 흡입구와 구성품을 제품에 꽂아 \n보관하세요. / 좌우 측면에 보관하기 / 1\n제품 양 옆에 흡입구 거치대a걸이를 눌러 돌리세요. / • 흡입구 거치대는 오른쪽을 눌러야 돌아갑니다. \n손가락이 끼이지 않도록 주의하세요. / 2\n제품 양 옆에 있는 거치대에 흡입구를 보관하세요. / 내부에 보관하기 / 1\n제품의 왼쪽 구성품 보관함 문을 열어 침구 또는 펫 / 흡입구a를 꽂아 보관하세요. / QR 코드를 스캔하여 영상으로 \n확인하세요.",
+    "caption": {
+      "summary": "제품 조립 및 보관 방법을 설명하는 그림",
+      "elements": [
+        {
+          "label": "1",
+          "shape": "원, 숫자 1",
+          "position_in_figure": "제품 본체",
+          "direction": null
+        },
+        {
+          "label": "2",
+          "shape": "원, 숫자 2",
+          "position_in_figure": "길이 조절 파이프 분리 버튼",
+          "direction": "아래로 당기기"
+        },
+        {
+          "label": "3",
+          "shape": "원, 숫자 3",
+          "position_in_figure": "길이 조절 파이프",
+          "direction": null
+        },
+        {
+          "label": "4",
+          "shape": "원, 숫자 4",
+          "position_in_figure": "흡입구",
+          "direction": null
+        },
+        {
+          "label": "1",
+          "shape": "원, 숫자 1, 화살표",
+          "position_in_figure": "흡입구 거치대",
+          "direction": "오른쪽으로 눌러 회전"
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 15,
+    "region_idx": 1,
+    "bbox_pdf": [
+      32.0,
+      160.0,
+      236.0,
+      344.0
+    ],
+    "position": "페이지 중단 좌측",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p015_r1.png",
+    "context_text": "15\n알아보기 / 보관하기 / 제품 조립 및 보관하기 / 1\n제품 본체a에 길이 조절 파이프c, 흡입구d을 / 조립하세요. / • 길이 조절 파이프을 분리하려면, 길이 조절 파이프 \n분리 버튼b을 누르면서 아래로 당기세요. / 2\n제품 본체를 충전대에 끼우세요. / • 제품이 충전대에 올바르게 거치되면 알림음이 \n울립니다. 알림음이 울리지 않으면 제품을 다시 \n장착하세요. / 구성품 보관하기 / 청소기와 함께 제공된 흡입구와 구성품을 제품에 꽂아 \n보관하세요. / 좌우 측면에 보관하기 / 1\n제품 양 옆에 흡입구 거치대a걸이를 눌러 돌리세요. / • 흡입구 거치대는 오른쪽을 눌러야 돌아갑니다. \n손가락이 끼이지 않도록 주의하세요. / 2\n제품 양 옆에 있는 거치대에 흡입구를 보관하세요. / 내부에 보관하기 / 1\n제품의 왼쪽 구성품 보관함 문을 열어 침구 또는 펫 / 흡입구a를 꽂아 보관하세요. / QR 코드를 스캔하여 영상으로 \n확인하세요.",
+    "caption": {
+      "summary": "청소기 조립 방법을 설명하는 그림",
+      "elements": [
+        {
+          "label": "제품 본체a",
+          "shape": "사각형, 내부에 원형 요소",
+          "position_in_figure": "제품 윗면",
+          "direction": null
+        },
+        {
+          "label": "길이 조절 파이프 분리 버튼b",
+          "shape": "원형, 내부에 기호",
+          "position_in_figure": "파이프 중간",
+          "direction": null
+        },
+        {
+          "label": "길이 조절 파이프c",
+          "shape": "직선형, 내부에 선",
+          "position_in_figure": "파이프 중앙",
+          "direction": "끼움, 왼쪽 방향"
+        },
+        {
+          "label": "흡입구d",
+          "shape": "사각형, 내부에 선",
+          "position_in_figure": "파이프 끝",
+          "direction": "끼움, 오른쪽 방향"
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 15,
+    "region_idx": 2,
+    "bbox_pdf": [
+      48.0,
+      412.0,
+      236.0,
+      548.0
+    ],
+    "position": "페이지 중단 좌측",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p015_r2.png",
+    "context_text": "15\n알아보기 / 보관하기 / 제품 조립 및 보관하기 / 1\n제품 본체a에 길이 조절 파이프c, 흡입구d을 / 조립하세요. / • 길이 조절 파이프을 분리하려면, 길이 조절 파이프 \n분리 버튼b을 누르면서 아래로 당기세요. / 2\n제품 본체를 충전대에 끼우세요. / • 제품이 충전대에 올바르게 거치되면 알림음이 \n울립니다. 알림음이 울리지 않으면 제품을 다시 \n장착하세요. / 구성품 보관하기 / 청소기와 함께 제공된 흡입구와 구성품을 제품에 꽂아 \n보관하세요. / 좌우 측면에 보관하기 / 1\n제품 양 옆에 흡입구 거치대a걸이를 눌러 돌리세요. / • 흡입구 거치대는 오른쪽을 눌러야 돌아갑니다. \n손가락이 끼이지 않도록 주의하세요. / 2\n제품 양 옆에 있는 거치대에 흡입구를 보관하세요. / 내부에 보관하기 / 1\n제품의 왼쪽 구성품 보관함 문을 열어 침구 또는 펫 / 흡입구a를 꽂아 보관하세요. / QR 코드를 스캔하여 영상으로 \n확인하세요.",
+    "caption": {
+      "summary": "청소기를 충전대에 끼우는 방법을 설명하는 그림입니다.",
+      "elements": [
+        {
+          "label": null,
+          "shape": "사람 손이 청소기를 잡고 있는 모습",
+          "position_in_figure": "왼쪽 상단",
+          "direction": "청소기를 아래로 끼움"
+        },
+        {
+          "label": null,
+          "shape": "화살표",
+          "position_in_figure": "왼쪽 중앙",
+          "direction": "오른쪽으로 이동"
+        },
+        {
+          "label": "충전 중 63%",
+          "shape": "원형, 내부에 충전 상태 표시",
+          "position_in_figure": "오른쪽 상단",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 15,
+    "region_idx": 3,
+    "bbox_pdf": [
+      280.0,
+      420.0,
+      468.0,
+      580.0
+    ],
+    "position": "페이지 하단 우측",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p015_r3.png",
+    "context_text": "15\n알아보기 / 보관하기 / 제품 조립 및 보관하기 / 1\n제품 본체a에 길이 조절 파이프c, 흡입구d을 / 조립하세요. / • 길이 조절 파이프을 분리하려면, 길이 조절 파이프 \n분리 버튼b을 누르면서 아래로 당기세요. / 2\n제품 본체를 충전대에 끼우세요. / • 제품이 충전대에 올바르게 거치되면 알림음이 \n울립니다. 알림음이 울리지 않으면 제품을 다시 \n장착하세요. / 구성품 보관하기 / 청소기와 함께 제공된 흡입구와 구성품을 제품에 꽂아 \n보관하세요. / 좌우 측면에 보관하기 / 1\n제품 양 옆에 흡입구 거치대a걸이를 눌러 돌리세요. / • 흡입구 거치대는 오른쪽을 눌러야 돌아갑니다. \n손가락이 끼이지 않도록 주의하세요. / 2\n제품 양 옆에 있는 거치대에 흡입구를 보관하세요. / 내부에 보관하기 / 1\n제품의 왼쪽 구성품 보관함 문을 열어 침구 또는 펫 / 흡입구a를 꽂아 보관하세요. / QR 코드를 스캔하여 영상으로 \n확인하세요.",
+    "caption": {
+      "summary": "제품 측면의 흡입구 거치대를 돌리는 방법을 설명하는 그림입니다.",
+      "elements": [
+        {
+          "label": "1",
+          "shape": "원형, 내부에 숫자 1",
+          "position_in_figure": "제품 하단 앞면",
+          "direction": "거치대를 왼쪽으로 회전"
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 17,
+    "region_idx": 0,
+    "bbox_pdf": [
+      24.0,
+      76.0,
+      260.0,
+      732.0
+    ],
+    "position": "페이지 중단 좌측",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p017_r0.png",
+    "context_text": "17\n알아보기 / 1\n먼지 비움 충전대 상단의 조작부를 잡고 화살표 / 방향으로 여세요. / 2\n배터리 충전함의 모양에 맞춰 배터리를 넣으세요. / 3\n보조 배터리를 손으로 끝까지 눌러 올바르게 넣으세요. / 알아두기 / • 보조 배터리가 올바르게 장착되면 청소기 LCD 화면에 \n보조 배터리 아이콘이 활성화 됩니다. 청소기 배터리 \n충전 완료 후에 보조배터리 충전을 시작합니다. / 보조 배터리 아이콘이 활성화 되지 않는다면 먼지 비움 \n충전대 상단의 조작부를 열고 보조 배터리를 다시 \n밀어넣으세요.",
+    "caption": {
+      "summary": "보조 배터리를 충전대에 장착하는 방법을 설명합니다.",
+      "elements": [
+        {
+          "label": "1",
+          "shape": "사각형, 화살표",
+          "position_in_figure": "제품 윗면",
+          "direction": "조작부를 위로 열기"
+        },
+        {
+          "label": "2",
+          "shape": "사각형, 원형 확대부, 화살표",
+          "position_in_figure": "제품 내부",
+          "direction": "배터리를 아래로 끼움"
+        },
+        {
+          "label": "3",
+          "shape": "사각형, 화살표",
+          "position_in_figure": "제품 내부",
+          "direction": "보조 배터리를 아래로 눌러 끼움"
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 17,
+    "region_idx": 1,
+    "bbox_pdf": [
+      256.0,
+      80.0,
+      492.0,
+      232.0
+    ],
+    "position": "페이지 상단 우측",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p017_r1.png",
+    "context_text": "17\n알아보기 / 1\n먼지 비움 충전대 상단의 조작부를 잡고 화살표 / 방향으로 여세요. / 2\n배터리 충전함의 모양에 맞춰 배터리를 넣으세요. / 3\n보조 배터리를 손으로 끝까지 눌러 올바르게 넣으세요. / 알아두기 / • 보조 배터리가 올바르게 장착되면 청소기 LCD 화면에 \n보조 배터리 아이콘이 활성화 됩니다. 청소기 배터리 \n충전 완료 후에 보조배터리 충전을 시작합니다. / 보조 배터리 아이콘이 활성화 되지 않는다면 먼지 비움 \n충전대 상단의 조작부를 열고 보조 배터리를 다시 \n밀어넣으세요.",
+    "caption": {
+      "summary": "청소기 충전 상태를 보여주는 그림",
+      "elements": [
+        {
+          "label": null,
+          "shape": "사각형 본체에 연결된 청소기, 화살표",
+          "position_in_figure": "본체 중앙",
+          "direction": "청소기를 아래로 끼움"
+        },
+        {
+          "label": "충전 완료\n청소기 배터리",
+          "shape": "원 내부에 텍스트",
+          "position_in_figure": "오른쪽 상단",
+          "direction": null
+        },
+        {
+          "label": "보조배터리 충전 중",
+          "shape": "원 내부에 배터리 아이콘과 텍스트",
+          "position_in_figure": "오른쪽 상단",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 19,
+    "region_idx": 0,
+    "bbox_pdf": [
+      164.0,
+      88.0,
+      352.0,
+      284.0
+    ],
+    "position": "페이지 상단 중앙",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p019_r0.png",
+    "context_text": "19\n사용하기 / 조작하기 / 제어창 사용하기 / a 상태 표시창 / • 상세 내용은 아래의 상태 표시창 살펴보기를 참조하세요. / b 설정 버튼 / • 전원을 켠 후에 설정 버튼을 눌러 설정을 변경할 수 있습니다. / c 전원 버튼 / • 전원 버튼을 눌러 제품의 전원을 켜고 끕니다. / • 전원을 켜면 청소 시작 흡입력 설정 항목에서 설정한 흡입력 모드로 제품이 작동합니다. / d 이동 버튼 / • 이동 버튼을 눌러 제품의 흡입력을 조절할 수 있습니다. / • 설정 버튼을 누른 후 이동 버튼을 통해 원하는 설정 창으로 이동할 수 있습니다. / 상태 표시창 살펴보기 / a 제품 연결 아이콘 / • 제품의 Wi-Fi 연결 상태를 표시합니다. / 아이콘\n연결 상태\n설명 / f\n연결 됨\n설정 모드의 Wi-Fi 항목이 켜기로 설정되어 있고 LG ThinQ 앱과 \n연결이 완료됨 / Y\n연결 끊김\n연결 됨 상태에서 네트워크 연결이 끊어짐 / 표시 안됨\n연결 안됨\n• Wi-Fi 항목이 끄기로 설정되어 있음 / • Wi-Fi 항목이 켜기로 설정되어 있으나 LG ThinQ 앱과 연결되어 있지 \n않음",
+    "caption": {
+      "summary": "제품의 제어 버튼과 상태 표시창을 보여주는 그림",
+      "elements": [
+        {
+          "label": "a 상태 표시창",
+          "shape": "사각형, 내부에 '표준 14분' 텍스트와 여러 아이콘",
+          "position_in_figure": "상단 중앙",
+          "direction": null
+        },
+        {
+          "label": "b 설정 버튼",
+          "shape": "톱니바퀴 모양",
+          "position_in_figure": "중앙 상단",
+          "direction": null
+        },
+        {
+          "label": "c 전원 버튼",
+          "shape": "원형, 내부에 전원 기호",
+          "position_in_figure": "중앙",
+          "direction": null
+        },
+        {
+          "label": "d 이동 버튼",
+          "shape": "좌우 화살표 모양",
+          "position_in_figure": "하단 중앙",
+          "direction": "좌우 이동"
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "complex",
+    "page": 19,
+    "region_idx": 1,
+    "bbox_pdf": [
+      24.0,
+      560.0,
+      492.0,
+      696.0
+    ],
+    "position": "페이지 하단 중앙",
+    "image_path": "data/region_crops/vacuumcleaner_complex/p019_r1.png",
+    "context_text": "a 상태 표시창 / • 상세 내용은 아래의 상태 표시창 살펴보기를 참조하세요. / b 설정 버튼 / • 전원을 켠 후에 설정 버튼을 눌러 설정을 변경할 수 있습니다. / c 전원 버튼 / • 전원 버튼을 눌러 제품의 전원을 켜고 끕니다. / • 전원을 켜면 청소 시작 흡입력 설정 항목에서 설정한 흡입력 모드로 제품이 작동합니다. / d 이동 버튼 / • 이동 버튼을 눌러 제품의 흡입력을 조절할 수 있습니다. / • 설정 버튼을 누른 후 이동 버튼을 통해 원하는 설정 창으로 이동할 수 있습니다. / 상태 표시창 살펴보기 / a 제품 연결 아이콘 / • 제품의 Wi-Fi 연결 상태를 표시합니다. / 아이콘\n연결 상태\n설명 / f\n연결 됨\n설정 모드의 Wi-Fi 항목이 켜기로 설정되어 있고 LG ThinQ 앱과 \n연결이 완료됨 / Y\n연결 끊김\n연결 됨 상태에서 네트워크 연결이 끊어짐 / 표시 안됨\n연결 안됨\n• Wi-Fi 항목이 끄기로 설정되어 있음 / • Wi-Fi 항목이 켜기로 설정되어 있으나 LG ThinQ 앱과 연결되어 있지 \n않음",
+    "caption": {
+      "summary": "Wi-Fi 연결 상태를 나타내는 아이콘과 설명 표",
+      "elements": [
+        {
+          "label": "연결 됨",
+          "shape": "원형, 내부에 점과 곡선 3개",
+          "position_in_figure": "상단 중앙",
+          "direction": null
+        },
+        {
+          "label": "연결 끊김",
+          "shape": "원형, 내부에 점과 곡선 3개, 사선으로 X 표시",
+          "position_in_figure": "중앙",
+          "direction": null
+        },
+        {
+          "label": "표시 안됨",
+          "shape": "텍스트만",
+          "position_in_figure": "하단 중앙",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 7,
+    "region_idx": 0,
+    "bbox_pdf": [
+      60.0,
+      120.0,
+      460.0,
+      440.0
+    ],
+    "position": "페이지 중단 중앙",
+    "image_path": "data/region_crops/vacuumcleaner_simple/p007_r0.png",
+    "context_text": "7\n사용하기 / 사용하기 / 준비하기 / 제품 구성 / a 운반용 손잡이 / 청소 중이거나 청소 후에 청소기를 옮길 때는 본체의 손\n잡이를 잡고 이동하세요. / b 전원선 감기 버튼 / 전원 플러그를 뽑고 전원선 감기 버튼을 눌러 전원선을 \n감으세요. / 알아두기 / • 전원선을 감을 때 전원 플러그가 튀어 몸에 맞을 수 있으\n니 조심하세요. / c 전원선 / 전원선을 뽑을 때는 선에 표시된 빨간색까지만 빼고 콘\n센트에 연결하여 사용하세요. / d 호스 분리 버튼 / 제품 본체에서 호스를 분리할 때 호스 분리 버튼을 누른 \n후 잡아당기세요. / e 손잡이 / 손잡이를 잡고 청소하세요. / f 길이 조절 손잡이 / 청소기 파이프를 잡고 길이 조절 손잡이를 당기기나 밀\n어 간편하게 길이를 조절할 수 있습니다. / g 길이 조절 파이프 / 길이 조절 손잡이를 이용하여 파이프 길이를 조절할 수 \n있습니다. / h 흡입력 조절스위치 / 청소기의 흡입력을 조절하고 정지시킬 수 있는 스위치\n입니다. / i 코너팍팍 흡입구 / 길이 조절 파이프에 흡입구를 연결하여 사용하세요. / 알아두기 / • LG전자의 청소기에는 모터의 과열을 방지하기 위하여 \n자동으로 청소기의 운전을 정지시키는 모터 보호 장치가 \n있으며, 다음과 같은 경우에 작동됩니다.",
+    "caption": {
+      "summary": "청소기의 각 부위와 사용 방법을 설명하는 그림입니다.",
+      "elements": [
+        {
+          "label": "a 운반용 손잡이",
+          "shape": "사각형, 손잡이 모양",
+          "position_in_figure": "제품 윗면",
+          "direction": null
+        },
+        {
+          "label": "b 전원선 감기 버튼",
+          "shape": "원형, 버튼 모양",
+          "position_in_figure": "제품 윗면",
+          "direction": null
+        },
+        {
+          "label": "c 전원선",
+          "shape": "선형, 전원선 모양",
+          "position_in_figure": "제품 뒷면",
+          "direction": null
+        },
+        {
+          "label": "d 호스 분리 버튼",
+          "shape": "사각형, 버튼 모양",
+          "position_in_figure": "제품 측면",
+          "direction": "분리"
+        },
+        {
+          "label": "e 손잡이",
+          "shape": "사각형, 손잡이 모양",
+          "position_in_figure": "파이프 상단",
+          "direction": null
+        },
+        {
+          "label": "f 길이 조절 손잡이",
+          "shape": "사각형, 손잡이 모양",
+          "position_in_figure": "파이프 중간",
+          "direction": "길이 조절"
+        },
+        {
+          "label": "g 길이 조절 파이프",
+          "shape": "원통형, 파이프 모양",
+          "position_in_figure": "파이프 전체",
+          "direction": null
+        },
+        {
+          "label": "h 흡입력 조절스위치",
+          "shape": "사각형, 스위치 모양",
+          "position_in_figure": "손잡이 상단",
+          "direction": null
+        },
+        {
+          "label": "i 코너팍팍 흡입구",
+          "shape": "사각형, 흡입구 모양",
+          "position_in_figure": "파이프 하단",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 12,
+    "region_idx": 0,
+    "bbox_pdf": [
+      288.0,
+      88.0,
+      464.0,
+      220.0
+    ],
+    "position": "페이지 상단 우측",
+    "image_path": "data/region_crops/vacuumcleaner_simple/p012_r0.png",
+    "context_text": "12\n관리하기 / 관리하기 / 제품 청소하기 / 알아두면 좋은 정보 / 먼지 분리기, 배기 필터 또는 흡입구는 정기적으로 청소하\n고, 최소 월 1회 이상은 청소하세요. / • 제품을 청소하기 전에 전원을 꺼세요. / • 청소 주기는 사용 환경과 사용 시간에 따라 달라지므로 \n먼지가 많은 환경에서는 자주 청소하세요. / 경고 / • 제품 본체에는 모터, 호스에는 전기 접속부가 있으므로 \n물로 세척하지 마세요. 물이 들어가면 감전 또는 화재가 \n발생할 수 있습니다. / • 모터에 이물질이 들어가게 하지 마세요. 폭발 또는 화재\n가 발생할 수 있고 제품이 고장 날 수 있습니다. / 먼지통 비우고 먼지 분리기 청소하기 / 먼지통 비우기\n흡입력이 약해지거나 먼지가 먼지통의 Max 선a까지 차면 \n먼지통을 비우세요. / 1\n먼지통 분리 버튼b을 누른 상태에서 먼지통을 잡아 당 / 겨 본체에서 빼세요. / 2\n먼지통 뚜껑c을 열고 먼지를 버리세요. / 먼지통 씻고 조립하기 / 1\n먼지통 분리 버튼a을 누른 상태에서 먼지통을 잡아 당 / 겨 본체에서 빼세요. / 2\n먼지통 뚜껑b을 열고 먼지를 버리세요. / 3\n먼지통과 먼지통 뚜껑을 흐르는 물에 깨끗이 씻으세요.",
+    "caption": {
+      "summary": "먼지통을 비우는 방법을 설명하는 그림",
+      "elements": [
+        {
+          "label": "3",
+          "shape": "원형, 내부에 먼지통과 뚜껑, 화살표",
+          "position_in_figure": "중앙 좌측",
+          "direction": "뚜껑을 왼쪽으로 회전"
+        },
+        {
+          "label": null,
+          "shape": "먼지통에서 먼지가 쓰레기통으로 떨어지는 모습",
+          "position_in_figure": "중앙 우측",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 12,
+    "region_idx": 1,
+    "bbox_pdf": [
+      276.0,
+      244.0,
+      488.0,
+      520.0
+    ],
+    "position": "페이지 중단 우측",
+    "image_path": "data/region_crops/vacuumcleaner_simple/p012_r1.png",
+    "context_text": "12\n관리하기 / 관리하기 / 제품 청소하기 / 알아두면 좋은 정보 / 먼지 분리기, 배기 필터 또는 흡입구는 정기적으로 청소하\n고, 최소 월 1회 이상은 청소하세요. / • 제품을 청소하기 전에 전원을 꺼세요. / • 청소 주기는 사용 환경과 사용 시간에 따라 달라지므로 \n먼지가 많은 환경에서는 자주 청소하세요. / 경고 / • 제품 본체에는 모터, 호스에는 전기 접속부가 있으므로 \n물로 세척하지 마세요. 물이 들어가면 감전 또는 화재가 \n발생할 수 있습니다. / • 모터에 이물질이 들어가게 하지 마세요. 폭발 또는 화재\n가 발생할 수 있고 제품이 고장 날 수 있습니다. / 먼지통 비우고 먼지 분리기 청소하기 / 먼지통 비우기\n흡입력이 약해지거나 먼지가 먼지통의 Max 선a까지 차면 \n먼지통을 비우세요. / 1\n먼지통 분리 버튼b을 누른 상태에서 먼지통을 잡아 당 / 겨 본체에서 빼세요. / 2\n먼지통 뚜껑c을 열고 먼지를 버리세요. / 먼지통 씻고 조립하기 / 1\n먼지통 분리 버튼a을 누른 상태에서 먼지통을 잡아 당 / 겨 본체에서 빼세요. / 2\n먼지통 뚜껑b을 열고 먼지를 버리세요. / 3\n먼지통과 먼지통 뚜껑을 흐르는 물에 깨끗이 씻으세요.",
+    "caption": {
+      "summary": "먼지통 분리 및 비우기 절차를 설명하는 그림",
+      "elements": [
+        {
+          "label": "1",
+          "shape": "원형 확대, 버튼 모양",
+          "position_in_figure": "제품 상단",
+          "direction": "버튼을 누르고 먼지통을 분리"
+        },
+        {
+          "label": "2",
+          "shape": "원형 확대, 뚜껑 모양",
+          "position_in_figure": "먼지통 상단",
+          "direction": "뚜껑을 열어 먼지를 버림"
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 12,
+    "region_idx": 2,
+    "bbox_pdf": [
+      40.0,
+      316.0,
+      256.0,
+      664.0
+    ],
+    "position": "페이지 하단 좌측",
+    "image_path": "data/region_crops/vacuumcleaner_simple/p012_r2.png",
+    "context_text": "12\n관리하기 / 관리하기 / 제품 청소하기 / 알아두면 좋은 정보 / 먼지 분리기, 배기 필터 또는 흡입구는 정기적으로 청소하\n고, 최소 월 1회 이상은 청소하세요. / • 제품을 청소하기 전에 전원을 꺼세요. / • 청소 주기는 사용 환경과 사용 시간에 따라 달라지므로 \n먼지가 많은 환경에서는 자주 청소하세요. / 경고 / • 제품 본체에는 모터, 호스에는 전기 접속부가 있으므로 \n물로 세척하지 마세요. 물이 들어가면 감전 또는 화재가 \n발생할 수 있습니다. / • 모터에 이물질이 들어가게 하지 마세요. 폭발 또는 화재\n가 발생할 수 있고 제품이 고장 날 수 있습니다. / 먼지통 비우고 먼지 분리기 청소하기 / 먼지통 비우기\n흡입력이 약해지거나 먼지가 먼지통의 Max 선a까지 차면 \n먼지통을 비우세요. / 1\n먼지통 분리 버튼b을 누른 상태에서 먼지통을 잡아 당 / 겨 본체에서 빼세요. / 2\n먼지통 뚜껑c을 열고 먼지를 버리세요. / 먼지통 씻고 조립하기 / 1\n먼지통 분리 버튼a을 누른 상태에서 먼지통을 잡아 당 / 겨 본체에서 빼세요. / 2\n먼지통 뚜껑b을 열고 먼지를 버리세요. / 3\n먼지통과 먼지통 뚜껑을 흐르는 물에 깨끗이 씻으세요.",
+    "caption": {
+      "summary": "먼지통 비우기 및 분리 버튼 사용 방법을 설명하는 그림",
+      "elements": [
+        {
+          "label": "Max 선",
+          "shape": "원형 확대, 내부에 Max 선과 1 표시",
+          "position_in_figure": "제품 측면 상단",
+          "direction": null
+        },
+        {
+          "label": "2",
+          "shape": "원형 확대, 내부에 버튼과 2 표시",
+          "position_in_figure": "제품 상단",
+          "direction": "분리"
+        }
+      ]
+    }
+  },
+  {
+    "category": "vacuumcleaner",
+    "complexity": "simple",
+    "page": 12,
+    "region_idx": 3,
+    "bbox_pdf": [
+      300.0,
+      536.0,
+      448.0,
+      664.0
+    ],
+    "position": "페이지 하단 우측",
+    "image_path": "data/region_crops/vacuumcleaner_simple/p012_r3.png",
+    "context_text": "먼지 분리기, 배기 필터 또는 흡입구는 정기적으로 청소하\n고, 최소 월 1회 이상은 청소하세요. / • 제품을 청소하기 전에 전원을 꺼세요. / • 청소 주기는 사용 환경과 사용 시간에 따라 달라지므로 \n먼지가 많은 환경에서는 자주 청소하세요. / 경고 / • 제품 본체에는 모터, 호스에는 전기 접속부가 있으므로 \n물로 세척하지 마세요. 물이 들어가면 감전 또는 화재가 \n발생할 수 있습니다. / • 모터에 이물질이 들어가게 하지 마세요. 폭발 또는 화재\n가 발생할 수 있고 제품이 고장 날 수 있습니다. / 먼지통 비우고 먼지 분리기 청소하기 / 먼지통 비우기\n흡입력이 약해지거나 먼지가 먼지통의 Max 선a까지 차면 \n먼지통을 비우세요. / 1\n먼지통 분리 버튼b을 누른 상태에서 먼지통을 잡아 당 / 겨 본체에서 빼세요. / 먼지통 씻고 조립하기 / 1\n먼지통 분리 버튼a을 누른 상태에서 먼지통을 잡아 당 / 겨 본체에서 빼세요. / 2\n먼지통 뚜껑b을 열고 먼지를 버리세요. / 3\n먼지통과 먼지통 뚜껑을 흐르는 물에 깨끗이 씻으세요.",
+    "caption": {
+      "summary": "먼지통과 뚜껑을 물로 씻는 방법을 보여줌",
+      "elements": [
+        {
+          "label": "KOMPRESSOR",
+          "shape": "사각형 모양의 먼지통, 물방울 모양",
+          "position_in_figure": "왼쪽",
+          "direction": null
+        },
+        {
+          "label": null,
+          "shape": "수도꼭지에서 물이 흐르는 모습",
+          "position_in_figure": "중앙",
+          "direction": null
+        },
+        {
+          "label": null,
+          "shape": "뚜껑 모양, 물방울 모양",
+          "position_in_figure": "오른쪽",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 19,
+    "region_idx": 0,
+    "bbox_pdf": [
+      76.0,
+      84.0,
+      440.0,
+      340.0
+    ],
+    "position": "페이지 상단 중앙",
+    "image_path": "data/region_crops/waterpurifier_complex/p019_r0.png",
+    "context_text": "19\n사용하기 / 제어창 사용하기(WD520A** 모델) / 원하는 기능의 아이콘을 정확히 누르세요. 아이콘 \n주변이나 글자를 누를 경우 작동이 되지 않을 수 있습니다. / a 용량 표시부 / 출수 용량을 표시합니다. 최대 1000 ml까지 \n표시됩니다. / b 온수 / c 정수 / d 냉수 / e 용량 / f 출수 / 아이콘 설명 / 와이파이 설정하기\n와이파이 기능을 설정할 수 있습니다. / • LG ThinQ 앱을 통해 정수기에 와이파이를 연결합니다. / • 제품을 켜고 정수c 버튼을 3초간 누르세요. 버튼은 \n제어창에서 확인할 수 있습니다. / 와이파이 기능이 켜지면 상태 표시창의 와이파이 \n아이콘에 불이 들어옵니다. / • 와이파이 기능을 끄려면 정수c 버튼을 3초 이상 누르면 \n됩니다. / • 자세한 내용은 LG ThinQ 사용하기를 참고하세요. / 알아두기 / • 다음의 경우 제어창이 점등됩니다. / - 전원을 켰을 때 / - 버튼을 눌렀을 때 / • 다음의 경우 절전을 위해 제어창이 자동으로 \n어두워집니다. / - 전원을 켠 후 1분 경과 시 / - 원하는 버튼을 누른 후 1분 동안 버튼 조작이 없을 때 / • 제어창의 터치 버튼은 정전기를 보유한 물체에 반응하여 \n작동됩니다. / • 제어창이 어두워진 상태에서도 터치 버튼을 누르면 해당 \n기능을 사용할 수 있습니다. / • 제어창 청소 시 인체의 접촉이 있으면 터치 버튼의 \n기능이 작동될 수 있습니다. / • 제어창에 이물질이 있거나 헝겊이나 장갑 등으로 터치 \n버튼을 누르면 작동이 안 될 수 있습니다. / 아이콘\n상세 설명 / 집에 있는 무선공유기와 연결되면 \n아이콘에 불이 들어옵니다. / 새로운 업그레이드가 제공될 경우 불이 \n들어옵니다. LG ThinQ 앱에서 제품을 \n업그레이드 하세요. / 선택한 온수의 물 온도를 표시합니다. \n기본 설정은 85 ℃입니다. / 필터 교체 시기가 되면 오렌지색의 불이 \n들어옵니다. 새 필터로 교체하세요.",
+    "caption": {
+      "summary": "제어창의 아이콘과 기능 설명",
+      "elements": [
+        {
+          "label": "출수 용량을 표시합니다. 최대 1000 ml까지 표시됩니다.",
+          "shape": "사각형, 내부에 '390 ml' 표시",
+          "position_in_figure": "중앙 상단",
+          "direction": null
+        },
+        {
+          "label": "온수",
+          "shape": "세 개의 물결 모양 선",
+          "position_in_figure": "중앙 왼쪽",
+          "direction": null
+        },
+        {
+          "label": "정수",
+          "shape": "물방울 모양",
+          "position_in_figure": "중앙",
+          "direction": null
+        },
+        {
+          "label": "냉수",
+          "shape": "눈꽃 모양",
+          "position_in_figure": "중앙 오른쪽",
+          "direction": null
+        },
+        {
+          "label": "용량",
+          "shape": "물방울이 담긴 컵 모양",
+          "position_in_figure": "하단 오른쪽",
+          "direction": null
+        },
+        {
+          "label": null,
+          "shape": "물방울과 거품 모양",
+          "position_in_figure": "하단 중앙",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 19,
+    "region_idx": 1,
+    "bbox_pdf": [
+      24.0,
+      484.0,
+      260.0,
+      648.0
+    ],
+    "position": "페이지 하단 좌측",
+    "image_path": "data/region_crops/waterpurifier_complex/p019_r1.png",
+    "context_text": "원하는 기능의 아이콘을 정확히 누르세요. 아이콘 \n주변이나 글자를 누를 경우 작동이 되지 않을 수 있습니다. / a 용량 표시부 / 출수 용량을 표시합니다. 최대 1000 ml까지 \n표시됩니다. / b 온수 / c 정수 / d 냉수 / e 용량 / f 출수 / 아이콘 설명 / 와이파이 설정하기\n와이파이 기능을 설정할 수 있습니다. / • LG ThinQ 앱을 통해 정수기에 와이파이를 연결합니다. / • 제품을 켜고 정수c 버튼을 3초간 누르세요. 버튼은 \n제어창에서 확인할 수 있습니다. / 와이파이 기능이 켜지면 상태 표시창의 와이파이 \n아이콘에 불이 들어옵니다. / • 와이파이 기능을 끄려면 정수c 버튼을 3초 이상 누르면 \n됩니다. / • 자세한 내용은 LG ThinQ 사용하기를 참고하세요. / 알아두기 / • 다음의 경우 제어창이 점등됩니다. / - 전원을 켰을 때 / - 버튼을 눌렀을 때 / • 다음의 경우 절전을 위해 제어창이 자동으로 \n어두워집니다. / - 전원을 켠 후 1분 경과 시 / - 원하는 버튼을 누른 후 1분 동안 버튼 조작이 없을 때 / • 제어창의 터치 버튼은 정전기를 보유한 물체에 반응하여 \n작동됩니다. / • 제어창이 어두워진 상태에서도 터치 버튼을 누르면 해당 \n기능을 사용할 수 있습니다. / • 제어창 청소 시 인체의 접촉이 있으면 터치 버튼의 \n기능이 작동될 수 있습니다. / • 제어창에 이물질이 있거나 헝겊이나 장갑 등으로 터치 \n버튼을 누르면 작동이 안 될 수 있습니다. / 아이콘\n상세 설명 / 집에 있는 무선공유기와 연결되면 \n아이콘에 불이 들어옵니다. / 새로운 업그레이드가 제공될 경우 불이 \n들어옵니다. LG ThinQ 앱에서 제품을 \n업그레이드 하세요. / 선택한 온수의 물 온도를 표시합니다. \n기본 설정은 85 ℃입니다. / 필터 교체 시기가 되면 오렌지색의 불이 \n들어옵니다. 새 필터로 교체하세요.",
+    "caption": {
+      "summary": "아이콘과 상세 설명을 보여주는 표",
+      "elements": [
+        {
+          "label": "집에 있는 무선공유기와 연결되면 아이콘에 불이 들어옵니다.",
+          "shape": "원, 내부에 와이파이 기호",
+          "position_in_figure": "좌측 상단",
+          "direction": null
+        },
+        {
+          "label": "새로운 업그레이드가 제공될 경우 불이 들어옵니다. LG ThinQ 앱에서 제품을 업그레이드 하세요.",
+          "shape": "사각형, 내부에 UP 기호와 화살표",
+          "position_in_figure": "좌측 중앙",
+          "direction": null
+        },
+        {
+          "label": "선택한 온수의 물 온도를 표시합니다. 기본 설정은 85℃입니다.",
+          "shape": "사각형, 내부에 숫자 40 75 85",
+          "position_in_figure": "좌측 하단",
+          "direction": null
+        },
+        {
+          "label": "필터 교체 시기가 되면 오렌지색의 불이 들어옵니다. 새 필터로 교체하세요.",
+          "shape": "물방울 모양, 내부에 작은 원 세 개",
+          "position_in_figure": "좌측 하단",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 29,
+    "region_idx": 0,
+    "bbox_pdf": [
+      24.0,
+      0.0,
+      492.0,
+      488.0
+    ],
+    "position": "페이지 중단 중앙",
+    "image_path": "data/region_crops/waterpurifier_complex/p029_r0.png",
+    "context_text": "29\n관리하기 / - 교체 주기: 12개월 (10 L/일 사용기준) / 5\n필터가 완전히 장착되었는지 확인하세요. / • 필터 체결부의 화살표 표시가 필터 상단의 돌출부와 \n맞춰져 있는지 확인하세요. / 6\n두 손으로 필터 커버를 닫고 좌우가 잘 닫혔는지 / 확인하세요. / • 필터 커버를 닫을 때는 왼쪽 상단부터 조립하세요. / • 필터 커버를 닫으면 자동으로 필터 세척이 약 7분간 \n진행됩니다. / • 필터 세척이 시작되면 제품에서 물 흐르는 소리가 \n들립니다. / • 새로운 필터로 교체한 경우에는 필터 세척을 \n취소하지 마세요. / 주의 / • 필터 세척을 임의로 중단할 경우 물맛에 영향을 줄 수 \n있으니 필터 세척을 끝내고 사용하세요. / 알아두기 / • 필터 교체를 하지 않은 경우에는 출수 버튼을 3초간 눌러 \n필터 세척을 취소할 수 있습니다. / 7\n필터 세척이 완료되면 냉수 버튼을 3초 이상 눌러 필터 / 사용량을 초기화하세요. / 알아두기 / • 필터 사용량 초기화는 필터의 수명을 0 L로 초기화하여 \n수명을 새롭게 카운트하는 기능입니다. 필터 사용량을 \n초과하여 사용할 경우 정수 효과가 떨어집니다. / 8\n필터 사용량을 초기화시킨 후에 냉수 120 ml, 정수 120 / ml, 온수 120 ml를 순서대로 출수하여 버린 후 / 사용하세요. / 주의 / • 필터를 정위치에 넣지 않을 경우 출수되는 물의 양이 \n줄어들 수 있습니다. / • 필터를 필터 체결부에 정확하게 연결하지 않으면 누수가 \n발생할 수 있습니다. / • 필터를 교체할 때 무리하게 힘을 가하면 파손될 수 \n있습니다. / • 필터 교체 후 냉수 버튼을 3초 이상 눌러 필터 사용량을 \n초기화해야 합니다.",
+    "caption": {
+      "summary": "필터를 장착하는 방법을 보여주는 그림",
+      "elements": [
+        {
+          "label": "5",
+          "shape": "원형, 내부에 화살표와 돌출부",
+          "position_in_figure": "중앙 하단",
+          "direction": "화살표가 필터를 끼우는 방향을 가리킴"
+        },
+        {
+          "label": "6",
+          "shape": "사각형, 내부에 필터 커버",
+          "position_in_figure": "하단 중앙",
+          "direction": "화살표가 필터 커버를 닫는 방향을 가리킴"
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 29,
+    "region_idx": 1,
+    "bbox_pdf": [
+      256.0,
+      152.0,
+      492.0,
+      380.0
+    ],
+    "position": "페이지 중단 우측",
+    "image_path": "data/region_crops/waterpurifier_complex/p029_r1.png",
+    "context_text": "29\n관리하기 / - 교체 주기: 12개월 (10 L/일 사용기준) / 5\n필터가 완전히 장착되었는지 확인하세요. / • 필터 체결부의 화살표 표시가 필터 상단의 돌출부와 \n맞춰져 있는지 확인하세요. / 6\n두 손으로 필터 커버를 닫고 좌우가 잘 닫혔는지 / 확인하세요. / • 필터 커버를 닫을 때는 왼쪽 상단부터 조립하세요. / • 필터 커버를 닫으면 자동으로 필터 세척이 약 7분간 \n진행됩니다. / • 필터 세척이 시작되면 제품에서 물 흐르는 소리가 \n들립니다. / • 새로운 필터로 교체한 경우에는 필터 세척을 \n취소하지 마세요. / 주의 / • 필터 세척을 임의로 중단할 경우 물맛에 영향을 줄 수 \n있으니 필터 세척을 끝내고 사용하세요. / 알아두기 / • 필터 교체를 하지 않은 경우에는 출수 버튼을 3초간 눌러 \n필터 세척을 취소할 수 있습니다. / 7\n필터 세척이 완료되면 냉수 버튼을 3초 이상 눌러 필터 / 사용량을 초기화하세요. / 알아두기 / • 필터 사용량 초기화는 필터의 수명을 0 L로 초기화하여 \n수명을 새롭게 카운트하는 기능입니다. 필터 사용량을 \n초과하여 사용할 경우 정수 효과가 떨어집니다. / 8\n필터 사용량을 초기화시킨 후에 냉수 120 ml, 정수 120 / ml, 온수 120 ml를 순서대로 출수하여 버린 후 / 사용하세요. / 주의 / • 필터를 정위치에 넣지 않을 경우 출수되는 물의 양이 \n줄어들 수 있습니다. / • 필터를 필터 체결부에 정확하게 연결하지 않으면 누수가 \n발생할 수 있습니다. / • 필터를 교체할 때 무리하게 힘을 가하면 파손될 수 \n있습니다. / • 필터 교체 후 냉수 버튼을 3초 이상 눌러 필터 사용량을 \n초기화해야 합니다.",
+    "caption": {
+      "summary": "필터 세척 완료 후 냉수 버튼을 눌러 초기화하는 방법을 설명하는 그림",
+      "elements": [
+        {
+          "label": "냉수",
+          "shape": "별 모양 기호 옆에 손가락이 냉수 버튼을 가리키는 모양",
+          "position_in_figure": "중앙 우측",
+          "direction": "버튼을 3초 이상 누르기"
+        },
+        {
+          "label": "정수",
+          "shape": "물방울 모양",
+          "position_in_figure": "중앙 좌측 상단",
+          "direction": null
+        },
+        {
+          "label": "*출수구살균",
+          "shape": "직사각형 안에 십자 모양",
+          "position_in_figure": "중앙 좌측 중간",
+          "direction": null
+        },
+        {
+          "label": "용량",
+          "shape": "물방울 모양 안에 물방울 기호",
+          "position_in_figure": "중앙 우측 중간",
+          "direction": null
+        },
+        {
+          "label": null,
+          "shape": "물방울 모양 안에 작은 원 세 개",
+          "position_in_figure": "중앙 좌측 하단",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "complex",
+    "page": 29,
+    "region_idx": 2,
+    "bbox_pdf": [
+      44.0,
+      504.0,
+      236.0,
+      652.0
+    ],
+    "position": "페이지 하단 좌측",
+    "image_path": "data/region_crops/waterpurifier_complex/p029_r2.png",
+    "context_text": "5\n필터가 완전히 장착되었는지 확인하세요. / • 필터 체결부의 화살표 표시가 필터 상단의 돌출부와 \n맞춰져 있는지 확인하세요. / 6\n두 손으로 필터 커버를 닫고 좌우가 잘 닫혔는지 / 확인하세요. / • 필터 커버를 닫을 때는 왼쪽 상단부터 조립하세요. / • 필터 커버를 닫으면 자동으로 필터 세척이 약 7분간 \n진행됩니다. / • 필터 세척이 시작되면 제품에서 물 흐르는 소리가 \n들립니다. / • 새로운 필터로 교체한 경우에는 필터 세척을 \n취소하지 마세요. / 알아두기 / • 필터 교체를 하지 않은 경우에는 출수 버튼을 3초간 눌러 \n필터 세척을 취소할 수 있습니다. / 7\n필터 세척이 완료되면 냉수 버튼을 3초 이상 눌러 필터 / 사용량을 초기화하세요. / 알아두기 / • 필터 사용량 초기화는 필터의 수명을 0 L로 초기화하여 \n수명을 새롭게 카운트하는 기능입니다. 필터 사용량을 \n초과하여 사용할 경우 정수 효과가 떨어집니다. / 8\n필터 사용량을 초기화시킨 후에 냉수 120 ml, 정수 120 / ml, 온수 120 ml를 순서대로 출수하여 버린 후 / 사용하세요. / 주의 / • 필터를 정위치에 넣지 않을 경우 출수되는 물의 양이 \n줄어들 수 있습니다. / • 필터를 필터 체결부에 정확하게 연결하지 않으면 누수가 \n발생할 수 있습니다. / • 필터를 교체할 때 무리하게 힘을 가하면 파손될 수 \n있습니다. / • 필터 교체 후 냉수 버튼을 3초 이상 눌러 필터 사용량을 \n초기화해야 합니다.",
+    "caption": {
+      "summary": "필터 커버를 닫는 방법을 보여줍니다.",
+      "elements": [
+        {
+          "label": null,
+          "shape": "사각형, 내부에 화살표",
+          "position_in_figure": "중앙 하단",
+          "direction": "커버를 위로 끼움"
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 13,
+    "region_idx": 0,
+    "bbox_pdf": [
+      76.0,
+      76.0,
+      440.0,
+      360.0
+    ],
+    "position": "페이지 상단 중앙",
+    "image_path": "data/region_crops/waterpurifier_simple/p013_r0.png",
+    "context_text": "13\n사용하기 / 제어창 사용하기 / 구매하신 모델에 온수 기능이 있는지 확인하세요. / 아이콘 설명 / 정수된 물 마시기 / 1\n출수구 아래에 컵이나 그릇 등을 가져가세요. / 2\n원하는 물의 종류를 선택하세요. / • 온수: 온수a 버튼을 누르세요. / • 정수: 정수b 버튼을 누르세요. / • 냉수: 냉수c 버튼을 누르세요. / 3\n온수a 버튼을 추가로 눌러 원하는 온도를 선택하세요. / • 온수의 경우 3단계의 온도를 선택할 수 있습니다. \n기본 설정 온도는 85 ℃입니다. / 4\n원하는 출수 용량을 용량d 버튼을 눌러 선택하세요. / • 출수 용량은 4단계로 선택할 수 있습니다. 기본 설정 \n출수량은 120 ㎖입니다. / 5\n출수g 버튼을 누르세요. / • 출수 중에 다른 버튼을 누르면 출수가 멈춥니다. / 아이콘\n상세 설명 / 집에 있는 무선공유기와 연결되면 \n아이콘에 불이 들어옵니다. / 선택한 온수의 물 온도를 표시합니다. \n기본 설정은 85 ℃입니다. / 선택한 냉수의 온도를 표시합니다. \n표시등이 많이 켜질수록 많은 양의 \n냉수를 출수할 수 있습니다. 냉수의 \n온도는 임의 조정이 안 됩니다. / 출수부가 자동으로 아래위로 움직이는 \n기능입니다. 기능이 켜지면 아이콘에 \n불이 들어옵니다. / 선택한 출수 용량을 표시합니다. 기본 \n설정은 120 ㎖입니다. / 필터 교체 시기가 되면 오렌지색의 불이 \n들어옵니다. 새 필터로 교체하세요.",
+    "caption": {
+      "summary": "온수, 정수, 냉수 기능을 가진 정수기의 제어 패널과 아이콘 설명.",
+      "elements": [
+        {
+          "label": "온수",
+          "shape": "원, 내부에 물결 모양 세 개",
+          "position_in_figure": "왼쪽 상단",
+          "direction": null
+        },
+        {
+          "label": "정수",
+          "shape": "원, 내부에 물방울 모양",
+          "position_in_figure": "왼쪽 중간",
+          "direction": null
+        },
+        {
+          "label": "냉수",
+          "shape": "원, 내부에 눈송이 모양",
+          "position_in_figure": "왼쪽 하단",
+          "direction": null
+        },
+        {
+          "label": "용량",
+          "shape": "원, 내부에 물방울과 눈금",
+          "position_in_figure": "오른쪽 상단",
+          "direction": null
+        },
+        {
+          "label": "연속",
+          "shape": "원, 내부에 물방울과 '1분'",
+          "position_in_figure": "오른쪽 중간",
+          "direction": null
+        },
+        {
+          "label": "안심살균",
+          "shape": "원, 내부에 'UVnano'",
+          "position_in_figure": "오른쪽 하단",
+          "direction": null
+        },
+        {
+          "label": "출수",
+          "shape": "원, 내부에 두 개의 물방울",
+          "position_in_figure": "하단 중앙",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 13,
+    "region_idx": 1,
+    "bbox_pdf": [
+      24.0,
+      364.0,
+      260.0,
+      664.0
+    ],
+    "position": "페이지 하단 좌측",
+    "image_path": "data/region_crops/waterpurifier_simple/p013_r1.png",
+    "context_text": "13\n사용하기 / 제어창 사용하기 / 구매하신 모델에 온수 기능이 있는지 확인하세요. / 아이콘 설명 / 정수된 물 마시기 / 1\n출수구 아래에 컵이나 그릇 등을 가져가세요. / 2\n원하는 물의 종류를 선택하세요. / • 온수: 온수a 버튼을 누르세요. / • 정수: 정수b 버튼을 누르세요. / • 냉수: 냉수c 버튼을 누르세요. / 3\n온수a 버튼을 추가로 눌러 원하는 온도를 선택하세요. / • 온수의 경우 3단계의 온도를 선택할 수 있습니다. \n기본 설정 온도는 85 ℃입니다. / 4\n원하는 출수 용량을 용량d 버튼을 눌러 선택하세요. / • 출수 용량은 4단계로 선택할 수 있습니다. 기본 설정 \n출수량은 120 ㎖입니다. / 5\n출수g 버튼을 누르세요. / • 출수 중에 다른 버튼을 누르면 출수가 멈춥니다. / 아이콘\n상세 설명 / 집에 있는 무선공유기와 연결되면 \n아이콘에 불이 들어옵니다. / 선택한 온수의 물 온도를 표시합니다. \n기본 설정은 85 ℃입니다. / 선택한 냉수의 온도를 표시합니다. \n표시등이 많이 켜질수록 많은 양의 \n냉수를 출수할 수 있습니다. 냉수의 \n온도는 임의 조정이 안 됩니다. / 출수부가 자동으로 아래위로 움직이는 \n기능입니다. 기능이 켜지면 아이콘에 \n불이 들어옵니다. / 선택한 출수 용량을 표시합니다. 기본 \n설정은 120 ㎖입니다. / 필터 교체 시기가 되면 오렌지색의 불이 \n들어옵니다. 새 필터로 교체하세요.",
+    "caption": {
+      "summary": "온수, 냉수, 정수 기능과 관련된 아이콘 설명",
+      "elements": [
+        {
+          "label": "집에 있는 무선공유기와 연결되면 아이콘에 불이 들어옵니다.",
+          "shape": "원형, 내부에 와이파이 기호",
+          "position_in_figure": "좌측",
+          "direction": null
+        },
+        {
+          "label": "선택한 온수의 물 온도를 표시합니다. 기본 설정은 85 ℃입니다.",
+          "shape": "사각형, 내부에 온도 숫자와 점",
+          "position_in_figure": "좌측",
+          "direction": null
+        },
+        {
+          "label": "선택한 냉수의 온도를 표시합니다. 표시등이 많이 켜질수록 많은 양의 냉수를 출수할 수 있습니다. 냉수의 온도는 임의 조정이 안 됩니다.",
+          "shape": "사각형, 내부에 점",
+          "position_in_figure": "좌측",
+          "direction": null
+        },
+        {
+          "label": "출수부가 자동으로 아래위로 움직이는 기능입니다. 기능이 켜지면 아이콘에 불이 들어옵니다.",
+          "shape": "사각형, 내부에 위아래 화살표",
+          "position_in_figure": "좌측",
+          "direction": "아래위로 움직임"
+        },
+        {
+          "label": "선택한 출수 용량을 표시합니다. 기본 설정은 120 ㎖입니다.",
+          "shape": "사각형, 내부에 용량 숫자와 점",
+          "position_in_figure": "좌측",
+          "direction": null
+        },
+        {
+          "label": "필터 교체 시기가 되면 오렌지색의 불이 들어옵니다. 새 필터로 교체하세요.",
+          "shape": "원형, 내부에 물방울 기호",
+          "position_in_figure": "좌측",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 19,
+    "region_idx": 0,
+    "bbox_pdf": [
+      24.0,
+      24.0,
+      492.0,
+      180.0
+    ],
+    "position": "페이지 상단 중앙",
+    "image_path": "data/region_crops/waterpurifier_simple/p019_r0.png",
+    "context_text": "19\n관리하기 / 2\n출수구를 옆으로 돌리고 필터 커버의 아래 부분을 잡고 / 앞으로 당기세요. / 3\n필터 끝부분을 들어올린 후 반시계 방향으로 돌려 / 분리하세요. / • 정수 필터를 분리할 때 내부 압력에 의해 약간의 물이 \n떨어질 수 있습니다. 아래에 마른 수건을 놓으세요. / 4\n솔을 이용하여 필터 체결부를 청소하세요. / • a: 중금속9 흡착 필터 (6개월 주기) / • b: 바이러스 클리어 필터 (12개월 주기) / 알아두기 / • 중금속9 흡착 필터는 6개월 주기로 교체해야 합니다. / • 바이러스 클리어 필터는 12개월 주기로 교체해야 \n합니다. / 6\n필터가 완전히 장착되었는지 확인하세요. / • 필터 체결부의 화살표 표시가 필터 상단의 돌출부와 \n맞춰져 있는지 확인하세요. / 7\n두 손으로 필터 커버를 닫고 좌우가 잘 닫혔는지 / 확인하세요.",
+    "caption": {
+      "summary": "필터 커버를 열고 필터를 분리하는 방법을 설명합니다.",
+      "elements": [
+        {
+          "label": "2",
+          "shape": "사각형, 화살표",
+          "position_in_figure": "중앙 하단",
+          "direction": "필터 커버를 앞으로 당기고 옆으로 돌림"
+        },
+        {
+          "label": "①: 중금속9 흡착 필터 (6개월 주기)",
+          "shape": "원형, 화살표",
+          "position_in_figure": "본체 하단 앞면",
+          "direction": "필터를 반시계 방향으로 회전"
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 19,
+    "region_idx": 1,
+    "bbox_pdf": [
+      256.0,
+      80.0,
+      492.0,
+      312.0
+    ],
+    "position": "페이지 상단 우측",
+    "image_path": "data/region_crops/waterpurifier_simple/p019_r1.png",
+    "context_text": "19\n관리하기 / 2\n출수구를 옆으로 돌리고 필터 커버의 아래 부분을 잡고 / 앞으로 당기세요. / 3\n필터 끝부분을 들어올린 후 반시계 방향으로 돌려 / 분리하세요. / • 정수 필터를 분리할 때 내부 압력에 의해 약간의 물이 \n떨어질 수 있습니다. 아래에 마른 수건을 놓으세요. / 4\n솔을 이용하여 필터 체결부를 청소하세요. / 5\n새 필터의 라벨이 정면으로 향하도록 시계 / 방향(오른쪽)으로 더 이상 돌아가지 않을 때까지 돌려 / 조립하세요. / • a: 중금속9 흡착 필터 (6개월 주기) / • b: 바이러스 클리어 필터 (12개월 주기) / 알아두기 / • 중금속9 흡착 필터는 6개월 주기로 교체해야 합니다. / • 바이러스 클리어 필터는 12개월 주기로 교체해야 \n합니다. / 6\n필터가 완전히 장착되었는지 확인하세요. / • 필터 체결부의 화살표 표시가 필터 상단의 돌출부와 \n맞춰져 있는지 확인하세요. / 7\n두 손으로 필터 커버를 닫고 좌우가 잘 닫혔는지 / 확인하세요. / • 필터 커버를 닫을 때는 왼쪽 상단부터 조립하세요. / • 필터 커버를 닫으면 자동으로 필터 세척이 약 7분간 \n진행됩니다. / • 필터 세척이 시작되면 제품에서 물 흐르는 소리가 \n들립니다.",
+    "caption": {
+      "summary": "필터를 반시계 방향으로 돌려 분리하는 방법을 설명하는 그림",
+      "elements": [
+        {
+          "label": "중금속9 흡착 필터 (6개월 주기)",
+          "shape": "원형, 내부에 숫자 1",
+          "position_in_figure": "제품 왼쪽",
+          "direction": "필터를 반시계 방향으로 회전"
+        },
+        {
+          "label": "바이러스 클리어 필터 (12개월 주기)",
+          "shape": "원형, 내부에 숫자 2",
+          "position_in_figure": "제품 오른쪽",
+          "direction": null
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 19,
+    "region_idx": 2,
+    "bbox_pdf": [
+      72.0,
+      240.0,
+      212.0,
+      432.0
+    ],
+    "position": "페이지 중단 좌측",
+    "image_path": "data/region_crops/waterpurifier_simple/p019_r2.png",
+    "context_text": "19\n관리하기 / 2\n출수구를 옆으로 돌리고 필터 커버의 아래 부분을 잡고 / 앞으로 당기세요. / 3\n필터 끝부분을 들어올린 후 반시계 방향으로 돌려 / 분리하세요. / • 정수 필터를 분리할 때 내부 압력에 의해 약간의 물이 \n떨어질 수 있습니다. 아래에 마른 수건을 놓으세요. / 4\n솔을 이용하여 필터 체결부를 청소하세요. / 5\n새 필터의 라벨이 정면으로 향하도록 시계 / 방향(오른쪽)으로 더 이상 돌아가지 않을 때까지 돌려 / 조립하세요. / • a: 중금속9 흡착 필터 (6개월 주기) / • b: 바이러스 클리어 필터 (12개월 주기) / 알아두기 / • 중금속9 흡착 필터는 6개월 주기로 교체해야 합니다. / • 바이러스 클리어 필터는 12개월 주기로 교체해야 \n합니다. / 6\n필터가 완전히 장착되었는지 확인하세요. / • 필터 체결부의 화살표 표시가 필터 상단의 돌출부와 \n맞춰져 있는지 확인하세요. / 7\n두 손으로 필터 커버를 닫고 좌우가 잘 닫혔는지 / 확인하세요. / • 필터 커버를 닫을 때는 왼쪽 상단부터 조립하세요. / • 필터 커버를 닫으면 자동으로 필터 세척이 약 7분간 \n진행됩니다. / • 필터 세척이 시작되면 제품에서 물 흐르는 소리가 \n들립니다.",
+    "caption": {
+      "summary": "필터를 반시계 방향으로 돌려 분리하는 방법을 보여줍니다.",
+      "elements": [
+        {
+          "label": null,
+          "shape": "원통형 필터, 손 모양, 회전 화살표",
+          "position_in_figure": "중앙 하단",
+          "direction": "필터를 반시계 방향으로 회전"
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 19,
+    "region_idx": 3,
+    "bbox_pdf": [
+      256.0,
+      340.0,
+      492.0,
+      616.0
+    ],
+    "position": "페이지 중단 우측",
+    "image_path": "data/region_crops/waterpurifier_simple/p019_r3.png",
+    "context_text": "19\n관리하기 / 2\n출수구를 옆으로 돌리고 필터 커버의 아래 부분을 잡고 / 앞으로 당기세요. / 3\n필터 끝부분을 들어올린 후 반시계 방향으로 돌려 / 분리하세요. / • 정수 필터를 분리할 때 내부 압력에 의해 약간의 물이 \n떨어질 수 있습니다. 아래에 마른 수건을 놓으세요. / 4\n솔을 이용하여 필터 체결부를 청소하세요. / 5\n새 필터의 라벨이 정면으로 향하도록 시계 / 방향(오른쪽)으로 더 이상 돌아가지 않을 때까지 돌려 / 조립하세요. / • a: 중금속9 흡착 필터 (6개월 주기) / • b: 바이러스 클리어 필터 (12개월 주기) / 알아두기 / • 중금속9 흡착 필터는 6개월 주기로 교체해야 합니다. / • 바이러스 클리어 필터는 12개월 주기로 교체해야 \n합니다. / 6\n필터가 완전히 장착되었는지 확인하세요. / • 필터 체결부의 화살표 표시가 필터 상단의 돌출부와 \n맞춰져 있는지 확인하세요. / 7\n두 손으로 필터 커버를 닫고 좌우가 잘 닫혔는지 / 확인하세요. / • 필터 커버를 닫을 때는 왼쪽 상단부터 조립하세요. / • 필터 커버를 닫으면 자동으로 필터 세척이 약 7분간 \n진행됩니다. / • 필터 세척이 시작되면 제품에서 물 흐르는 소리가 \n들립니다.",
+    "caption": {
+      "summary": "필터 장착 상태 확인 및 커버 닫기",
+      "elements": [
+        {
+          "label": "6",
+          "shape": "원형, 내부에 화살표 기호",
+          "position_in_figure": "제품 앞면 하단",
+          "direction": "화살표가 필터 상단 돌출부와 맞춰짐"
+        },
+        {
+          "label": "7",
+          "shape": "사각형, 내부에 화살표 기호",
+          "position_in_figure": "제품 앞면 하단",
+          "direction": "null"
+        }
+      ]
+    }
+  },
+  {
+    "category": "waterpurifier",
+    "complexity": "simple",
+    "page": 19,
+    "region_idx": 4,
+    "bbox_pdf": [
+      76.0,
+      452.0,
+      208.0,
+      632.0
+    ],
+    "position": "페이지 하단 좌측",
+    "image_path": "data/region_crops/waterpurifier_simple/p019_r4.png",
+    "context_text": "2\n출수구를 옆으로 돌리고 필터 커버의 아래 부분을 잡고 / 앞으로 당기세요. / 3\n필터 끝부분을 들어올린 후 반시계 방향으로 돌려 / 분리하세요. / • 정수 필터를 분리할 때 내부 압력에 의해 약간의 물이 \n떨어질 수 있습니다. 아래에 마른 수건을 놓으세요. / 4\n솔을 이용하여 필터 체결부를 청소하세요. / 5\n새 필터의 라벨이 정면으로 향하도록 시계 / 방향(오른쪽)으로 더 이상 돌아가지 않을 때까지 돌려 / 조립하세요. / • a: 중금속9 흡착 필터 (6개월 주기) / • b: 바이러스 클리어 필터 (12개월 주기) / 알아두기 / • 중금속9 흡착 필터는 6개월 주기로 교체해야 합니다. / • 바이러스 클리어 필터는 12개월 주기로 교체해야 \n합니다. / 6\n필터가 완전히 장착되었는지 확인하세요. / • 필터 체결부의 화살표 표시가 필터 상단의 돌출부와 \n맞춰져 있는지 확인하세요. / 7\n두 손으로 필터 커버를 닫고 좌우가 잘 닫혔는지 / 확인하세요. / • 필터 커버를 닫을 때는 왼쪽 상단부터 조립하세요. / • 필터 커버를 닫으면 자동으로 필터 세척이 약 7분간 \n진행됩니다. / • 필터 세척이 시작되면 제품에서 물 흐르는 소리가 \n들립니다.",
+    "caption": {
+      "summary": "필터 체결부를 솔로 청소하는 모습",
+      "elements": [
+        {
+          "label": null,
+          "shape": "원형 내부에 솔 모양",
+          "position_in_figure": "중앙 상단",
+          "direction": null
+        }
+      ]
+    }
+  }
+]

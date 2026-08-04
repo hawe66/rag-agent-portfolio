@@ -218,6 +218,7 @@ def caption_to_document(pc: PageCaption) -> Document:
             "page": pc.page,
             "section": "",
             "modality": "image-derived",
+            "caption_scope": "page",  # vs "region" (Week 12) — selects the C1 arm
             "figure_ref": figure_ref,
         },
     )
@@ -245,11 +246,17 @@ def build_mm_store(
     c3_dir: Path = Path("data/chroma_db_c3"),
     c3_collection: str = "lg_manuals_c3",
     collection_name: str = MM_COLLECTION,
+    region_rows: list[dict] | None = None,
 ) -> Chroma:
     """Build the cross-modal store = C3 text chunks + image-derived captions.
 
     The result is a drop-in for the C0 store: same embedding model, same
     metadata keys, plus caption chunks the C0 store never had.
+
+    ``region_rows`` (Week 12) are region-crop caption rows; they land in the
+    same collection tagged ``caption_scope="region"``, so C1page and C1region
+    are two filters over one store rather than two stores that would also
+    differ in their text lane.
     """
     import chromadb
 
@@ -261,8 +268,15 @@ def build_mm_store(
 
     text_docs = _load_c3_documents(c3_dir, c3_collection)
     caption_docs = [caption_to_document(c) for c in captions]
-    all_docs = text_docs + caption_docs
-    print(f"mm store: {len(text_docs)} text chunks + {len(caption_docs)} caption chunks = {len(all_docs)}")
+    if region_rows:
+        from .region_caption import region_caption_to_document
+
+        region_docs = [region_caption_to_document(r) for r in region_rows]
+    else:
+        region_docs = []
+    all_docs = text_docs + caption_docs + region_docs
+    print(f"mm store: {len(text_docs)} text chunks + {len(caption_docs)} page captions "
+          f"+ {len(region_docs)} region captions = {len(all_docs)}")
 
     embeddings = OpenAIEmbeddings(model=EMBEDDING_MODEL)
     store = Chroma.from_documents(

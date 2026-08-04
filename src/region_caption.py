@@ -52,8 +52,14 @@ GRID_CELL_PT = 4.0
 DILATE_ITERS = 2  # bridges small gaps between strokes of one figure
 MIN_AREA_RATIO = 0.05  # measured: drops header banners (~4%), keeps figures
 PAGE_WIDE_RATIO = 0.5  # per-path filter: background/frame rects
-CONTEXT_MARGIN_PT = 30.0
-CONTEXT_MAX_CHARS = 600
+# Week 12: 30pt only reached the section heading, so callout numbers came back
+# as label="1".."7" with no part names (the label list sits far below the
+# figure). Page-wide margin hands the VLM that printed list. This is parity,
+# not leakage: the Week 9 page-caption VLM saw the same printed list in the
+# page image, and region_caption_to_document indexes caption fields only —
+# context_text never enters the store.
+CONTEXT_MARGIN_PT = 400.0
+CONTEXT_MAX_CHARS = 1500
 
 CROPS_ROOT = Path("data/region_crops")
 CACHE_PATH = Path("data/week11_captions_crop.json")
@@ -204,6 +210,9 @@ REGION_CAPTION_PROMPT = """이 이미지는 LG 가전 한국어 매뉴얼 페이
 규칙:
 - 실제로 보이는 요소만. 없는 것을 만들어내지 마세요.
 - label은 추측 금지 — 인쇄된 텍스트를 그대로 옮기고, 없으면 null.
+- **콜아웃 번호(①②③ 또는 1,2,3)가 있으면 지시선을 끝까지 따라가서**, 그 번호가 가리키는 실제 부위를 찾으세요. 위 '주변 인쇄 텍스트'에 라벨 목록이 있으면 번호에 대응하는 라벨을 label에 적으세요 (대응을 확신할 수 없으면 label에 번호만 적고 "대응 불명"이라고 덧붙이세요).
+- position_in_figure에는 **번호 상자의 위치가 아니라 지시선이 가리키는 부위의 위치**를 적으세요 (예: 제품 윗면, 본체 하단 앞면).
+- 그림에 여러 부위·확대(inset) 원이 있으면 **각각을 별도 element로** 빠짐없이 적으세요.
 - 확실하지 않은 세부는 "판별 불가"라고 적으세요."""
 
 
@@ -304,6 +313,7 @@ def region_caption_to_document(row: dict):
             "page": row["page"],
             "section": "",
             "modality": "image-derived",
+            "caption_scope": "region",  # vs page captions — selects the C1 arm
             "figure_ref": figure_ref,
             "region_bbox": json.dumps(row["bbox_pdf"]),
             "region_position": row["position"],
@@ -324,6 +334,32 @@ IR8_TARGETS = {
 }
 
 
+def targets_from_golden_set(
+    csv_path: Path = Path("data/eval/golden_set_v4.csv"),
+    modality: str = "image-required",
+) -> dict[str, list[int]]:
+    """{manual dirname: [pages]} for every ``modality`` row's reference page.
+
+    Week 11 cropped a hardcoded 5 pages, which is why Week 12 §3 has to decide
+    per question whether a crop even exists. Deriving the target list from the
+    golden set removes that gap by construction: grow the QA set, and the crop
+    coverage follows.
+    """
+    import csv
+    import re
+
+    targets: dict[str, set[int]] = {}
+    with open(csv_path, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            if row.get("modality_label") != modality:
+                continue
+            match = re.match(r"(\w+) p\.(\d+)", row.get("reference_context", ""))
+            if match is None:
+                raise ValueError(f"unparseable reference_context: {row['reference_context']!r}")
+            targets.setdefault(match.group(1), set()).add(int(match.group(2)))
+    return {name: sorted(pages) for name, pages in sorted(targets.items())}
+
+
 def _pdf_for(dirname: str, pdf_dir: Path = Path("data/raw_pdfs")) -> Path:
     """Map manual dirname to its PDF (filenames carry extra suffixes/typos —
     e.g. 'vaccumcleaner' — so match via parse_filename, not string prefix)."""
@@ -335,8 +371,18 @@ def _pdf_for(dirname: str, pdf_dir: Path = Path("data/raw_pdfs")) -> Path:
 
 
 if __name__ == "__main__":
+    import sys
+
+    # Week 11 default = the 5 IR8 pages; `week12` = every golden-set v4
+    # image-required reference page (15 pages, all 6 manuals).
+    if len(sys.argv) > 1 and sys.argv[1] == "week12":
+        targets = targets_from_golden_set()
+        cache_path = Path("data/week12_captions_crop.json")
+    else:
+        targets, cache_path = IR8_TARGETS, CACHE_PATH
+
     all_crops: list[RegionCrop] = []
-    for dirname, pages in IR8_TARGETS.items():
+    for dirname, pages in targets.items():
         pdf = _pdf_for(dirname)
         for page_num in pages:
             crops = render_crops(pdf, page_num)
@@ -344,5 +390,5 @@ if __name__ == "__main__":
             all_crops.extend(crops)
 
     print(f"\nCaptioning {len(all_crops)} regions with {CAPTION_MODEL}...")
-    rows = caption_crops(all_crops)
-    print(f"\nwrote {CACHE_PATH} ({len(rows)} regions)")
+    rows = caption_crops(all_crops, cache_path=cache_path)
+    print(f"\nwrote {cache_path} ({len(rows)} regions)")

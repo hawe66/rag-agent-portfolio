@@ -1,0 +1,563 @@
+{
+  "IR-A1": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-CROP",
+      "refusal_ok": true
+    }
+  },
+  "IR-A2": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-CROP",
+      "refusal_ok": true
+    }
+  },
+  "IR-A3": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    }
+  },
+  "IR-A4": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-CROP",
+      "refusal_ok": true
+    }
+  },
+  "IR-A9": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-GEN",
+      "refusal_ok": false
+    }
+  },
+  "IR-A5": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-GEN",
+      "refusal_ok": false
+    }
+  },
+  "IR-A6": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "부분",
+      "cause": "F-CAP",
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-CROP",
+      "refusal_ok": true
+    }
+  },
+  "IR-A7": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    }
+  },
+  "IR-A8": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "부분",
+      "cause": "F-CROP",
+      "refusal_ok": null
+    }
+  },
+  "IR-W1": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    }
+  },
+  "IR-W3": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "부분",
+      "cause": "F-CROP",
+      "refusal_ok": null
+    }
+  },
+  "IR-W4": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    }
+  },
+  "IR-W5": {
+    "C0": {
+      "score": "오답",
+      "cause": "F-CAP",
+      "refusal_ok": null
+    },
+    "C1page": {
+      "score": "부분",
+      "cause": "F-CAP",
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    }
+  },
+  "IR-W6": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-RET",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-RET",
+      "refusal_ok": true
+    }
+  },
+  "IR-W7": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-GEN",
+      "refusal_ok": false
+    }
+  },
+  "IR-W8": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "오답",
+      "cause": "F-CAP",
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-GEN",
+      "refusal_ok": false
+    }
+  },
+  "IR-W9": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    }
+  },
+  "IR-V1": {
+    "C0": {
+      "score": "오답",
+      "cause": "F-CAP",
+      "refusal_ok": null
+    },
+    "C1page": {
+      "score": "오답",
+      "cause": "F-CAP",
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "부분",
+      "cause": "F-CROP",
+      "refusal_ok": null
+    }
+  },
+  "IR-V2": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-RET",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-RET",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-CROP",
+      "refusal_ok": true
+    }
+  },
+  "IR-V3": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "부분",
+      "cause": "F-CAP",
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    }
+  },
+  "IR-V4": {
+    "C0": {
+      "score": "오답",
+      "cause": "F-CAP",
+      "refusal_ok": null
+    },
+    "C1page": {
+      "score": "오답",
+      "cause": "F-GEN",
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "오답",
+      "cause": "F-GEN",
+      "refusal_ok": null
+    }
+  },
+  "IR-V5": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-CROP",
+      "refusal_ok": true
+    }
+  },
+  "IR-V6": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "부분",
+      "cause": "F-CAP",
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    }
+  },
+  "IR-V7": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-CROP",
+      "refusal_ok": true
+    }
+  },
+  "IR-V8": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-GEN",
+      "refusal_ok": false
+    }
+  },
+  "IR-V9": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-CAP",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "오답",
+      "cause": "F-CAP",
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "부분",
+      "cause": "F-CROP",
+      "refusal_ok": null
+    }
+  },
+  "IR-V10": {
+    "C0": {
+      "score": "오답",
+      "cause": "F-CAP",
+      "refusal_ok": null
+    },
+    "C1page": {
+      "score": "오답",
+      "cause": "F-CAP",
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "오답",
+      "cause": "F-CROP",
+      "refusal_ok": null
+    }
+  },
+  "Q01": {
+    "C0": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    },
+    "C1page": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    }
+  },
+  "Q06": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-RET",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "거절",
+      "cause": "F-RET",
+      "refusal_ok": true
+    },
+    "C1region": {
+      "score": "거절",
+      "cause": "F-RET",
+      "refusal_ok": true
+    }
+  },
+  "Q08": {
+    "C0": {
+      "score": "거절",
+      "cause": "F-GT",
+      "refusal_ok": true
+    },
+    "C1page": {
+      "score": "오답",
+      "cause": "F-RET",
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "오답",
+      "cause": "F-RET",
+      "refusal_ok": null
+    }
+  },
+  "Q11": {
+    "C0": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    },
+    "C1page": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    }
+  },
+  "Q18": {
+    "C0": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    },
+    "C1page": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "정답",
+      "cause": null,
+      "refusal_ok": null
+    }
+  },
+  "Q19": {
+    "C0": {
+      "score": "오답",
+      "cause": "F-RET",
+      "refusal_ok": null
+    },
+    "C1page": {
+      "score": "오답",
+      "cause": "F-RET",
+      "refusal_ok": null
+    },
+    "C1region": {
+      "score": "부분",
+      "cause": "F-RET",
+      "refusal_ok": null
+    }
+  }
+}

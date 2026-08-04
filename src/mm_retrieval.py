@@ -42,6 +42,11 @@ class MMRetrieverConfig:
     text_k: int = 3        # text chunks in the final context
     caption_k: int = 2     # caption chunks in the final context
     first_stage_k: int = 20  # per-lane candidates before rerank (matches C0)
+    # Week 12: which caption family the caption lane may use.
+    #   None     -> every caption chunk (Week 9 behaviour, kept as default)
+    #   "page"   -> C1page   (one caption per page)
+    #   "region" -> C1region (one caption per detected figure region)
+    caption_scope: str | None = None
 
 
 def _page_key(meta: dict) -> tuple[str, str, int]:
@@ -55,17 +60,29 @@ class ModalityAwareRetriever:
         self.config = config or MMRetrieverConfig()
         self.reranker = reranker
 
+        scope = self.config.caption_scope
         docs = extract_documents_from_vectorstore(mm_store)
         text_docs = [d for d in docs if d.metadata.get("modality") == TEXT_MODALITY]
-        caption_docs = [d for d in docs if d.metadata.get("modality") == CAPTION_MODALITY]
+        caption_docs = [
+            d for d in docs
+            if d.metadata.get("modality") == CAPTION_MODALITY
+            and (scope is None or d.metadata.get("caption_scope") == scope)
+        ]
         if not text_docs or not caption_docs:
             raise ValueError(
                 f"mm store must contain both modalities, got "
                 f"{len(text_docs)} text / {len(caption_docs)} caption docs"
+                f"{f' at caption_scope={scope!r}' if scope else ''}"
             )
 
-        # Page-keyed caption lookup for co-retrieval.
-        self.caption_by_page = {_page_key(d.metadata): d for d in caption_docs}
+        # Page-keyed caption lookup for co-retrieval. A page has one page-caption
+        # but several region-captions, so this maps to a LIST; for scope="page"
+        # every list has length 1 and behaviour matches Week 9 exactly.
+        self.captions_by_page: dict[tuple[str, str, int], list[Document]] = {}
+        for doc in caption_docs:
+            self.captions_by_page.setdefault(_page_key(doc.metadata), []).append(doc)
+        for group in self.captions_by_page.values():
+            group.sort(key=lambda d: d.metadata.get("chunk_id", ""))
 
         k = self.config.first_stage_k
         self._text_lane = EnsembleRetriever(
@@ -77,12 +94,14 @@ class ModalityAwareRetriever:
             ],
             weights=[0.5, 0.5],
         )
+        caption_filter: dict = (
+            {"modality": CAPTION_MODALITY} if scope is None
+            else {"$and": [{"modality": CAPTION_MODALITY}, {"caption_scope": scope}]}
+        )
         self._caption_lane = EnsembleRetriever(
             retrievers=[
                 create_bm25_retriever(caption_docs, k=k),
-                mm_store.as_retriever(
-                    search_kwargs={"k": k, "filter": {"modality": CAPTION_MODALITY}}
-                ),
+                mm_store.as_retriever(search_kwargs={"k": k, "filter": caption_filter}),
             ],
             weights=[0.5, 0.5],
         )
@@ -107,14 +126,17 @@ class ModalityAwareRetriever:
         text_hits = self.retrieve_text(query)
 
         # Co-retrieval: captions of the text-hit pages, in text-rank order.
+        # With region captions one page can contribute several, so the caption
+        # budget is spent on the best-ranked page's regions before moving on —
+        # that is the point of the region arm.
         captions: list[Document] = []
         seen: set[tuple[str, str, int]] = set()
         for doc in text_hits:
             key = _page_key(doc.metadata)
-            cap = self.caption_by_page.get(key)
-            if cap is not None and key not in seen:
-                captions.append(cap)
-                seen.add(key)
+            if key in seen:
+                continue
+            seen.add(key)
+            captions.extend(self.captions_by_page.get(key, []))
 
         # Caption lane fills remaining slots (skip pages already covered).
         if len(captions) < self.config.caption_k:
@@ -125,5 +147,16 @@ class ModalityAwareRetriever:
                     seen.add(key)
                 if len(captions) >= self.config.caption_k:
                     break
+
+        # Rank the pooled captions against the query before spending the budget.
+        # Truncating in co-retrieval order would keep region r0/r1 and drop the
+        # region that actually answers the question — region_idx is a geometric
+        # ordering, not a relevance one. Applied to both arms so the caption
+        # budget is spent the same way (this is why W12's C1page can differ
+        # slightly from Week 9's C1, which truncated in text-rank order).
+        if len(captions) > self.config.caption_k:
+            captions = rerank_documents(
+                self.reranker, query, captions, top_k=self.config.caption_k
+            )
 
         return text_hits + captions[: self.config.caption_k]
